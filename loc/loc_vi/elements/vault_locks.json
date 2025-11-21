@@ -1,0 +1,177 @@
+{
+    "elements": [
+        {
+            "id": "peril_treacherousground",
+            "label": "Bãi Đất Nguy Hiểm",
+            "aspects": {
+                "peril": 1
+            },
+            "description": "Những cái hố và bãi lầy và rồi là những cú ngã bất ngờ. Mặt đất ở đây không thể tin cậy được. Chúng ta sẽ cần một đôi tay mạnh mẽ hoặc một tầm nhìn rõ ràng - thần sắc Lò Rèn, hoặc thần sắc Đèn Lồng."
+        },
+        {
+            "id": "peril_forest",
+            "label": "Khu Rừng Rình Rập Hiểm Họa",
+            "aspects": {
+                "peril": 1
+            },
+            "description": "Từ lâu, những cây nguyên sinh đã hành quân từ biển này sang biển khác. Một số vết tích về sự thống trị của nó vẫn còn tồn tại - như một lãnh thổ dày đặc và nghẹt thở của rễ và gai. Thực tế của thần sắc Lò Rèn, hoặc những bí ẩn của thần sắc Bướm Đêm, có thể giúp chúng ta thấy rõ."
+        },
+        {
+            "id": "peril_mountains",
+            "label": "Những Con Đèo Cao",
+            "aspects": {
+                "peril": 1
+            },
+            "description": "Những con dốc xám xịt và ảm đạm đưa tầm mắt lên những đỉnh núi phủ đầy tuyết trắng xa xôi ... sẽ thật là công việc tồi tệ để tìm bất cứ thứ gì trong chỗ ấy. thần sắc Lò Rèn sẽ nâng đỡ chúng ta, thần sắc Mùa Đông sẽ che chở cho chúng ta."
+        },
+        {
+            "id": "peril_desert",
+            "label": "Nơi Tan Hoang",
+            "aspects": {
+                "peril": 1
+            },
+            "description": "Một cái lò lửa rộng lớn và xám xịt vừa đủ để che khuất đường chân trời của nó. Vào ban đêm, nơi này là một vùng hoang vu lạnh lẽo đầy sao. Chúng ta phải đi cẩn thận, với thần sắc Lò Rèn để định hình đường đi của chúng ta hoặc thần sắc Chén Thánh để giữ vững chúng ta chống lại cơn khát."
+        },
+        {
+            "id": "peril_sea",
+            "label": "Vùng Biển Phía Tây",
+            "aspects": {
+                "peril": 1
+            },
+            "description": "Hầu hết những hòn đảo này đều được các Dòng Lịch Sử biết đến, nhưng điểm đến của chúng ta nằm ở những vùng đất hoang sơ chưa được khám phá. Chúng ta sẽ cần thần sắc Trái Tim hoặc thần sắc Lò Rèn để tồn tại."
+        },
+        {
+            "id": "seal_hiddendoor",
+            "label": "Cánh Cửa Bí Ẩn",
+            "aspects": {
+                "seal": 1
+            },
+            "description": "Những Cánh Cửa Bí Ẩn có thể được tìm thấy bằng thần sắc Đèn Lồng hoặc Tiếng Gõ."
+        },
+        {
+            "id": "seal_wardeddoor",
+            "label": "Cánh Cửa Trấn Giữ",
+            "aspects": {
+                "seal": 1
+            },
+            "description": "Một kỹ sư, hoặc một kẻ tinh thông nào đó, đã đảm bảo rằng cánh cửa này sẽ không được mở dễ dàng. thần sắc Lò Rèn hoặc Tiếng Gõ sẽ đánh sập nó."
+        },
+        {
+            "id": "guardian_serpent",
+            "label": "Những Cô Em Gái",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "The Mother of Ants sinh ra giữa bầy rắn. Bà ấy có rất nhiều em gái. Nó có thể bị đánh bại trong cuộc chiến; hoặc nó sẽ đáp lại quyền năng của the Mother."
+        },
+        {
+            "id": "guardian_watchers",
+            "label": "Những Kẻ Gác Đêm",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Những kẻ phàm. Có lẽ có cả những kẻ phàm tầm thường. Nhưng số lượng chúng khá đáng kẻ. chúng có thể do bị đánh, bị dụ dỗ, hoặc bị lừa dối."
+        },
+        {
+            "id": "guardian_monks",
+            "label": "Những Thầy Tu",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Hoặc được chiêm ngưỡng phước hạnh hoặc phải bị kết tội ngay tại đây. Họ bị ràng buộc bởi những thệ ước lạ kỳ của họ. Chúng ta có thể giết họ, hoặc lừa dối họ, nhưng họ sẽ không thể bị dụ dỗ."
+        },
+        {
+            "id": "guardian_dead",
+            "label": "Hồn Ma Đầy Băn Khoăn",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Không phải tất cả những người chết đều được an nghỉ dễ dàng. Những kẻ này không thích sự xâm nhập của chúng ta. Chúng ta có thể thắng thế chúng với thần sắc Lưỡi Dao; hoặc chúng phải tuân theo một người nhân danh thần sắc Mùa Đông."
+        },
+        {
+            "id": "guardian_serpent_pre",
+            "label": "Những Cô Em Gái",
+            "description": "The Mother of Ants sinh ra giữa bầy rắn. Bà ấy có rất nhiều em gái. Nó có thể bị đánh bại trong cuộc chiến; hoặc nó sẽ đáp lại quyền năng của the Mother.",
+            "isAspect": true,
+            "icon": "guardian"
+        },
+        {
+            "id": "guardian_watchers_pre",
+            "label": "Những Kẻ Gác Đêm",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Những kẻ phàm. Có lẽ có cả những kẻ phàm tầm thường. Nhưng số lượng chúng khá đáng kẻ. chúng có thể do bị đánh, bị dụ dỗ, hoặc bị lừa dối.",
+            "isAspect": true,
+            "icon": "guardian"
+        },
+        {
+            "id": "guardian_monks_pre",
+            "label": "Những Thầy Tu",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Hoặc được chiêm ngưỡng phước hạnh hoặc phải bị kết tội ngay tại đây. Họ bị ràng buộc bởi những thệ ước lạ kỳ của họ. Chúng ta có thể giết họ, hoặc lừa dối họ, nhưng họ sẽ không thể bị dụ dỗ.",
+            "isAspect": true,
+            "icon": "guardian"
+        },
+        {
+            "id": "guardian_dead_pre",
+            "label": "Hồn Ma Đầy Băn Khoăn",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Không phải tất cả những người chết đều được an nghỉ dễ dàng. Những kẻ này không thích sự xâm nhập của chúng ta. Chúng ta có thể thắng thế chúng với thần sắc Lưỡi Dao; hoặc chúng phải tuân theo một người nhân danh thần sắc Mùa Đông.",
+            "isAspect": true,
+            "icon": "guardian"
+        },
+        {
+            "id": "guardian_soucouyants",
+            "label": "Các Soucouyant",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Người ta có thể nhầm chúng với những mụ già, cho đến khi chúng vứt bỏ bộ da của mình. Chốn này đầy rẫy bọn chúng. Chúng mạnh mẽ như rễ cây thắt cổ, và mạnh gần bằng bán-Long, nhưng chúng vẫn có thể bị lừa, và bọn chúng rất thận trọng trước ánh sáng."
+        },
+        {
+            "id": "guardian_long",
+            "label": "Long",
+            "aspects": {
+                "guardian": 1
+            },
+            "description": "Rất khó để giết bất kì kẻ nào đã đi qua Cửa Ba Lá. Và nơi đây lại rất nhiều kẻ đó. Nhưng có lẽ chúng ta có thể lừa dối ai đó, hoặc làm mồi cho sự thèm khát của kẻ nào đó."
+        },
+        {
+            "id": "curse_dread",
+            "label": "Lời Nguyền Linh Hồn Khô Khóc",
+            "aspects": {
+                "curse": 1
+            },
+            "description": "Chúng ta cần thần sắc Trái Tim hoặc thần sắc Đèn Lồng để ngăn chặn lời nguyền này. Nếu không, nó sẽ không thể giữ vững ta với tới mục đích, mà còn có thể gây tai họa sau này."
+        },
+        {
+            "id": "curse_visions",
+            "label": "Lời Nguyền Con Mắt Thứ Năm",
+            "aspects": {
+                "curse": 1
+            },
+            "description": "Chúng ta cần thần sắc Trái Tim hoặc thần sắc Mùa Đông để ngăn chặn lời nguyền này. Nếu không, nó sẽ không thể giữ vững ta với tới mục đích, mà còn có thể gây tai họa sau này."
+        },
+        {
+            "id": "curse_affliction",
+            "label": "Lời Nguyền Hơi Thở Đáng Sợ",
+            "aspects": {
+                "curse": 1
+            },
+            "description": "Chúng ta cần thần sắc Trái Tim hoặc thần sắc Chén Thánh để ngăn chặn lời nguyền này. Nếu không, nó sẽ không thể giữ vững ta với tới mục đích, mà còn có thể gây tai họa sau này."
+        },
+        {
+            "id": "curse_nowhere",
+            "label": "Những Con Giun Trên Thế Giới",
+            "aspects": {
+                "curse": 1
+            },
+            "description": "Chúng ta cần thần sắc Đèn Lồng hoặc thần sắc Bướm Đêm để ngăn chặn lời nguyền này. Nếu không, nó sẽ không thể giữ vững ta với tới mục đích, mà còn có thể gây tai họa sau này."
+        }
+    ]
+}

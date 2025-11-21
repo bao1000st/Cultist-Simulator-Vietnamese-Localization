@@ -1,0 +1,119 @@
+{
+    "recipes": [
+        {
+            "id": "temptationremembrancehintdream",
+            "label": "Những Cám Dỗ?",
+            "actionid": "dream",
+            "requirements": {
+                "temptation.remembrance": 1
+            },
+            "startdescription": "Có những màu sắc trên thế giới này, và cũng có những màu sắc ở cõi Mansus, và rồi lại có những màu sắc đã mất đi. Sự vắng mặt của chúng là con dao mà tôi không thể giải phóng. [Sự cám dỗ Tưởng Nhớ đã cắn sâu vào bạn, và không một Cám Dỗ nào khác sẽ chạm được bạn.]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "vitalityhintdream",
+            "label": "Sinh Lực",
+            "actionid": "dream",
+            "requirements": {
+                "vitality": 1
+            },
+            "startdescription": "Thứ này không thể gây ra những giấc mơ; nhưng tôi có thể Nghiên Cứu nó để tăng Sức Khỏe của mình.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Hiện không thể thực hiện được với những hạn chế trên ô chính của Nằm Mơ"
+        },
+        {
+            "id": "eruditionhintdream",
+            "label": "Thông Thái",
+            "actionid": "dream",
+            "requirements": {
+                "erudition": 1
+            },
+            "startdescription": "Thứ này không thể gây ra những giấc mơ; nhưng tôi có thể Nghiên Cứu nó để tăng Lý Trí của mình.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Hiện không thể thực hiện được với những hạn chế trên ô chính của Nằm Mơ"
+        },
+        {
+            "id": "glimmeringhintdream",
+            "label": "Ánh Sáng Le Lói",
+            "actionid": "dream",
+            "requirements": {
+                "glimmering": 1
+            },
+            "startdescription": "Thứ này không thể gây ra những giấc mơ, ngay thời điểm này; nhưng tôi có thể Nghiên Cứu nó để tăng Đam Mê của mình.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Hiện không thể thực hiện được với những hạn chế trên ô chính của Nằm Mơ"
+        },
+        {
+            "id": "contentmenthintdream",
+            "label": "Mãn Nguyện",
+            "actionid": "dream",
+            "requirements": {
+                "contentment": 1
+            },
+            "startdescription": "Mãn Nguyện chẳng phải là chìa khóa dẫn đến giấc mơ, mặc dù những giấc mơ đôi khi có thể khiến tôi mãn nguyện",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Hiện không thể thực hiện được với những hạn chế trên ô chính của Nằm Mơ"
+        },
+        {
+            "id": "dedicationtoobsession_power_hint",
+            "label": "Bước Tiếp Theo",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionpowerb": 1
+            },
+            "startdescription": "Tôi đã đi xa nhất có thể trong giấc mộng. Tôi phải thực hiện <b>Làm Việc</b>.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "dedicationtoobsession_enlightenment_hint",
+            "label": "Bước Tiếp Theo",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionenlightenmentb": 1
+            },
+            "startdescription": "Tôi đã đi xa nhất có thể trong giấc mộng. Tôi phải thực hiện <b>Làm Việc</b>.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "tryreducefascination",
+            "label": "Tìm Kiếm Bình Tĩnh?",
+            "actionid": "dream",
+            "requirements": {
+                "fascination": 1
+            },
+            "startdescription": "Những cánh cửa của ảo mộng rộng mở. Một chút bóng tối sẽ làm dịu ánh sáng của tôi. Kể cả Kinh Sợ cũng có những công dụng của nó.",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "tryrecoverreason",
+            "label": "Giải Tỏa Tâm Trí?",
+            "actionid": "dream",
+            "requirements": {
+                "dread": 1
+            },
+            "startdescription": "Tôi nhớ rằng tôi đã khác trước: nhưng tôi chẳng thể nhớ được là làm thế nào. [Kinh Sợ có thể được dập tắt bằng phương pháp chính xác.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "tryrecoverillhealth",
+            "label": "Hồi Phục?",
+            "actionid": "dream",
+            "requirements": {
+                "illhealth": 1
+            },
+            "startdescription": "Nghỉ ngơi sẽ phục hồi tôi - nếu tôi có được những nguồn lực cần thiết.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "This one's generic."
+        }
+    ]
+}

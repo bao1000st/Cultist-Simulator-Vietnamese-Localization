@@ -1,0 +1,32 @@
+{
+    "elements": [
+        {
+            "id": "legacytemplatejob",
+            "label": "Thanh Tra Cảnh Sát",
+            "description": "Tôi có một vị trí cấp cao trong lực lượng cảnh sát thủ đô.",
+            "aspects": {
+                "job": 1
+            },
+            "xtriggers": {
+                "careeradvancement": "legacytemplatejob_matured"
+            },
+            "noartneeded": true
+        },
+        {
+            "id": "legacytemplatejob_matured",
+            "description": "",
+            "label": "",
+            "aspects": {
+                "job": 1
+            },
+            "comments": "Tồn tại để cho phép việc chuyển sang một chu kì dài hơn ngay sau lần sử dụng đầu tiên.",
+            "noartneeded": true
+        },
+        {
+            "id": "legacytemplate_plotitem",
+            "label": "",
+            "description": "#PREVIOUSCHARACTERNAME#.",
+            "noartneeded": true
+        }
+    ]
+}

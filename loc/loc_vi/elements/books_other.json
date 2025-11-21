@@ -1,0 +1,31 @@
+{
+    "elements": [
+        {
+            "id": "textbookreason",
+            "label": "Bộ Sưu Tập Bài Luận",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Nếu tâm trí là một lưỡi dao, thì đây chính là viên đá mài. [Học Tập để nhân được Uyên Bác: Bài Học Kinh Nghiệm, mà bạn có thể sử dụng để tăng Lý Lẽ.]"
+        },
+        {
+            "id": "textbookpassion",
+            "label": "Bộ Sưu Tập Bài Thơ",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "'Nhà thơ tự biến mình trở thành một kẻ tiên đoán bằng một sự xáo trộn tất cả các giác quan một cách thận trọng, lâu dài và rộng lớn...' Đối lập của sự khôn ngoan, may thay. [Học Tập để nhận được Điều Mơ Hồ: Bài Học Kinh Nghiệm, mà bạn có thể sử dụng để tăng Khát Vọng.]"
+        },
+        {
+            "id": "genericrubbishbook",
+            "label": "..... ...... Bí Ẩn Sâu Sắc .....",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Một mớ bòng bong đáng sợ của một tin đồn nửa vời về 'Thế giới bí mật' và một sự không liên quan đến đạo đức đương đại, bao gồm một danh mục những tác phẩm kì dị, có lẽ đã được phát minh ra, đầy sự đồi trụy. [Nếu bạn đã mua nó từ một cửa hàng, điều đó có thể có nghĩa là chẳng còn gì thú vị trong kho cả.]."
+        }
+    ]
+}

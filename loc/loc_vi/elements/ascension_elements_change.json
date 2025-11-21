@@ -1,0 +1,310 @@
+{
+    "elements": [
+        {
+            "id": "ascensionchangea",
+            "label": "Cám Dỗ: Thay Đổi",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 1
+            },
+            "description": "Vào một vài đêm, trước mắt mọi khán giả, tôi thấy sự tung hoành của một thứ gì đó còn hơn thế. Tôi còn có thể trở thành thứ gì nữa chăng? [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchangeb"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchangeb",
+            "label": "Thay Đổi: Lá",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 2
+            },
+            "description": "Tôi run lên khi gió đến. Các tĩnh mạch trên da tôi trong thật rõ ràng. Tôi vẫn luôn mang theo viên đá khổng tước bên cạnh cơ thể mình. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchangec"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchangec",
+            "label": "Thay Đổi: Ngọc Trai",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 3
+            },
+            "description": "Da tôi bong tróc từng mảng, và ở bên dưới nó tôi trở nên sẩm màu hơn, nhưng mắt tôi vẫn sáng rực. Tôi mang theo viên ngọc trai bên mình. Một vài đêm, tôi nghe được tiếng biển cả; và trong một số buổi sáng, chiếc khăn trải giường của tôi dính đầy máu. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchanged"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchanged",
+            "label": "Thay Đổi: Đối Âm",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 4
+            },
+            "description": "Tôi đã trở nên tối tăm như chưa bao giờ từng có. Giờ bóng tối là bạn đồng hành, và bước chân chính là kẻ thầm thì. Tôi đeo một chiếc nhẫn nạm đá huyền, nhưng tôi lại quay viên đá ngược vào trong lòng bàn tay mình. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchangee"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchangee",
+            "label": "Thay Đổi: Nhụy",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 5
+            },
+            "description": "Bóng tối của tôi đã tái nhợt và mọi màu sắc của tôi đều đã bị tẩy xóa. Những nụ thùy hé nở trên những nơi nhảy cảm nhất. Tôi đắm chìm trong bí mật. Tôi mang một viên Scolecite giấu bên dưới chiếc lưỡi nhợt nhạt của mình. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchangef"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchangef",
+            "label": "Thay Đổi: Con Ngươi",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 6
+            },
+            "description": "Màu trắng của mắt tôi đã ngã vàng, và một lớp da mới đã phát triển dọc khắp cơ thể của tôi để bao bọc bản thân trước lần thay đổi cuối cùng. Khi riêng tư, tôi đeo một chiếc nhẫn vàng, trên tai là cặp bông tai vàng và đá Topaz, nhưng chúng không được bị phát hiện. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi, nếu được nâng cấp đủ cao. Hãy hiến dâng nỗ lực vào từng điệu nhảy, và bạn sẽ tìm ra bước nhảy kế tiếp của mình.]",
+            "xtriggers": {
+                "ascend": "ascensionchangeg"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionchangeg",
+            "label": "Thay Đổi: Bạch Cốt",
+            "aspects": {
+                "desire": 1,
+                "changemarks": 6
+            },
+            "description": "Xương của tôi đã khác trước. Chúng mang theo những câu chuyện về những gì đã mất. Nếu tôi không sống sót, chúng sẽ chính là nhcâu chuyện về tôi, rồi kẻ nào đó sẽ đeo những mảnh xương của tôi để sưởi ấm làn da của hắn. [Thẻ bài này cho phép bạn giành được chiến thắng Thay Đổi.]",
+            "xtriggers": {
+                "ascend": "ascensionchangeg"
+            },
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "sendingheartb",
+            "label": "Vỏ Bọc: Rắn Hổ Mang",
+            "aspects": {
+                "sending": 1,
+                "knock": 1
+            },
+            "description": "Rắn Hổ Mang cuộn lại ngay nơi biển cả nép mình vào đất. Tôi phải tìm một nơi chứa đầy sức mạnh ngay rìa mép nước. Có lẽ Sulochana có thể giúp, nếu tôi mang cho bà bí mật về những nơi khác. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con rắn. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingheartc",
+            "label": "Vỏ Bọc: Mèo",
+            "aspects": {
+                "sending": 1,
+                "moth": 2
+            },
+            "description": "Chú mèo dạo bước trong đêm bên cạnh dòng sông nơi cây Lanh đen mọc. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con mèo. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingheartd",
+            "label": "Vỏ Bọc: Cáo",
+            "aspects": {
+                "sending": 1,
+                "grail": 3
+            },
+            "description": "Con cáo lang thang khắp những cánh đồng cỏ trên núi, tìm kiếm cái chạm từ Thần Tạo Hoa. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con cáo. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendinghearte",
+            "label": "Vỏ Bọc: Đại Bàng",
+            "aspects": {
+                "sending": 1,
+                "lantern": 4
+            },
+            "description": "Chim đại bàng bay lượn khắp nơi trên bầu trời, và đây là những gì nó thấy: Ở Miah là Chiếc Tổ đầu tiên, nơi những sức mạnh của bầu trời lần đầu giao thoa các bí mật của họ. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con đại bàng. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingheartf",
+            "label": "Vỏ Bọc: Bồ Câu",
+            "aspects": {
+                "sending": 1,
+                "winter": 5
+            },
+            "description": "Loài bồ câu còn nhớ rõ trong khi mọi kẻ khác đều lãng quên mất. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con chim nhạt màu. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingheartg",
+            "label": "Vỏ Bọc: Lợn Rừng",
+            "aspects": {
+                "sending": 1,
+                "way": 1
+            },
+            "description": "Trong hình dạng này, tôi sẽ tự dâng mình trước kẻ nắm giữ chìa khóa của Cổng Da Vua [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con thú đen hoang dã.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothb",
+            "label": "Ấu Trùng: Tĩnh Lặng",
+            "aspects": {
+                "sending": 1,
+                "knock": 1
+            },
+            "description": "Trong ngôi nhà tĩnh mịch bên bờ biển, trong một lớp da được vay mượn, ta sẽ tìm kiếm lần Thay Đổi thứ hai. Tôi phải tìm một nơi chứa đầy sức mạnh ngay rìa mép nước. Có lẽ Sulochana có thể giúp, nếu tôi mang cho bà bí mật về những nơi khác. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con rắn. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothc",
+            "label": "Ấu Trùng: Lén Lút",
+            "aspects": {
+                "sending": 1,
+                "moth": 2
+            },
+            "description": "Giữa những hòn đá nơi mà con thú đen đào bới, phía sau những ký hiệu hình con mắt, chúng ta sẽ tìm kiếm lần Thay Đổi thứ ba. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con mèo. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothd",
+            "label": "Ấu Trùng: Màu Hung",
+            "aspects": {
+                "sending": 1,
+                "grail": 3
+            },
+            "description": "Ở những điểm cao vực nơi mà bầu trời đầy cám dỗ, chúng ta sẽ tìm kiếm lần Thay Đổi thứ tư. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con cáo. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothe",
+            "label": "Ấu Trùng: Du Ngoạn",
+            "aspects": {
+                "sending": 1,
+                "lantern": 4
+            },
+            "description": "Tại Miah, nơi Thần Rết có thể cảm nhận được những gì sắp đến, ta sẽ tìm kiếm lần Thay Đổi thứ năm. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con đại bàng. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothf",
+            "label": "Ấu Trùng: Thèm Khát",
+            "aspects": {
+                "sending": 1,
+                "winter": 5
+            },
+            "description": "Ở một nơi xa xôi, nơi mà họ còn nhớ đến Mặt Trời, Ta sẽ mang đến sự hận thù đã vay mượn của mình cho lần Thay Đổi thứ sáu. [Vài bộ phận của bạn có thể đi khắp nơi trong hình dạng một con sói. Gửi chúng đi cùng tông đồ đến nơi mà chúng có thể trình diễn vũ điệu mà bạn phải nhảy. Nếu gặp vấn đề khi tìm kiếm địa điểm đó, hãy nói chuyện với Sulochana về những Lịch Sử Bí Mật.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothg",
+            "label": "Hoàn Hình",
+            "aspects": {
+                "sending": 1,
+                "way": 1
+            },
+            "description": "Để hoàn thành lần Thay Đổi cuối cùng, Tôi sẽ phải vượt qua Cánh Cửa trong Khu Rừng. Vật hiến tế của Medusa luôn là một con Nai đỏ trinh nguyên, và vì vậy tôi sẽ vượt qua cánh cửa dưới hình dạng con hươu cái. [Bạn bay vào vòng tròn của đêm tối.]",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "sendingmothheartg",
+            "label": "Vỏ Bọc: Hoàn Hình",
+            "aspects": {
+                "sending": 1,
+                "way": 1
+            },
+            "description": "Linh hồn tôi sẽ rời khỏi xác trong hình dạng một con thú có sứng lớn. Để trở thành vật hiến tế? [Trong ngoài tương ứng.]",
+            "icon": "sendingmothg",
+            "uniquenessgroup": "uqsending"
+        },
+        {
+            "id": "ascensionlessonhearta",
+            "label": "Y Phục, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Ngọc Bích đã cho tôi thấy rằng bản thể trần trụi không phải là bản thể thật, nhưng nó ít dối trá hơn. [Trong Thời Kỳ Tham Vọng, thẻ bài này có thể nâng cấp khát vọng Thay Đổi.]",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonheartb",
+            "label": "Vỏ Bọc, Từ Bỏ",
+            "aspects": {},
+            "description": "Chiến tranh của Cặp Song Sinh và Mãng Xà, và trong cuộc chiến đó tôi đã học được cánh nổi đau có thể là một cánh cổng.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonheartc",
+            "label": "Bước Chân, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Nhung đã cho tôi thấy rằng những gì muốn tiết lộ thì trước tiên phải được che giấu, để sự tiết lộ ấy có thể mang để hệ quả nào đó. Tôi đã từ bỏ đấu chân của mình.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonheartd",
+            "label": "Sắc Thái, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Tạo Hoa đã cho tôi tất cả những gì tôi mong muốn, và đổi lại chính là màu sắc của tôi.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonhearte",
+            "label": "Tầm Nhìn, Từ Bỏ",
+            "aspects": {},
+            "description": "Tôi đã hiến dâng đôi mắt cho Thần Lữ Hành; và thông qua chúng, tôi sẽ thấy những gì mà bà thấy: con đường đỏ dẫn đến sự Thay Đổi.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonheartf",
+            "label": "Xương Cốt, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Bi Ca đã dạy tôi phải nhớ rằng, phải từ bỏ đi phần cuối cùng trong tôi để thay đổi. Tôi sẽ mang bài học đó qua Cổng Da Vua.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmotha",
+            "label": "Y Phục, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Thủy Tùng sai khiến tôi phải phô bày da thịt này, và tôi đã làm theo. Tôi sẽ không luôn luôn tuân lệnh lời bà nữa. [Trong Thời Kỳ Tham Vọng, thẻ bài này có thể nâng cấp khát vọng Thay Đổi.]",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmothb",
+            "label": "Vỏ Bọc, Từ Bỏ",
+            "aspects": {},
+            "description": "Người Mẹ đâm xuyên, Phù Thủy đòi hỏi, và Thánh Nữ hòa tan nó. Và thế\n làn da tôi\n đã mỏng\n tựa như mưa",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmothc",
+            "label": "Bước Chân, Từ Bỏ",
+            "aspects": {},
+            "description": "Tôi bước đi dưới những cây Lanh đen bên bờ sông, và nó nếm trọn chân tôi với hàng trăm chiếc lưỡi cho đến khi tôi không còn chịu được nữa, và rồi tôi chỉ còn là một cái bóng.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmothd",
+            "label": "Sắc Thái, Từ Bỏ",
+            "aspects": {},
+            "description": "Tôi đến với những đóa hoa mà Thần Tạo Hoa đã làm ra và đó cũng là những gì mà tôi đã hóa thành. Giờ đấy, Ông ấy đã giữ lại màu sắc của tôi.",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmothe",
+            "label": "Tầm Nhìn, Từ Bỏ",
+            "aspects": {},
+            "description": "Thần Rết đã kể tôi câu chuyện đùa của bà và đổi lại tôi sẽ để bà khắc nên đôi mắt vàng, cho đến khi con mắt kép xuất hiện. ",
+            "unique": true
+        },
+        {
+            "id": "ascensionlessonmothf",
+            "label": "Xương Cốt, Từ Bỏ",
+            "aspects": {},
+            "description": "Mặt Trời đã bị chia tách, và Thần Sói sẽ không để tôi quên hương vị muối mặn từ xương của nó - cho đến khi cõi Mansus nứt vỡ. Giờ Thần Sói yêu cầu tôi mang theo hương vị đó qua Cánh Cửa trong Khu Rừng.",
+            "unique": true
+        }
+    ]
+}

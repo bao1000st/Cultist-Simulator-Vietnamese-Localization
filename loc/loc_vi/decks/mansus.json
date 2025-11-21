@@ -1,0 +1,275 @@
+{
+    "decks": [
+        {
+            id: "stagriddles",
+            spec: [
+                "waystagbefore_1",
+                "waystagbefore_2",
+                "waystagbefore_3",
+                "waystagbefore_4",
+                "waystagbefore_5"
+            ],
+            defaultcard: "fleeting",
+            resetonexhaustion: false,
+            comments: "Nhưng thẻ này chỉ được rút ra một lần."
+        },
+
+
+        {
+            id: "mansus_wood",
+            spec: [
+                "influencemoth",
+                "fragmentsecrethistories",
+                "rumour"
+            ],
+            drawmessages: {
+                influencemoth: "'Giữa chuyến hành trình của cuộc đời, tôi thấy mình đang ở trong một khu rừng tối tăm không lối thoát. Thật khó để diễn tả được thứ gỗ đó hoang dã, khắc nghiệt và không thể xuyên thủng như thế nào...' Tôi không nhớ rõ những gì đã xảy ra vào đêm qua, trong màn đêm đen kịt giữa những thân cây, nơi những thứ có cánh di chuyển bên dưới tay tôi. Nhưng sáng nay, não tôi rối tung lên với những mảnh kí ức: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
+                fragmentsecrethistories: "Tôi đã dạo bước trong Khu Rừng đêm qua, ở phía xa tiếng kéo đang làm việc, còn trong miệng lẫn tai tôi nhét đầy những thứ lông lá, rồi tôi cảm thấy một niềm thôi thúc nguyên thủy muốn được chòm xuống đánh hơi quanh chân cây như một con sói. Nhưng tôi chợt nhớ rằng tôi vẫn sống bằng hai đôi chân này, tôi biết lửa và thép, biết được lời nói, cuối cùng tôi tìm thấy nơi mà Thần Nhung đã che giấu một bí mật trên vỏ cây bên dưới màn rêu. tôi đã đọc nó bằng từng đầu ngón tay mình, và tôi nghĩ giờ mình có thể viết lại toàn bộ",
+                rumour: "'Trong khi tôi đang quay trở lại vực sâu, một kẻ xuất hiện trước mắt, miệng bị bịt kín. Khi tôi nhìn thấy y, trong sự trống rỗng tột cùng, tôi đã khóc... ' Có lẽ đêm qua tôi đã gặp một linh hồn khác trong Rừng. Tôi sẽ không bao giờ nhớ nổi chính xác những gì chúng tôi đã nói, với nhau, nhưng tôi nghĩ rằng ta sẽ nhận ra nhau trong thế giới thức giấc này.",
+            },
+            resetonexhaustion: true
+        },
+
+        {
+            id: "mansus_wood1",
+            spec: [
+                "influencegrail",
+                "vitality",
+                "fragmentsecrethistoriesb",
+                "rumour"
+            ],
+            drawmessages: {
+                "influencegrail": "Cái Giếng trong Khu Rừng không bao giờ cạn, nhưng cũng chẳng bao giờ trong. Một đêm nó có thể trườn lên với những bộ rễ bò lan; rồi đêm khác, nó cùng rung động với những lớp rêu sáng. Vào những đêm trăng tròn, nước của nó bị tắt nghẹt với những thân hình lốm đốm béo ú của những con bướm đêm. Đêm qua, tôi thấy nó chảy ra nhiều máu đen và nhớt. Các mảnh vụn keo đặt trôi nổi trên bề mặt; những cục máu đông từ vật chất Thánh Chén.",
+                "vitality": "Cái Giếng trong Khu Rừng là nơi thiêng liêng với Thánh Chén - một Thời Thần đói khát, và Thần Nhung, Thời Thần canh giữ những bí mật ... tối đấy khi tôi đến gần, cái giếng phập phồng với màn rêu của Thần Nhung, những làn sóng xanh thẳm và rực rỡ, rung lên liêng hồi từ cổ họng của nó. Nước trào lên khắp bắp chân tôi, lên đến đùi, đến sáng nay tôi vẫn cảm nhận được hơi thở từ Thần Nhung, mạnh mẽ trong tôi.",
+                "fragmentsecrethistoriesb": "Thần Nhung rất quyền lực tại Cái Giếng trong Khu Rừng, thần Nhung chính là một Thời Thần canh giữ những bí mật; nhưng đôi khi bà để một bí mật nho nhỏ rơi xuống, như một mẩu bánh vụn trong bữa tiệc. Đêm qua, tôi đã tìm thấy một tảng đá phủ đầy rêu khắc kín những bí mật của một dòng lịch sử khác. Tôi có lẽ phải tạ ơn Thần Nhung, nhưng sẽ khôn ngoan hơn nếu không thu hút sự chú ý của bà.",
+                "rumour": "Có rất nhiều thứ trồi lên từ Cái Giếng trong Khu Rừng. Đêm qua nó đầy rẫy những bộ rễ như giun. Cây cối chen chúc thì thầm nhau. Trông như chúng đang chào đón dòng chảy này. Tôi tìm thấy một linh hồn ngủ yên bị giam giữ trong rễ cây ấy, và đã giúp nó đấu tranh giành tự do. Khi nó thức dậy, nó sẽ nhớ lại khuôn mặt này, như tôi cũng nhớ đến nó."
+            },
+
+            resetonexhaustion: true
+
+        },
+
+        {
+            id: "mansus_wood2",
+            spec: [
+                "influenceknock",
+                "influenceheart",
+                "fragmentsecrethistoriesb",
+                "rumour"
+            ],
+            drawmessages: {
+                "influenceknock": "Đêm qua tôi đã đi từ Khu Rừng đến một tảng đá cao lởm chởm được gọi Đền Thờ Vòng Xoay. Phần sườn của nó, được chắp vá bằng địa y đen và những ký hiệu hình con mắt, mở ra tựa như một cái miệng bên dưới tay tôi, và tôi đã bước đi vào không gian róc rách nằm bên trong đó. Những Thời Thần Đá, những vị đầu tiên trong các Thời Thần, gần như đã biến mất, nhưng ngay đây giọng nói của họ vẫn còn đó: thần Vòng Xoay, Đá Lửa, Thủy Triều, và những người khác.",
+                "influenceheart": "Trong Khu Rừng bên ngoài các bức tường cõi Mansus, một tảng đá lởm chởm tựa như hài cốt hóa đá của một người khổng lồ. Tôi lướt tay dọc theo sườn nó, qua các ký hiệu hình con mắt, đám địa y, và hình vẽ thô thiển từ các linh hồn từ Khu Rừng, tôi đã cảm được nhịp đập của thần Vòng Xoay đã chết. Dù đã tan biến, nhưng một cái gì đó vẫn tiếp tục.",
+                "fragmentsecrethistoriesb": "Trong giấc ngủ, tôi đã đến một tảng đá cao lởm chởm mà người ta gọi là Đền Thờ Vòng Xoay, mặc dù Thời Thần với tên gọi Vòng Xoay đã tuyệt duyệt từ lâu. Có một bàn tay đã khắc lại một bí mật lên chiếc đèn lồng đen bên sườn đá. Tôi đã ghi nhớ nó vào ký ức của mình để lưu giữ cho đến khi tỉnh dậy, trước khi Thần Nhung ra khỏi Khu Rừng để xóa nó đi. Thần Nhung rất ghen tị với những bí mật của bà.",
+                "rumour": "Tôi đã đến được Đền Thờ Vòng Xoay, một tảng đá cao lởm chởm, nơi tưởng niệm các vị thần đã chết. Những người tự kết liễu đời mình đôi khi sẽ phải tự ném chính mình từ trên đỉnh đá trong giấc mơ. Tôi đã tìm thấy một linh hồn đang say ngủ khác, đang vẽ ký hiệu hình con mắt vào đám địa y trên đỉnh đá. Tôi không nhớ được những gì đã xảy ra giữa chúng tôi, nhưng tôi sẽ nhận ra khuôn mặt kẻ đó trong thế giới thức tỉnh."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_whitedoor",
+            spec: [
+                "influencewinterc",
+                "fragmentsecrethistoriesb",
+                "restlessness"
+            ],
+            drawmessages: {
+                influencewinterc: "Đêm qua Cánh Cửa Trắng sáng rực như chiếc gương, sáng rực như tuyết tươi, sáng tựa như vằng trăng khuyết. Tôi nhớ rõ độ sáng của nó, nhưng tôi nhớ nhất cái lạnh giá của nó. Tôi áp má vào nó. Tôi vẫn cảm thấy nhức nhối vì cơn lạnh trong hộp sọ.",
+                fragmentsecrethistoriesb: "Nhiều kẻ trong số Người Chết vào cõi Mansus thông qua Cánh Cửa Trắng. Họ đi lang thang trong hành lang của nó trong im lặng cho đến khi họ bị lạc mất. Một số ôm lấy nhau, một số nuốt chửng nhau, một số cố gắng đi vào giấc mơ của người sống. Một số người ghi lại những kỷ niệm của họ trên đá cõi Mansus, nơi vẫn còn mềm. Họ cào nó bằng các móng tay, bạn có thể thấy được. Đêm qua tôi đã đọc một trong những ký ức đó.",
+                restlessness: "Một số Người Chết bị lạc lối trong Khu Rừng, một số lại vươn lên cao hơn, nhưng nhiều kẻ - rất nhiều - vượt qua Cánh Cửa Trắng đến Ngôi Nhà, và trở nên im lặng mãi mãi. Đêm qua chúng đã vây chặt lối vào. Miệng của chúng là những vết đã chữa lành. Mắt chúng đảo khắp da tôi. Bàn tay chúng tìm kiếm hơi ấm của tôi, nhưng cái chạm vào tôi đã bừng cháy lên, và chút đã rụt lại. Sự khẩn nài của chúng cũng đã lây nhiễm tôi."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_whitedoor1",
+            spec: [
+                "influenceknockc",
+                "fragmentsecrethistoriesc",
+                "glimmering",
+                "erudition",
+                "fascination",
+                "favour"
+            ],
+            drawmessages: {
+                "influenceknockc": "Đêm qua, trong Căn Lều rộng lớn phía trên dải đất xám xịt của Vùng Ranh Giới, một người phụ nữ từng tự xưng là Teresa Galmier ngồi trên những chiếc đệm viền mạ vàng, mời tôi một một chiếc cốc sừng đựng rượu mơ. Bà giải thích: “Rượu chỉ là tưởng tượng, nhưng cái cốc thì không. Để đi lại trong Mansus, người ta phải hiểu sự khác biệt. Có lẽ một ngày nào đó cậu sẽ tham gia cùng tôi trong cuộc Hành Hương, hoặc chính tôi sẽ tham gia cùng cậu. Vì vậy, đây, chúng ta hãy chia sẻ một bí mật - 'và hơi thở của bà ấy phả vào tai tôi.",
+                "fragmentsecrethistoriesc": "Đêm qua tôi đã đến thăm Căn Lều của Hiệp Sĩ Hiền Triết. Bà chủ nhà thể hiện mình là một phụ nữ thanh lịch với mái tóc ngắn hợp thời và đeo cặp kính đen. “Không,” bà ấy thừa nhận, “Tôi không cần gì nữa, chỉ tha thiết có được đôi mắt. Xin hãy cho phép sự đa cảm này. Nhưng cậu đến để có kiến ​​thức, phải vậy chăng? Đây là một câu chuyện tôi đã nghe trong những ngày ở Kerisham, cậu cứ thoải mái nghe nó. Chỉ cần nhớ đến tôi, khi cậu thực hiện chuyến Hành Hương của mình. '",
+                "glimmering": "Tôi cố nhớ lại giấc mơ của mình. Đó là Căn Lều của lụa xanh, tung bay trong gió của Vùng Ranh Giới ở rìa cõi Mansus, và đây là bà chủ của nó, người đã chào đón tôi như cách bà chào đón mọi du khách khác. Bà tâm sự: “Có bạn đồng hành thật tuyệt, nhưng tôi vẫn nhớ Christopher của mình. Mười năm! Mười năm rồi, mà vẫn chưa đủ. vì chúng tôi chẳng thể trở thành Trường Giả - nếu vẫn còn gắn chặt vào nhau. Và cậu có biết điều gì xảy ra khi một Trường Giả nam và nữ ngủ cùng nhau không. Có lẽ là không. Tôi hy vọng cậu cũng không biết. Tôi cũng sẽ chẳng nói đâu, đề phòng thôi. Tôi sẽ tặng cậu món quà nhỏ. '",
+                "erudition": "Trong giấc mơ đêm qua, tôi ngồi ở trong Căn Lều của Hiệp Sĩ Hiền Triết, phía sau Cánh Cửa Trắng - thật khó để nhớ chính xác bằng cách nào mà tôi đến được đó - và bà chủ của nơi này, người phụ nữ đeo kính đen, đang gật gù như thể tôi đã hỏi bà một câu hỏi rất khó. Tất nhiên tôi chẳng hỏi gì rồi. Tôi đã mất tiếng nói từ khi đi qua Cánh Cửa Trắng. 'Làm sao mà tôi còn có thể nói được à?' bà ấy nói với tôi. 'Tôi không đến đây qua Cánh Cửa Trắng. Tôi cũng chẳng tự hào về những gì mình đã làm để đến được đây. Vì vậy, hãy để tôi nói cậu biết về một điều khác.'",
+                "fascination": "Đêm qua trong màu xanh lam cuồn cuộn ở Căn Lều của Hiệp Sĩ Hiền Triết, tôi ngồi trên chiếc đệm nhung và xem hai Tử Giả đấu nhau bằng những thanh kiếm sáng chói. Người phụ nữ hiện đang cai trị nơi đây, người từng tự xưng là Galmier, nói: 'Họ vốn ở đây từ lâu. Mà tôi không phải là vị Hiệp Sĩ Hiền Triết đâu, nếu đó là điều cậu đang thắc mắc! Ông ấy đã tiến cao hơn trong cõi Mansus, từ rất lâu trước khi tôi đến đây. ' Sự chú ý của tôi trôi đi. Những thanh kiếm lấp lánh như nước rơi xuống; hai Linh Hồn di chuyển như những vũ công.",
+                "favour": "Đêm qua tôi mơ thấy một Căn Lều bằng lụa xanh thấp thoáng trong mê cung đầy mây ở Vùng Ranh Giới. Tôi lắng nghe bà chủ nơi này nói về những du khách khác. 'Cục Đàn Áp đã đến đây, cậu có biết không? Tôi nghĩ họ hy vọng sẽ tuyển mộ tôi như một đồng minh.' bà khịt mũi chế nhạo. 'Sau những gì chúng đã cố làm với Christopher? Nhưng sự ngu xuẩn đó chính là lợi thế của cậu. Tôi sẽ cho cậu biết một điều có ích sau này, nếu Cục có gây rối cậu."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_whitedoor2",
+            spec: [
+                "influencelanternc",
+                "glimmering",
+                "influenceheartc",
+                "fragmentsecrethistoriesc"
+            ],
+            drawmessages: {
+                "influencelanternc": "Christopher Illopoly được cho là đã nhận xét, 'Nghệ thuật vô hình thì sinh lời chẳng hơn việc đan móc, đạo đức chỉ bằng buôn lậu thuốc lá, và nhìn chung cũng chẳng lợi lộc gì hơn trò cò quay nga. Song, trong đấy là con đường tới Vườn Cây Ánh Sáng.' Quả thật, Vườn Cây, với thứ hoa quả lấp lánh và màn sương yên bình của nó, là một chốn đáng khao khát. Đêm qua, tôi dạo bước ở đó trong những giây phút tĩnh lặng của màn đêm. Cả sau khi tỉnh giấc, tôi vẫn mang bên mình một chút thứ vinh vang từ Mặt Trời cổ đại.",
+                "glimmering": "Mặt Trời Tráng Lệ, Thời Thần từng cai trị cõi Mansus, được biết là thường dạo bước trong Vườn Cây, trước khi cuộc ly giáo kinh hoàng xảy ra. Đôi khi tàn dư của ngài vẫn còn dạo quanh nơi đây - thỉnh thoảng tôi thấy ánh sáng lạnh lẽo của Trăng Lưỡi Liềm len qua những hàng cây, hoặc vầng quang còn lạnh lẽo hơn từ Mặt Trời Suy Tàn. Nếu chúng mà đến gần, thì đó sẽ là cái kết cho cuộc đời tôi, nhưng được nhìn chúng từ xa cũng đủ mở rộng tầm mắt.",
+                "influenceheartc": "Các Thời Thần thường được cho là khắc nghiệt, nhưng họ đôi khi vẫn cho phép phàm nhân đi vào Vườn Cây Ánh Sáng, nơi những hoa quả lấp lánh như mặt trời lặn, nơi mỗi gốc cây đều tạo nên hình hài yên bình thanh tịnh, nơi sương mù xoa dịu trái tim. Tôi đã ở đó đêm qua, và hương vị trái cây vẫn còn vương vấn trên môi, đậm đà và ngọt ngào tự lúc xuân chuyển mình sang hạ.",
+                "fragmentsecrethistoriesc": "Đêm qua tôi đã đi đạo trong Vườn Cây Ánh Sáng. Tôi hái một quả và ăn trọn chỉ trong vài miếng, hương vị thật khó quên. Khi liếm những giọt nước lấp lánh trên ngón tay, tôi nhìn thấy một thông điệp trên vỏ cây. Khi tỉnh dậy, tôi đã ghi lại những gì mình nhớ được vào nhật ký."
+            },
+
+            resetonexhaustion: true
+        },
+
+        {
+            id: "mansus_stagdoor",
+            spec: [
+                "influenceknocke",
+                "fragmentsecrethistoriesc",
+                "influenceforgec"
+            ],
+            drawmessages: {
+                "influenceknocke": "Trong giấc ngủ, ngón tay tôi lướt qua những cạnh gồ ghề từ các vết sẹo trên Cổng Hươu. 'Chính do chúng ta đã gây ra,' Ghirbi đột nhiên nói. 'Trước khi có các Thời Thần Xác Thịt, cõi Mansus câm đối người phàm. chúng ta chính là những Tri Giả đầu tiên.' Rồi hắn lau đi dòng nước mắt nóng chảy của mình. 'Ước gì chúng ta đừng làm thế này. Ước gì tôi chết ở thế giới đó...' Tôi không nhớ hắn ta còn nói gì. Nhưng tôi nhớ hình dạng vết nứt trên Cổng Hươu. Hôm nay, mọi cánh cổng sẽ sợ hãi khi tôi chạm vào.",
+                "fragmentsecrethistoriesc": "Đêm qua, Ghirbi đã nói rất nhiều. Giọng hắn ta như một cái máy công thành, luyên thuyên về lịch sử hắn nghe lỏm được ở thế giới thức tỉnh. Tôi lắng nghe, cho đến khi các câu chuyện của hắn lại kết thúc trong nước mắt.",
+                "influenceforgec": "Ghirbi lại đang khóc. Tôi hốt những giọt nước mắt nóng chảy bằng hai lòng bàn tay của mình. Trong giấc mơ, da tôi nóng rát và bong tróc, nhưng là trong giấc mơ thôi."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_stagdoor1",
+            spec: [
+                "influenceedgee",
+                "influencegrailc",
+                "influencewintere"
+            ],
+            drawmessages: {
+                "influenceedgee": "Nơi mà giấc mơ đưa tôi đến, được viết lại rằng: 'Đường lên là thủy tinh. Tường là dao. Mỗi bước chân là máu.' Tôi đã không leo được xa. Cơn đau quá lớn. Khi tỉnh dậy, cơn đau đó vẫn còn đấy - Một cơn đau mà tôi có thể áp dụng cho mục đích huyền bí, nếu tôi có vội.",
+                "influencegrailc": "Con Đường Dao Lưỡi còn được gọi là Cầu Thang Sắc, Mẹ Gương và Bữa Tiệc Của Thánh Chén. Nếu một kẻ nhìn xuống phía dưới bậc thang, như tôi đã làm đêm qua trong mơ, hắn sẽ hiểu được cái tên cuối. Nó lấy một phần thuế máu từ chân của những kẻ bước lên. Quỷ Hút Máu - đôi khi mang hình dạng đàn ông, thường là phụ nữ - chờ đợi dưới lớp kính để thỏa mãn cơn khát của chúng. Tôi không tiếp cận; không lên tiếng; chỉ cần đứng quan sát.",
+                "influencewintere": "Tôi đã đến Con Đường Dao Lưỡi đêm qua, đoạn đường khắc nghiệt nhất trong Ngôi Nhà. nơi đây là chốn thiên liêng của thần Trăng Lưỡi Liềm và Mặt Trời Suy Tàn sau Sự Xen Kẽ, khi Mặt Trời chân chính bị chia cắt. Khi tỉnh dậy, phòng tôi lạnh cống. Cơn rét còn làm nứt cả kính cửa sổ."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_stagdoor2",
+            spec: [
+                "fascination",
+                "fragmentsecrethistoriesd",
+                "eruditionplus"
+            ],
+            drawmessages: {
+                "fascination": "Tôi mơ về cõi Mansus phía sau Cánh Cửa Trắng, về khoảng không bao la phía trên Vườn Cây, nơi nhìn ra Vùng Rành Giới, nơi mà Thần Lữ Hành vẽ nên dòng sông của bà. Những chiếc thuyền vẽ trôi dạt trên Dòng Sông Tranh. Tôi chạm phải mắt từ người thuyền trường được vẽ. Nàng chào tôi, và nàng chuyển động tự những tầng mây. Cánh buồm mang màu hổ phách và đôi mắt nàng có màu xanh lúa mạch non, còn con sông là một màu xanh ngọc biển. Giờ đây khi đã tỉnh, tôi vẫn còn thấy những màu sắc đó.",
+                "fragmentsecrethistoriesd": "Có một sảnh điện lớn trong cõi Mansus, nơi Dòng Sông Tranh chảy qua. Thần Lữ Hành, được kể rằng, đã vẽ nên dòng sông này từ kí ức bà trong những năm tháng trước khi rời khỏi Ngôi Nhà. Chắn chắc có những dòng lịch sử ẩn giấu sau những nét vẽ đó. Tôi vẽ theo những nét đó vào tối qua. Khi xong việc, có các vết sơn màu ngọc lam, những vệt màu vàng lá dính dưới móng tay tôi.",
+                "eruditionplus": "Dòng Sông Tranh bắt nguồn từ sảnh điện lớn cạnh Cánh Cửa Trắng, xuyên qua Mansus đến tận rìa xa, đổ về một châu thổ được vẽ ra bằng mây mù xa xôi. Tối qua tôi đã chèo quả nửa dòng sông cùng vị thuyền trưởng lạnh lùng dưới cánh bườm đỏ thẫm. Khi tầng mây mọc lên ngay trước mắt, các thủy thủ cất lên một bài hải ca và kéo căng buồm để tận dụng sức mạnh của cơn gió. Trong lúc đó, vị thuyền trưởng và tôi bàn luận về những bí mật của Ngôi Nhà Mặt Trời...."
+            },
+
+            resetonexhaustion: true
+        },
+
+        {
+            id: "mansus_spiderdoor",
+            spec: [
+                "influencegraile",
+                "influencehearte",
+                "fragmentsecrethistoriesd",
+                "favour"
+            ],
+            drawmessages: {
+                "influencegraile": "Cơn Khát của Cổng Nhện chỉ đứng sau mỗi Thánh Chén, hoặc có khi hai thứ chính là một thể. Tôi đã đi qua cổng tối qua, nhưng không thâm nhập sâu hơn vào Mansus. Tôi mơ mình đứng trong thực quản của nó suốt một giờ liền, và sáng nay tôi nóng bừng và ham muốn thèm khát.",
+                "influencehearte": "Đêm qua, tôi lang thang trong lòng xoắn xuýt của Cổng Nhện. Tôi tìm thấy một phần sự sống còn sót lại - tàn dư của một kẻ dũng cảm, hoặc kẻ bị phản bội. Trong lúc Cơn Khát của Cổng Nhện vẫn còn yên ắng, Tôi đã mang nó về bằng cách giấu trong linh hồn mình.",
+                "fragmentsecrethistoriesd": "Đại Chiến Lộ Tuyến từng lan rộng đến cõi Mansus. trong những hành lang sau Cổng Nhện, thợ đá kiêm phù thủy tự xưng là Hubris Glamore ghi chép về những điều này, bằng hàng dặm dòng chữ điên cuồng, ngoằn nghèo trên Đá Mộng cõi Mansus. Tôi qua tôi lần theo chúng, đọc về những chiến dịch của hội Đứa Con Của Ngọn Lửa Dây Xích, sự phòng thủ kiên cường của hội Chị Em Nút Thắt, liên minh với Thần Lữ Hành, tranh chấp giữ dội giữa thần Thánh Chén và Lò Rèn...",
+                "favour": "Tối qua phía sau Cổng Nhện, Tôi tìm thấy một tên đặc vụ thất lạc trong mơ. những thứ rình rập trong Cồn Cát Lụa, vùng xám xịt nơi cánh Cổng tọa lạc, rất thích mùi vị tụi cảnh sát. Hắn gào thét cho đến khi được tôi cứu, song tôi chỉ giúp sau khi hắn đã cung cấp cho tôi một thông tin hữu ích..."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_spiderdoor1",
+            spec: [
+                "influenceforgeg",
+                "fragmentsecrethistoriese",
+                "ingredientforgef",
+                "influencelanterne"
+            ],
+            drawmessages: {
+                "influenceforgeg": "Đêm qua trong cõi Mansus tôi đđến Lò Luyện Kim, nơi người ta không thể khỏi các động cơ và con đường mà chẳng hề đổi thay. Tôi được ngắm hoàng hôn, được tận hưởng niềm vui hổ phách, niềm vui trắng và niềm vui xanh thẳm; rồi tôi được khai sáng trong sự nóng chảy và Lò Rèn Kiến Tạo chạm vào tôi bằng những ngón tay sáng ngời của bà. Tôi thức dậy khỏi giường với nhận thức tuyệt đối rằng mọi đêm, mọi đêm rồi đều phải kết thúc.",
+                "fragmentsecrethistoriese": "Đêm qua trong cõi Mansus tôi đến Lò Luyện Kim, nơi người ta không thể thoát khỏi những chiếc búa và nồi nung mà chẳng hề đổi thay. Tim tôi ngưng lại sau chín nhịp khi nó bước vào ngọn lửa của Lò Rèn Kiến Tạo, những khát khao của bà đã hòa vào nó. Tôi tỉnh giấc cùng bình minh, tia sáng rời rạc ảm đạm đó đã gợi trong tiềm thức tôi khát khao của Lò Rèn dành cho Mặt Trời, lời nguyền của Thần Lữ Hành, ham muốn sâu thẳm của Thánh Chén... biết bao ký ức dang dở.",
+                "ingredientforgef": "Đêm qua trong cõi Mansus tôi đến Lò Luyện Kim, nơi người ta không thể thoát khỏi ngọn lửa mà chẳng hề đổi thay. Ánh sáng Lò Rèn chiếu xuống tôi, tim tôi sôi sục và khi tỉnh dậy, máu tôi nóng rực khiến tôi phải rút nó vào một chiếc cốc trước khi nó chế ngự tôi. Và kìa, mười giọt trong đó không hẳn là máu, trừ khi đó là Máu của Mặt Trời. Có lẽ thật ra chiếc cốc là do tôi tìm thấy và chẳng có máu nào là của tôi cả. Lò Rèn đã thiêu đốt ký ức tôi.",
+                "influencelanterne": "Đêm qua trong cõi Mansus tôi đến Lò Luyện Kim, nơi người ta không thể ra khỏi các nhịp đập và vòng xoáy mà chẳng hề đổi thay. Nơi đầy rẫy vô vàng ánh quang từ ngọn lửa, từ Lò Rèn và các Danh Thần của bà, từ những dụng cụ. Nhưng có một tia sáng le lói ở phía sau tựa như khúc ca phai tàn: ánh sáng cuối cùng của Mặt Trời Tráng Lệ, tạo ra từ sự chia cắt của ngài, tại nơi mà Lò Rèn là mạnh nhất. Sau khi tỉnh giấc, tôi vẫn có thể nhìn thấy ánh sáng ấy. "
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_spiderdoor2",
+            spec: [
+                "influenceknockg",
+                "influencelanterne",
+                "influencewintere",
+                "influencemothe",
+                "fragmentsecrethistoriesc",
+                "fascination"
+            ],
+            drawmessages: {
+                "influenceknockg": "Đêm qua tôi đã đến Điểm Đồng Quy, giao lộ của cõi Mansus, còn được gọi là Sảnh Đường Vạn Đạo. Từ đây, Thời Thần có thể đi đến bất kỳ đâu trong Mansus. Tại đây, Rìu Chiến Sừng nói với tôi bằng giọng nói cổ xưa hơn bất kỳ sinh vật sống nào. Bà nói: 'có một Cánh Cửa sẽ mở ra trong chốc lát. Đây chính là thời khắc của nó và một Sự Chia Cắt sẽ diễn ra.",
+                "influencelanterne": "Đêm qua tôi đã đến Điểm Đồng Quy, cốt lõi của cõi Mansus, còn được gọi là Sảnh Đường Khải Huyền, nơi có những chiếc gương vô tận và các con đường bao phủ. Từ đây, các Thời Thần có thể thấy mọi việc xảy ra trong Mansus. Tôi thấy ánh sáng của Thần Canh Gác lấp lánh trên nền trời xanh thẳm, như mặt trời lặn dưới mặt biển.",
+                "influencemothe": "Đêm qua tôi đã đến Điểm Đồng Quy, trái tim cõi Mansus, còn được gọi là Sảnh Đường Chọn Lựa, nơi mỗi còn đường không có ai đi đều là một tương lai bị hủy. Trong ánh sáng xanh biếc của sảnh đường, tôi thấy Thánh Nữ-Phù Thủy lướt qua, bốn bàn tay đang đan xen hai con đường lại thành một. Khi tôi tỉnh dậy, tim tôi rối bời vì đam mê. Có điều gì đó tôi cần phải làm; luôn có điều gì đó tôi phải làm.",
+                "influencewintere": "Đêm qua tôi đã đến Điểm Đồng Quy, nơi mọi hành lang của Mansus kết thúc, còn được gọi là Sảnh Đường Kết Cục . Các Thời Thần tập trung nơi đây cho các trận chiến, hành quyết và thoái vị. Trong tia sáng ngọc bích chiều ta, tôi thấy Mặt Trời Suy Tàn đi qua cùng chiếc vương miện vỡ nát và đoàn tùy tùng im lặng. Rồi sáng nay, tôi thức dậy trong run rẩy.",
+                "fragmentsecrethistoriesc": "Đêm qua tôi đã đến Điểm Đồng Quy, kinh tuyến cõi Mansus, còn được gọi là Sảnh Đường Lịch Sử. Tôi nói chuyện với một tín đồ đã chết từ lâu. Cô kể về chuyến bay của mình qua Ngôi Nhà, về hàng thập kỉ và hơn thế, về các cách mà Hồn Giả tồn tại khỏi sự kiểm soát của các Thời Thần và ôn lại các dòng lịch sử chưa công nhận. Sáng nay tôi nhớ lại được đoạn kết của một trong các câu chuyện ấy.",
+                "fascination": "Đêm qua tôi đã đến Điểm Đồng Quy, không gian ở trung tâm cõi Mansus, còn được gọi là Sảnh Đường Lăng Kính. Từ đây, Thời Thần có thể đi đến bất kỳ đâu trong Mansus. Tôi ngắm Trăng Lưỡi Liềm mọc lên trong ánh sáng huy hoàng màu xanh lam của Sảnh Đường, mêm mại như vũ công, rực rỡ như vầng trăng, gương mặt người phản chiếu hình ảnh tôi. Sáng nay, người là tất cả những gì mà tôi có thể thấy."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_peacockdoor",
+            spec: [
+                "scholarvak",
+                "fragmentsecrethistoriese",
+                "influencelanterng",
+                "fascination"
+            ],
+            drawmessages: {
+                "scholarvak": "Đêm qua tôi đã mở Cổng Khổng Tước, nó khoe khoang với tôi rằng. 'Ta chính là Vak, là cả ngôn ngữ và nữ thần của nó. Ta là cánh cổng duy nhất dẫn đến ánh sáng bí mật. Ta được tôn thờ trước khi lũ vượn các ngươi tồn tại, và cả sau này khi các ngươi chỉ còn là tro bụi xấu xí. Nghe đây, ta sẽ chứng minh cho ngươi.' Tôi thức dậy với đầy từ ngữ trong miệng. ",
+                "fragmentsecrethistoriese": "Đêm qua tôi đã mở Cổng Khổng Tước, và phía sau nó, trong những không gian rực rỡ của Ngôi Nhà, tôi gặp một tín đồ thông thái đang hành hương. Y nói: 'tôi đã sẵn sàng để tiến lên đỉnh của Ngôi Nhà, chuẩn bị cho lần thăng thiên cuối cùng. Có lẽ cậu sẽ đi cùng tôi. Tôi sẽ cần đồng minh để giành lấy vị trí của mình. Câu chuyện này có thể giúp cậu vươn cao.'",
+                "influencelanterng": "Đêm qua tôi đã làm hài lòng Cổng Khổng Tước, hành động của tôi đã được một Thời Thần để tâm. Trong không gian vàng son của Mansus phía bên kia, tôi nghe được lời hứa của Thần Tạo Hoa, người hứa rằng: ông không thể hại tôi, và cũng không thể tìm thấy tôi, nhưng nếu tôi chỉ cần đến với ông, ông sẽ thỏa mãn mong muốn của tôi như lúc tôi đã làm hài lòng cánh cổng. Với lời hứa này, mắt tôi đã khai mở và sáng nay tôi thấy được vinh quang."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_peacockdoor1",
+            spec: [
+                "influencegrailg",
+                "ingredientgraild",
+                "fragmentsecrethistoriesf",
+                "favour",
+                "fascination"
+            ],
+            drawmessages: {
+                "influencegrailg": "Khi mơ về Nhà Thờ Đỏ, một kẻ có thể nghe được giọng nói từ các Danh Thần của Thánh Chén: các Khát Thần, Bạch Cốt Thần, Mị Thần và những kẻ khác. Họ có nói rằng, 'Không phải tất cả quỷ hút máu là phụ nữ, vì cơn đói của đàn ông cũng chẳng kém cơn đói của người phụ nữ. Nhưng người mẹ không bao giờ xa cách khi đứa con chào đời, việc đó không hề luôn đúng với người cha. Hãy đến gần, chúng ta sẽ cho ngươi biết đó nghĩa là gì.'",
+                "ingredientgraild": "Khi tôi đến thăm Nhà Thờ Đỏ tối qua, giữ những tiếng cào cấu và âu yếm, họ nói với tôi rằng Thần Tạo Hoa đã đến đây không lâu, cùng Mật Hoa và lời hứa của ông. Tôi tỉnh giấc với chăn nệm ướt đẫm, và Mật Hoa Bất Tử đang tràn đầy trong tay. Tôi thu lại những gì còn sót - chỉ vài giọt thôi, nhưng cũng đã đủ rồi.",
+                "fragmentsecrethistoriesf": "Tôi lại thấy Nhà Thờ Đỏ lần nữa đêm qua, với những dãy ghế dài bằng xương, những ô cửa sổ đỏ, và bàn thờ vàng rung động như một trái tim. Đêm đó, các Danh Thần của Thánh Chén tụ họp để bàn về các Trường Giả đã thề từ bỏ khoái lạc dục vọng, ngoại trừ việc đồng tính. một Bạch Cốt Thần nói 'Chúng vẫn phải tôn thời khoái lạc,'. 'Nhưng không được sinh nở,' một Mị Thần nói. 'Giá mà Lò Rèn được kết hợp với Mặt Trời-' một Khát Thần than thở. Sau đó họ nói chuyện phiếm về các Trường Giả của Hội Sông Lethe, và những việc làm của họ ở sa mạc. Tôi vẫn còn nhớ rõ.",
+                "favour": "Mỗi ô cửa kính màu của Nhà Thờ Đỏ đều tượng trưng cho một ham muốn khác biệt, và cảnh tưởng chúng mô tả đề là từ đời thực. Đêm qua, ở trong một các cửa sổ xấu xí, Tôi đã thấy một kẻ của công chúng lén lút thỏa mãn ham muốn của mình. Tôi biết hắn không muốn chuyện này bị công khai. Hắn sẽ cần phải dè chừng tôi.",
+                "fascination": "Đêm quua tôi dến Nhà Thờ Đỏ, nơi Thánh Chén tổ chức các buổi yến tiệc. Ánh sáng xuyên qua những ô cửa kính màu chiếu rọi đủ mọi sắc đỏ các Danh Thần của Thánh Chén đang cố sức sinh ra một ham muốn mới mà cho đến nay chưa hề có tên gọi. Tôi dính chặt ký ức về nó, và sáng nay mọi thứ tôi nhìn thấy đều nhuộm màu hồng ngọc."
+            },
+
+            resetonexhaustion: true
+        },
+        {
+            id: "mansus_peacockdoor2",
+            spec: [
+                "influencewinterg",
+                "fragmentsecrethistoriesf",
+                "dread",
+            ],
+            drawmessages: {
+                "influencewinterg": "Đêm qua tôi đã viếng thăm Bảo Tàng Giun, nơi vừa nằm bên trong Mansus (để phòng ngừa) và vừa nằm bên ngoài (để an toàn). Các Thời Thần đã giao Đại Tá trách nhiệm phòng thủ nơi này, ngay cả Thần Rèn Sư Tử cũng không dám thách thức ông. Mùa Đông là Khía Cạnh mạnh mẽ nhất ở dây. bọn Trùng Thể sinh sôi ở nơi vạn vật kết thúc, nhưng chúng vẫn có thể chết, và phải như thế, để cõi Mansus trường tồn mãi. Sáng nay, tôi còn thấy bàn tay lạnh buốt của vị Đại Tá vẫn vương lại trên vai mình.",
+                "fragmentsecrethistoriesf": "Quy mô trong cõi Mansus luôn biến chuyển, như việc tối qua trong Bảo Tàng Giun, tôi thấy một trong các Trùng Thể đã chiếm Vienna, lại nhốt kế bên một Trùng Thể từ linh hồn đứa trẻ. Trong mơ, chúng hiện hữu rõ ràng hơn đời thực, bóng loáng và đen sẫm như đá quý. Các bức tường ghi lại cuộc Chiến Tranh Trùng Thể lần thứ nhất và thứ hai. Còn lần thứ ba vẫn còn quá gần để đi vào lịch sử.",
+                "dread": "Đêm qua tôi mơ về Bảo Tàng Giun. Các Thời Thần đặt trấn giữ và cảnh báo xung quanh, nhưng vẫn cho phép các tín đồ phàm tục được chứng tỏ bản thân bằng cách tới đây. Có lẽ họ mong sẽ khơi dậy được sự ghê tởm với những thứ sinh vật đang nảy nở trong cái xác của Mặt Trời. bọn sinh vật vẫn còn đó, luôn phải chết, nhưng không tuyệt diệt. Chúng đến từ Vô Định, cánh báo rằng, rồi một ngày khi chúng hoàn thành công việc, Mansus cũng sẽ trở thành vô định."
+            },
+
+            resetonexhaustion: true
+        },
+    ]
+}

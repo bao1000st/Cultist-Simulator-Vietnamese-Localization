@@ -1,0 +1,31 @@
+{
+    "elements": [
+        {
+            "id": "legacybytjob",
+            "description": "Một người tập viết và một người tập vẽ nhưng có một người sống, trên hơn tất cả, sống trong sự sung túc từ tiền trợ cấp của mình.",
+            "label": "Này Và Nọ",
+            "aspects": {
+                "benign": 1,
+                "job": 1
+            }
+        },
+        {
+            "id": "legacybytjobmatured",
+            "description": "Một người tập viết và một người tập vẽ nhưng có một người sống, trên hơn tất cả, sống trong sự khá giả từ tiền trợ cấp của mình.",
+            "label": "Này Và Nọ",
+            "aspects": {
+                "benign": 1,
+                "job": 1
+            },
+            "comments": "Tồn tại để cho phép việc chuyển sang một chu kì dài hơn ngay sau lần sử dụng đầu tiên."
+        },
+        {
+            "id": "legacydiarylastcharacter",
+            "aspects": {
+                "legacyplotitem": 1
+            },
+            "label": "Nhật Kí Mật Mã",
+            "description": "Cuốn nhật kí này mô tả một nỗi ám ảnh ngày cang cao đối với cá thể mang tên #PREVIOUSCHARACTERNAME#."
+        }
+    ]
+}

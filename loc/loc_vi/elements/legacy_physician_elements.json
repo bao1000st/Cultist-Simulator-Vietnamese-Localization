@@ -1,0 +1,20 @@
+{
+    "elements": [
+        {
+            "id": "legacyphysicianjob",
+            "description": "Hôm Nay Tôi Trở Lại Làm Việc.",
+            "label": "Một chức vụ tại học viện.",
+            "aspects": {
+                "job": 1
+            }
+        },
+        {
+            "id": "legacyphysiciannotes",
+            "description": "Bản kể khai đối chứng của chính tôi về sự đi xuống kinh hoàng của #PREVIOUSCHARACTERNAME#. Chữ viết tay của tôi ngày càng xấu đi khi bản kê khai càng dài ra.",
+            "label": "Ghi Chú Về Trường Hợp Của #PREVIOUSCHARACTERNAME#",
+            "aspects": {
+                "legacyplotitem": 1
+            }
+        }
+    ]
+}

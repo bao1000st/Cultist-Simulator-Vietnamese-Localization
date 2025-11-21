@@ -1,0 +1,206 @@
+ {
+    "legacies": [
+        {
+            "id": "aspirant",
+            "label": "Kẻ Khao Khát",
+            "description": "Ngày 28 tháng 6, một lần nữa.",
+            "startdescription": "Cô độc trong thành phố lạnh giá này, chỉ với vốn học vấn vô dụng, và những giấc mơ của mình.\nPhải làm gì bây giờ? Liệu tôi có thể trở thành một thứ gì đó hơn thế?",
+            "effects": {
+                "introjob": 1
+            },
+            "image": "aspirant",
+            "fromending": "default",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work"
+        },
+        {
+            "id": "brightyoungthing",
+            "label": "Thanh Niên Tươi Sáng",
+            "description": "Được trời phú cho sự giàu có và tài năng từ khi sinh ra. Một cuộc sống thật dễ dàng, sự thoải mái và thú vị trải dài phía trước như một tấm thảm mang màu hổ phách.",
+            "startdescription": "Tôi đã bỏ lỡ mất một buổi bình minh. Tôi vẫn thường làm vậy. Sẽ còn nhiều lần như thế nữa.",
+            "effects": {
+                "legacybytjob": 1,
+                "health": 1
+            },
+            "image": "byt",
+            "fromending": "deathofthebody",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work"
+        },
+
+        {
+            "id": "physician",
+            "label": "Bác Sĩ",
+            "description": "Khi bệnh nhân rơi vào cơn mê sảng cuối cùng, Tôi đã ghi chú lại. Trong cái nóng nhè nhẹ của màn đêm, Tôi đọc lại những ghi chú đó, và cuối cùng thì nó cũng bắt đầu có ý nghĩa.",
+            "startdescription": "Hôm nay là ngày tôi nộp lại bản báo cáo của mình tại Viện. Tôi có địa vị và danh tiếng. Điều đó phải có một ý nghĩa nào đó; nhưng tôi đang bắt đầu mơ về một thứ khác.",
+            "effects": {
+                "legacyphysicianjob": 1,
+                "reason": 1
+            },
+            "image": "physician",
+            "fromending": "deathofthebody",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work"
+        },
+        {
+            "id": "detective",
+            "label": "Thám Tử",
+            "description": "Tôi là một thanh tra thuộc cảnh sát thủ đô, được giao nhiệm vụ điều tra những điều tồi tệ và thấp hèn nhất mà một người có thể làm với người khác.",
+            "startdescription": "Tôi đã kết thúc sự nghiệp của những tên trộm, những kẻ giết người, những kẻ tống tiền, những kẻ đốt phá. Có những tên tội phạm vẫn còn làm điều tệ hơn thế; và vào một vài buổi sáng, tay tôi vẫn còn run rẩy.",
+            "effects": {
+                "legacydetectivejob": 1,
+                "reason": 1,
+                "health": 1
+            },
+            "image": "detective",
+            "fromending": "arrest",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work"
+        },
+        {
+            "id": "detectivepostpromotion",
+            "label": "Thám Tử",
+            "description": "Tôi là một thanh tra thuộc cảnh sát thủ đô, được giao nhiệm vụ điều tra những điều tồi tệ và thấp hèn nhất mà một người có thể làm với người khác.",
+            "startdescription": "Tôi đã kết thúc sự nghiệp của những tên trộm, những kẻ giết người, những kẻ tống tiền, những kẻ đốt phá. Có những tên tội phạm vẫn còn làm điều tệ hơn thế; và vào một vài buổi sáng, tay tôi vẫn còn run rẩy.",
+            "effects": {
+                "legacydetectivejob": 1,
+                "reason": 1,
+                "health": 1
+            },
+            "image": "detective",
+            "fromending": "workvictoryb",
+            "availableWithoutEndingMatch": false,
+            "excludesOnEnding": [
+                "detective"
+            ],
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostleforge",
+            "label": "Tông Đồ Aestuant",
+            "startdescription": "Vị thần từng định hình nên chúng ta đã đạt đến một trạng thái cao hơn... ít nhất là trong một lịch sử nào đó. Quá khứ là không chắc chắn. Nhưng tôi sẽ là người đóng cây thánh giá cho sự thăng thiên tiếp theo của người.",
+            "description": "Great Shaper của chúng ta ngày càng lớn mạnh - và người có những kẻ thù hùng mạnh. Người sẽ ẩn náu, trong khi tôi phục vụ như một thứ công cụ của người.",
+            "effects": {
+                "health": 2,
+                "legacyapostleforgejob": 1
+            },
+            "image": "apostleforge",
+            "fromending": "minorforgevictory",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostlegrail",
+            "label": "Tông Đồ Obsonate",
+            "startdescription": "Vị thần từng nuôi dưỡng chúng ta đã đạt đến một trạng thái cao hơn... ít nhất là trong một lịch sử nào đó. Quá khứ là không chắc chắn. Nhưng tôi sẽ chuẩn bị bữa tiệc cho sự thăng thiên tiếp theo của người.",
+            "description": "Our Delight ngày càng lớn mạnh - và người có những kẻ thù hùng mạnh. Người sẽ ẩn náu, trong khi tôi phục vụ như một vật chứa của người.",
+            "effects": {
+                "passion": 1,
+                "health": 1,
+                "legacyapostlegrailjob": 1
+            },
+            "image": "apostlegrail",
+            "fromending": "minorgrailvictory",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostlelantern",
+            "label": "Tông Đồ Entheate",
+            "startdescription": "The Illuminated One chờ đợi trong The House of The Sun - chờ đợi ngày để có thể vươn lên cao hơn. Tôi chính là bàn tay của người.",
+            "description": "Tôi không nhớ chuyện gì đã xảy ra. Tôi không nhớ mình là ai. Nhưng những giấc mơ đã dạy tôi những gì tôi cần phải làm.",
+            "effects": {
+                "reason": 1,
+                "health": 1,
+                "legacyapostlelanternjob": 1
+            },
+            "image": "apostlelantern",
+            "fromending": "minorlanternvictory",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostleforgewithrisen",
+            "label": "Tông Đồ Aestuant",
+            "startdescription": "Vị thần từng định hình nên chúng ta đã đạt đến một trạng thái cao hơn... ít nhất là trong một lịch sử nào đó. Quá khứ là không chắc chắn. Nhưng tôi sẽ là người đóng cây thánh giá cho sự thăng thiên tiếp theo của người.",
+            "description": "Great Shaper của chúng ta ngày càng lớn mạnh - và người có những kẻ thù hùng mạnh. Người sẽ ẩn náu, trong khi tôi phục vụ như một thứ công cụ của người.",
+            "effects": {
+                "health": 2,
+                "legacyapostleforgejob": 1
+            },
+            "image": "apostleforge",
+            "fromending": "minorforgevictorywithrisen",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostlegrailwithrisen",
+            "label": "Tông Đồ Obsonate",
+            "startdescription": "Vị thần từng nuôi dưỡng chúng ta đã đạt đến một trạng thái cao hơn... ít nhất là trong một lịch sử nào đó. Quá khứ là không chắc chắn. Nhưng tôi sẽ chuẩn bị bữa tiệc cho sự thăng thiên tiếp theo của người.",
+            "description": "Our Delight ngày càng lớn mạnh - và người có những kẻ thù hùng mạnh. Người sẽ ẩn náu, trong khi tôi phục vụ như một vật chứa của người.",
+            "effects": {
+                "passion": 1,
+                "health": 1,
+                "legacyapostlegrailjob": 1
+            },
+            "image": "apostlegrail",
+            "fromending": "minorgrailvictorywithrisen",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "apostlelanternwithrisen",
+            "label": "Tông Đồ Entheate",
+            "startdescription": "The Illuminated One chờ đợi trong Ngôi Nhà Của Mặt Trời - chờ đợi ngày để có thể vươn lên cao hơn. Tôi chính là bàn tay của người.",
+            "description": "Tôi không nhớ chuyện gì đã xảy ra. Tôi không nhớ mình là ai. Nhưng những giấc mơ đã dạy tôi những gì tôi cần phải làm.",
+            "effects": {
+                "reason": 1,
+                "health": 1,
+                "legacyapostlelanternjob": 1
+            },
+            "image": "apostlelantern",
+            "fromending": "minorlanternvictorywithrisen",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "auctioneer",
+            "label": "Kẻ Bán Đấu Giá",
+            "description": "--",
+            "startdescription": "--",
+            "effects": {
+                "funds": 5
+            },
+            "image": "auctioneer",
+            "fromending": "_workvictory",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "survivor",
+            "label": "Kẻ Sống Sót",
+            "description": "Đôi khi, trong những tấm gương, trong những đám đông, bạn thấy được khuôn mặt của một người giờ đã mất.",
+            "startdescription": "Ghi chú khởi đầu đầy ám ảnh",
+            "effects": {
+                "introjob": 1
+            },
+            "image": "survivor",
+            "fromending": "_wintersacrifice",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        },
+        {
+            "id": "cousin",
+            "label": "Anh Em Họ",
+            "description": "Vào một buổi sáng, khi Mặt Trời lên cao và tất cả các gương đều đã bị bịt kín, sẽ có tiếng gõ trước cửa nhà bạn. \"Người ân nhân\", quý ông mặc áo xám sẽ nói điều đó. \"Một yêu cầu. Mà có lẽ là anh chẳng biết rằng mình có liên quan đấy.\"",
+            "startdescription": "Ghi chú khởi đầu của người thừa kế",
+            "effects": {
+                "introjob": 1
+            },
+            "image": "cousin",
+            "fromending": "_",
+            "availableWithoutEndingMatch": false,
+            "startingverbid": "work"
+        }
+    ]
+}

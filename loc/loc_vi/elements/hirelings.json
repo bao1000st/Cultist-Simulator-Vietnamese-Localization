@@ -1,0 +1,133 @@
+{
+    "elements": [
+        {
+            "id": "thugedgeminor",
+            "label": "Anh Bạn To Con",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "edge": 3
+            },
+            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thugedgeminor",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugmothminor",
+            "label": "Người Đàn Bà Gian Xảo",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "moth": 3
+            },
+            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thugmothminor",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugedge",
+            "label": "Kẻ Cơ Bắp Chuyên Nghiệp",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "edge": 5
+            },
+            "description": "'Tôi sẽ bẻ chúng làm đôi.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thugedge",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugforgeedge",
+            "label": "Kẻ Chế Tạo Bom",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "forge": 5,
+                "edge": 3
+            },
+            "description": "'Có lẽ chúng ta chưa nên thảo luận về việc chính trị.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thugforgeedge",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugknock",
+            "label": "Nhà Tư Vấn Cổng Vào",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "knock": 5
+            },
+            "description": "'Tôi giỏi việc chọn cửa đi lắm đấy.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh.]'",
+            "xtriggers": {
+                "hiring": "thugknock",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thuglanternmoth",
+            "label": "Thầy Bói",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "lantern": 5,
+                "moth": 3
+            },
+            "description": "'Mọi thứ đều trong tầm mắt ta. Ta nhìn thấy được sự khác thường của ngươi.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thuglanternmoth",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "thugmoth",
+            "label": "Bậc Thầy Lừa Đảo",
+            "aspects": {
+                "mortal": 1,
+                "hireling": 1,
+                "follower": 1,
+                "moth": 5,
+                "grail": 1
+            },
+            "description": "'Thật thú vị khi được làm việc với ngài.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "xtriggers": {
+                "hiring": "thugmoth",
+                "killmortal": "corpse",
+                "derangemortal": "lunatic",
+                "capturefollower": "generic_p"
+            },
+            "lifetime": 120
+        }
+    ]
+}

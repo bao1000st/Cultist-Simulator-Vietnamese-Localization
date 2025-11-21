@@ -1,0 +1,143 @@
+{
+    "elements": [
+        {
+            "id": "dayacquaintances",
+            "label": "Đi Tìm Những Người Quen Mới",
+            "description": "Tôi có thể tìm thấy một tâm hồn thanh khiết.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "daypatrons",
+            "label": "Đi Tìm Những Nhà Tài Trợ Mới",
+            "description": "Tôi có thể tìm thấy ai đó có khả năng cung cấp sự hỗ trợ.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "daycriminals",
+            "label": "Đi Tìm Những Mối Liên Kết Vô Vị",
+            "description": "Tôi có thể tìm thấy ai đó đã sẵn sàng để bàn tay mình bị vấy bẩn.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "dayplaces",
+            "label": "Đi Tìm Những Nhà Vẽ Bản Đồ",
+            "description": "Tôi có thể tình cờ bắt gặp một nơi nào đó thú vị.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsickness",
+            "label": "Thời Kỳ Bệnh Dịch",
+            "description": "Những ảnh hưởng ác tính đang làm ô uế không khí màn đêm. [Sức Khỏe của tôi sẽ sớm bị ảnh hưởng. Những Tông Đồ Bị Thương có thể sẽ chết.]",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonserenities",
+            "label": "Thời Kỳ Thanh Thản",
+            "description": "Ngày mai có thể sẽ là một ngày tốt lành hơn.",
+            "comments": "hiện không được sử dụng",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsuspicion",
+            "label": "Thời Kỳ Ngờ Vực",
+            "description": "Liệu tôi có đang bị theo dõi?",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasondespair",
+            "label": "Thời Kỳ Tuyệt Vọng",
+            "description": "Màn đêm chờ đợi tôi.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonvisions",
+            "label": "Thời Kỳ Ảo Tưởng",
+            "description": "Ôi những khung cảnh trước mắt.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonambitions",
+            "label": "Thời Kỳ Tham Vọng",
+            "description": "Đây là thời kỳ gió từ Khu Rừng bắt đầu thổi ngược: thời điểm mà sự thèm muốn và chết chóc đều tăng lên.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsilence",
+            "label": "Thời Kỳ Tĩnh Mịch",
+            "description": "Đó là những ngày ta bắt đầu đề phòng.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonardours",
+            "label": "Thời Kỳ Hăng Hái",
+            "description": "Tất cả chúng ta vốn đều là vượn và thiên thần.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "schememurder",
+            "label": "Âm Mưu Giết Người",
+            "aspects": {
+                "season": 1
+            },
+            "description": "Những dấu vết để lại bởi quyết định chống lại kẻ địch từ một đối thủ.",
+            "lifetime": 1,
+            "icon": "skillhealthd_strength"
+        },
+        {
+            "id": "schemeexpedition",
+            "label": "Âm Mưu Táo Bạo",
+            "aspects": {
+                "season": 1
+            },
+            "description": "Những dấu vết để lại bởi quyết định đi nước táo bạo từ một đối thủ.",
+            "lifetime": 1,
+            "icon": "vaultrendingmountainsdefault"
+        },
+        {
+            "id": "schemeactivities",
+            "label": "Âm Mưu Thận Trọng",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1,
+            "description": "Những dấu vết để lại bởi quyết định đi nước thận trọng từ một đối thủ.",
+            "icon": "contentment"
+        }
+    ]
+}

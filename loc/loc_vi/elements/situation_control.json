@@ -1,0 +1,46 @@
+{
+    "elements": [
+        {
+            "id": "insight",
+            "label": "Nhìn Thấu",
+            "description": "Một cái nhìn sâu sắc về điều huyền bí này.",
+            "lifetime": 1
+        },
+        {
+            "id": "bid",
+            "label": "Đấu thầu",
+            "description": "Một giá thầu đã được đặt ra trong nhà đấu giá.",
+            "xtriggers": {
+                "restore": "funds"
+            }
+        },
+        {
+            "id": "abductioninprogress",
+            "label": "Căn Phòng Bị Khóa",
+            "description": "Người ta hay nói rằng, tư tưởng vốn tự do, nhưng tư tưởng lại bị xích vào cái cơ thể.",
+            "lifetime": 1,
+            "icon": "seal_wardeddoor"
+        },
+        {
+            "id": "assassinationinprogress.player",
+            "label": "Vụ Ám Sát",
+            "description": "Thứ này sẽ kết thúc bằng một cái chết. Và nó có thể là cái chết của tôi",
+            "lifetime": 1,
+            "icon": "dread"
+        },
+        {
+            "id": "assassinationinprogress.follower",
+            "label": "Vụ Ám Sát",
+            "description": "Thứ này sẽ kết thúc bằng một cái chết - của chúng, hoặc của chính chúng ta",
+            "lifetime": 1,
+            "icon": "dread"
+        },
+        {
+            "id": "scandalinprogress",
+            "label": "Chuyện Phiếm Xấu Xa",
+            "description": "Những gì chúng nói chỉ là cái bóng của sự thật, nhưng bởi những cái bóng của mình, chúng tôi lại bị phát hiện.",
+            "lifetime": 1,
+            "icon": "notoriety"
+        }
+    ]
+}

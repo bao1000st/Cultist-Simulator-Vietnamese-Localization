@@ -1,0 +1,247 @@
+{
+    "elements": [
+        {
+            "id": "articleedgec",
+            "label": "Lưỡi Dao: Nghiên Cứu Chuyên Sâu",
+            "description": "Tác Phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "edge": 6
+            }
+        },
+        {
+            "id": "articleforgec",
+            "label": "Lò Rèn: Nghiên Cứu Chuyên Sâu",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "forge": 6
+            }
+        },
+        {
+            "id": "articlegrailc",
+            "label": "Chén Thánh: Nghiên Cứu Chuyên Sâu",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "grail": 6
+            }
+        },
+        {
+            "id": "articleheartc",
+            "label": "Trái Tim: Nghiên Cứu Chuyên Sâu",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "heart": 6
+            }
+        },
+        {
+            "id": "articleknockc",
+            "label": "Tiếng Gõ: Nghiên Cứu Chuyên Sâu:",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "knock": 6
+            }
+        },
+        {
+            "id": "articlelanternc",
+            "label": "Đèn Lồng: Nghiên Cứu Chuyên Sâu:",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "lantern": 6
+            }
+        },
+        {
+            "id": "articlemothc",
+            "label": "Bướm Đêm: Nghiên Cứu Chuyên Sâu:",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "moth": 6
+            }
+        },
+        {
+            "id": "articlesecrethistoriesc",
+            "label": "'Bàn Về Lịch Sử: Thảo Luận Chuyên Sâu'",
+            "description": "Một tác phẩm chuyên sâu về những sự kiện bất thành văn đã hình thành thế giới thức giấc và giấc mơ. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "secrethistories": 6
+            }
+        },
+        {
+            "id": "articlewinterc",
+            "label": "Cái Trắng: Nghiên Cứu Chuyên Sâu:",
+            "description": "Càng sâu đi, thì càng ngắn ngủi. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "winter": 6
+            }
+        },
+        {
+            "id": "articleedgeb",
+            "label": "Lưỡi Dao: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "edge": 4
+            }
+        },
+        {
+            "id": "articleforgeb",
+            "label": "Lò Rèn: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "forge": 4
+            }
+        },
+        {
+            "id": "articlegrailb",
+            "label": "Chén Thánh: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "grail": 4
+            }
+        },
+        {
+            "id": "articleheartb",
+            "label": "Trái Tim: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "heart": 4
+            }
+        },
+        {
+            "id": "articleknockb",
+            "label": "Tiếng Gõ: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "knock": 4
+            }
+        },
+        {
+            "id": "articlelanternb",
+            "label": "Đèn Lồng: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "lantern": 4
+            }
+        },
+        {
+            "id": "articlemothb",
+            "label": "Bướm Đêm: Nghiên Cứu Chi Tiết",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "moth": 4
+            }
+        },
+        {
+            "id": "articlesecrethistoriesb",
+            "label": "'Bàn Về Lịch Sử: Nghiên Cứu Chi Tiết'",
+            "description": "Thông tin bị che khuất về sự thật đã bị dập tắt của nhiều quá khứ. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "secrethistories": 4
+            }
+        },
+        {
+            "id": "articlewinterb",
+            "label": "Cái Trắng: Nghiên Cứu Chi Tiết",
+            "description": "Bạn đã nói hết tất cả những gì cần thiết. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "winter": 4
+            }
+        },
+        {
+            "id": "articleedgea",
+            "label": "Lưỡi Dao: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.] ",
+            "aspects": {
+                "article": 1,
+                "edge": 2
+            }
+        },
+        {
+            "id": "articleforgea",
+            "label": "Lò Rèn: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "forge": 2
+            }
+        },
+        {
+            "id": "articlegraila",
+            "label": "Chén Thánh: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "grail": 2
+            }
+        },
+        {
+            "id": "articlehearta",
+            "label": "Trái Tim: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "heart": 2
+            }
+        },
+        {
+            "id": "articleknocka",
+            "label": "Tiếng Gõ: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "knock": 2
+            }
+        },
+        {
+            "id": "articlelanterna",
+            "label": "Đèn Lồng: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "lantern": 2
+            }
+        },
+        {
+            "id": "articlemotha",
+            "label": "Bướm Đêm: Thảo Luận Vắn Tắc",
+            "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "moth": 2
+            }
+        },
+        {
+            "id": "articlesecrethistoriesa",
+            "label": "Lịch Sử Bí Mật: Thảo Luận Vắn Tắc",
+            "description": "Thông tin hấp dẫn về những dòng lịch sử thường bị đàn áp.  [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "secrethistories": 2
+            }
+        },
+        {
+            "id": "articlewintera",
+            "label": "Cái Trắng: Thảo Luận Vắn Tắc",
+            "description": "Một cuộc điều tra ngắn gọn về Mùa đông. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
+            "aspects": {
+                "article": 1,
+                "winter": 2
+            }
+        }
+    ]
+}

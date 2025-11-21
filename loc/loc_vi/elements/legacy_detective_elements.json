@@ -1,0 +1,151 @@
+{
+    "elements": [
+        {
+            "id": "legacydetectivejob",
+            "label": "Chức Vụ Thanh Tra",
+            "description": "Tôi có một vị trí cấp cao trong lực lượng cảnh sát thủ đô.",
+            "aspects": {
+                "job": 1
+            },
+            "xtriggers": {
+                "careeradvancement": "legacydetectivejob_matured"
+            }
+        },
+        {
+            "id": "legacydetectivejob_matured",
+            "label": "Chức Vụ Thanh Tra",
+            "description": "Tôi có một vị trí cấp cao trong lực lượng cảnh sát thủ đô, mặc dù tôi đã được biệt phái đến Cục Đàn Áp.",
+            "aspects": {
+                "job": 1
+            },
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Đối Tượng",
+                    "required": {
+                        "suspicious": 1
+                    },
+                    "description": "Cho đến khi tôi có bằng chứng, tôi phải bắt đầu bằng cách quan sát trực tiếp con mồi của mình.",
+                    "actionid": "work"
+                },
+                {
+                    "id": "meticulous",
+                    "label": "Tỉ Mỉ",
+                    "description": "Nhiều Lý Trí hơn sẽ giúp cuộc điều tra của tôi có cơ hội thành công càng cao.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                },
+                {
+                    "id": "vigilant",
+                    "label": "Cảnh Giác",
+                    "description": "Nhiều Lý Trí hơn sẽ giúp cuộc điều tra của tôi có cơ hội thành công càng cao.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                },
+                {
+                    "id": "singleminded",
+                    "label": "Chuyên Tâm",
+                    "description": "Nhiều Lý Trí hơn sẽ giúp cuộc điều tra của tôi có cơ hội thành công càng cao.",
+                    "required": {
+                        "reason": 1
+                    },
+                    "actionid": "work"
+                }
+            ],
+            "xtriggers": {
+                "employment": "legacydetectivejob_matured"
+            },
+            "lifetime": 90,
+            "decayTo": "legacydetectivejob_suspended",
+            "icon": "legacydetectivejob"
+        },
+        {
+            "id": "legacydetectivejob_suspended",
+            "label": "Thanh Tra Cảnh Sát [Bị Đình Chỉ]",
+            "description": "Sự vắng mặt của tôi đã được ghi nhận. Tôi đã bị đình chỉ. [Hãy sớm xử lý vụ án của bạn, nếu không sẽ mất chức vụ vĩnh viễn.]",
+            "slots": [
+                {
+                    "id": "passion",
+                    "label": "Đam Mê",
+                    "required": {
+                        "passion": 1
+                    },
+                    "actionid": "work"
+                }
+            ],
+            "aspects": {
+                "job": 1
+            },
+            "xtriggers": {
+                "plead": "legacydetectivejob_matured"
+            },
+            "lifetime": 90,
+            "decayTo": "legacydetectivejob_disgraced"
+        },
+        {
+            "id": "legacydetectivejob_disgraced",
+            "label": "Thanh Tra Cảnh Sát [Bị Miệt Thị]",
+            "description": "Tôi đã mất chức vụ của mình. Tôi còn chẳng có khả năng lấy lại nó. Tôi phải đi tìm cách riêng của mình trong thế giới thường dân.",
+            "lifetime": 120,
+            "decayTo": "mystique"
+        },
+        {
+            "id": "legacydetective_plotitem",
+            "label": "Hồ Sơ Cục Bị Niêm Phong",
+            "aspects": {
+                "desire": 1,
+                "legacyplotitem": 1,
+                "detectivetemptation": 1
+            },
+            "description": "Một hồ sơ về #PREVIOUSCHARACTERNAME# bí ẩn. Tôi đã tự niêm phong nó. Tôi cũng đã quá quen thuộc với nội dung của nó. Nếu tôi thăm lại chúng, những giấc mơ có lẽ sẽ lại bắt đầu."
+        },
+        {
+            "id": "myevidence",
+            "label": "Bằng Chứng Dự Kiến",
+            "description": "Tôi có một số bằng chứng về những hoạt động từ con mồi của tôi.",
+            "lifetime": 300,
+            "aspects": {
+                "suspicious": 1
+            },
+            "xtriggers": {
+                "investigatingsuccess": "myevidenceb"
+            }
+        },
+        {
+            "id": "myevidenceb",
+            "label": "Bằng Chứng Kết Tội",
+            "description": "Tôi có bằng chứng thuyết phục về những hoạt động từ con mồi của mình.",
+            "lifetime": 300,
+            "aspects": {
+                "suspicious": 1
+            }
+        },
+        {
+            "id": "legacydetective_plotitem_burning",
+            "label": "Hồ Sợ Cục Bị Cháy",
+            "description": "Nó gần như đi luôn rồi! Nhưng tôi có thể bóc nó ra khỏi đống lửa - ",
+            "lifetime": 10,
+            "icon": "legacydetective_plotitem",
+            "aspects": {
+                "desire": 1,
+                "legacyplotitem": 1,
+                "detectivetemptation": 1
+            }
+        },
+        {
+            "id": "legacydetective_plotitem_backup",
+            "label": "Hồ Sơ Cục Rắc Rối",
+            "aspects": {
+                "desire": 1,
+                "legacyplotitem": 1,
+                "detectivetemptation": 1
+            },
+            "icon": "legacydetective_plotitem",
+            "description": "Bằng chứng bao gồm các loại chi tiết có thể khiến người ta phải liếm môi, nếu người đó quan tâm đến những điều này. Tôi không nên đọc nó. Những giấc mơ có thể sẽ lại bắt đầu."
+        }
+    ]
+}

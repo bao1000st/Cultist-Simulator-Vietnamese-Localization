@@ -1,0 +1,199 @@
+{
+    "elements": [
+        {
+            "id": "investigator1",
+            "label": "Thanh Tra Wakefield",
+            "aspects": {
+                "hunter": 1,
+                "mortal": 1,
+                "meticulous": 1,
+                "grim": 1
+            },
+            "description": "Zachary Wakefield: một người đa sầu, nhưng quyết đoán, là thanh tra cảnh sát. Gần đây anh ta đã được điều đến Cục Đàn Áp.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "killhunter": "corpse",
+                "derangemortal": "zachary_r_c",
+                "capturehunter": "investigator1prisoner",
+                "dissolution": "influencewintere"
+            }
+        },
+        {
+            "id": "investigator2",
+            "label": "Spencer Hobson",
+            "aspects": {
+                "hunter": 1,
+                "mortal": 1,
+                "mystic": 1,
+                "erratic": 1
+            },
+            "description": "Hobson từng là một nhà báo, một thám tử tư, và có một thời gian ngắn làm linh mục. Hiện giờ anh ấy là một đặc vụ của Cục Đàn Áp.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "killhunter": "corpse",
+                "derangemortal": "spencer_r_c",
+                "capturehunter": "investigator2prisoner",
+                "dissolution": "influenceknocke"
+            }
+        },
+        {
+            "id": "investigator3",
+            "label": "Connie Lee",
+            "aspects": {
+                "hunter": 1,
+                "mortal": 1,
+                "tenacious": 1,
+                "mystic": 1
+            },
+            "description": "Người thừa kế, người ủng hộ quyền cử tri nữ và là một nhà thám hiểm. Gần đây cô đã đặt một lòng tin viễn vong và dành ra một phần của cải đáng kể cho Cục Đàn Áp.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "killhunter": "corpse",
+                "derangemortal": "connie_r_c",
+                "capturehunter": "investigator3prisoner",
+                "dissolution": "influenceedgee"
+            }
+        },
+        {
+            "id": "investigator4",
+            "label": "Tiến Sĩ Natalia Dragon",
+            "aspects": {
+                "hunter": 1,
+                "mortal": 1,
+                "idealist": 1,
+                "meticulous": 1
+            },
+            "description": "Bà bị cả giới học thuật chê cười vì những phân tích của mình về những dòng lịch sử khác, và nó chỉ khiến bà ấy càng thêm kiên quyết. Giờ đây bà làm việc với Cục Đàn Áp.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "killhunter": "corpse",
+                "derangemortal": "natalia_r_c",
+                "capturehunter": "investigator4prisoner",
+                "dissolution": "influencelanterne"
+            }
+        },
+        {
+            "id": "defaulthunter",
+            "label": "Thám Tử Uể Oải",
+            "aspects": {
+                "hunter": 1,
+                "mortal": 1
+            },
+            "description": "Người đàn ông này thà được bỏ lại một mình với chiếc tẩu thuốc với tờ Tin Tức London được minh họa của mình, nhưng không, <i>hình như</i> một số kẻ ghê tởm phải bị săn lùng như một con chó điên, và <i>hình như</i> không còn ai khác có thời gian để làm cả.",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "killhunter": "corpse",
+                "derangemortal": "douglas_r",
+                "capturehunter": "defaulthunterprisoner",
+                "dissolution": "influenceforgec"
+            }
+        },
+        {
+            "id": "investigator1prisoner",
+            "label": "Thanh Tra Wakefield: Đã Bị Bắt!",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3,
+                "winter": 4
+            },
+            "description": "Zachary Wakefield: một người đa sầu, nhưng quyết đoán, là thanh tra cảnh sát. Hãy để chúng ta chắc chắn rằng hắn sẽ chết trong sự giam cầm.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "zachary_r_c",
+                "dissolution": "influencewintere"
+            },
+            "lifetime": 600,
+            "decayTo": "corpse"
+        },
+        {
+            "id": "investigator2prisoner",
+            "label": "Spencer Hobson: Đã Bị Bắt!",
+            "aspects": {
+                "prisoner": 1,
+                "mortal": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3,
+                "knock": 3
+            },
+            "description": "Hobson từng là một nhà báo, một thám tử tư, và có một thời gian ngắn làm linh mục. Hãy để chúng ta chắc chắn rằng hắn sẽ chết trong sự giam cầm.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "spencer_r_c",
+                "dissolution": "influenceknocke"
+            },
+            "lifetime": 600,
+            "decayTo": "corpse"
+        },
+        {
+            "id": "investigator3prisoner",
+            "label": "Connie Lee: Đã Bị Bắt!",
+            "aspects": {
+                "prisoner": 1,
+                "mortal": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3,
+                "edge": 3
+            },
+            "description": "Người thừa kế, ủng hộ quyền cử tri nữ và là một nhà thám hiểm. Hãy để chúng ta chắc chắn rằng ả sẽ chết trong sự giam cầm.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "connie_r_c",
+                "dissolution": "influenceedgee"
+            },
+            "lifetime": 600,
+            "decayTo": "corpse"
+        },
+        {
+            "id": "investigator4prisoner",
+            "label": "Tiến sĩ Natalia Dragon: Đã Bị Bắt!",
+            "aspects": {
+                "prisoner": 1,
+                "mortal": 1,
+                "lantern": 5,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Bà bị cả giới học thuật chê cười vì những phân tích của mình về những dòng lịch sử khác, và nó chỉ khiến bà ấy càng thêm kiên quyết. Hãy để chúng ta chắc chắn rằng ả sẽ chết trong sự giam cầm.",
+            "unique": true,
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "natalia_r_c",
+                "dissolution": "influencelanterne"
+            },
+            "lifetime": 600,
+            "decayTo": "corpse"
+        },
+        {
+            "id": "defaulthunterprisoner",
+            "label": "Thám Tử Uể Oải: Bị Bắt Giữ!",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 5,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Người đàn ông này thà được bỏ lại một mình với chiếc tẩu thuốc với tờ Tin Tức London được minh họa của mình, nhưng giờ ông ta bị bỏ rơi trong một cái hố tồi tàn nào đó trên mặt đất.",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "douglas_r",
+                "capturehunter": "defaulthunterprisoner",
+                "dissolution": "influenceforgec"
+            },
+            "lifetime": 600,
+            "decayTo": "corpse"
+        }
+    ]
+}

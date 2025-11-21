@@ -1,0 +1,109 @@
+{
+    "recipes": [
+        {
+            "id": "studybenefactorwill",
+            "label": "Nghiên Cứu Nhật Ký Của Người Thân Quá Cố",
+            "actionid": "study",
+            "requirements": {
+                "benefactorwill": 1,
+                "funds": 1
+            },
+            "alt": [
+                {
+                    "id": "studybenefactorwill_suspicion",
+                    "chance": 30
+                }
+            ],
+            "effects": {
+                "funds": 49,
+                "benefactorwill": -1
+            },
+            "startdescription": "Tình huống này cần đòi hỏi sự thận trọng. Xã hội vốn xem mối liên kết giữa bọn tôi là không hợp phép.",
+            "description": "Mối quan hệ giữa bọn tôi chưa bao giờ được chính thức hóa. Chẳng thể tưởng tượng được rằng tôi sẽ được thừa kế một phần gia sản đáng kể như vậy. Tuy nhiên, tôi đã may mắn nhận được.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studybenefactorwill_suspicion",
+            "label": ".",
+            "actionid": "study",
+            "effects": {
+                "notoriety": 1,
+                "benefactorwill": -1
+            },
+            "description": "Có điều gì đó thật không ổn. Những kẻ quen cũ băng qua đường khi tôi đi ngang qua. Một tờ báo đã gợi ý về việc bị chơi xấu. Luật sư sẽ không tiếp tôi. Tôi có thể không nhận được di sản như mong đợi, và có lẽ điều tồi tệ hơn sẽ đến."
+        },
+        {
+            "id": "study.welland.defeated",
+            "actionid": "study",
+            "label": "Như Tại Issus",
+            "startdescription": "Ta đã có cơ hội đối đầu với our Shaper, giống như the Lionsmith đã từng đối đầu với the Colonel. [Thẻ này ngăn nhân vật trước kia của bạn được tăng cấp, nhưng mang đến cho bạn cơ hội giành chiến thắng theo con đường Lò Rèn thông thường. Nó sẽ không có tác dụng nào khác nữa.]",
+            "description": "Sự trói buộc lòng trung thành đã bị phá vỡ. Những tông đồ của ta sẽ không nghi ngờ gì cả. Trước khi our Shaper có thể trở về sau cuộc lưu đày, tôi sẽ đi mất, hoặc sẽ đi mãi mãi.",
+            "requirements": {
+                "welland.defeated": 1,
+                "mentor": 1
+            },
+            "effects": {
+                "mentor": -1,
+                "welland.defeated": -1,
+                "ascensionpowerc": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study.tryphon.defeated",
+            "actionid": "study",
+            "label": "The Selectest of Menus",
+            "startdescription": "Nếu ta tiêu thụ những gì còn lại của Công Nương Tryphon, ta sẽ không bị nuốt chửng. [Thẻ này ngăn nhân vật trước kia của bạn được tăng cấp, nhưng mang đến cho bạn cơ hội giành chiến thắng theo con đường Chén Thánh thông thường. Nó sẽ không có tác dụng nào khác nữa.]",
+            "description": "Hương vị tươi sáng trên đầu lưỡi ta. Sẽ không có Sinh Lực cho niềm Khoái Cảm của chúng ta. Những tông đồ sẽ phục vụ mong muốn của ta. Còn bây giờ, ta sẽ ngấu nghiến nó; Ta sẽ không bị nuốt chửng.",
+            "requirements": {
+                "tryphon.defeated": 1,
+                "mentor": 1
+            },
+            "effects": {
+                "mentor": -1,
+                "tryphon.defeated": -1,
+                "ascensionsensationc": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study.diarist.defeated",
+            "actionid": "study",
+            "label": "Một Cánh Cửa Đóng Lại",
+            "startdescription": "The Diarist đã cho ta lý do để giao phó Illuminated One của chúng ta cho cõi Mansus. [Thẻ này ngăn nhân vật trước kia của bạn được tăng cấp, nhưng mang đến cho bạn cơ hội giành chiến thắng theo con đường Lồng Đèn thông thường. Nó sẽ không có tác dụng nào khác nữa.]",
+            "description": "Ta đã tự đóng cánh cửa trong con mắt mình. Ta đã niêm phong nó bằng sáp. Dù con mắt này đã mù, nhưng con mắt kia sẽ nhìn thấy được những chân trời mới. Tổ chức của chúng ta sẽ phục vụ một mục đích khác. Có lẽ vào một ngày nào đó ta sẽ diện kiến Founder của chúng ta như một kẻ ngang hàng.",
+            "requirements": {
+                "diarist.defeated": 1,
+                "mentor": 1
+            },
+            "effects": {
+                "mentor": -1,
+                "diarist.defeated": -1,
+                "ascensionenlightenmentc": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "study.julian.defeated",
+            "actionid": "study",
+            "label": "Trống Rỗng Và Cô Độc",
+            "startdescription": "'Thêm một viên đá nữa trong Bức Tường Cõi Mansus.'Vậy ta vốn chỉ có thế? Hay còn là điều gì khác nữa? [Thẻ này ngăn nhân vật trước kia của bạn được tăng cấp, và thêm thẻ bài Kinh Sợ vào bàn chơi. Nó sẽ không có tác dụng nào khác nữas.]",
+            "description": "Ta sẽ sống hết mình theo sự lựa chọn của bản thân. Ta chính là thứ mà ta sẽ trở thành, cho đến khi ta chẳng còn là gì cả.",
+            "requirements": {
+                "julian.defeated": 1,
+                "mentor": 1
+            },
+            "effects": {
+                "mentor": -1,
+                "julian.defeated": -1,
+                "dread": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}

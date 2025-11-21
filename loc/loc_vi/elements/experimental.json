@@ -1,0 +1,67 @@
+{
+    "elements": [
+        {
+            "id": "owl",
+            "label": "Con Cú Không Mũ",
+            "aspects": {
+                "job": 1
+            },
+            "description": "Con cú nói rằng nhân vật sau cùng của chúng ta là #PREVIOUSCHARACTERNAME#, mong muốn sau cùng của chúng ta là #LAST_DESIRE#, tông đồ tốt nhất sau cùng của chúng ta là #LAST_FOLLOWER# và quyển sách sau cùng của chúng ta là #LAST_BOOK#.",
+            "noartneeded": true
+        },
+        {
+            "id": "wolfatthedoor",
+            "label": "C O N SÓ I S Ố N G T R O N G TRONG NGÔI NHÀ LỚN",
+            "aspects": {
+                "ability": 1,
+                "location": 1,
+                "acquaintance": 1
+            },
+            "slots": [
+                {
+                    "id": "Meal5",
+                    "consumes": true,
+                    "actionid": "explore"
+                }
+            ],
+            "icon": "violet_p",
+            "description": "Con sói sẽ chấp nhận bất cứ thứ gì, và sau đó nuốt chửng mọi thứ, dù bất kể thế nào.",
+            "noartneeded": true
+        },
+        {
+            "id": "wolf",
+            "lifetime": 1,
+            "decayTo": "wolfatthedoor",
+            "description": "",
+            "noartneeded": true
+        },
+        {
+            "id": "lionweb",
+            "label": "Sử Tử Trong Mạn Nhện",
+            "comments": "Thông tin tồn tại trên bầu trời.",
+            "icon": "valciane_p",
+            "noartneeded": true
+        },
+        {
+            "id": "boarwords",
+            "label": "Con Lợn Rừng Trong Lời Nói",
+            "comments": "Những danh nghĩa thật vô đạo đức.",
+            "icon": "victor_p",
+            "noartneeded": true
+        },
+        {
+            "id": "worldbull",
+            "label": "Thế Giới Trong Con Bò Mọng",
+            "comments": "Tội ác ở đầu",
+            "icon": "clifton_p",
+            "noartneeded": true
+        },
+        {
+            "id": "notaworm",
+            "label": "Có Lẽ Là Một Con Chim",
+            "comments": "Chúng tôi đang chờ đợi S.T.E.",
+            "icon": "clovette_p",
+            "noartneeded": true
+        }
+    ]
+}

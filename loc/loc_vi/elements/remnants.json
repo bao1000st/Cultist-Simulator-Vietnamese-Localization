@@ -1,0 +1,77 @@
+{
+    "elements": [
+        {
+            "id": "corpse",
+            "label": "Một Xác Người",
+            "description": "Hồn đã lìa khỏi xác. Tại một thời điểm nào đó, mùi hôi sẽ rất nặng và bạn sẽ phải vứt bỏ nó, nhưng hiện giờ nó vẫn ở đây. Nó có thể sẽ thu hút sự chú ý; nó có thể được sử dụng để gây ấn tượng mạnh. [Ngay cả sau khi Xác Chết đã biến mất, Tai Tiếng sẽ vẫn còn sót lại.]",
+            "aspects": {
+                "winter": 3,
+                "grail": 3,
+                "ingredient": 1,
+                "reputation": 2,
+                "remnant": 1
+            },
+            "xtriggers": {
+                "raiseburgeoning": "spirit_wintera_moth",
+                "raiseshattered": "spirit_wintera_edge"
+            },
+            "lifetime": 60,
+            "decayTo": "notoriety"
+        },
+        {
+            "id": "corpse.furious",
+            "label": "Mảnh Xương Với Vết Sẹo",
+            "aspects": {
+                "remnant": 1
+            },
+            "xtriggers": {
+                "alzabo": "memory.furious"
+            },
+            "description": "Trong mảnh xương này là những ký ức về một Hour cổ xưa."
+        },
+        {
+            "id": "corpse.luxurious",
+            "label": "Mảnh Da",
+            "aspects": {
+                "remnant": 1
+            },
+            "xtriggers": {
+                "alzabo": "memory.luxurious"
+            },
+            "description": "Những Ký ức của giác quan, những khao khát, những bí mật của the Knot, ẩn chứa trong một mảnh vụn tàn tạ của bản ngã cũ."
+        },
+        {
+            "id": "corpse.liminal",
+            "label": "Tàn Lửa Dài",
+            "aspects": {
+                "remnant": 1
+            },
+            "xtriggers": {
+                "alzabo": "memory.liminal"
+            },
+            "description": "Quá ít thứ còn sót lại, nhưng vẫn đấy hương vị đó - một hương vị không báo trước - "
+        },
+        {
+            "id": "corpse.horizon",
+            "label": "Khúc Xương Vô Bóng",
+            "aspects": {
+                "remnant": 1
+            },
+            "xtriggers": {
+                "alzabo": "memory.horizon"
+            },
+            "description": "Liệu những Vị Vua kia có từng biết đến the Glory thực sự?"
+        },
+        {
+            "id": "corpse.splendid",
+            "label": "Đầu Lâu Sói",
+            "aspects": {
+                "remnant": 1
+            },
+            "xtriggers": {
+                "alzabo": "memory.splendid"
+            },
+            "description": "Liệu cô có biết rõ the Sun như nó vốn đã như thế?"
+        }
+    ]
+}

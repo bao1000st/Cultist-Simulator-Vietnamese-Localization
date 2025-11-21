@@ -1,0 +1,151 @@
+{
+    "elements": [
+        {
+            "id": "memorybittersweet",
+            "label": "Ký Ức Ngọt Bùi",
+            "description": "Tôi có thể gợi lại về một khoảng thời gian phức tạp.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memorypleasant",
+            "label": "Ký Ức Vui Vẻ",
+            "description": "Tôi có thể gợi lại về một khoảng thời gian còn hạnh phúc.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memorypassionate",
+            "label": "Ký Ức Say Đắm",
+            "description": "Tôi có thể gợi lại về một khoảng thời gian còn ấm áp.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memory.shameful",
+            "label": "Một Điều Xấu Hổ",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Không phải mọi thú vui riêng tư đều thích hợp để thảo luận công khai.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.profitable",
+            "label": "Một Điều Có Lợi",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Một tia sáng thương mại; một cơ hội thu nhỏ; một tờ tiền theo nghĩa bóng năm bảng Anh trên vỉa hè.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.joyful",
+            "label": "Một Điều Vui Sướng",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Niềm vui vốn chẳng tồn tại được lâu, nhưng đôi khi, nó tồn tại lâu hơn cả chúng ta.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.menacing",
+            "label": "Một Điều Đe Dọa",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Sự nhân từ to lớn của những giấc mơ là nó không thường xuyên xâm phạm vào thế giới thức giấc.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.unexpected",
+            "label": "Một Điều Bất Ngờ",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Mọi cuộc sống đều có những ngã rẽ không từng của nó.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.furious",
+            "label": "Ký Ức Giận Dữ",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Đã lâu sau khi nguyên do cho cơn thịnh nộ đã trôi qua, một cơn thịnh nộ nữa tồn tại. Đây là ký ức của một sai lầm được thực hiện từ trước khi sắt được chế ngự. [Vẽ với Ký Ức này để mang nó đến sự nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.luxurious",
+            "label": "Ký Ức Xa Hoa",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Niềm vui, giống như biển vậy, thật cổ xưa; niềm vui, giống như biển vậy, đi trước những linh hồn con người có ý thức; nhưng cũng giống như biển vậy, niềm vui cứ khác nhau trong mỗi lứa tuổi, trong mỗi kim giờ. [Vẽ với Ký Ức này để mang nó đến sự nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.liminal",
+            "label": "Ký Ức Tương Đồng",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "'Mỗi người trong chúng ta đều có ký ức về một khoảnh khắc khi mọi thứ thay đổi mãi mãi, mặc dù vào thời điểm đó chúng ta không bao giờ biết được điều đó. Có lẽ thế giới này cũng có những kỷ niệm đó.' [Vẽ với Ký Ức này để mang nó đến sự nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.horizon",
+            "label": "Ký Ức Huy Hoàng",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Mặt Trời ấm hơn một lần - không dù rực rỡ không hơn, nhưng cái chạm của nó thôi cũng là lòng thương xót. [Vẽ với Ký Ức này để mang nó đến sự nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.splendid",
+            "label": "Ký Ức Lộng Lẫy",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Mặt Trời đã sáng hơn một lần - dù không ấm áp hơn, nhưng ánh sáng của nó nắm giữ sắc màu mà ta chẳng còn nhìn thấy được nữa. [Vẽ với Ký Ức này để mang nó đến sự nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.endless",
+            "label": "Ký Ức Vô Tận",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Có một Wheel chỉ biết quay bên dưới the Moon, nơi đó nó từng quay dưới the Sun. Nhưng tại sao lại chỉ có một? Tại sao lại chỉ có hai? [Vẽ với Ký Ức này để mang lại cho nó để nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.wildering",
+            "label": "Ký Ức Hoang Mang",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Đôi khi chúng ta nhớ những gì đã mất ngay cả khi chúng ta đã quên rằng nó đã biến mất. [Vẽ với Ký Ức này để mang lại cho nó để nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.golden",
+            "label": "Ký Ức Quý Báu",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Trong ngọn lửa chính là tất cả mọi châu báu được lộ ra của trái đất. [Vẽ với Ký Ức này để mang lại cho nó để nhận thức đầy đủ.]"
+        },
+        {
+            "id": "memory.honeyed",
+            "label": "Ký Ức Ngọt Ngào",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Khi chúng tôi bước đi trong những con đường gỗ, lòng chúng tôi vừa canh cánh vừa thao thức, chúng tôi còn chẳng cần đến rượu ngon. [Vẽ với Ký Ức này để mang lại cho nó để nhận thức đầy đủ.]"
+        }
+    ]
+}

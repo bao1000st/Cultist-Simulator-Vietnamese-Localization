@@ -1,0 +1,117 @@
+{
+    "verbs": [
+        {
+            "id": "work",
+            "label": "Làm Việc",
+            "description": "Kiếm sống, hoặc thực hành loại nghệ thực vô hình.",
+            "slot": {
+                "id": "work",
+                "label": "Làm Việc",
+                "description": "Việc gì đó mà tôi làm được; một cái gì mà tôi biết; hoặc điều gì đó là chính tôi.",
+                "required": {
+                    "ability": 1,
+                    "job": 1,
+                    "ritual": 1,
+                    "desire": 1,
+                    "benefactor": 1
+                },
+                "forbidden": {
+                    "reasonskill": 1
+                }
+            }
+        },
+        {
+            "id": "dream",
+            "label": "Nằm Mơ",
+            "description": "Nghỉ ngơi; Xem xét lại quyết định; hoặc liều mình khám phá vương quốc của giấc ngủ.",
+            "slot": {
+                "id": "dream",
+                "label": "Nằm Mơ",
+                "description": "Một phương hướng cho giấc mơ của tôi, hoặc một muộn phiền để tôi xua đi.",
+                "required": {
+                    "ability": 1,
+                    "desire": 1,
+                    "illhealth": 1,
+                    "way": 1,
+                    "funds": 1
+                }
+            }
+        },
+        {
+            "id": "study",
+            "label": "Nghiên Cứu",
+            "description": "Khai mở những trang sách và các điều quý báo khác.",
+            "slot": {
+                "id": "study",
+                "label": "Nghiên Cứu",
+                "description": "Nghệ thuật vô hình có thể cần đến mười đời người để nghiên cứu.",
+                "required": {
+                    "text": 1,
+                    "lore": 1,
+                    "ability": 1,
+                    "influence": 1,
+                    "tutor": 1,
+                    "language": 1,
+                    "legacyplotitem": 1
+                },
+                "forbidden": { "contentment": 1 },
+                }
+        },
+        {
+            "id": "talk",
+            "label": "Nói Chuyện",
+            "description": "Tra hỏi, đe dọa, đánh lừa, chỉ dẫn, chiêu mộ.",
+            "slot": {
+                "id": "talk",
+                "label": "Nói Chuyện",
+                "description": "Một đồng minh, một kẻ thù, hoặc là một thứ gì đó ở giữa.",
+                "required": {
+                    "mortal": 1,
+                    "summoned": 1,
+                    "patron": 1,
+                    "society": 1,
+                    "hq": 1,
+                    "lore": 1
+                },
+                "forbidden": {
+                    "wary": 1
+                }
+            }
+        },
+        {
+            "id": "explore",
+            "label": "Khám Phá",
+            "description": "Khám phá thành phố bằng Sức Khỏe hoặc Tông Đồ; khám phá các địa điểm; hhoặc điều tra những tiềm năng của kiến thức. Việc khám phá cũng rất khó đoán.",
+            "slot": {
+                "id": "explore",
+                "label": "Khám Phá",
+                "description": "Một nơi; một người; một vị trí; hoặc một bí mật nào đó.",
+                "required": {
+                    "health": 1,
+                    "follower": 1,
+                    "secrethistories": 1,
+                    "location": 1,
+                    "ghoul.hunger": 1
+                },
+                "forbidden": {
+                    "hireling": 1
+                }
+            }
+        },
+      {
+        "id": "time",
+        "label": "Thời Gian",
+        "description": "Cái bóng của đồng hồ mặt trời.",
+        "slot": {
+          "id": "time",
+          "label": "Time"
+        }
+      },
+      {
+        "id": "portal.mansus",
+        "label": "Cổng Mansus",
+        "description": "vật giao chuyển đến Mansus",
+        "icon": "map"
+      },
+    ]
+}

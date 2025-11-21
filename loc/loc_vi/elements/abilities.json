@@ -1,0 +1,832 @@
+{
+		"elements": [
+				{
+						"id": "hunger",
+						"label": "Đói Khát",
+						"aspects": {
+								"illhealth": 1,
+								"grail": 2,
+								"ingredient": 1
+						},
+						"slots": [
+								{
+										"id": "nourishment",
+										"label": "Thực Phẩm",
+										"actionid": "dream",
+										"description": "Để phục hồi, tôi phải ăn.",
+										"required": {
+												"funds": 1
+										}
+								}
+						],
+						"description": "Tôi cần nghỉ ngơi và bồi bổ, nếu muốn mình phục hồi. Nhưng một khi cái miệng bắt đầu thèm khát, khi tầm nhìn dần lảo đảo, tôi thấy một cái cốc màu đỏ; và đôi khi nó nói chuyện với tôi. [Nằm Mơ với Đói Khát trước khi thẻ bài phai tàn sẽ hồi phục Sức Khỏe.]",
+						"xtriggers": {
+								"restorehealth": "health",
+								"scar_ability": "scar_heart"
+						},
+						"lifetime": 60,
+						"decayTo": "decrepitude"
+				},
+				{
+						"id": "health",
+						"label": "Sức Khỏe",
+						"aspects": {
+								"heart": 2,
+								"ingredient": 1,
+								"ability": 1
+						},
+						"xtriggers": {
+								"damagehealth": "injury",
+								"fallsick": "affliction",
+								"destroyhealth": "decrepitude",
+								"fatiguing": "fatigue",
+								"employment": "fatigue",
+								"job": "fatigue",
+								"ritual": "fatigue",
+								"society": "fatigue",
+								"scar_ability": "scar_heart"
+						},
+						"description": "Đây là cơ thể của tôi. Dù có những cơ thể khác, nhưng thứ này vẫn là của chính tôi, và tâm trí tôi cần nó như một loại nấm cần đất. [với đủ Sinh Lực, bạn có thể tăng thêm Sức Khỏe.]",
+						"decayTo": "fatigue"
+				},
+				{
+						"id": "vitality",
+						"label": "Sinh Lực",
+						"slots": [
+								{
+										"id": "morevitality",
+										"label": "Thêm Sinh Lực",
+										"actionid": "study",
+										"description": "Với đủ Sinh Lực - hoặc đôi khi là thứ gì đó kỳ lạ hơn - tôi có thể tăng Sức Khỏe của mình.",
+										"required": {
+												"vitality": 1,
+												"influenceheart": 1
+										}
+								}
+						],
+						"aspects": {
+								"advancement": 1,
+								"heart": 1,
+								"influence": 1
+						},
+						"description": "Vận động, hoặc làm một việc gì đó hiếm thấy, đã tiếp thêm Sinh Lực cho tôi. [Sử dụng với Sinh Lực khác để cải thiện khả năng. Thẻ chỉ kéo dài 3 phút, nếu không sử dụng.]",
+						"xtriggers": {
+								"upgradeinfluence": "influenceheartc"
+						},
+						"lifetime": 180
+				},
+				{
+						"id": "vitalityplus",
+						"label": "Sinh Lực: Bài Học Kinh Nghiệm ",
+						"aspects": {
+								"advancement": 1,
+								"heart": 2,
+								"influence": 1
+						},
+						"description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Sức Mạnh để cải thiện kỹ năng và tăng Sức Khỏe. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Sinh Lực.]",
+						"xtriggers": {
+								"upgradeinfluence": "influenceheartc"
+						},
+						"lifetime": 300,
+						"decayTo": "vitality"
+				},
+				{
+						"id": "restlessness",
+						"label": "Bồn Chồn",
+						"aspects": {
+								"influence": 1,
+								"forge": 2,
+								"heart": 2,
+								"grail": 2,
+								"lantern": 2,
+								"moth": 2,
+								"memory": 1
+						},
+						"description": "Một nỗi khao khát bồn chồn chiếm lấy tôi. Tôi cảm thấy rằng muốn làm ... <i> điều gì đó </i>. Nhưng chính xác là gì?",
+						"lifetime": 60,
+						"decayTo": "dread",
+						"burnTo": "preglimmering"
+				},
+				{
+						"id": "bloodshed",
+						"label": "Đổ Máu",
+						"description": "Máu đã đổ ra.",
+						"lifetime": 1
+				},
+				{
+						"id": "injury",
+						"label": "Chấn Thương",
+						"aspects": {
+								"illhealth": 1,
+								"knock": 2,
+								"ingredient": 1
+						},
+						"slots": [
+								{
+										"id": "medicines",
+										"label": "Dược Phẩm, hoặc...",
+										"actionid": "dream",
+										"description": "Tôi có lẽ cần phải trả phí cho một chuyến khám bệnh...",
+										"required": {
+												"funds": 1
+										}
+								},
+								{
+										"id": "vitality",
+										"label": "...Sinh Lực",
+										"description": "...nhưng có lẽ tôi chỉ cần nghỉ ngơi một chút.",
+										"required": {
+												"vitality": 1
+										},
+										"actionid": "dream"
+								}
+						],
+						"description": "Tôi cần nghỉ ngơi và bồi bổ, nếu muốn mình hồi phục. Nhưng Mẹ Kiến lại luôn nhìn vết thương một cách hiền hậu. [Nằm Mơ với Chấn Thương trước khi thẻ bài này phai tàn sẽ hồi phục Sức Khỏe.]",
+						"xtriggers": {
+								"restorehealth": "health",
+								"scar_ability": "scar_heart"
+						},
+						"lifetime": 150,
+						"decayTo": "decrepitude"
+				},
+				{
+						"id": "disillusionment",
+						"label": "Đam Mê (Vỡ Mộng)",
+						"description": "Tôi đã đi ngược lại nguyên tắc, hoặc sở thích của chính mình. [Không được phép dùng thẻ bài này, nhưng nó sẽ hồi phục sau 60 giây.]",
+						"lifetime": 60,
+						"decayTo": "passion",
+						"icon": "passion",
+						"xtriggers": {
+								"scarability": "scar_moth",
+								"toreason": "concentration",
+								"damagepassion": "fascination"
+						},
+						"aspects": { "exhausted.passion": 1 },
+						"resaturate": true
+				},
+				{
+						"id": "passionexhausted",
+						"label": "Đam Mê (Kiệt Quệ)",
+						"description": "Những Đam Mê của tôi đang lụi tàn. [Không được phép dùng thẻ bài này, nhưng nó sẽ hồi phục sau 60 giây.]",
+						"lifetime": 60,
+						"decayTo": "passion",
+						"icon": "passion",
+					  "xtriggers": {
+							"scarability": "scar_moth",
+							"toreason": "concentration",
+							"damagepassion": "fascination"
+					  },
+						"aspects": { "exhausted.passion": 1 },
+						"resaturate": true
+				},
+			  {
+				"id": "fatigue",
+				"label": "Sức Khỏe (Suy Nhược)",
+				"aspects": {
+					"illhealth": 1,
+					"heart": 1
+				},
+				"description": "Không được phép dùng thẻ bài này, nhưng nó sẽ hồi phục sau 60 giây. Tôi có thể hồi phục nó nhanh hơn bằng cách Nằm Mơ.",
+				"xtriggers": {
+					"restorehealth": "health",
+					"damagehealth": "injury",
+					"destroyhealth": "decrepitude",
+					"fallsick": "affliction",
+					"scarability": "scar_heart"
+				},
+				"lifetime": 60,
+				"decayTo": "health",
+				"icon": "health",
+				"resaturate": true
+			},
+				{
+						"id": "affliction",
+						"label": "Căn Bệnh",
+						"aspects": {
+								"illhealth": 1,
+								"winter": 2,
+								"ingredient": 1
+						},
+						"xtriggers": {
+								"restorehealth": "health",
+								"scarability": "scar_heart"
+						},
+						"slots": [
+							{
+								"id": "medicine",
+								"label": "Dược Phẩm, hoặc...",
+								"actionid": "dream",
+								"description": "Tôi có lẽ cần phải trả phí cho một chuyến khám bệnh...",
+								"required": {
+									"funds": 1
+								}
+							},
+								{
+										"id": "vitality",
+								    "label": "...Sinh Lực",
+										"actionid": "dream",
+										"description": "...nhưng có lẽ tôi chỉ cần nghỉ ngơi một chút.",
+										"required": {
+												"vitality": 1
+										}
+								}
+						],
+						"description": "Bệnh tật đã làm tôi yếu ớt. Tôi cần nghỉ ngơi và bồi bổ, nếu muốn mình hồi phục. [Nằm Mơ với Đau Đớn để biến đổi nó trở lại thành Sức Khỏe, trước khi thẻ bài phai tàn.]",
+						"lifetime": 180,
+				    "decayTo": "decrepitude"
+				},
+        {
+            "id": "reason",
+            "label": "Lý Trí",
+            "aspects": {
+                "lantern": 2,
+                "ingredient": 1,
+                "ability": 1
+            },
+            "description": "'Không một sinh vật sống nào có thể tồn tại một cách tinh táo mãi trong những điều kiện của thực tại tuyệt đối. ' - Shirley Jackson \n \n [Với Uyên Bác, bạn có thể Nghiên Cứu để tăng thêm Lý Trí.]",
+            "xtriggers": {
+                "damagereason": "dread",
+                "fatiguing": "concentration",
+                "employment": "concentration",
+                "job": "concentration",
+                "topassion": "passion",
+                "ritual": "concentration",
+                "society": "concentration",
+                "scarability": "scar_lantern"
+            },
+            "decayTo": "concentration"
+        },
+				{
+						"id": "concentration",
+						"label": "Lý Trí [Lu Mờ]",
+						"description": "Tâm trí tôi đang rất mệt mỏi. [Không được phép dùng thẻ bài này, nhưng nó sẽ hồi phục sau 60 giây.]",
+						"lifetime": 60,
+						"decayTo": "reason",
+						"icon": "reason",
+						"xtriggers": {
+								"scarability": "scar_lantern",
+								"topassion": "passionexhausted",
+								"damagereason": "dread"
+						},
+						"resaturate": true
+				},
+				{
+						"id": "erudition",
+						"label": "Uyên Bác",
+						"slots": [
+								{
+										"id": "moreerudition",
+										"label": "Thêm Uyên Bác",
+										"actionid": "study",
+										"description": "Với đủ Uyên Bác - hoặc đôi khi là thứ gì đó kỳ lạ hơn - Tôi có thể tăng Lý Trí của mình.",
+										"required": {
+												"erudition": 1,
+												"influencelantern": 1
+										}
+								}
+						],
+						"aspects": {
+								"advancement": 1,
+								"lantern": 1,
+								"influence": 1
+						},
+						"description": "Tôi thấm nhuần kiến thức tựa như bóng tối hấp thụ ánh sáng. Có lẽ tôi đang rất gần với một bậc thang mới. [Uyên Bác có thể được dùng với Nghiên Cứu để thu được Lý Trí. Thẻ chỉ kéo dài 3 phút, nếu không được sử dụng.]",
+						"lifetime": 180,
+						"xtriggers": {
+								"upgradeinfluence": "influencelanternc"
+						}
+				},
+				{
+						"id": "eruditionplus",
+						"label": "Uyên Bác: Bài Học Kinh Nghiệm",
+						"aspects": {
+								"advancement": 1,
+								"lantern": 2,
+								"influence": 1
+						},
+						"description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Thông Thái để cải thiện kỹ năng và tăng Lý Trí. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Uyên Bác.]",
+						"lifetime": 300,
+						"xtriggers": {
+								"upgradeinfluence": "influencelanternc"
+						},
+						"decayTo": "erudition"
+				},
+				{
+						"id": "dread",
+						"label": "Kinh Sợ",
+						"aspects": {
+								"edge": 2,
+								"inducesdespair": 1,
+								"influence": 1,
+								"illhealth": 1,
+								"memory": 1
+						},
+						"slots": [
+                {
+                    "id": "reminders",
+                    "label": "Nhắc Nhở",
+                    "actionid": "dream",
+                    "required": {
+                        "contentment": 1
+                    },
+                    "description": "Tôi cần một chút bình yên, hay một khoảnh khắc hạnh phúc. [Quá nhiều Kinh Sợ sẽ phá hủy bạn. Mãn Nguyện có thể chữa khỏi nó.]"
+                },
+								{
+										"id": "with",
+										"label": "Với",
+										"description": "Có lẽ tôi có thể dùng Kinh Sợ của mình để củng cố một ảnh hưởng nguy hiểm nào đó.",
+										"required": {
+												"influenceedge": 1,
+												"influencewinter": 1
+										},
+										"actionid": "study"
+								},
+								{
+										"id": "knowledge",
+										"label": "Kiến Thức",
+										"description": "Tôi phải hiểu các ảnh hưởng đang tác động, nếu tôi muốn củng cố hoặc phá vỡ chúng. [Bạn cần có một nền tảng vững chắc về giáo lý liên quan.]",
+										"required": {
+												"fragmentedgec": 1,
+												"fragmentedged": 1,
+												"fragmentedgee": 1,
+												"fragmentedgef": 1,
+												"fragmentedgeg": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"description": "Tôi đã thấy quá nhiều. Một nỗi sợ hãi gặm nhấm không tên đã cắn nát hi vọng của tôi; Một nỗi kinh hoàn hiện sinh.",
+						"lifetime": 180,
+						"xtriggers": {
+								"upgradeinfluence": "influenceedgec",
+								"glorify": "fascination"
+						}
+				},
+        {
+            "id": "passion",
+            "label": "Đam Mê",
+            "aspects": {
+                "moth": 2,
+                "ingredient": 1,
+                "ability": 1
+            },
+            "description": "'Trí tuệ đần độn không bao giờ có trực giác hoặc tính toán.' - Blaise Pascal\n\n[Với đủ Ánh Sáng Le Lói, bạn có thể Nghiên Cứu để tăng thêm Đam Mê.]",
+            "xtriggers": {
+                "damagepassion": "fascination",
+                "plead": "disillusionment",
+                "fatiguing": "passionexhausted",
+                "employment": "passionexhausted",
+                "job": "passionexhausted",
+                "toreason": "reason",
+                "ritual": "passionexhausted",
+                "society": "passionexhausted"
+            },
+            "decayTo": "passion"
+        },
+				{
+						"id": "decrepitude",
+						"label": "Suy Yếu",
+						"description": "Một số vết thương sẽ chẳng bao giờ lành hẳn. [Chấn Thương không được xử lý và Đói Khát sẽ trở thành Suy Yếu, và không thể trở lại thành Sức Khỏe. Suy Yếu sẽ kéo dài cho đến khi chết.]",
+						"aspects": {
+								"ability": 1,
+								"winter": 1,
+								"remnant": 1
+						},
+						"xtriggers": {
+								"tohealth": "health",
+								"alzabo": "memory.honeyed"
+						},
+						"slots": [
+								{
+										"id": "consume",
+										"label": "Tiêu Thụ",
+										"required": {
+												"ingredient": 1
+										},
+										"forbidden": {
+												"poison": 1
+										},
+										"actionid": "dream"
+								}
+						]
+				},
+        {
+            "id": "glimmering",
+            "label": "Ánh Sáng Le Lói",
+            "slots": [
+                {
+                    "id": "moreglimmering",
+                    "label": "Thêm Ánh Sáng Le Lói",
+                    "actionid": "study",
+                    "description": "Với đủ Ánh Sáng Le Lói - hoặc đôi khi là thứ gì đó kỳ lạ hơn - Tôi có thể tăng Đam Mê của mình.",
+                    "required": {
+                        "glimmering": 1,
+                        "influencemoth": 1
+                    }
+                }
+            ],
+            "aspects": {
+                "advancement": 1,
+                "moth": 1,
+                "influence": 1
+            },
+            "description": "Cảm xúc của tôi tăng cao hơn bình thường. Có những điều tôi sẽ không bao giờ hiểu, và những điều đó sẽ luôn quý giá với tôi, nhưng bây giờ tôi đã gần với chúng hơn. [Ánh Sáng Le Lói có thể được dùng với Nghiên Cứu để thu được Đam Mê. Thẻ chỉ kéo dài 3 phút, nếu không được sử dụng.]",
+            "lifetime": 180,
+            "xtriggers": {
+                "upgradeinfluence": "influencemothc"
+            }
+        },
+        {
+            "id": "glimmeringplus",
+            "label": "Ánh Sáng Le Lói: Bài Học Kinh Nghiệm",
+            "aspects": {
+                "advancement": 1,
+                "moth": 2,
+                "influence": 1
+            },
+            "description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Tưởng Tượng để cải thiện kỹ năng và tăng Đam Mê. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Ánh Sáng Le Lói.]",
+            "lifetime": 300,
+            "xtriggers": {
+                "upgradeinfluence": "influencemothc"
+            },
+            "decayTo": "glimmering"
+        },
+				{
+						"id": "fascination",
+						"label": "Mê Hoặc",
+						"aspects": {
+								"moth": 2,
+								"illhealth": 1,
+								"influence": 1,
+								"memory": 1
+						},
+						"slots": [
+								{
+										"id": "reminders",
+										"label": "Nhắc Nhở",
+										"required": {
+												"dread": 1,
+												"fleeting": 1
+										},
+										"actionid": "dream",
+										"description": "Thực tại xám xịt sẽ giúp tôi trấn định tâm hồn."
+								},
+                {
+                    "id": "with",
+                    "label": "Với",
+                    "description": "Có lẽ tôi có thể dùng Mê Hoặc của mình để củng cố một ảnh hưởng cám dỗ nào đó.",
+                    "required": {
+                        "influencemoth": 1,
+                        "influencelantern": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Kiến Thức",
+                    "description": "Tôi phải hiểu các ảnh hưởng đang tác động, nếu tôi muốn củng cố hoặc phá vỡ chúng. [Bạn cần có một nền tảng vững chắc về giao lý liên quan.]",
+                    "required": {
+                        "fragmentmothc": 1,
+                        "fragmentmothd": 1,
+                        "fragmentmothe": 1,
+                        "fragmentmothf": 1,
+                        "fragmentmothg": 1
+                    },
+                    "actionid": "study"
+                }
+						],
+						"description": "Tia sáng LEN LỎI qua NHỮNG VẾT NỨT. Tâm trí tôi BỪNG SÁNG hơn bao giờ hết. CÀNG VƯƠN CAO TÔI CÀNG THẤY ĐƯỢC NHIỀU ĐIỀU.",
+						"lifetime": 180,
+						"xtriggers": {
+								"upgradeinfluence": "influencemothc"
+						}
+				},
+				{
+						"id": "scholarlatin",
+						"label": "Học Giả: Tiếng La Tinh",
+						"aspects": {
+								"language": 1
+						},
+						"slots": [
+								{
+										"id": "Text",
+										"label": "Văn Bản Chưa Được Dịch",
+										"required": {
+												"textlatin": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"description": "Một ngôn ngữ chết: chết như viên kim cương. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"unique": true
+				},
+        {
+            "id": "scholarfucine",
+            "label": "Học Giả: Tiếng Fucine",
+            "aspects": {
+                "language": 1
+            },
+            "slots": [
+                {
+                    "id": "Text",
+                    "label": "Văn Bản Chưa Được Dịch",
+                    "required": {
+                        "textfucine": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "description": "Một tộc người đã từng sinh sống ở phía đông hồ Fucino quên lãng. Horace từng cảnh báo rằng đó là vùng đất của bọn phù thủy. Đây là ngôn ngữ của họ, một số thì gọi nó là 'Tiếng khô héo' và số khác thì gọi là 'Tiếng phù thủy'.[Một số sách phải được dịch trước khi có thể đọc được.]",
+            "unique": true
+        },
+				{
+						"id": "scholargreek",
+						"label": "Học Giả: Tiếng Hy Lạp",
+						"aspects": {
+								"language": 1
+						},
+						"slots": [
+								{
+										"id": "Text",
+										"label": "Văn Bản Chưa Được Dịch",
+										"required": {
+												"textgreek": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"description": "Không nghi ngờ gì khi nói rằng bạn thông thạo mọi loại tiếng Hy Lạp, từ ban đầu cho đến tận Byzantium. Nhưng cũng thật tốt khi có những tác phẩm tham khảo đó. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"unique": true
+				},
+				{
+						"id": "scholarphrygian",
+						"label": "Học Giả: Tiếng Phrygian",
+						"slots": [
+								{
+										"id": "Text",
+										"label": "Văn Bản Chưa Được Dịch",
+										"required": {
+												"textphrygian": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"aspects": {
+								"language": 1
+						},
+						"description": "Người Phrygian tôn thờ Mẹ vĩ đại, người mà chúng ta gọi là Thánh Chén. Vùng đất của họ là nơi lập nên Hội Chị Em Nút Thắt, và đây là thứ tiếng mà Thần Bọc Sấm đã khẩn cầu, lúc thăng thiên. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"unique": true
+				},
+        {
+            "id": "scholararamaic",
+            "label": "Học Giả: Tiếng Aram",
+            "slots": [
+                {
+                    "id": "Text",
+                    "label": "Văn Bản Chưa Được Dịch",
+                    "required": {
+                        "textaramaic": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "aspects": {
+                "language": 1
+            },
+            "description": "Ngôn ngữ của người Aram, và của tất cả vô số hậu duệ của nó suốt hơn ba ngàn năm qua. [Một số sách phải được dịch trước khi có thể đọc được.]",
+            "unique": true
+        },
+        {
+            "id": "scholarmandaic",
+            "label": "Học Giả: Tiếng Mandaic Sâu",
+            "slots": [
+                {
+                    "id": "Text",
+                    "label": "Văn Bản Chưa Được Dịch",
+                    "required": {
+                        "textmandaic": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "aspects": {
+                "language": 1
+            },
+            "description": "Ký tự bí mật nhất của những nghi lễ thâm sâu nhất thuộc các giáo phái ẩn sâu trong lòng sa mạc. Người ta quả quyết rằng đây chính là tiếng mẹ đẻ của Mẹ Kiến. [Một số sách phải được dịch trước khi có thể đọc được.]",
+            "unique": true
+        },
+				{
+						"id": "scholarsanskrit",
+						"label": "Học Giả: Tiếng Phạn",
+						"slots": [
+								{
+										"id": "Text",
+										"label": "Văn Bản Chưa Được Dịch",
+										"required": {
+												"textsanskrit": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"aspects": {
+								"language": 1
+						},
+						"description": "Thứ tiếng thần thánh từ tiểu lục địa. Cánh cửa của bốn nghìn năm thơ ca, lễ giáo và bí ẩn giờ đây sẽ mở ra trước mắt, nếu như bạn có thể vùng vẫy vượt qua tầng tầng cánh sen trong từ vựng của nó. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"unique": true
+				},
+				{
+						"id": "scholarvak",
+						"label": "Học Giả: Tiếng Vak",
+						"slots": [
+								{
+										"id": "Text",
+										"label": "Văn Bản Chưa Được Dịch",
+										"required": {
+												"textvak": 1
+										},
+										"actionid": "study"
+								}
+						],
+						"aspects": {
+								"language": 1
+						},
+						"description": "Trước khi các vị thần sinh ra từ máu, trước khi loài vượn đứng thẳng bằng hai chân, đây là ngôn ngữ được nghe thấy trong Ngôi Nhà Mặt Trời. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"unique": true
+				},
+        {
+            "id": "fleeting",
+            "label": "Hồi Ức Thoáng Qua",
+            "description": "Một khoảnh khắc ngắn ngủi. Chỉ một khắc nữa thôi, nó sẽ biến mất.",
+            "aspects": {
+                "secrethistories": 2,
+                "moth": 2,
+                "influence": 1,
+                "memory": 1
+            },
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "Với",
+                    "description": "Có lẽ tôi có thể tìm thấy thứ gì đó trong ký ức của mình để củng cố một ảnh hưởng nhất thời.",
+                    "required": {
+                        "influencemoth": 1,
+                        "influencelantern": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Kiến Thức",
+                    "description": "Tôi phải hiểu các ảnh hưởng đang tác động, nếu tôi muốn củng cố hoặc phá vỡ chúng. [Bạn cần có một nền tảng vững chắc về giáo lý liên quan.]",
+                    "required": {
+                        "fragmentmothc": 1,
+                        "fragmentmothd": 1,
+                        "fragmentmothe": 1,
+                        "fragmentmothf": 1,
+                        "fragmentmothg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "lifetime": 120,
+            "xtriggers": {
+                "upgradeinfluence": "influencemothc"
+            }
+        },
+        {
+            "id": "contentment",
+            "label": "Thỏa Mãn",
+            "aspects": {
+                "lantern": 2,
+                "heart": 2,
+                "influence": 1
+            },
+            "description": "Tôi thực sự hạnh phúc, tôi nghĩ vậy. [Thỏa Mãn giúp bảo vệ chống lại Kinh Sợ; Nhưng Thỏa Mãn sẽ không kéo dài mãi.]",
+            "slots": [
+                {
+                    "id": "with",
+                    "label": "Cùng Với",
+                    "description": "Có lẽ tôi có thể sử dụng sự Thỏa Mãn của mình để củng cố mối ảnh hưởng tích cực.",
+                    "required": {
+                        "influencelantern": 1,
+                        "influenceheart": 1,
+                        "influencewinter": 1,
+                        "influenceforge": 1
+                    },
+                    "actionid": "study"
+                },
+                {
+                    "id": "knowledge",
+                    "label": "Kiến Thức",
+                    "description": "Tôi phải hiểu rõ những mối ảnh hưởng trong công việc, nếu tôi muốn củng cố hoặc phá vỡ chúng. [Bạn sẽ cần một nền tảng vững chắc với giáo lý liên quan.]",
+                    "required": {
+                        "fragmentheartc": 1,
+                        "fragmentheartd": 1,
+                        "fragmenthearte": 1,
+                        "fragmentheartf": 1,
+                        "fragmentheartg": 1
+                    },
+                    "actionid": "study"
+                }
+            ],
+            "lifetime": 60,
+            "xtriggers": {
+                "project_influence_upgrade_lantern": "influencelantern",
+                "project_influence_subvert_mothtolantern": "influencelantern",
+
+                "project_influence_upgrade_heart": "influenceheart",
+                "project_influence_subvert_wintertoheart": "influenceheart",
+
+                "upgradeinfluence": "influenceheartc",
+                "project_influence_subvert_lanterntoforge": "influenceforge",
+                "project_influence_subvert_hearttograil": "influenceheart"
+            }
+        },
+				{
+						"id": "scar_edge",
+						"label": "Vết Sẹo: Trải Nghiệm Tàn Bạo",
+						"description": "FAUSTUS: Ta nghĩ rằng Địa Ngục chỉ là chuyện thần thoại. MEPHISTOPHILIS: Phải, cứ nghĩ vậy đi, Cho đến khi trải nghiệm thay đổi suy nghĩ đó của ngươi. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+						"aspects": {
+								"tool": 1,
+								"edge": 4,
+								"scar": 1
+						}
+				},
+				{
+						"id": "scar_knock",
+						"label": "Vết Sẹo: Rò Đã Lành Hẳn",
+						"description": "Không phải mọi cánh cửa đều là vết thương; Nhưng mọi vết thương đều là cánh cửa. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+						"aspects": {
+								"tool": 1,
+								"knock": 4,
+								"scar": 1
+						}
+				},
+				{
+						"id": "scar_winter",
+						"label": "Vết Sẹo: Vết Thương Cũ",
+						"description": "Hãy bước lại gần về hoàng hôn, và chiêm ngưỡng những ngôi sao đầu tiền của màn đêm. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+						"aspects": {
+								"tool": 1,
+								"winter": 4,
+								"scar": 1
+						}
+				},
+        {
+            "id": "scar_heart",
+            "label": "Vết Sẹo: Con Tim Lang Thang",
+            "description": "Tôi có quá nhiều sinh lực trong người. Thật khó để không cử động. Khi tôi ngồi, các khớp xương như cháy lên. Tôi đã biết rằng nếu tôi dừng lại, tôi có thể phải dừng lại mãi mãi. [Bạn đã hi sinh vĩnh viễn để có sức mạnh. Hãy cẩn thận: không như Sức Khỏe, thẻ này sẽ không đáp ứng được Bệnh Tật và Chết Đói.]",
+            "aspects": {
+                "tool": 1,
+                "heart": 4,
+                "scar": 1
+            },
+            "xtriggers": {
+                "job": "scar_heart_fatigued",
+                "employment": "scar_heart_fatigued",
+                "ritual": "scar_heart_fatigued"
+            }
+        },
+				{
+						"id": "scar_heart_fatigued",
+						"label": "Vết Sẹo: Con Tim Lang Thang (Kiệt Sức)",
+						"description": "Động mạch của tôi giật mạnh, tĩnh mạch của tôi bỏng rát. Tôi không thể thúc đẩy bản thân hơn nữa. [Đợi.]",
+						"decayTo": "scar_heart",
+						"lifetime": 60,
+						"resaturate": true
+				},
+				{
+						"id": "scar_moth",
+						"label": "Vết Sẹo: Khía Cạnh Linh Hoạt",
+						"description": "Tôi đã khoác lên mình rất nhiều bộ cánh. Với mỗi bộ cánh mới, thật khó để có thể nhớ lại khuôn mặt ban đầu của mình. Ngay cả xương sụn cũng mềm đi khi tôi nổi nóng. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+						"aspects": {
+								"tool": 1,
+								"moth": 4,
+								"scar": 1
+						},
+						"xtriggers": {
+								"job": "scar_moth_fatigued",
+								"employment": "scar_moth_fatigued",
+								"ritual": "scar_moth_fatigued"
+						}
+				},
+				{
+						"id": "scar_moth_fatigued",
+						"label": "Vết Sẹo: Khía Cạnh Linh Hoạt (Kiệt Sức)",
+						"description": "Với mỗi ngụy trang mới, diện mạo của tôi dần trôi đi như dòng nước. Nếu tôi không cẩn thận, tôi sẽ hoàn toàn tan biến. [Đợi.]",
+						"decayTo": "scar_moth",
+						"lifetime": 60,
+						"resaturate": true
+				},
+        {
+            "id": "scar_lantern",
+            "label": "Vết Sẹo: Sự Trong Mờ",
+            "description": "Giờ đây tôi thật đẹp đẽ ngay dưới lớp da. Khi tôi xoay người đúng góc độ – khi y phục tôi rủ xuống – khi con mắt đủ tinh tường – hình hài tôi là một sự phô bày hoàn hảo. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+            "aspects": {
+                "tool": 1,
+                "lantern": 4,
+                "scar": 1
+            }
+        }
+		]
+}

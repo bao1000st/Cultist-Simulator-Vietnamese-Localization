@@ -1,0 +1,299 @@
+{
+    "recipes": [
+        {
+            "id": "studylatintutoring",
+            "label": "Học Tiếng Latinh Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "tutorlatin": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Chi Phí",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studylatintutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Nếu mà tôi cần học tiếng Latinh, đây là người sẽ giúp được tôi; nhưng tôi cần phải trả bằng spintriae, loại tiền tệ của thế giới ngầm.",
+            "description": "Gia sư chẳng làm không công đâu. Lần khác đi.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studylatintutoringpaid",
+            "label": "Học Tiếng Latinh Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarlatin": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Nhiêu đây chắc vừa đủ. Tôi phải nghe thật cẩn thận.",
+            "description": "Thứ ngôn ngữ của Lucretius' 'Về bản chất của vạn vật', của Aquinas' 'Nhà thần học Summa', và của kẻ khét tiếng 'De Horis...'"
+        },
+        {
+            "id": "studygreektutoring",
+            "label": "Học Tiếng Hy Lạp Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "tutorgreek": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Chi Phí",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studygreektutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Nếu mà tôi cần học tiếng Hy Lạp, đây là người sẽ giúp được tôi; nhưng tôi cần phải trả bằng spintriae, loại tiền tệ của thế giới ngầm.",
+            "description": "Gia sư chẳng làm không công đâu. Lần khác đi.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studygreektutoringpaid",
+            "label": "Học Tiếng Hy Lạp Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholargreek": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Nhiêu đây chắc vừa đủ. Tôi phải nghe thật cẩn thận.",
+            "description": "Thứ ngôn ngữ của Siêu Hình Học, của Procopius' 'Lịch Sử Bí Mật', và của sự đe dọa 'Về thứ được chứa bởi Bạc'..."
+        },
+        {
+            "id": "studyaramaictutoring",
+            "label": "Học Tiếng A-Ram Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "tutoraramaic": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Chi Phí",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyaramaictutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Nếu mà tôi cần học tiếng A-Ram, đây là người sẽ giúp được tôi; nhưng tôi cần phải trả bằng spintriae, loại tiền tệ của thế giới ngầm.",
+            "description": "Gia sư chẳng làm không công đâu. Lần khác đi.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyaramaictutoringpaid",
+            "label": "Học Tiếng A-Ram Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholararamaic": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Nhiêu đây chắc vừa đủ. Tôi phải nghe thật cẩn thận.",
+            "description": "Thứ ngôn ngữ của Ảo Tưởng A-ram, trong Quyển Sách Của Daniel, và trong sự Lý Giải Của Kanishk tại Cửa Nhện."
+        },
+        {
+            "id": "studysanskrittutoring",
+            "label": "Học Tiếng Phạn Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "tutorsanskrit": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Chi Phí",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studysanskrittutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Nếu mà tôi cần học tiếng Phạn, đây là người sẽ giúp được tôi; nhưng tôi cần phải trả bằng spintriae, loại tiền tệ của thế giới ngầm.",
+            "description": "Gia sư chẳng làm không công đâu. Lần khác đi.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studysanskrittutoringpaid",
+            "label": "Học Tiếng Phạn Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarsanskrit": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Nhiêu đây chắc vừa đủ. Tôi phải nghe thật cẩn thận.",
+            "description": "Chiếc lưỡi thánh của Tiểu Lục Địa. Cánh cửa dẫn đến bốn ngàn năm thơ ca, lễ nghĩa và sự huyền bí."
+        },
+        {
+            "id": "studyfucinetutoringspirit",
+            "label": "Học Tiếng Fucine Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorfucine": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Lai Lịch",
+                    "required": {
+                        "scholarlatin": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyfucinetutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Tiếng Fucine à? Vâng, tôi có nhận được bằng dạy tiếng Fucine. Tôi có thể dạy cậu đấy, nếu mà cậu có sẵn tiếng Latinh làm nền tảng. Nhưng nếu mà tôi chỉ cần nghe một từ về chuyện 'lưỡi bọn phù thủy', thì chấm dứt học nhé.'",
+            "description": "Tôi chưa có nền tảng mà tôi cần.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyfucinetutoringsuccessful",
+            "label": "Học tiếng Fucine với Gia sư",
+            "actionid": "study",
+            "requirements": {
+                "scholarlatin": 1
+            },
+            "effects": {
+                "scholarfucine": 1
+            },
+            "startdescription": "Tiếng Latinh của tôi sẽ được làm nền tảng. Tôi sẽ học mọi thứ tôi có thể.",
+            "description": "Người ta không thể nói tiếng Fucine mãi mà không cần đến một ngụm nước. Ngôn ngữ này làm ta khô môi; nó làm khô quéo cả cổ họng. Nó chỉ có thể được nói bởi một người sống gần bờ hồ."
+        },
+        {
+            "id": "studyphrygiantutoringspirit",
+            "label": "Học Tiếng Phrygian Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorphrygian": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Nền tảng",
+                    "required": {
+                        "scholargreek": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyphrygiantutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Tiếng Phrygian! Ngôn ngữ của the Great Mother! Dĩ nhiên. Nếu tôi có đủ tiếng Hy Lạp, Tôi đảm bảo rằng trải nghiệm học Phrygian sẽ </i>rất</i> thú vị.'",
+            "description": "Tôi chưa có nền tảng mà tôi cần.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyphrygiantutoringsuccessful",
+            "label": "Học Tiếng Phrygian Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "scholargreek": 1
+            },
+            "effects": {
+                "scholarphrygian": 1
+            },
+            "startdescription": "Tiếng Hy Lạp của tôi sẽ được làm nền tảng. Tôi sẽ học mọi thứ tôi có thể.",
+            "description": "Herodotus kể một câu chuyện điên cuồng về một pharaoh, người đã khám phá ra rằng Phrygian là ngôn ngữ đầu tiền được con người sử dụng. Tất nhiên, ông ấy đã sai; đó chính là Vak. Nhưng có lẽ mọi người đều thích câu chuyện đó."
+        },
+        {
+            "id": "studymandaictutoringspirit",
+            "label": "Học Tiếng Mandaic Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "spirittutormandaic": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Nền tảng",
+                    "label": "Nền tảng",
+                    "required": {
+                        "scholararamaic": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studymandaictutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'CÙNG NHAU CHÚNG TA SẼ TRUY NHIỆM TIẾNG MẸ ĐẺ CỦA VỊ THẦN KHÔNG CHÁY.'",
+            "description": "Tôi không có nền tảng mà tôi cần.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studymandaictutoringsuccessful",
+            "label": "Học Tiếng Mandaic Với Gia Sư",
+            "actionid": "study",
+            "requirements": {
+                "scholararamaic": 1
+            },
+            "effects": {
+                "scholarmandaic": 1
+            },
+            "startdescription": "Tiếng A-Ram của tôi sẽ được làm nền tảng. Tôi sẽ học mọi thứ tôi có thể.",
+            "description": "Trong một dòng lịch sử, đây là thứ ngôn ngữ mà Vị Vua Vô Bóng dùng đến. Nói cách khác, nó chính là cơ sở cho câu thần chú từ hội Đứa Con Của Ngọn Lửa Dây Xích."
+        }
+    ]
+}

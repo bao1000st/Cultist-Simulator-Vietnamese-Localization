@@ -1,0 +1,178 @@
+
+{
+    "recipes": [
+        {
+            "id": "workbytjobstart",
+            "label": "Ngày Vàng Của Một Công Việc Không Thường Xuyên",
+            "actionid": "work",
+            "requirements": {
+                "legacybytjob": 1
+            },
+            "effects": {
+                "funds": 3,
+                "legacybytjob": -1,
+                "legacybytjobmatured": 1
+            },
+            "alt": [
+                {
+                    "id": "bytopenexplore",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Có lẽ hôm nay tôi sẽ hoàn thành đươck một việc gì đó.",
+            "description": "Mọi thứ đều rất trôi chảy. Mặc dù sức khỏe của Papa không hề có dấu hiệu cải thiện. [<b>Khám Phá</b> được mở.]",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "workbytjob",
+            "label": "Ngày Vàng Của Một Công Việc Công Việc Không Thường Xuyên",
+            "actionid": "work",
+            "requirements": {
+                "legacybytjobmatured": 1
+            },
+            "effects": {
+                "funds": 3
+            },
+            "alt": [
+                {
+                    "id": "workbytjobend",
+                    "chance": 30
+                }
+            ],
+            "startdescription": "Có lẽ hôm nay tôi sẽ hoàn thành đươck một việc gì đó.",
+            "description": "Mọi thứ đều rất trôi chảy. Mặc dù sức khỏe của Papa không hề có dấu hiệu cải thiện.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "workbytjobend",
+            "label": "Đám Mây Phía Chân Trời",
+            "actionid": "work",
+            "startdescription": "Papa đã gọi tôi! Tôi phải rấp rút chạy nhanh đến giường của ông. Mọi công việc của gia đình đều được tạm dừng, cho đến giờ - ",
+            "craftable": false,
+            "effects": {
+                "legacybytjobmatured": -1,
+                "funds": 2
+            },
+            "alt": [
+                {
+                    "id": "workbytjobepilogue",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "workbytjobepilogue",
+            "label": "Tin tức Ghastly",
+            "actionid": "legacyeventbad",
+            "alt": [
+                {
+                    "id": "bytopenstudy",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "health": 2,
+                "funds": 20
+            },
+            "startdescription": "Papa đã chết! chẳng có ai sẽ cho tôi biết chính xác như thế nào. Nhưng khối tài sản đang ở trước mắt. Tiền trợ cấp của tôi lại bị ràng buộc trong chứng thực di chúc và cứ như thế. Một người chỉ có thể mong rằng nó được giải quyết trước khi các hóa đơn đến hạn.",
+            "description": "Công việc kinh doanh liên quan đến di chúc đã được giải quyết ... nhưng công việc kinh doanh của Papa đã bị ăn sạch bởi nợ nần như những con mọt gỗ. Dường như không ai biết chính xác ông đã tiêu tiền vào việc gì. Nhưng luật sư đang gửi cho tôi một số giấy tờ nào đó, hình như vậy.",
+            "warmup": 60,
+            "craftable": false
+        },
+        {
+            "id": "bytopenexplore",
+            "label": "Thế Giới Của Những Khả Năng!",
+            "actionid": "explore",
+            "startdescription": "Một số kẻ thượng lưu đang giới thiệu với tôi về một số địa điểm giới thượng lưu.",
+            "description": "Nếu tôi có gặp khó khăn trong việc quyết định cách tiêu tiền của mình, những người tốt tại những thời điểm này chắc chắn có thể hộ trỡ tôi!",
+            "warmup": 10,
+            "effects": {
+                "locationauctionhouse": 1,
+                "locationcabaret": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "bytopenstudy",
+            "label": "Những Tờ Giấy Khó Hiểu",
+            "actionid": "study",
+            "startdescription": "Tôi sẽ nhận được số giấy tờ được tìm thấy trong đồ đạc của Papa, có lẽ nó có thể làm sáng tỏ một số thứ về việc tất cả số tiền thực sự đã biến mất ở chỗ quái quỷ nào rồi.",
+            "alt": [
+                {
+                    "id": "bytopendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "description": "Tôi đã nhận được số giấy tờ đó. Papa tội nghiệp. Hết trang này đến trang khác là những đường viết nguệch ngoạc trong tuyệt vọng về một ngôi nhà vô hình, về những màu sắc của giấc ngủ và những vị thần vô hình ẩn đằng sau thế giới ... nhưng bạn có biết không, tôi càng đọc tôi càng thấy nó - chà, chẳng 'có ý nghĩa' cả. Nó chẳng có nghĩa lý gì. Nhưng nó thực sự gắn kết với nhau. Và đây chính là nhật ký của Papa.",
+            "effects": {
+                "legacydiarylastcharacter": 1,
+                "lever_LastBook": 1
+            },
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "bytstudydiary",
+            "label": "Nghiên Cứu Quyển Nhật Ký Rắc Rối",
+            "actionid": "study",
+            "requirements": {
+                "legacydiarylastcharacter": 1
+            },
+            "alt": [
+                {
+                    "id": "bytopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "legacydiarylastcharacter": -1,
+                "reason": 1,
+                "fragmentgrail": 1
+            },
+            "startdescription": "Nhật ký của Papa. Đó là một quyển sách chứa đầy nỗi ám ảnh. Nhưng có lẽ nó sẽ giải thích được gì đó cho những sự kiện gần đây?",
+            "description": "Tên của # PREVIOUSCHARACTERNAME # xuất hiện lặp đi lặp lại trong những trang giấy này. Người đó là một 'đơn vị gen không tưởng', 'đài phun nước của tương lai' ... 'kẻ đã cắt mắt.' Và, ở trang cuối cùng, có một địa chỉ tương ứng và một cái tên.",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "bytopendream",
+            "label": "Ngôi Nhà Không Tường",
+            "actionid": "dream",
+            "alt": [
+                {
+                    "id": "despairrisk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Những dần giấc mơ bắt đầu. Papa đã từng kể về chúng, và ông nói rằng người cha của ông trước kia cũng đã rất rắc rối. Một thứ gì đó huyết quản của chúng tôi; một nỗi buồn cắn xé tâm hồn.",
+            "description": "Tôi mơ về một ánh sáng chói lòa, một mặt trời làm tuyết khô nhưng không làm tan chảy nó. Khi tôi tỉnh dậy, căn phòng tôi luôn lạnh lẽo.",
+            "warmup": 30,
+            "effects": {
+                "passion": 1,
+                "influencewinter": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "bytopentalk",
+            "label": "Gọi Người Lạ",
+            "actionid": "talk",
+            "startdescription": "Tôi đã liên hệ với cá nhân có tên trong đống tài liệu rắc rối này. Tôi có rất ít lý do để tin rằng người đó sẽ có thể khai sáng cho tôi về bản chất của những gì đã xảy ra trước đó. Nhưng có lẽ người đó sẽ có thể giúp đỡ về những gì sắp xảy ra.",
+            "description": "Người quen mới của tôi nói một cách đầy uy quyền về Papa. Ông biết rõ mình sắp chết. Ông đã hy vọng được nếm trải những thú vui chưa từng biết trước khi kết thúc - những thú vui vốn bị từ chối đối với xã hội lành mạnh. Người quen mới của tôi gợi ý rằng tôi có thể hoàn thành những gì ông ấy đã bắt đầu - và rằng nếu tôi làm như vậy, tôi có thể tự cứu mình khỏi nỗi tuyệt vọng đang ám ảnh gia đình tôi.",
+            "effects": {
+                "poppyready": 1,
+                "ascensionsensationa": 1
+            },
+            "warmup": 60,
+            "craftable": false
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "recipes": [
+        {
+            "id": "explore_movehq_hint",
+            "label": "Thay Đổi Mặt Bằng?",
+            "actionid": "explore",
+            "requirements": {
+                "hq.potential": 1
+            },
+            "startdescription": "Chúng ta có thể chuyển cơ sở hoạt động của mình đến đây, nếu chúng ta muốn.",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint_sending",
+            "label": "Bản Ngã Thứ Hai?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1,
+                "sending": 1
+            },
+            "startdescription": "Nếu cuộc viễn chinh này thành công, kẻ Là-tôi-nhưng-không-phải-tôi Sẽ ở đó để thực hiện Nghi Thức. [Nếu thành công, bạn sẽ gặt hái được những phần thưởng thông thường, và xúc tiến con đường Thay Đổi của bạn.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint_addfunds",
+            "label": "Chuẩn Bị Cho Viễn Chinh?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1,
+                "follower": 1
+            },
+            "startdescription": "Tôi tôi thêm ít nhất một Quỹ, tôi có thể bắt đầu cuộc Viễn Chinh. [Viễn Chinh cần ít nhất một Quỹ cho mỗi chướng ngại vật. Tông Đồ sẽ đánh bại chướng ngại vật. Nếu bạn hết Quỹ hoặc Tông Đồ, cuộc Viễn Chinh sẽ kết thúc.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint_addfollower",
+            "label": "Chuẩn Bị Cho Viễn Chinh?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1,
+                "funds": 1
+            },
+            "startdescription": "Nếu tôi có một Tông Đồ, tôi có thể bắt đầu cuộc Viễn Chinh. [Viễn Chinh cần ít nhất một Quỹ cho mỗi chướng ngại vật. Tông Đồ sẽ đánh bại chướng ngại vật. Nếu bạn hết Quỹ hoặc Tông Đồ, cuộc Viễn Chinh sẽ kết thúc.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explorevault_hint",
+            "label": "Chuẩn Bị Cho Viễn Chinh?",
+            "actionid": "explore",
+            "requirements": {
+                "vault": 1
+            },
+            "startdescription": "Tôi có thể gửi Viễn Chinh đến đây để tìm những quyển sách, kho báu, công cụ quyền lực. Nhưng tôi sẽ cần những Tông Đồ để gửi đi, và Quỹ để hỗ trợ họ.",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "exploresulochanacabaret_hint",
+            "label": "Hình Dạng Cũ Và Mới",
+            "actionid": "explore",
+            "requirements": {
+                "locationcabaret": 1,
+                "sulochana": 1
+            },
+            "startdescription": "[Nếu bạn có bản mở rộng Vũ Công, bạn có thể sử dụng kết hợp này để tìm việc làm tại câu lạc bộ Ecdlysis, và theo đuổi sự thăng thiên của Thay Đổi.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "explore.searchgraveyard.hint",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery": 1
+            },
+            "label": "Một Gián Đoạn?",
+            "startdescription": "Tôi cần phải triển khai sức mạnh của chính mình, hoặc là từ một người bạn.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "explore.searchgraveyard.closing.hint",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery.closing": 1
+            },
+            "label": "Một Gián Đoạn Thận Trọng?",
+            "startdescription": "Tôi cần phải triển khai sức mạnh của chính mình, hoặc là từ một người bạn.",
+            "craftable": false,
+            "hintonly": true
+        }
+    ]
+}

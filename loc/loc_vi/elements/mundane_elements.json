@@ -1,0 +1,118 @@
+{
+    "elements": [
+        {
+            "id": "rumour",
+            "label": "Lời Đồn Kỳ Dị",
+            "description": "Điều này có thể dẫn tôi đến gặp người tôi cần; hoặc nó có thể có ý nghĩa hoàn toàn khác. [Khám Phá với một lời đồn để theo dõi nó.]",
+            "aspects": {
+                "ingredient": 1,
+                "secrethistories": 1,
+                "moth": 1
+            },
+            "lifetime": 60
+        },
+        {
+            "id": "favour",
+            "label": "Đặc Ân Từ Chính Quyền",
+            "description": "Tôi đã học được vài thứ sẽ giúp tôi bắt được sự ủng hộ, dù chỉ một lần duy nhất. [Thẻ này sẽ bảo vệ bạn hoặc một Tông đồ khỏi bị giam cầm...nhưng không thể dựa vào nó mãi được.]",
+            "aspects": {
+                "suspicious": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "mistakenidentity",
+            "label": "Trường Hợp Nhầm Lẫn Danh Tính",
+            "aspects": {
+                "mortal": 1
+            },
+            "description": "Sau tất cả, đây chẳng phải là người mà bạn mong đợi. Người này chẳng có tầm quan trọng đặc biệt, và cuối cùng hắn cũng sẽ trôi qua trong tâm trí của bạn. Có lẽ chẳng còn ai thích hợp để bạn mà bạn muốn gặp nữa.",
+            "xtriggers": {
+                "rebellion": "generic_r"
+            },
+            "comments": "xtrigger trong thẻ này xảy ra trong trường hợp có một ai đó đã gặp mặt tất cả các đối thủ có thể khi đang là nhân vật Thám Tử.",
+            "lifetime": 10
+        },
+        {
+            "id": "funds",
+            "label": "Tiền Vốn",
+            "aspects": {
+                "ingredient": 1
+            },
+            "description": "Đủ để giúp tôi một chút trong sự tiện nghi dầy đủ."
+        },
+        {
+            "id": "compensation",
+            "label": "Spintria Sắt",
+            "aspects": {
+                "edge": 2,
+                "secrethistories": 1,
+                "compensationvalue": 2,
+                "ingredient": 1,
+                "auctionable": 2
+            },
+            "description": "Những người khởi xướng lên thế giới ngầm sử dụng đồng Spintria để trả cho nhiều loại dịch vụ. Spintria Sắt có mệnh giá thấp nhất, và với hình vẽ những cảnh giết người bên mặt trái của chúng. [Spintria có thể được bán để lấy loại tiền vốn truyền thống hơn tại một nhà đấu giá.]"
+        },
+        {
+            "id": "compensationb",
+            "label": "Spintria Đồng",
+            "aspects": {
+                "forge": 4,
+                "secrethistories": 1,
+                "compensationvalue": 4,
+                "ingredient": 1,
+                "auctionable": 3
+            },
+            "description": "Những người khởi xướng lên thế giới ngầm sử dụng đồng Spintria để trả cho nhiều loại dịch vụ. Spintria Đồng thường có hình vẽ những hành động tạo hình bên mặt trái của chúng. [Spintria có thể được bán để lấy loại tiền vốn truyền thống hơn tại một nhà đấu giá.]"
+        },
+        {
+            "id": "compensationc",
+            "label": "Spintria Bạc",
+            "aspects": {
+                "grail": 6,
+                "secrethistories": 1,
+                "compensationvalue": 8,
+                "ingredient": 1,
+                "auctionable": 4
+            },
+            "description": "Những người khởi xướng lên thế giới ngầm sử dụng đồng Spintria để trả cho nhiều loại dịch vụ. Chúng có thể dễ dàng đem bán để đổi lấy lượng tiền vốn truyền thống hơn. Những Spintria Bạc có giá trị cao hơn, và thường có hình vẽ những cảnh đồi trụy bên mặt trái của chúng. [Spintria có thể được bán để lấy loại tiền vốn truyền thống hơn tại một nhà đấu giá.]"
+        },
+        {
+            "id": "compensationd",
+            "label": "Spintria Vàng",
+            "aspects": {
+                "lantern": 8,
+                "secrethistories": 1,
+                "compensationvalue": 16,
+                "ingredient": 1,
+                "auctionable": 5
+            },
+            "description": "Những người khởi xướng lên thế giới ngầm sử dụng đồng Spintria để trả cho nhiều loại dịch vụ. Chúng có thể dễ dàng đem bán để đổi lấy lượng tiền vốn truyền thống hơn. Những Spintria Vàng có hình vẽ những thứ mà mắt thường không thể nhìn thấy bên mặt trái của chúng. [Spintria có thể được bán để lấy loại tiền vốn truyền thống hơn tại một nhà đấu giá.]"
+        },
+        {
+            "id": "mapbookdealer",
+            "label": "Đường Đến Nơi Của Morland",
+            "aspects": {
+                "legacyplotitem": 1
+            },
+            "description": "Một hướng dẫn bí ẩn dẫn đến địa chỉ giấu kỉ của một kẻ Morland nào đó, một đại lí chuyên về lĩnh vực sách hiếm."
+        },
+        {
+            "id": "jumble",
+            "label": "Mớ Lộn Xộn",
+            "aspects": {
+                "auctionable": 1
+            },
+            "description": "Quần áo cũ, phụ kiện sắp hết giá trị. Thứ này có thể kiếm được một vài xu ở đâu đó, nhưng nó chẳng có ích gì đối với tôi cả."
+        },
+        {
+            "id": "snare",
+            "label": "Cái Bẫy",
+            "aspects": {
+                "snarelevel": 1
+            },
+            "description": "Tôi đã chuẩn bị một cuộc phục kích cho đối thủ. [Cái Bẫy có thể sử dụng lên bất kỳ Kẻ Độc Lập nào, hoặc để đánh bại nổ lực của một Kẻ Độc Lập ở bất cứ Hầm Trú nào.]",
+            "lifetime": 300
+        }
+    ]
+}

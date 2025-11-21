@@ -1,0 +1,339 @@
+{
+    "elements": [
+        {
+            "id": "ascensionpowera",
+            "label": "Cám Dỗ: Quyền Lực",
+            "aspects": {
+                "desire": 1,
+                "powermarks": 1
+            },
+            "description": "Tôi chợt nhận ra mình đang nắm giữ chìa khóa quyền lực. [Thẻ bài này cho phép bạn giành được chiến thắng Quyền Lực, nếu được nâng cấp đủ cao. Nằm Mơ với thẻ bài sẽ tiến triển hoặc thay đổi nó.]",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationa",
+            "label": "Cám Dỗ: Xúc Cảm",
+            "aspects": {
+                "desire": 1,
+                "sensationmarks": 1
+            },
+            "description": "Tôi có thể trải nghiệm được những thứ xúc cảm mãnh liệt mà ít kẻ có thể tưởng tượng được. [Thẻ bài này cho phép bạn giành được chiến thắng Xúc Cảm, nếu được nâng cấp đủ cao. Nằm Mơ với thẻ bài sẽ tiến triển hoặc thay đổi nó.]",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmenta",
+            "label": "Cám Dỗ: Khai Sáng",
+            "aspects": {
+                "desire": 1,
+                "enlightenmentmarks": 1
+            },
+            "description": "Tôi chợt nhận ra mình đang nắm giữ chìa khóa của sự thông thái. [Thẻ bài này cho phép bạn giành được chiến thắng Khai Sáng, nếu được nâng cấp đủ cao. Nằm Mơ với thẻ bài sẽ tiến triển hoặc thay đổi nó.]",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionpowerb",
+            "label": "Cống Hiến: Quyền Lực",
+            "aspects": {
+                "desire": 2,
+                "powermarks": 2
+            },
+            "description": "Tôi đã cống hiến hết mình để đạt được thứ quyền lực bất tử ấy, bằng bất cứ giá nào. [Nâng cấp thẻ này hơn nữa để đến gần chiến thắng Quyền Lực. Tôi phải là kẻ khởi xướng thực sự của cõi Mansus; Tôi cần Làm Việc với khía cạnh Lò Rèn để triệu hồi Lò Rèn Kiến Tạo và bắt đầu sự biến đổi.]",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Tri Giả",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Chỉ có một tín đồ chân chính, một Tri Giả, mới thực hiện được bước này. Tri Giả là những kẻ đã bước qua Cổng Hươu trong mộng."
+                },
+                {
+                    "id": "Power",
+                    "label": "Sức Mạnh",
+                    "actionid": "work",
+                    "required": {
+                        "forge": 1
+                    },
+                    "description": "Ta cần có đủ ánh lửa cháy đỏ cuồng bạo từ Lò Rèn."
+                }
+            ],
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationbm",
+            "label": "Cống Hiến: Xúc Cảm",
+            "aspects": {
+                "desire": 2,
+                "sensationmarks": 2
+            },
+            "description": "Tôi đã cống hiến hết mình để theo đuổi bất tận thứ xúc cảm ấy. [Nâng cấp thẻ này hơn nữa để đến gần chiến thắng Xúc Cảm. Tôi phải là kẻ khởi xướng thực sự của cõi Mansus; Tôi cần Làm Việc với khía cạnh Chén Thánh để bản thân thật ngon miệng trước thần Thánh Chén.]",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Tri Giả",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Chỉ có một tín đồ chân chính, một Tri Giả, mới thực hiện được bước này. Tri Giả là những kẻ đã bước qua Cổng Hươu trong mộng."
+                },
+                {
+                    "id": "Power",
+                    "label": "Sức Mạnh",
+                    "actionid": "work",
+                    "required": {
+                        "grail": 1
+                    },
+                    "description": "Ta cần có đủ sự mãnh liệt cuộng trào từ Chén Thánh."
+                }
+            ],
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationbf",
+            "label": "Cống Hiến: Xúc Cảm",
+            "aspects": {
+                "desire": 2,
+                "sensationmarks": 2
+            },
+            "description": "Tôi đã cống hiến hết mình để theo đuổi bất tận thứ xúc cảm ấy. [Nâng cấp thẻ này hơn nữa để đến gần chiến thắng Xúc Cảm. Tôi phải là kẻ khởi xướng thực sự của cõi Mansus; Tôi cần Làm Việc với khía cạnh Chén Thánh để bản thân thật ngon miệng trước thần Thánh Chén.]",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Tri Giả",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Chỉ có một tín đồ chân chính, một Tri Giả, mới thực hiện được bước này. Tri Giả là những kẻ đã bước qua Cổng Hươu trong mộng."
+                },
+                {
+                    "id": "Power",
+                    "label": "Sức Mạnh",
+                    "actionid": "work",
+                    "required": {
+                        "grail": 1
+                    },
+                    "description": "Ta cần có đủ sự mãnh liệt cuộng trào từ Chén Thánh."
+                }
+            ],
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmentb",
+            "label": "Cống Hiến: Khai Sáng",
+            "aspects": {
+                "desire": 2,
+                "enlightenmentmarks": 2
+            },
+            "description": "Tôi đã cống hiến hết mình để theo đuổi sự hiểu biết cao rộng hơn. Tôi phải rõ bên dưới lớp da ấy, bằng bất cứ giá nào. [Nâng cấp thẻ này hơn nữa để đến gần chiến thắng Khai Sáng. Tôi phải là kẻ khởi xướng thực sự của cõi Mansus; Tôi cần Làm Việc với khía cạnh Lòng Đèn để Thần Canh Gác có thể nhìn thấy tôi.]",
+            "slots": [
+                {
+                    "id": "Know",
+                    "label": "Tri Giả",
+                    "actionid": "work",
+                    "required": {
+                        "waystag_after": 1
+                    },
+                    "description": "Chỉ có một tín đồ chân chính, một Tri Giả, mới thực hiện được bước này. Tri Giả là những kẻ đã bước qua Cổng Hươu trong mộng."
+                },
+                {
+                    "id": "Power",
+                    "label": "Sức Mạnh",
+                    "actionid": "work",
+                    "required": {
+                        "lantern": 1
+                    },
+                    "description": "Ta cần vật phẩm biểu trưng cho thứ ánh sáng tàn nhẫn của cõi Mansus."
+                }
+            ],
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionpowerc",
+            "label": "Thăng Thiên: Quyền Lực",
+            "aspects": {
+                "desire": 3,
+                "powermarks": 3
+            },
+            "xtriggers": {
+                "ascend": "ascensionpowerd"
+            },
+            "description": "Lò Rèn đã nhen nhóm lên một tia sáng hồi đáp trong lớp da thịt này. Tôi đang thèm khát hơi nóng từ những ngọn lửa ấy. Tôi nghĩ rằng sớm thôi tôi có thể bắt đầu đặt chúng vào trong giấc ngủ của mình. Một nhu cầu cấp thiết, tựa như việc ta cần nước vậy. Tôi biết rằng đây chính là Dấu Ấn Thứ Ba.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionpowerd",
+            "label": "Thăng Thiên: Quyền Lực",
+            "aspects": {
+                "desire": 4,
+                "powermarks": 4
+            },
+            "xtriggers": {
+                "ascend": "ascensionpowere",
+                "descend": "ascensionpowerc"
+            },
+            "description": "Giờ thân tôi mang đầy vết sẹo từ ngọn lửa, ngày càng thật khó để thiêu cháy được lớp da thịt này. Tôi đã quen dần với lửa, tựa như một con rồng hoặc một tảng đá. Đây chính là Dấu Ấn Thứ Tư.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionpowere",
+            "label": "Thăng Thiên: Quyền Lực",
+            "aspects": {
+                "desire": 5,
+                "powermarks": 5,
+                "murderskill": 1
+            },
+            "xtriggers": {
+                "ascend": "ascensionpowerf",
+                "descend": "ascensionpowerd"
+            },
+            "description": "Dấu Ấn Thứ Năm: chẳng còn một sợi lông nào trên cơ thể tôi nữa. Tôi mạnh lên, và ngày càng quỷ dị. Tôi luôn run rẩy khi mỗi giây phút phải rời xa khỏi ngọn lửa.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionpowerf",
+            "label": "Thăng Thiên: Quyền Lực",
+            "aspects": {
+                "desire": 6,
+                "powermarks": 6,
+                "murderskill": 1
+            },
+            "xtriggers": {
+                "descend": "ascensionpowere"
+            },
+            "description": "Giờ thật khó để có thể gập được tay chân mình. Tôi có quá nhiều vết sẹo. Tôi luôn giấu khuôn mặt của mình trước ánh nhìn của công chúng. Tôi có thể cầm một cục than nóng trong tay mà chẳng cảm thấy gì, những vẫn có mùi khét và tiếng xèo xèo nhẹ nhè. Đây chính là Dấu Ấn Thứ Sáu. ",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationc",
+            "label": "Thăng Thiên: Xúc Cảm",
+            "aspects": {
+                "desire": 3,
+                "sensationmarks": 3
+            },
+            "xtriggers": {
+                "ascend": "ascensionsensationd"
+            },
+            "description": "Thánh Chén Máu đã sưởi ấm tôi. Cơn khát của người đã bắt đầu làm tôi khô miệng và ngứa ngái. Tôi biết rằng đây chính là Dấu Ấn Thứ Ba.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationd",
+            "label": "Thăng Thiên: Xúc Cảm",
+            "aspects": {
+                "desire": 4,
+                "sensationmarks": 4
+            },
+            "xtriggers": {
+                "ascend": "ascensionsensatione",
+                "descend": "ascensionsensationc"
+            },
+            "description": "Dấu Ấn Thứ Tư là một sự cải thiện rời rạc trên làn da tôi. ở các mảng dọc cánh tay hay dọc đùi tôi, da tôi trong trẻo, mềm mịn, sáng sủa, tựa như làn da của một đứa bé mới bước ra từ thác nước. Nhưng chỉ mới là một số mảng da thôi.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensatione",
+            "label": "Thăng Thiên: Xúc Cảm",
+            "aspects": {
+                "desire": 5,
+                "sensationmarks": 5
+            },
+            "xtriggers": {
+                "ascend": "ascensionsensationf",
+                "descend": "ascensionsensationd"
+            },
+            "description": "'Lan Rộng và Phát Tán' là biệt danh của Dấu Ấn Thứ Năm. Tôi đã mọc thêm hai ngón tay mới và chỉ có một ngón trong đó là nằm trên bàn tay. Tôi có thêm một cái lỗ ở sau đầu gối. việc ấn vào mép lỗ sẽ mang lại khoái cảm nhẹ nhàng. Tôi đoán rằng cục phồng nhỏ ở ngay lưng chính là một cơ quan mới.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionsensationf",
+            "label": "Thăng Thiên: Xúc Cảm",
+            "aspects": {
+                "desire": 6,
+                "sensationmarks": 6
+            },
+            "xtriggers": {
+                "descend": "ascensionsensatione"
+            },
+            "description": "Dấu Ấn Thứ Sáu xảy ra là khi tôi đã cao hơn sải tay người. Người tôi sưng lên mọi chỗ. Da tôi là lụa nhung rạng rỡ. Những thớ thịt dìm lấp dần đôi mắt tôi. Tôi ngày càng khát.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmentc",
+            "label": "Thăng Thiên: Khai Sáng",
+            "aspects": {
+                "desire": 3,
+                "enlightenmentmarks": 3
+            },
+            "xtriggers": {
+                "ascend": "ascensionenlightenmentd"
+            },
+            "description": "Thần Canh Gác, cũng chính là Cổng Mở Trong Mắt, đã chạm đến tôi. Mỗi ngày, niềm tò mò của tôi ngày càng lớn mạnh: một nhu cầu vật chất cấp thiết, tựa như cơn đói cồn cào. Tôi biết rằng đây chính là Dấu Ấn Thứ Ba.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmentd",
+            "label": "Thăng Thiên: Khai Sáng",
+            "aspects": {
+                "desire": 4,
+                "enlightenmentmarks": 4
+            },
+            "xtriggers": {
+                "ascend": "ascensionenlightenmente",
+                "descend": "ascensionenlightenmentc"
+            },
+            "description": "Dấu Ấn Thứ Tư chính là tia sáng ẩn trong đôi mắt, nhưng rất khó thấy. Hầu hết chỉ có thể nhìn thấy nó khi đèn đã tắt hết hay đêm đã tối đen; Song khi tôi mở to đôi mắt, ánh sáng sẽ lọt ra ngoài nhiều hơn. Tôi ngày càng gầy đi.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmente",
+            "label": "Thăng Thiên: Khai Sáng",
+            "aspects": {
+                "desire": 5,
+                "enlightenmentmarks": 5
+            },
+            "xtriggers": {
+                "ascend": "ascensionenlightenmentf",
+                "descend": "ascensionenlightenmentd"
+            },
+            "description": "Ở Dấu Ấn Thứ Năm, ánh sáng có thể lọt ra từ bất cứ nơi nào mà da bị bầm tím hoặc trầy rách. Và bây giờ làn da đang bắt đầu lỏng lẻo trên cơ thể trong khi quá trình này dần gặm nhắm xương thịt tôi. Giờ tôi đã rất gầy và luôn luôn đói.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "ascensionenlightenmentf",
+            "label": "Thăng Thiên: Khai Sáng",
+            "aspects": {
+                "desire": 6,
+                "enlightenmentmarks": 6
+            },
+            "xtriggers": {
+                "descend": "ascensionenlightenmente"
+            },
+            "description": "Dấu Ấn Thứ Sáu được cho là xảy ra khi thớ thịt giữa ngón tay và ngón cái có thể kéo được đến tận đốt tay cuối cùng. Da tôi bây giờ rất lỏng lẻo. Tôi nghĩ rằng xương mình đang mềm dần. Đôi mắt tôi không mang màu con người.",
+            "uniquenessgroup": "uqdesire"
+        },
+        {
+            "id": "temptation.remembrance",
+            "label": "Cám Dỗ: Ký Ức",
+            "description": "Cơn gió mát thổi khi mặt trời đã đỏ và lặng dần. Giọng nói mà những cơn sóng từng cất. Những hình dạng từng lấp ló bên cạnh chúng ta trong tuyết lạnh. Tất cả đều tan nát sau tấm kính phẳng lặng của thời gian. Tôi phải nhìn lại những gì đã mất. ",
+            "aspects": {
+                "desire": 1,
+                "remembrancemarks": 1
+            },
+            "xtriggers": {
+                "ascend": "dedication.remembrance"
+            }
+        },
+        {
+            "id": "dedication.remembrance",
+            "label": "Cống Hiến: Ký Ức",
+            "description": "Cơn gió mát thổi khi mặt trời đã đỏ và lặng dần. Giọng nói mà những cơn sóng từng cất. Những hình dạng từng lấp ló bên cạnh chúng ta trong tuyết lạnh. Tất cả đều tan nát sau tấm kính phẳng lặng của thời gian. Tôi phải nhìn lại những gì đã mất ... dù cho mùi vị có đậm đà và lạ lẫm.",
+            "aspects": {
+                "desire": 1,
+                "remembrancemarks": 2
+            }
+        }
+    ]
+}

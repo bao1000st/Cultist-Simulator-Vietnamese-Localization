@@ -1,0 +1,59 @@
+{
+    "recipes": [
+        {
+            "id": "health_expel_to_scar",
+            "label": "Sức Khỏe: Thành Sẹo",
+            "actionid": "scar_ability",
+            "startdescription": "Cơ thể tôi đang thay đổi...",
+            "description": "Một số tác động để lại dấu ấn sâu sắc hơn những tác động khác. [Sức Khỏe đã vĩnh viễn biến thành Vết Sẹo. Hãy cẩn thận: Bệnh Tật và Chết Đói không thể thỏa mãn được bằng Vết Sẹo.]",
+            "requirements": {
+                "health": 1
+            },
+            "aspects": {
+                "scarability": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "passion_expel_to_scar",
+            "label": "Đam Mê: Thành Sẹo",
+            "actionid": "scar_ability",
+            "startdescription": "Những cảm tính đang dần thay đổi tôi...",
+            "description": "Những suy nghĩ của tôi đang ràng buộc xác thịt và tinh thần hơn trên cả mức an toàn. [Đam Mê đã vĩnh viễn biến thành Vết Sẹo.]",
+            "requirements": {
+                "passion": 1
+            },
+            "aspects": {
+                "scarability": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "expel_independent",
+            "label": "Không An Toàn",
+            "actionid": "expel_independent",
+            "startdescription": "Đối Thủ của tôi không thể biết được điều gì đang chờ đợi chúng.",
+            "warmup": 1
+        },
+        {
+            "id": "expel_corpses",
+            "label": "Cái Bóng Mờ",
+            "actionid": "expel_corpse",
+            "requirements": {
+                "corpse": 1
+            },
+            "startdescription": "Đây chính là nơi nó nằm.",
+            "warmup": 1
+        },
+        {
+            "id": "expel_injury",
+            "label": "Vệt Máu",
+            "actionid": "expel_injury",
+            "requirements": {
+                "injury": 1
+            },
+            "startdescription": "Nỗi đau chính là món quà cuối cùng.",
+            "warmup": 1
+        }
+    ]
+}

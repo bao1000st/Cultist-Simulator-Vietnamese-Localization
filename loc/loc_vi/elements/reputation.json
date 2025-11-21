@@ -1,0 +1,51 @@
+{
+    "elements": [
+        {
+            "id": "mystique",
+            "label": "Thuật Thần Bí",
+            "aspects": {
+                "reputation": 1
+            },
+            "description": "Sự kỳ lạ vẫn còn đó. [Thuật Thần Bí có thể thu hút sự chú ý của Thợ Săn. Họ không thể sử dụng nó để xây dựng nên bản kiện chống lại bạn, nhưng nó sẽ khuyến khích họ nhìn nhận vấn đề kĩ hơn.]",
+            "lifetime": 300
+        },
+        {
+            "id": "notoriety",
+            "label": "Tai Tiếng",
+            "aspects": {
+                "reputation": 2
+            },
+            "description": "Một số hành vi vốn chẳng thể nhanh chóng bị lãng quên. [Tai Tiếng có thể cho phép Thợ săn xây dựng nên một bản kiện để chống lại bạn.]",
+            "lifetime": 300,
+            "xtriggers": {
+                "scandalous": "notoriety"
+            }
+        },
+        {
+            "id": "evidence",
+            "aspects": {
+                "evidencelevel": 1
+            },
+            "label": "Bằng Chứng Dự Kiến",
+            "description": "Một tên Thợ Săn đã tìm ra bằng chứng - dù là thực hoặc tưởng tượng - về mọi tội lỗi của ta. [Những Thợ Săn với Bằng Chứng về các hoạt động huyền bí càng trở nên nguy hiểm hơn. Bằng Chứng vẫn có thể tồn tại sau cái chết của Thợ Săn đã tạo ra nó.]",
+            "xtriggers": {
+                "investigatingsuccess": "evidenceb",
+                "investigatingsetback": "notoriety"
+            },
+            "lifetime": 600
+        },
+        {
+            "id": "evidenceb",
+            "aspects": {
+                "evidencelevel": 2
+            },
+            "label": "Bằng Chứng Kết Tội",
+            "description": "'Trái Đất, thật bàng hoàng! Ôi, không, nó sẽ không chứa chấp ta nữa!'[Với Bằng Chứng Kết Tội về các hoạt động huyền bí trong thành phố, Cục Đàn Áp có thể sẽ kết tội bạn. Bằng Chứng vẫn có thể tồn tại sau cái chết của Thợ Săn đã tạo ra nó.]",
+            "xtriggers": {
+                "investigatingsetback": "evidence"
+            },
+            "lifetime": 600,
+            "decayTo": "evidence"
+        }
+    ]
+}

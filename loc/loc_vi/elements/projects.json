@@ -1,0 +1,298 @@
+{
+    "elements": [
+        {
+            "id": "project_upgrade_edge",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Lưỡi Dao",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Lưỡi Dao của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_edgetowinter",
+            "label": "Chuyển Đổi Lưỡi Dao Sang Mùa Đông",
+            "description": "Tôi đang dần thựa nhận sự chiến thắng của lòng kiên nhẫn trước sức mạnh, chuyển đổi truyền thuyết thần sắc Lưỡi Dao của mình sang truyền thuyết thần sắc Mùa Đông.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_forge",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Lò Rèn",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Lò Rèn của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_forgetoedge",
+            "label": "Chuyển Đổi Lò Rèn Sang Lưỡi Dao",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Lò Rèn của mình sang truyền thuyết thần sắc Lưỡi Dao.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_grail",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Chén Thánh",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Chén Thánh của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_grailtomoth",
+            "label": "Chuyển Đổi Truyền Thuyết Chén Thánh Sang Bướm Đêm",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Chén Thánh của mình sang truyền thuyết thần sắc Bướm Đêm.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_heart",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Trái Tim",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Trái Tim của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_hearttograil",
+            "label": "Chuyển Đổi Truyền Thuyết Trái Tim Sang Chén Thánh",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Trái Tim của mình sang truyền thuyết thần sắc Chén Thánh.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_subvert_knock",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Knock lore",
+            "description": "I am deepening my understanding of Knock lore.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_lantern",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Đèn Lồng",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Đèn Lồng của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_lanterntoforge",
+            "label": "Chuyển Đổi Truyền Thuyết Đèn Lồng Sang Lò Rèn",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Đèn Lồng của mình sang truyền thuyết thần sắc Lò Rèn.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_moth",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Bướm Đêm",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Bướm Đêm của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_mothtolantern",
+            "label": "Chuyển Đổi Truyền Thuyết Bướm Đêm Sang Đèn Lồng",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Bướm Đêm của mình sang truyền thuyết thần sắc Đèn Lồng",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_secrethistories",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Dòng Lịch Sử Bí Mật",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết Dòng Lịch Sử Bí Mật của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_upgrade_winter",
+            "label": "Tăng Cường Hiểu Biết Của Tôi Về Truyền Thuyết Mùa Đông",
+            "description": "Tôi hy vọng sẽ cải thiện được truyền thuyết thần sắc Mùa Đông của mình.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_subvert_wintertoheart",
+            "label": "Chuyển Đổi Truyền Thuyết Mùa Đông Sang Trái Tim",
+            "description": "Tôi đang chuyển đổi truyền thuyết thần sắc Mùa Đông của mình sang truyền thuyết thần sắc Trái Tim",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_edge",
+            "icon": "project_upgrade_edge",
+            "label": "Tăng Cường Ảnh Hưởng Của Lưỡi Dao",
+            "description": "Tôi hy vọng sẽ tăng được thêm tầm ảnh hưởng của thần sắc Lưỡi Dao này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_edgetowinter",
+            "icon": "project_subvert_edgetowinter",
+            "label": "Chuyển Đổi Lưỡi Dao Sang Mùa Đông",
+            "description": "Tôi dần thừa nhận sự chiến thắng của lòng kiên nhẫn trước sức mạnh, chuyển đổi tầm ảnh hưởng thần sắc Lưỡi Dao của mình sang tầm ảnh hưởng thần sắc Mùa Đông.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_forge",
+            "label": "Tăng Cường Ảnh Hưởng Của Lò Rèn",
+            "description": "Tôi hy vọng sẽ tăng được thêm tầm ảnh hưởng của thần sắc Lò Rèn này.",
+            "aspects": {
+                "project": 1
+            },
+            "icon": "project_upgrade_forge",
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_forgetoedge",
+            "icon": "project_subvert_forgetoedge",
+            "label": "Chuyển Đổi Lò Rèn Sang Lưỡi Dao",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Lò Rèn của mình sang tầm ảnh hưởng thần sắc Lưỡi Dao.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_grail",
+            "icon": "project_upgrade_grail",
+            "label": "Tăng Cường Ảnh Hưởng Của Chén Thánh",
+            "description": "Tôi hy vọng sẽ tăng được thêm tầm ảnh hưởng của thần sắc Chén Thánh này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_grailtomoth",
+            "icon": "project_subvert_grailtomoth",
+            "label": "Chuyển Đổi Ảnh Hưởng Chén Thánh Sang Bướm Đêm",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Chén Thánh của mình sang thần sắc Bướm Đêm.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_heart",
+            "icon": "project_upgrade_heart",
+            "label": "Tăng Cường Ảnh Hưởng Của Trái Tim",
+            "description": "Tôi hy vọng sẽ được tăng thêm tầm ảnh hưởng của thần sắc Trái Tim này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_hearttograil",
+            "icon": "project_subvert_hearttograil",
+            "label": "Chuyển Đổi Ảnh Hưởng Trái Tim Sang Chén Thánh",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Trái Tim của mình sang thần sắc Chén Thánh.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_subvert_knock",
+            "icon": "project_upgrade_subvert_knock",
+            "label": "Tăng Cường Ảnh Hưởng Của Lưỡi Dao",
+            "description": "Tôi ngày càng hiểu sâu hơn về tầm ảnh hưởng của thần sắc Lưỡi Dao.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_lantern",
+            "icon": "project_upgrade_lantern",
+            "label": "Tăng Cường Ảnh Hưởng Của Đèn Lồng",
+            "description": "Tôi hy vọng sẽ được tăng thêm tầm ảnh hưởng thần sắc Đèn Lồng này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_lanterntoforge",
+            "icon": "project_subvert_lanterntoforge",
+            "label": "Chuyển Đổi Ảnh Hưởng Của Đèn Lồng Sang Lò Rèn",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Đèn Lồng của mình sang thần sắc Lò Rèn.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_moth",
+            "icon": "project_upgrade_moth",
+            "label": "Tăng Cường Ảnh Hưởng Của Bướm Đêm",
+            "description": "Tôi hy vọng sẽ được Tăng Cường ảnh hưởng thần sắc Bướm Đêm này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_mothtolantern",
+            "icon": "project_upgrade_moth",
+            "label": "Chuyển Đổi Ảnh Hưởng Của Bướm Đêm Sang Đèn Lồng",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Bướm Đêm của mình sang thần sắc Đèn Lồng.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_upgrade_winter",
+            "icon": "project_upgrade_winter",
+            "label": "Tăng Cường Ảnh Hưởng Của Mùa Đông",
+            "description": "Tôi hy vọng sẽ được Tăng Cường tầm ảnh hưởng thần sắc Mùa Đông này.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "project_influence_subvert_wintertoheart",
+            "icon": "project_subvert_wintertoheart",
+            "label": "Chuyển Đổi Ảnh Hưởng Của Mùa Đông Sang Trái Tim",
+            "description": "Tôi đang chuyển đổi tầm ảnh hưởng thần sắc Mùa Đông của mình sang thần sắc Trái Tim.",
+            "aspects": {
+                "project": 1
+            },
+            "lifetime": 1
+        }
+    ]
+}

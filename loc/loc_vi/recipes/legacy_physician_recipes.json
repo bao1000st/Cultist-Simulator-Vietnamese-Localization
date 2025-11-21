@@ -1,0 +1,155 @@
+{
+    "recipes": [
+        {
+            "id": "legacyphysicianwork",
+            "label": "Làm Việc Tại Viện",
+            "actionid": "work",
+            "requirements": {
+                "legacyphysicianjob": 1
+            },
+            "effects": {
+                "funds": 2,
+                "legacyphysicianjob": -1,
+                "institutephysicianjob": 1,
+                "health": 1,
+                "reason": 3
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopenstudy",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "#PREVIOUSCHARACTERNAME# là một - một bệnh nhân khó tính. Tôi cần phải nghỉ ngơi một thời gian, sau khi công việc này kết thúc.",
+            "description": "Tôi đã xong sớm. Giám Đốc đã rất thông cảm. Nhưng giờ tôi phải trở lại làm việc toàn thời gian.",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "legacyphysicianopenstudy",
+            "actionid": "study",
+            "label": "Ghi Chú Về Ca Của #PREVIOUSCHARACTERNAME#",
+            "startdescription": "Những ghi chú của tôi tràn ra từ ngăn bàn, nơi mà tôi đã ném chúng.",
+            "description": "Bệnh nhân này nói về những điều chẳng hề có ý nghĩa. Ngôi nhà không tường. Mặt trời bị chia cắt. Ánh sáng vô hình. Nhưng khi tôi nhớ lại cách người này nói về thứ ánh sáng vô hình đó, lòng tôi lại trào dâng. Tôi không thể nào làm lơ các ghi chú nữa.\n[<b>Thời Gian</b> giờ đang trôi.]",
+            "effects": {
+                "legacyphysiciannotes": 1
+            },
+            "alt": [
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "legacyphysicianstudynotes",
+            "actionid": "study",
+            "requirements": {
+                "legacyphysiciannotes": 1
+            },
+            "label": "Nghiên Cứu Ghi Chú Về Ca Của #PREVIOUSCHARACTERNAME#",
+            "startdescription": "Khi tôi bắt đầu đọc, tôi dần nhớ lại niềm vui sướng trong mắt bệnh nhân đó, thứ âm nhạc trong giọng nói của người; và còn, mùi hương từ căn phòng nơi người nằm.",
+            "description": "Những khoảnh khắc kỳ lạ của cảm xúc hiện ra. Tôi gần như đã quên những suy diễn tọc mạch về 'Con Đường Của Morland' - nhưng giờ, tôi đã nhận ra, nó phải là 'Con Đường <i>Đến</i> Morland '. Tôi đã từng nghe nói về Morland này - một tay buôn những quyển sách rắc rối. \n Phần còn lại trong những câu nói của người này - cũng chắc có nghĩa lý gì hơn trước kia. Làm sao mà nhà thiếu tường được? Vinh quang mà người này khao khát là gì? Nhưng tôi đã có thể cảm nhận được những giấc mơ, chúng đang chờ tôi trong giấc ngủ. ",
+            "effects": {
+                "legacyphysiciannotes": -1,
+                "mapbookdealer": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 30,
+            "comments": "The book dealer can be studied through the generic intro; there's a generic openexplore there",
+            "craftable": true
+        },
+        {
+            "id": "legacyphysicianopendream",
+            "actionid": "dream",
+            "label": "Ánh Sáng Vô Hình",
+            "startdescription": "Trong giấc ngủ, tôi là một cái cây cong queo. Bướm đêm bò trên vỏ cây của tôi. Bình minh bắt đầu, mặc dù ánh sáng vốn vô hình. Nhưng khi được nó chạm, tôi vươn thẳng người, để với tới mặt trời.",
+            "description": "Khi tôi thức dậy, khuôn mặt tôi tràn đầy những giọt nước mắt vui mừng. Ánh sáng đó! tinh khiết hơn bất cứ thứ gì tôi chạm vào trong cuộc sống thức dậy. Nhưng tôi đã thấy được những giấc mơ này cuối cùng đã làm gì #PREVIOUSCHARACTERNAME#. Sẽ thật không khôn ngoan hay an toàn nếu đi theo con đường này.",
+            "effects": {
+                "contentment": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianhook",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "legacyphysicianhook",
+            "actionid": "hookplot",
+            "label": "Sự Tin Tưởng?",
+            "startdescription": "Tôi có thể nhượng bộ những giấc mơ. Nhưng chúng <i>sẽ</i> nuốt chửng Lý Trí của tôi.",
+            "description": ".",
+            "alt": [
+                {
+                    "id": "legacyphysicianhookfulfilment",
+                    "chance": 100
+                }
+            ],
+            "slots": [
+                {
+                    "id": "Temptation",
+                    "label": "",
+                    "required": {
+                        "reason": 1
+                    },
+                    "consumes": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "legacyphysicianhook",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "legacyphysicianhookfulfilment",
+            "actionid": "hookplot",
+            "label": "Con Mắt Của The Watchman",
+            "requirements": {
+                "reason": 1
+            },
+            "startdescription": "The Watchman chính là Cánh Cửa trong Con Mắt. Để mở khóa con mắt của chính mình, phải có một sự hy sinh nhỏ nhoi.",
+            "description": "Tôi cầm con dao trong giấc ngủ. Có đau đấy, nhưng thậm chí đau cũng chính là một dấu hiệu. Tôi đã băng lại vết thương. Tôi sẽ nói với mọi người rằng đây chỉ là một tai nạn. Trong giấc mơ, tôi thấy được Cánh Cửa. Một ngày sớm thôi, tôi sẽ bước qua nó.",
+            "effects": {
+                "ascensionenlightenmenta": 1,
+                "passion": 1,
+                "fragmentknock": 1,
+                "fragmentlantern": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "legacyphysicianopentalk",
+            "label": "Linh Hồn Thân Thích",
+            "actionid": "talk",
+            "startdescription": "Một trong số bệnh nhân tại Viện cũng có con mắt bị băng. Một vết thương tự gây ra, người đó nói thế. Có lẽ hai chúng tôi sẽ sớm nói chuyện với nhau.",
+            "description": "Vết thương của tôi đã lành và của người đó cũng vậy. Người chẳng biết tại sao bản thân lại làm vậy. Nhưng đêm đó, người đã mơ thấy tôi. Chúng tôi đã được kết nối.",
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "warmup": 60,
+            "craftable": false
+        }
+    ]
+}

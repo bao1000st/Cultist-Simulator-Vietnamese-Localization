@@ -1,0 +1,80 @@
+{
+    "elements": [
+        {
+            "id": "textbooklatin",
+            "label": "Văn Tự Latinh Của Gildersleeve",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Chính là thứ bạn cần để có thể trao dồi thêm vốn hiểu biết về ngôn ngữ Latinh."
+        },
+        {
+            "id": "textbookfucine",
+            "label": "Nhật ký Của Alessandro LaCroce",
+            "aspects": {
+                "text": 1,
+                "auctionable": 2
+            },
+            "description": "Hoàng tử Alessandro LaCroce dành hàng năm trời để bí mật nghiên cứu các văn tự đá được lấy từ Fucine Marshe ở miền Trung nước Ý. Công trình của ông sẽ cho phép ta giải mã được các văn bản Fucine.",
+            "unique": true
+        },
+        {
+            "id": "textbookgreek",
+            "label": "Kühner và Gerth",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Kühner and Gerth's 'Ausführliche Grammatik der griechischen Sprache' - một văn tự Hy Lạp. Món vũ khí thiết yếu cho cuộc đấu tranh dữ dội với một thứ ngôn ngữ đầy thách thức."
+        },
+        {
+            "id": "textbookphrygian",
+            "label": "Văn Khắc Velshorn",
+            "aspects": {
+                "text": 1,
+                "auctionable": 2
+            },
+            "description": "Một trường ca khá khiêu gợi mô tả một người nghệ sĩ hấp tấp đang giao cấu với Mẹ Đỏ, và cuối cùng cũng bị bà lột da - bằng cả tiếng Hy Lạp và tiếng Phrygian. Nhà thám hiểm Cal Velshorn đã phát hiện bản khắc này trên một bức tường của một ngôi đền ở Halicarnassus, nhưng nó cũng đã xuất hiện một cách đáng ngạc nhiên ở nhiều nơi khác. [Nếu thông hiểu tiếng Hy Lạp, bạn có thể dùng nó để học tiếng Phrygian.]",
+            "unique": true
+        },
+        {
+            "id": "textbookaramaic",
+            "label": "TƯỜNG THUẬT XÁC THỰC VÀ ĐỘC NHẤT CỦA GIÁO SĨ VON BRANDT VỀ NGÔN NGỮ CỔ NƠI ĐẤT THÁNH CỦA ĐẤNG TỐI CAO",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Được viết một cách hăng hái và có đôi chút vội vã bởi một quý ông theo đuổi Chủ Nghĩa Siêu Việt, tuy nhiên vẫn là một tư liệu hữu ích cho việc học tiếng Aram."
+        },
+        {
+            "id": "textbookmandaic",
+            "label": "Đá Uy Nghi",
+            "aspects": {
+                "text": 1,
+                "auctionable": 2
+            },
+            "description": "Một cái bát khổng lồ, to bằng một cái cồng, mặt trên được chạm khắc từ đá bazan đen, mang một câu niệm chú chống quỷ dữ bằng tiếng Mandaic Sâu. Mặt dưới mang câu chú tương tự bằng tiếng Aram [Nếu thông hiểu tiếng Aram, bạn có thể dùng nó để học tiếng Mandaic sâu.]",
+            "unique": true
+        },
+        {
+            "id": "textbooksanskrit",
+            "label": "Phạn ngữ tự vị - Gartside",
+            "aspects": {
+                "text": 1,
+                "auctionable": 1
+            },
+            "description": "Một cuốn sách soi rõ, chiếu nên con đường băng qua rừng rậm của một thứ ngôn ngữ rộng lớn và phức tạp."
+        },
+        {
+            "id": "textbookvak",
+            "label": "Bản Khắc Uyrus",
+            "aspects": {
+                "text": 1,
+                "auctionable": 3
+            },
+            "description": "Một tác phẩm điêu khắc ngà voi tinh xảo với độ phức tạp không tưởng. Trên bề mặt của nó, những bản khắc tiếng Phạn xoắn ốc đối xứng với những dòng chữ tiếng Vak. [Nếu thông hiểu tiếng Phạn, bạn có thể dùng nó để học tiếng Vak, ngôn ngữ đầu tiên của thế giới.]",
+            "unique": true
+        }
+    ]
+}

@@ -1,0 +1,427 @@
+{
+    "elements": [
+        {
+            "id": "spirit_wintera_edge",
+            "label": "Phục Sinh Vụn Vỡ",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "winter": 4,
+                "edge": 4,
+                "remnant": 1
+            },
+            "description": "Một thế lực ám ảnh đã kéo cái xác chết này trở lại trạng thái gần như sống lại. Khi nó di chuyển, nó kêu răng rắc như tiếng mảnh kính vỡ. Nắm đấm nó tựa như một bộ móng vuốt làm từ những mảnh xương. Nó sẽ không giữ được trạng thái này lâu.",
+            "xtriggers": {
+                "renewshattered": "spirit_wintera_edge",
+                "killsummoned": "influencewinter",
+                "alzabo": "influencewinterc"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "spirit_wintera_moth",
+            "label": "Phục Sinh Phát Triển",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "winter": 4,
+                "moth": 4,
+                "spiritsicknessprotector": 1,
+                "remnant": 1
+            },
+            "description": "Sự phát triển của Khu Rừng đã bao phủ toàn bộ cơ quan của xác chết, cái đầu lâu phình to như một quả bí, bệnh lại xung quanh tim của nó. Đôi mắt ẩm ướt với sự xảo trá, và di chuyển một cách duyên dáng như con rối ngớ ngẩ. Xương của nó là gỗ đã mục nát, và nó sẽ sớm bén rễ, nhưng cho đến lúc đó nó sẽ là một tên đầy tớ nhanh nhẹn và khôn khéo.",
+            "xtriggers": {
+                "renewburgeoning": "spirit_wintera_moth",
+                "killsummoned": "influencemoth",
+                "alzabo": "influencemothc"
+            },
+            "lifetime": 120
+        },
+        {
+            "id": "spirit_winterb_heart",
+            "label": "Xác Sống Không Tiếng",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "winter": 6,
+                "moth": 6,
+                "deceiver": 6,
+                "spiriteatspassion": 1
+            },
+            "description": "Đôi khi người chết đi vào cõi Mansus bằng Cửa Trắng. Tại ngưỡng cửa ấy họ vĩnh viễn từ bỏ quyền lực giọng nói của mình. Triệu hồi họ về với thế giới, và họ sẽ không hề có giọng nói, nhưng lớp da đầy bụi của họ là chính do bạn chỉ huy.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influencewinter"
+            },
+            "decayTo": "influencewinter"
+        },
+        {
+            "id": "pre.spirit_winterb_heart",
+            "label": "Xác Sống Không Tiếng",
+            "aspects": {
+                "winter": 6,
+                "moth": 6,
+                "deceiver": 6,
+                "manifesting": 1
+            },
+            "description": "Đôi khi người chết đi vào cõi Mansus bằng Cửa Trắng. Tại ngưỡng cửa ấy họ vĩnh viễn từ bỏ quyền lực giọng nói của mình. Triệu hồi họ về với thế giới, và họ sẽ không hề có giọng nói, nhưng lớp da đầy bụi của họ là chính do bạn chỉ huy.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influencewinter",
+                "killmanifesting": "influencewinter"
+            },
+            "decayTo": "spirit_winterb_heart",
+            "resaturate": true,
+            "icon": "spirit_winterb_heart"
+        },
+        {
+            "id": "spirit_forgec_winter",
+            "label": "Caligine",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "forge": 8,
+                "moth": 8,
+                "deceiver": 8
+            },
+            "description": "Ở những biên giới của thần sắc Lò Rèn, nằm trong vùng ranh giới của cõi Mansus, ngọn lửa của Vinh Quang đã tìm thấy được những yếu tố cơ bản. Đây là một nơi xảo quyệt để lây nhiễm giấc mơ của kẻ thù.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influenceforge"
+            },
+            "decayTo": "influenceforge"
+        },
+        {
+            "id": "pre.spirit_forgec_winter",
+            "label": "Caligine",
+            "aspects": {
+                "forge": 8,
+                "moth": 8,
+                "deceiver": 8,
+                "manifesting": 1
+            },
+            "description": "Ở những biên giới của thần sắc Lò Rèn, nằm trong vùng ranh giới của cõi Mansus, ngọn lửa của Vinh Quang đã tìm thấy được những yếu tố cơ bản. Đây là một nơi xảo quyệt để lây nhiễm giấc mơ của kẻ thù.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influenceforge",
+                "killmanifesting": "influenceforge"
+            },
+            "decayTo": "spirit_forgec_winter",
+            "resaturate": true,
+            "icon": "spirit_forgec_winter"
+        },
+        {
+            "id": "spirit_grailc_moth",
+            "label": "Tiên Tri Sống",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "grail": 8,
+                "moth": 8,
+                "deceiver": 8,
+                "spiritsicknessprotector": 1,
+                "spiriteatsreason": 1
+            },
+            "description": "Đôi khi nó tách ra, đôi khi nó hợp nhất lại, đôi khi bà nói lên những lời cảnh báo, đôi khi ông khuyên bảo về sự khao khát. Những lời tiên tri của nó là sự lú lẫn, Những lời thì thầm của chúng khiến ta đảo lộn.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influencegrail"
+            },
+            "decayTo": "influencegrail"
+        },
+        {
+            "id": "pre.spirit_grailc_moth",
+            "label": "Tiên Tri Sống",
+            "aspects": {
+                "grail": 8,
+                "moth": 8,
+                "deceiver": 8,
+                "manifesting": 1
+            },
+            "description": "Đôi khi nó tách ra, đôi khi nó hợp nhất lại, đôi khi bà nói lên những lời cảnh báo, đôi khi ông khuyên bảo về sự khao khát. Những lời tiên tri của nó là sự lú lẫn, Những lời thì thầm của chúng khiến ta đảo lộn.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influencegrail",
+                "killmanifesting": "influencegrail"
+            },
+            "decayTo": "spirit_grailc_moth",
+            "resaturate": true,
+            "icon": "spirit_grailc_moth"
+        },
+        {
+            "id": "spirit_lanternc_edge",
+            "label": "Bóng Gió",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "lantern": 8,
+                "edge": 8,
+                "devourer": 8
+            },
+            "description": "Kẻ Bóng Gió thoái mải nhất khi được ở đằng sau: đằng sau khung cảnh, đằng sau chiếc gương, đằng sau lưng ngươi. Chúng trường dưới những cánh cửa và giết bằng mảnh kính, nhưng chúng không thể sống sót được trước cái nhìn của một kẻ phàm trần.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influencelantern"
+            },
+            "decayTo": "influencelantern"
+        },
+        {
+            "id": "pre.spirit_lanternc_edge",
+            "label": "Bóng Gió",
+            "aspects": {
+                "lantern": 8,
+                "edge": 8,
+                "devourer": 8,
+                "manifesting": 1
+            },
+            "description": "Kẻ Bóng Gió thoái mải nhất khi được ở đằng sau: đằng sau khung cảnh, đằng sau chiếc gương, đằng sau lưng ngươi. Chúng trường dưới những cánh cửa và giết bằng mảnh kính, nhưng chúng không thể sống sót được trước cái nhìn của một kẻ phàm trần.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influencelantern",
+                "killmanifesting": "influencelantern"
+            },
+            "decayTo": "spirit_lanternc_edge",
+            "resaturate": true,
+            "icon": "spirit_lanternc_edge"
+        },
+        {
+            "id": "spirit_heartc_edge",
+            "label": "Quỷ Rung Động",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "heart": 8,
+                "edge": 8,
+                "devourer": 8,
+                "spiritsicknessprotector": 1,
+                "spiriteatsreason": 1
+            },
+            "description": "Quỷ Rung Động! Nó thích sự run rẩy của sistrum, nó thích tiếng trống của màng nhĩ, nó hồi tưởng về vẻ thích thú với khả năng lắc lư của Marsyas, và vì vậy nó sẽ không\n            sẽ không\n            sẽ không ngừng nhảy múa.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influenceheart"
+            },
+            "decayTo": "influenceheart"
+        },
+        {
+            "id": "pre.spirit_heartc_edge",
+            "label": "Percussigant",
+            "aspects": {
+                "heart": 8,
+                "edge": 8,
+                "devourer": 8,
+                "manifesting": 1
+            },
+            "description": "Quỷ Rung Động! Nó thích sự run rẩy của sistrum, nó thích tiếng trống của màng nhĩ, nó hồi tưởng về vẻ thích thú với khả năng lắc lư của Marsyas, và vì vậy nó sẽ không\n            sẽ không\n            sẽ không ngừng nhảy múa.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influenceheart",
+                "killmanifesting": "influenceheart"
+            },
+            "decayTo": "spirit_heartc_edge",
+            "resaturate": true,
+            "icon": "spirit_heartc_edge"
+        },
+        {
+            "id": "spirit_winterd_edge",
+            "label": "Thiếu-Nữ-Trong-Rương",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "winter": 10,
+                "edge": 10,
+                "devourer": 10,
+                "spiriteatspassion": 1
+            },
+            "description": "'Đường đi lên là thủy tinh. Các bức tường là những con dao. Còn mỗi bước chân thì là máu.' Kẻ Chết nằm yên nghỉ trước một chiếc gương mới nứt, kẻ đã đi qua Cổng Loài Công, kẻ làm chủ Cầu Thang Sắc Bén: những Kẻ Chết đó sẽ phục vụ cho the Sun-in-Rags.",
+            "lifetime": 180,
+            "xtriggers": {
+                "killsummoned": "influencewinter"
+            },
+            "decayTo": "influencewinter"
+        },
+        {
+            "id": "pre.spirit_winterd_edge",
+            "label": "Thiếu-Nữ-Trong-Rương",
+            "aspects": {
+                "winter": 10,
+                "edge": 10,
+                "devourer": 10,
+                "manifesting": 1
+            },
+            "description": "'Đường đi lên là thủy tinh. Các bức tường là những con dao. Còn mỗi bước chân thì là máu.' Kẻ Chết nằm yên nghỉ trước một chiếc gương mới nứt, kẻ đã đi qua Cổng Loài Công, kẻ làm chủ Cầu Thang Sắc Bén: những Kẻ Chết đó sẽ phục vụ cho the Sun-in-Rags.",
+            "lifetime": 1,
+            "xtriggers": {
+                "killsummoned": "influencewinter",
+                "killmanifesting": "influencewinter"
+            },
+            "decayTo": "spirit_winterd_edge",
+            "resaturate": true,
+            "icon": "spirit_winterd_edge"
+        },
+        {
+            "id": "spirit_forgee_edge",
+            "label": "Vua Crucible",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "forge": 12,
+                "edge": 12,
+                "devourer": 12,
+                "tutor": 1,
+                "spirittutormandaic": 1
+            },
+            "description": "'TỪ XA MẠC TA CHỜ ĐỢI ĐẾN TÀN TÍCH TA THIÊU RỤI- KIM LOẠI LÀ NƯỚC - ĐÁ LÀ SÁP - THỊT LÀ KHÓI - HÃY HÒA VÀO TA VÀ TẤT CẢ ĐỀU HÓA HƯ VÔ.'",
+            "xtriggers": {
+                "killsummoned": "spirit_forgee_edge.defunct"
+            },
+            "lifetime": 180,
+            "decayTo": "spirit_forgee_edge.defunct",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_forgee_edge"
+        },
+        {
+            "id": "pre.spirit_forgee_edge",
+            "label": "Vua Crucible",
+            "aspects": {
+                "forge": 12,
+                "edge": 12,
+                "devourer": 12,
+                "manifesting": 1
+            },
+            "description": "'TỪ XA MẠC TA CHỜ ĐỢI ĐẾN TÀN TÍCH TA THIÊU RỤI- KIM LOẠI LÀ NƯỚC - ĐÁ LÀ SÁP - THỊT LÀ KHÓI - HÃY HÒA VÀO TA VÀ TẤT CẢ ĐỀU HÓA HƯ VÔ.'",
+            "xtriggers": {
+                "killsummoned": "spirit_forgee_edge.defunct",
+                "killmanifesting": "influenceforge"
+            },
+            "lifetime": 1,
+            "decayTo": "spirit_forgee_edge",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_forgee_edge",
+            "resaturate": true,
+            "icon": "spirit_forgee_edge"
+        },
+        {
+            "id": "spirit_graile_edge",
+            "label": "Ezeem, Khát Khao Thứ Hai",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "grail": 12,
+                "edge": 12,
+                "devourer": 12,
+                "tutor": 1,
+                "spirittutorphrygian": 1,
+                "spiritsicknessprotector": 1,
+                "spiriteatsreason": 1
+            },
+            "description": "'Thay đổi ta. Thay đổi ta. Thay đổi ta mạnh mẽ hơn đi. Bây giờ: đến lượt ta..'",
+            "xtriggers": {
+                "killsummoned": "spirit_graile_edge.defunct"
+            },
+            "lifetime": 180,
+            "decayTo": "spirit_graile_edge.defunct",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_graile_edge"
+        },
+        {
+            "id": "pre.spirit_graile_edge",
+            "label": "Ezeem, Khát Khao Thứ Hai",
+            "aspects": {
+                "grail": 12,
+                "edge": 12,
+                "devourer": 12,
+                "manifesting": 1
+            },
+            "description": "'Thay đổi ta. Thay đổi ta. Thay đổi ta mạnh mẽ hơn đi. Bây giờ: đến lượt ta..'",
+            "xtriggers": {
+                "killsummoned": "spirit_graile_edge.defunct",
+                "killmanifesting": "influencegrail"
+            },
+            "lifetime": 1,
+            "decayTo": "spirit_graile_edge",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_graile_edge",
+            "resaturate": true,
+            "icon": "spirit_graile_edge"
+        },
+        {
+            "id": "spirit_lanterne_secret",
+            "label": "Teresa",
+            "aspects": {
+                "follower": 1,
+                "summoned": 1,
+                "lantern": 12,
+                "secrethistories": 12,
+                "tutor": 1,
+                "spirittutorfucine": 1,
+                "spiritsicknessprotector": 1,
+                "spiriteatspassion": 1
+            },
+            "description": "'Ôi, thế giới này không tròn; ồ, nhưng nếu nó bằng phẳng! Tôi sẽ không ở lại được lâu. Ta sẽ không ở lại được lâu đâu. Hãy nói tôi biết một bí mật.'",
+            "xtriggers": {
+                "killsummoned": "spirit_lanterne_secret.defunct"
+            },
+            "lifetime": 180,
+            "decayTo": "spirit_lanterne_secret.defunct",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_lanterne_secret"
+        },
+        {
+            "id": "pre.spirit_lanterne_secret",
+            "label": "Teresa",
+            "aspects": {
+                "lantern": 12,
+                "secrethistories": 12,
+                "tutor": 1,
+                "manifesting": 1
+            },
+            "description": "'Ôi, thế giới này không tròn; ồ, nhưng nếu nó bằng phẳng! Tôi sẽ không ở lại được lâu. Ta sẽ không ở lại được lâu đâu. Hãy nói tôi biết một bí mật.'",
+            "xtriggers": {
+                "killsummoned": "spirit_lanterne_secret.defunct",
+                "killmanifesting": "influencelantern"
+            },
+            "lifetime": 1,
+            "decayTo": "spirit_lanterne_secret",
+            "unique": true,
+            "uniquenessgroup": "uqspirit_lanterne_secret",
+            "resaturate": true,
+            "icon": "spirit_lanterne_secret"
+        },
+        {
+            "id": "spirit_forgee_edge.defunct",
+            "label": "Vua Crucible Le Lói",
+            "description": "Ngọn lửa của Vua Crucible đã chìm xuống một mức nhiệt độ rất thấp , ngay lúc này. Những dấu vết bôi đen vẫn còn, giống như lõi của than vậy.",
+            "lifetime": 180,
+            "aspects": {
+                "remnant": 1
+            },
+            "unique": true,
+            "xtriggers": {
+                "alzabo": "memory.golden"
+            }
+        },
+        {
+            "id": "spirit_forgee_edge.consumed",
+            "label": "Hương Vị Tro Tàn",
+            "description": "Tôi đã tiệu thụ những vết tro mà Crucible để lại trên thế giới. Ít nhất thì ông ta sẽ cảm thấy bị xúc phạm. Ông ta chắc sẽ tức giận. Tôi không nên triệu hồi ông ta lần nữa.",
+            "unique": true
+        },
+        {
+            "id": "spirit_graile_edge.defunct",
+            "label": "Ezeem Phiền Muộn",
+            "description": "cuối cùng thì, Ezeem sẽ ôn thôi.",
+            "lifetime": 180,
+            "comments": "Thẻ này không nên có thần sắc nào. Chúng tôi không muốn nó bị loại bỏ hoặc được sử dụng - mục đích chính của nó chỉ là thẻ chặn.",
+            "unique": true
+        },
+        {
+            "id": "spirit_lanterne_secret.defunct",
+            "label": "Teresa Nghỉ Ngơi",
+            "description": "The Baldomerian đã rút lui về Căn Lều của Hiệp Sĩ Hiền Triết để nghỉ ngơi",
+            "lifetime": 180,
+            "comments": "Thẻ này không nên có thần sắc nào. Chúng tôi không muốn nó bị loại bỏ hoặc được sử dụng - mục đích chính của nó chỉ là thẻ chặn.",
+            "unique": true
+        }
+    ]
+}

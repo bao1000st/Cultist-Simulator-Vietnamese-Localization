@@ -1,0 +1,118 @@
+{
+    "recipes": [
+        {
+            "id": "conjurationpower",
+            "label": "Chìa Khóa Đến Trái Tim Ta",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": 2,
+                "follower": 1,
+                "ascensionpowera": 1
+            },
+            "effects": {},
+            "startdescription": "Ta có thể sử dụng nghi thức này để Hour nhập vào cơ thể ta? Quyền lực đi kèm với chúng như một mùi hương. Và lẽ dĩ nhiên ... ta không biết Hour nào sẽ đến.",
+            "description": "Nghi thức đã hoàn tất. Cánh cửa đang mở.",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        },
+        {
+            "id": "conjurationpowerclue",
+            "label": "Chìa Khóa Đến Trái Tim Ta?",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "ascensionpowera": 1
+            },
+            "effects": {
+                "mystique": 1
+            },
+            "startdescription": "Ta có thể sử dụng nghi thức này để Hour nhập vào cơ thể ta? Quyền lực đi kèm với chúng như một mùi hương.",
+            "description": "Nó không hoạt động. Ta cũng cần thêm một lời kêu gọi khác - một thứ gì đó để mở đường. Và ta yêu cầu một sự hy sinh sẵn lòng.",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        },
+        {
+            "id": "conjurationenlightenment",
+            "label": "Cánh Cửa Trong Giấc Mơ Ta",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": 2,
+                "funds": 1,
+                "ascensionenlightenmenta": 1
+            },
+            "effects": {},
+            "startdescription": "Ta có thể sử dụng nghi thức này để đi theo bước chân của Watchman và tìm hiểu về căn nhà không tường.",
+            "description": "Nghi thức đã hoàn tất. Cánh cửa đang mở.",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        },
+        {
+            "id": "conjurationenlightenmentclue",
+            "label": "Cánh Cửa Trong Giấc Mơ Ta?",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "ascensionenlightenmenta": 1
+            },
+            "startdescription": "Ta có thể sử dụng nghi thức này để đi theo bước chân của Watchman và tìm hiểu về căn nhà không tường không đây?",
+            "description": "Nó không hoạt động. Ta cũng cần kêu gọi thêm một sức mạnh khác - một sức mạnh có thể khai mở. Và ta sẽ cần tiền, để có thể mua những cây nến sáp quý hiếm thắp sáng đường đi của Watchman.",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        },
+        {
+            "id": "ascensionpowerapromotion",
+            "label": "THE RED GRAIL ĐANG ĐẾN",
+            "actionid": "grailminorpromotion",
+            "requirements": {},
+            "slots": [
+                {
+                    "id": "Dedication",
+                    "label": "Tận Tâm",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ],
+            "startdescription": "Trái tim ta căng phồng; máu ta bùng cháy. Ta đã rất gần rồi. Ta phải cống hiến hết mình.",
+            "description": "Nghi thức thất bại! Ta đã rất gần rồi - gần tựa như ngọn lửa với ngọn nến, như máu với trái tim. Ta phải thử lại lần nữa.",
+            "warmup": 60,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        },
+        {
+            "id": "ascensionenlightenmentapromotion",
+            "label": "TA NGHE TIẾNG BƯỚC CHÂN CỦA WATCHMAN",
+            "actionid": "watchmanminorpromotion",
+            "requirements": {},
+            "effects": {
+                "mystique": 1
+            },
+            "slots": [
+                {
+                    "id": "Dedication",
+                    "label": "Tận Tâm",
+                    "required": {
+                        "reason": 1
+                    }
+                }
+            ],
+            "startdescription": "Những bức tường của trần gian rung chuyển như lụa. Ta đã rất gần rồi. Tất cả những suy nghĩ của ta phải được hội tụ.",
+            "description": "Ta đã chạm được nó bằng đầu ngón tay này, sự hiểu biết mà ta hằng tìm kiếm. Rất gần rồi. Ta phải thử lại lần nữa.",
+            "warmup": 60,
+            "craftable": false,
+            "comments": "legacy",
+            "burnimage": "flammarion"
+        }
+    ]
+}

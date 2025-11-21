@@ -1,0 +1,147 @@
+﻿{
+    "recipes": [
+        {
+            "id": "workintrojob",
+            "label": "Một Ca Khác Tại Bệnh Viện",
+            "actionid": "work",
+            "requirements": {
+                "introjob": 1
+            },
+            "effects": {
+                "introjob": -1,
+                "health": 1,
+                "funds": 2
+            },
+            "alt": [
+                {
+                    "id": "introdream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Một đêm tăng ca nữa:  quét sạch những hành lang tối tăm, đưa thư cho những thương binh mắt rỗng, lăn lộn đẩy những cái cáng đầy xác chết xuống tầng hầm.",
+            "description": "Giữa ca làm việc, người . Người khuân vác đứng đầu kéo bạn sang một bên. 'Chúng tôi sẽ không cần dịch vụ của cậu nữa', Ông ta nói. 'Đây: Lần thanh toán cuối cùng của cậu. Chúng tôi đã trả cho cậu đến cuối tháng.'\nVậy là tôi đã mất việc. Ít nhất giờ thì tôi cũng có chút thời gian để nghỉ ngơi, và cải thiện Sức Khỏe.\n[<b>Mơ</b> đã được mở.]",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "introdream",
+            "label": "Hồi Tưởng Giấc Mơ",
+            "actionid": "dream",
+            "requirements": {},
+            "effects": {
+                "passion": 1,
+                "contentment": 1
+            },
+            "alt": [
+                {
+                    "id": "bequestcountdown",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Một lần nữa, tôi lại mơ thấy về một ánh sáng rực rỡ ẩn bên dưới lớp màn đen tối của thế giới. Bóng tối xuyên qua lớp gỗ đen, cánh cửa nhợt màu xanh xám. Và, một ông lão - ",
+            "description": "Câu chuyện bắt đầu sau khi tôi nói chuyện với một ông lão trong bệnh viện. Ông ấy biết tên tôi. Nhưng giờ ông ta đã chết rồi. Vì bệnh viêm phổi. Tại sao tôi luôn mơ thấy ông ấy? Và thứ ánh sáng màu bạch kim trong giấc mơ của tôi là gì?\n[Thời gian đang trôi qua.]",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "Chỉ được kích hoạt từ công thức làm việc mở đầu."
+        },
+        {
+            "id": "bequestcountdown",
+            "label": "Sự Thay Đổi Trong Không Khí.",
+            "actionid": "study",
+            "requirements": {},
+            "startdescription": "Tôi cần Tiền để sống. Nhưng có lẽ những thứ khó chịu gần đây của tôi lại là một điều tốt lành thầm kín. Có điều gì đó trong giấc mơ của tôi? một Sự thay đổi trong bầu khí.",
+            "description": ".",
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "bequestarrives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "bequestarrives",
+            "label": "Di Vật Gửi Đến",
+            "actionid": "study",
+            "requirements": {},
+            "effects": {
+                "reason": 1,
+                "funds": 9,
+                "bequestintro": 1
+            },
+            "startdescription": "Một bức thư đến từ luật sư. Ông lão ở bệnh viện - người mà trong giấc mơ - đã ghi tên tôi vào di chúc của ông ấy. Tôi sẽ sớm được nghe thêm thông tin.",
+            "description": "Ông lão trong giấc mơ đã để lại cho tôi một số tiền, và một túi giấy đặc biệt. Bao gồm các bài thơ dị thường, những câu đố hóc búa cùng với những tấm thẻ bài tiên tri. Đây là lần đầu tiên trong nhiều tháng, tôi tìm lại được nguồn động lực cho Lý Trí của bản thân mình\n[<b>Nghiên cứu</b> Đã mở khóa.]",
+            "warmup": 30,
+            "craftable": false,
+            "maxexecutions": 1,
+            "comments": "Làm cho hành động Học Hỏi khả dụng, và chỉ được kích hoạt từ phần giới thiệu."
+        },
+        {
+            "id": "studybequestreason",
+            "label": "Kiểm Tra Di Vật, Áp Dụng Lý Trí",
+            "actionid": "study",
+            "requirements": {
+                "bequestintro": 1,
+                "reason": 1
+            },
+            "effects": {
+                "bequestintro": -1,
+                "ascensionenlightenmenta": 1,
+                "mapbookdealer": 1,
+                "fragmentlantern": 1,
+                "contactintro": 1
+            },
+            "startdescription": "Tôi sẽ kiểm tra từng thứ một cách tỉ mỉ. ",
+            "description": "Người viết thư cho tôi đã miêu tả cực kì chính xác giấc mơ của tôi! Người dùng những cái tên cực kì quen thuộc - the House, the Wood, the Hours, the Glory. Người biết được những bí mật ẩn bên trong lớp vỏ bọc của thế giới. <b>Một sự tò mò mới bùng cháy trong tôi</b>.\nCó một ghi chú ở đây - hướng đường đến một cửa hàng sách thường không quảng cáo về đồ của mình-\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "studybequestpassion",
+            "label": "Kiểm Tra Di Vật, sử dụng Đam Mê",
+            "actionid": "study",
+            "requirements": {
+                "bequestintro": 1,
+                "passion": 1
+            },
+            "effects": {
+                "bequestintro": -1,
+                "ascensionpowera": 1,
+                "mapbookdealer": 1,
+                "fragmentforge": 1,
+                "contactintro": 1
+            },
+            "startdescription": "Tôi sẽ đọc nó, tạo ra các định luật, bước từng bước, phác họa, rồi giữ chặt mái tóc của tôi trong sự ngạc nhiên, dâng trào, rồi sụp đổ trong tuyệt vọng.",
+            "description": "Người viết thư cho tôi đã miêu tả cực kì chính xác giấc mơ của tôi! Người dùng những cái tên cực kì quen thuộc - the House, the Wood, the Hours, the Glory. Người biết được những bí mật ẩn bên trong lớp vỏ bọc của thế giới. <b>Một sự tò mò mới bùng cháy trong tôi</b>.\nCó một ghi chú ở đây - hướng đường đến một cửa hàng sách thường không quảng cáo về đồ của mình-\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "studycontactintro",
+            "label": "Đi Tìm Cộng Tác Tiềm Năng",
+            "actionid": "study",
+            "requirements": {
+                "contactintro": 1
+            },
+            "effects": {
+                "contactintro": -1,
+                "mystique": 1
+            },
+            "alt": [
+                {
+                    "id": "findacquaintanceopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Tôi đã có được cái tên, biết được diện mạo, một ít chi tiết mê hoặc... nhưng có cả nghìn nghìn bộ mặt ở thành phố này.",
+            "description": "Và giờ tôi có cái địa chỉ rồi! Tôi sẽ gửi một lá thư và dự định hẹn một cuộc gặp mặt. [ <b>Nói Chuyện</b> Được mở khóa].",
+            "warmup": 30,
+            "craftable": true,
+            "comments": "Chỉ có thể mở động từ Nói Chuyện bằng cách này."
+        }
+    ]
+}

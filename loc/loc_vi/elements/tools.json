@@ -1,0 +1,459 @@
+{
+    "elements": [
+        {
+            "id": "dropzone",
+            "label": "Bãi Đáp",
+            "description": "",
+            "aspects": {},
+            "noartneeded": true
+        },
+        {
+            "id": "tooledgeb",
+            "label": "Đạn Sao Băng",
+            "description": "Đạn sắt Teanite đôi khi được làm từ bộ sương của những con quái vật, trên khắp Châu Âu, vùng Trung Đông và Ấn Độ. Ai đó đã từng săn những con quái vật này.",
+            "aspects": {
+                "edge": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "tooledged",
+            "label": "Thanh Kiếm Của Biedde",
+            "description": "Một vết cắt của thanh kiếm này sẽ gây chảy máu không ngừng cho đến khi vết thương được chữa lành. Một câu chuyện được kể lại rằng Biedde là một bác sĩ phẫu thuật chuyên thu thập dao ở Toulouse vào thế kỷ mười tám. Một vài lời đồn khác cho rằng Biedde chỉ là cái tên bịa đặt của một từ tiếng Ả Rập có nghĩa là 'con muỗi'.",
+            "aspects": {
+                "edge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "tooledgef",
+            "label": "Mảnh Kiếm Cuồng Bạo",
+            "description": "Khi the Lionsmith quay lưng chống lại the Colonel, ông ta đã nghiền nát thanh kiếm của mình bằng nắm đấm. Từng mãnh nhỏ nhất của vũ khí đó vẫn còn sát khí lớn.",
+            "aspects": {
+                "edge": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforgeb",
+            "label": "Bùa Chu Sa",
+            "description": "Đỏ tươi là màu của sức nóng. Sao Thủy nắm giữ chìa khóa của sự tan biến tối thượng.",
+            "aspects": {
+                "forge": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforged",
+            "label": "Mệnh Lệnh Nhĩ Chùy",
+            "description": "Một cái xương tai tí hon, bị cháy đen bởi sức nóng dữ dội. Sử dụng đúng cách, nó có thể dùng để phá hủy đá.",
+            "aspects": {
+                "forge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforgef",
+            "label": "Vòng Hồ Quang",
+            "description": "Tàn dư từ một ánh hào quang to lớn hơn, phát sáng nhẹ nhàng lúc tan rã. Chắc có lẽ, là một phần nhỏ của Mặt Trời bị chia tách.",
+            "aspects": {
+                "forge": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailmoth",
+            "label": "Bùa thì thầm",
+            "description": "Nó biết được ước nguyện của tôi; hoặc tôi nghĩ là nó biết như thế.",
+            "aspects": {
+                "grail": 2,
+                "moth": 2,
+                "auctionable": 2,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailb",
+            "label": "Găng Tay Dơ Bẩn",
+            "description": "Công dụng được biết đến của những thứ này là gì? Những bài học nào mà chúng có thể dạy cho đôi tay của tôi?",
+            "aspects": {
+                "grail": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "comments": "Không phải độc nhất; ta có thể lấy được thêm một cái từ nhân vật Vũ Công."
+        },
+        {
+            "id": "toolgraild",
+            "label": "Polos Thần Thánh",
+            "description": "Vương miện của một bà mẹ man rợ, nhuộm màu bởi sự ô uế, được dệt bằng những sợi tóc vụng và may bằng những mãnh da.",
+            "aspects": {
+                "grail": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailf",
+            "label": "Ly Rượu Thì Thầm",
+            "description": "Vào những đêm mà chúng tôi uống bằng ly rượu, chúng tôi không dám chắc, sau đó, chúng tôi đã làm việc gì. Nhưng, chúng tôi có thể yên tâm rằng, đó là những việc mà chúng tôi vẫn luôn luôn làm, và nếu chúng tôi không nhớ, thì con chúng tôi sẽ nhớ, trong những giấc mơ đỏ thẩm của chúng.",
+            "aspects": {
+                "grail": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolheartb",
+            "label": "Thánh Vật Người Marruvi",
+            "description": "Người Marruvii có thể đã làm ra những thánh vật nhỏ bằng gỗ để xoa dịu cặp phùy thủy song sinh mà họ luôn đáng sợ dưới cái hồ đó. Cái hồ giờ đã gần như khô cạn, nhưng những thánh vật và cặp phù thủy song sinh vẫn chưa biến mất, và vẫn bị che khuất bởi hình bóng của Trái Tim.",
+            "aspects": {
+                "heart": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "comments": "Không phải độc nhất; ta có thể lấy được thêm một cái từ nhân vật Vũ Công."
+        },
+        {
+            "id": "toolheartd",
+            "label": "Màng Nhĩ Thức Tỉnh",
+            "description": "Trong lùm cây nơi chúng làm cho sấm động, chung rung động các dụng cụ để khuấy động sự điên cuồng. Sức mạnh vẫn còn đeo bám dài dẳng, tựa như mùi hương.",
+            "aspects": {
+                "heart": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolheartf",
+            "label": "Trống Bodhrán Da Chúa",
+            "description": "Trong rừng sâu, vị quốc vương đã từ bỏ thứ cuối cùng mà người dân phải bỏ, và do đó, món đồ này đã được tạo ra để giữ vùng đất của họ này an toàn mãi mãi. Sau đó, tất nhiên, một đế chế đã khác đánh cắp nó, như bao đế chế khác đã làm",
+            "aspects": {
+                "heart": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockb",
+            "label": "Biểu Tượng của Thánh Agnes",
+            "description": "Thánh Agnes của xứ Bohemia nổi tiếng vì sự tận tụy ngoan đạo của bà trong việc hành hạ xác thịt. Biểu tượng này tạo nên một ánh nhìn rùng rợn.",
+            "aspects": {
+                "knock": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockd",
+            "label": "Lanh Tô Hiến Thánh",
+            "description": "Đây là hộp sọ của cánh cửa nơi mà sức mạnh đi qua.",
+            "aspects": {
+                "knock": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockf",
+            "label": "Chìa Khóa Frangiclave",
+            "description": "Có những chiếc chìa khóa dùng để mở cửa; Và rồi có những chìa khóa dùng để phá hủy chúng.",
+            "aspects": {
+                "knock": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toollanternb",
+            "label": "Thiên Đỉnh Thạch",
+            "description": "Thiên đỉnh, những lời nói ra, không còn đúng với bản chất của chúng; nhưng viên đá bóng loáng này vẫn giữ được ánh sáng hoàng hôn.",
+            "aspects": {
+                "lantern": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanternbcracked"
+            },
+            "comments": "Không độc nhất; ta có thể lấy nhiều cái nếu những cái bị nứt đã được cung cấp."
+        },
+        {
+            "id": "toollanternd",
+            "label": "Tấm Gương Lạc Lối",
+            "description": "Một khung cảnh thật phức tạp! Tầm nhìn bị rối loạn! Hãy nhìn vào ta, và cảm thấy vui sướng khi các giác quan của ngươi dần tan biến!",
+            "aspects": {
+                "lantern": 8,
+                "auctionable": 5,
+                "tool": 1,
+                "mirror": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanterndcracked"
+            },
+            "comments": "Không độc nhất; ta có thể lấy nhiều cái nếu những cái bị nứt đã được cung cấp."
+        },
+        {
+            "id": "toollanternf",
+            "label": "Tấm Kính Của Kẻ Canh Gác",
+            "description": "Đây là một chiếc gương mà không ai thực sự nhìn vào hai lần.",
+            "aspects": {
+                "lantern": 12,
+                "auctionable": 6,
+                "tool": 1,
+                "mirror": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanternfcracked"
+            },
+            "comments": "Không độc nhất; ta có thể lấy nhiều cái nếu những cái bị nứt đã được cung cấp."
+        },
+        {
+            "id": "toolmothb",
+            "label": "Con Búp Bê Có Cánh",
+            "description": "Trong căn gác của ngôi nhà xương có một khung cửa sổ. Bên cạnh khung cửa sổ ấy là một cái hộp. Trong chiếc hộp ấy là một chiếc băng quấn. Trong chiếc băng quấn ấy là một lọn tóc búi cao. Lọn tóc đang quấn quanh một con búp bê, bởi vì khung cửa sổ chưa từng được mở.",
+            "aspects": {
+                "moth": 4,
+                "auctionable": 3,
+                "tool": 1
+            }
+        },
+        {
+            "id": "toolmothd",
+            "label": "Mặt Nạ Lốm Đốm",
+            "description": "Trong khu rừng mà mặt trăng không thể đi được, những cành cây đan vào nhau như những dải băng hay những đôi tình nhân. mặt trăng có thể tự hóa thân thành nàng thành một con kiến, một con chim chim hoặc người chị của nàng, nhưng khu rừng sẽ không nhường chỗ cho sự xâm nhập của nàng, bất kể cả sự chăm sóc của nàng. Một ngày nọ chúng tôi đến với những chiếc kéo của mình, và chúng tôi cắt những cành cây cho đến khi mặt trăng và dòng máu lấm tấm trên những chiếc là mục nát trong mặt rừng.",
+            "aspects": {
+                "moth": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolmothf",
+            "label": "Cây Kéo Alakapurine",
+            "description": "Ở phía Bắc nọ có một thành phố giàu có, là nơi cư ngụ của một người bảo hộ cả thế giới. Một ngày nọ ông ấy trở nên câm lặng. Những chiếc kéo này được sử dụng để cắt tóc ông trước, rồi sau đó là ngón tay và sau đó là những gì còn sót lại.",
+            "aspects": {
+                "moth": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolsecrethistoriesb",
+            "label": "Vật Lạ Nghịch Lý",
+            "description": "Đôi khi, thật khó để chắc chắn rằng liệu một mũi tên đã bắn chết Nữ hoàng Herodias, hay là nữ hoàng Eudokia. Đôi khi, có thể một chiếc đồng hồ bằng đồng đã bị đánh cắp trong sự cướp phá của Vienna ngay cả khi nó được đặt an toàn trong hầm của Rome.",
+            "aspects": {
+                "secrethistories": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolsecrethistoriesd",
+            "label": "Bản Đồ Của Những Giấc Mơ",
+            "description": "Hình dạng của thế giới thay đổi trong mỗi trang lịch sử, nhưng hình dạng của the Mansus được hiện lên trong tất cả các chương lịch sử đó. Người ta không thể tạo nên bản đồ của the Mansus, nhưng người ta có thể cố gắng lập nên bản đồ chứa hình ảnh phản chiếu của nó.",
+            "aspects": {
+                "secrethistories": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterb",
+            "label": "Cây Sáo Xương",
+            "description": "Âm thanh của nó sẽ tan biến dần.",
+            "aspects": {
+                "winter": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterd",
+            "label": "Còng Tay Elagabaline",
+            "description": "Một thứ sẽ không từ bỏ sự kìm kẹp của mình.",
+            "aspects": {
+                "winter": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterf",
+            "label": "Chuông Phân Ly",
+            "description": "Đầu tiên, là thanh âm của nó, và sau đó, chẳng còn gì nữa.",
+            "aspects": {
+                "winter": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toollanternbcracked",
+            "label": "Thiên Đỉnh Thạch Bị Nứt",
+            "description": "Thiên đỉnh, những lời nói ra, không còn đúng với bản chất của chúng; nhưng viên đá bóng loáng này vẫn giữ được ánh sáng hoàng hôn. Nó đã bị nứt. Một tông đồ với thần sắc Lò Rèn có thể phục hồi nó, với đủ nguyên liệu - hoặc tôi có thể sử dụng hết lượng sức mạnh còn lại trong nó.",
+            "aspects": {
+                "lantern": 1,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "toollanterndcracked",
+            "label": "Tấm Gương Lạc Lối Bị Nứt",
+            "description": "Một vết nứt sâu chạy dọc qua thứ kim loại lấp lánh. Một tông đồ với thần sắc Lò Rèn có thể phục hồi nó, với đủ nguyên liệu - hoặc tôi có thể sử dụng hết lượng sức mạnh còn lại trong nó.",
+            "aspects": {
+                "lantern": 2,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "toollanternfcracked",
+            "label": "Tấm Kính Của Kẻ Kinh Gác Bị Nứt",
+            "description": "Một tông đồ với thần sắc Lò Rèn có thể phục hồi nó, nhưng giá có thể rất cao - hoặc tôi có thể sử dụng hết lượng sức mạnh còn lại trong nó.",
+            "aspects": {
+                "lantern": 3,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "paintingmasteredge",
+            "label": "'Colonel và Lionsmith'",
+            "description": "Kể từ khi Issus họ đã nỗ lực như vậy.",
+            "aspects": {
+                "edge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterforge",
+            "label": "'The Forge of Days'",
+            "description": "Nếu có điều the Forge hối tiếc, nó sẽ hối tiếc về the Intercalate, nhưng trong tất cả các công trình của nó, nó đều biết đến niềm vui.",
+            "aspects": {
+                "forge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastergrail",
+            "label": "'The Red Grail'",
+            "description": "Bà không hề chia tách the Sun, nhưng chúng ta có mường tượng rằng bà muốn thực hiện điều đó như thế nào.",
+            "aspects": {
+                "grail": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterheart",
+            "label": "'The Sister-and-Witch'",
+            "description": "Bà từng là một cặp chim tang, nhưng giờ nơi đây bà chỉ muốn bị được xuống nước mà thôi.",
+            "aspects": {
+                "heart": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterknock",
+            "label": "'The Mother of Ants'",
+            "description": "Kể cả trong những ngày của Elam, bà vẫn cứ bắt đầu xuất hiện như vậy.",
+            "aspects": {
+                "knock": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterlantern",
+            "label": "'The Door trong the Eye'",
+            "description": "Ông ấy bước ra từ sự vinh quang. Chúng ta không tài nào mà không ngước nhìn được.",
+            "aspects": {
+                "lantern": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastermoth",
+            "label": "'The Moth'",
+            "description": "Trong những khu rừng của lục địa đầu tiên, tổ tiên của chúng ta đã tự nguyền rủa mình với những vị thần của chính họ.",
+            "aspects": {
+                "moth": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastersecrethistories",
+            "label": "'Teresa và Christopher'",
+            "description": "Tình yêu, tựa như the Mansus, bất chấp mọi ranh giới.",
+            "aspects": {
+                "secrethistories": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterwinter",
+            "label": "'The Wolf-Divided'",
+            "description": "CAPUT GERAT LUPINUM. the Sun đã bị chia cắt, và đây chính là sự tổn thương của nó.",
+            "aspects": {
+                "winter": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "canvas.pale",
+            "label": "Bức Tranh Nhạt Nhòa",
+            "description": "Tôi phải đi những đường vẽ rất cẩn thận. Những ký ức mà tôi cần truyền tải sẽ bay khỏi bức tranh nếu tôi khắc họa chúng quá mạnh mẽ. Tôi sẽ tìm thấy những ký ức đó bên trong xác thịt của người chết... và có lẽ, ngay cả tôi nếu tôi phải, tìm nó bên trong xác thịt đang hấp hối của chính mình.",
+            "aspects": {}
+        },
+        {
+            "id": "painting.palest",
+            "label": "Bức Vẽ Nhạt Nhòa Nhất",
+            "description": "'Sáu đã mất, còn lại ba mươi.' Bức tranh sơn dầu vốn không phải màu trắng. Hãy Nhìn kỹ, và thấy các đường nét gợi ý của the Hours đã thất lạt từ lâu , đi trên con đường quanh co đến cánh cửa vào chốn vô định. Hãy nhìn thật kỹ, và tìm thấy bản thân mình lạc trong tiếng khóc.",
+            "aspects": {
+                "ascension.remembrance.offering": 1
+            }
+        }
+    ]
+}

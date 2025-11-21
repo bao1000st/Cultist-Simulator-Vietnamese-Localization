@@ -1,0 +1,56 @@
+{
+    "elements": [
+        {
+            "id": "lunatic",
+            "label": "Kẻ Điên Đáng Thương",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Một số chuyện quá sức chịu đựng xảy ra với bản thân hắn, khiến hắn mất đi giác quan vốn có. Chúng sẽ sớm biến mất và không hồi phục lại nữa.",
+            "lifetime": 60,
+            "xtriggers": {
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "genericprisonerm",
+            "label": "Tù Nhân Không May",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Một kẻ nào đó đã rơi vào cái bẫy của bạn. kẻ này sẽ chẳng thể sống sót mãi được.",
+            "lifetime": 600,
+            "decayTo": "corpse",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        },
+        {
+            "id": "genericprisonerf",
+            "label": "Tù Nhân Không May",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Một kẻ nào đó đã rơi vào cái bẫy của bạn. kẻ này sẽ chẳng thể sống sót mãi được.",
+            "lifetime": 600,
+            "decayTo": "corpse",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        }
+    ]
+}

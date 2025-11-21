@@ -1,0 +1,28 @@
+{
+    "recipes": [
+        {
+            "id": "translatehint",
+            "label": "Cố Gắng Dịch Một Văn Bản?",
+            "actionid": "study",
+            "requirements": {
+                "language": 1
+            },
+            "startdescription": "Nếu tôi có một văn bản bằng loại ngôn ngữ này, Tôi có thể bắt dầu dịch nó.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "translate",
+            "label": "Bắt Đầu Dịch Thuật Văn Bản",
+            "actionid": "study",
+            "requirements": {
+                "language": 1,
+                "text": 1
+            },
+            "startdescription": "Khóa cửa phòng nghiên cứu. Công việc bắt đầu. ",
+            "description": "Tôi đã chuẩn bị được một văn bản để nghiên cứu.",
+            "warmup": 60,
+            "craftable": true
+        }
+    ]
+}
