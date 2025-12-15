@@ -7,7 +7,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Nếu tâm trí là một lưỡi dao, thì đây chính là viên đá mài. [Học Tập để nhân được Uyên Bác: Bài Học Kinh Nghiệm, mà bạn có thể sử dụng để tăng Lý Lẽ.]"
+            "description": "Nếu tâm trí là một lưỡi dao, thì đây chính là viên đá mài. [Nghiên Cứu để nhận được Uyên Bác: Bài Học Kinh Nghiệm, có thể dùng để tăng Lý Trí.]"
         },
         {
             "id": "textbookpassion",
@@ -16,7 +16,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "'Nhà thơ tự biến mình trở thành một kẻ tiên đoán bằng một sự xáo trộn tất cả các giác quan một cách thận trọng, lâu dài và rộng lớn...' Đối lập của sự khôn ngoan, may thay. [Học Tập để nhận được Điều Mơ Hồ: Bài Học Kinh Nghiệm, mà bạn có thể sử dụng để tăng Khát Vọng.]"
+            "description": "'Nhà thơ tự biến mình trở thành kẻ tiên đoán bằng một sự xáo trộn mọi giác quan một cách mạnh mẽ, lâu dài và có chủ đích...' may thay, nó lại đối lập với sự khôn ngoan. [Nghiên Cứu để nhận được Ánh Sáng Le Lói: Bài Học Kinh Nghiệm, có thể dùng để tăng Đam Mê.]"
         },
         {
             "id": "genericrubbishbook",
@@ -25,7 +25,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một mớ bòng bong đáng sợ của một tin đồn nửa vời về 'Thế giới bí mật' và một sự không liên quan đến đạo đức đương đại, bao gồm một danh mục những tác phẩm kì dị, có lẽ đã được phát minh ra, đầy sự đồi trụy. [Nếu bạn đã mua nó từ một cửa hàng, điều đó có thể có nghĩa là chẳng còn gì thú vị trong kho cả.]."
+            "description": "Một mớ bòng bong đáng sợ của một tin đồn nửa vời về 'Thế giới bí mật' và sự không liên quan đến đạo đức đương thời, bao gồm một danh sách các hành vi trụy lạc không tưởng, mà có lẽ được bịa ra. [Nếu tôi mua được cái này từ cửa hàng, thì nghĩa là không còn gì khác thú vị trong kho nữa]."
         }
     ]
 }

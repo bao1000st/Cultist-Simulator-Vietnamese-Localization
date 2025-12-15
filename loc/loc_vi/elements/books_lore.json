@@ -8,7 +8,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một danh sách lắm khi mạch lạc về các vị thần thần bí. Đây là bản dịch tiếng Anh của một cuốn sách về việc xử lý sức mạnh của Khu Rừng."
+            "description": "Một danh sách lắm khi mạch lạc về các vị thần huyền bí. Đây là bản dịch tiếng Anh của một cuốn sách chuyên về các quyền năng của Khu Rừng."
         },
         {
             "id": "dehoris2",
@@ -18,37 +18,37 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một danh sách lắm khi mạch lạc về các vị thần thần bí. Đây là bản dịch tiếng Anh của một cuốn sách mô tả mối thù hằn giữa the Lionsmith và Hộ Dân Quan của những Vết Sẹo."
+            "description": "Một danh sách lắm khi mạch lạc về các vị thần huyền bí. Đây là bản dịch tiếng Anh của một cuốn sách mô tả mối thù hằn giữa Thần Rèn Sư Tử và Thống Chế Mặt Sẹo."
         },
         {
             "id": "travellingatnight1",
             "unique": true,
-            "label": "Du Hành Trong Đêm(Tập. 1)",
+            "label": "Du Hành Trong Đêm (Tập. 1)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, thỉnh thoảng được gọi 'nhà huyền bí duy nhất đáng để đọc': đậm chất văn, giải trí và đầy hoang mang."
+            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, đôi khi được gọi 'nhà huyền bí đáng đọc duy nhất': đậm chất văn, giải trí và đầy hoang mang."
         },
         {
             "id": "travellingatnight2",
             "unique": true,
-            "label": "Du Hành Trong Đêm(Tập. 2)",
+            "label": "Du Hành Trong Đêm (Tập. 2)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, thỉnh thoảng được gọi 'nhà huyền bí duy nhất đáng để đọc': đậm chất văn, giải trí và đầy hoang mang. Đây là tập thứ hai."
+            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, đôi khi được gọi 'nhà huyền bí đáng đọc duy nhất': đậm chất văn, giải trí và đầy hoang mang. Đây là tập thứ hai."
         },
         {
             "id": "travellingatnight3",
             "unique": true,
-            "label": "Du Hành Trong Đêm(Tập. 3)",
+            "label": "Du Hành Trong Đêm (Tập. 3)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, thỉnh thoảng được gọi 'nhà huyền bí duy nhất đáng để đọc': đậm chất văn, giải trí và đầy hoang mang. Đây là tập thứ ba."
+            "description": "Những nhật ký giấc mơ có chú giải của Christopher Illopoly, đôi khi được gọi 'nhà huyền bí đáng đọc duy nhất': đậm chất văn, giải trí và đầy hoang mang. Đây là tập thứ ba."
         },
         {
             "id": "sixlettersonnecessity",
@@ -58,12 +58,12 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những lời cảnh báo và thú nhận về cái giá phải trả của nghệ thuật vô hình, được gửi đến một học sinh bởi pháp sư thế kỷ XVII (nổi tiếng là bất tử) Julian Coseley."
+            "description": "Những lời cảnh báo và thú nhận về cái giá phải trả của nghệ thuật vô hình, được gửi đến một học trò bởi pháp sư thế kỷ XVII (một trường giả nổi tiếng) Julian Coseley."
         },
         {
             "id": "locksmithsdream1",
             "unique": true,
-            "label": "Giấc Mơ Của The Locksmith: Tia Sáng Xuyên Qua Nơi Lỗ Khóa",
+            "label": "Giấc Mơ Của Thợ Khóa: Tia Sáng xuyên qua nơi Lỗ Khóa",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -73,7 +73,7 @@
         {
             "id": "locksmithsdream2",
             "unique": true,
-            "label": "Giấc Mơ Của The Locksmith: Phần Và Tỷ Lệ",
+            "label": "Giấc Mơ Của Thợ Khóa: Phần Và Tỷ Lệ",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -83,7 +83,7 @@
         {
             "id": "locksmithsdream3",
             "unique": true,
-            "label": "Giấc Mơ Của The Locksmith: Xâm Phạm",
+            "label": "Giấc Mơ Của Thợ Khóa: Xâm Phạm",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -93,22 +93,22 @@
         {
             "id": "locksmithsdream4",
             "unique": true,
-            "label": "Giấc Mơ Của The Locksmith: Stolen Reflections",
+            "label": "Giấc Mơ Của Thần Rèn: Phản Chiếu Bị Đánh Cắp",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
 			},
-            "description": "Tập thứ tư về công trình mở rộng của Teresa Galmier - chẳng còn là một cuộc thảo luận về giấc mơ của những nghệ nhân, mà còn là cuộc khảo sát có giá trị về các hoạt động khác. Giọng điệu bình tĩnh hơn so với quyển 'Xâm Phạm', nhưng đôi khi là sợ hãi, thậm chí là hoang tưởng. Quyển sách này được xuất bản vào năm 1926 nhưng hầu như bị thu hồi và nghiền nát ngay lập tức bởi nhà xuất bản - theo yêu cầu của tác giả hoặc có thể là của cơ quan chức năng, tùy thuộc bạn tin vào cái nào. Một số bản sao vẫn còn tồn tại."
+            "description": "Tập thứ tư về công trình đồ sộ của Teresa Galmier - không chỉ là một cuộc thảo luận về giấc mơ của những nghệ nhân, mà còn là cuộc khảo sát có giá trị về các hoạt động khác. Giọng điệu bình tĩnh hơn so với quyển 'Xâm Phạm', nhưng đôi khi là sợ hãi, thậm chí là hoang tưởng. Quyển sách này được xuất bản vào năm 1926 nhưng hầu như bị thu hồi và nghiền nát ngay bởi nhà xuất bản - theo yêu cầu của tác giả hoặc là phía chức trách, tùy việc bạn tin vào cái nào. Một số bản sao vẫn còn tồn tại."
         },
         {
             "id": "locksmithsdream5",
             "unique": true,
-            "label": "Giấc Mơ Của The Locksmith: Incursus",
+            "label": "Giấc Mơ Của Thần Rèn: Đột Kích",
             "aspects": {
                 "text": 1,
                 "lantern": 1
             },
-            "description": "Tập thứ năm (và là tập cuối cùng?) về công trình khét tiếng của Teresa Galmier, bắt đầu như một cuộc kiểm nghiệm sự tương đồng trong những giấc mơ thần bí của các nghệ nhân nhưng đã trở thành một bản miêu tả về cuộc hành trình huyền bí của riêng bà. Quyển sách này chưa bao giờ được xuất bản, và hình như, còn chẳng được viết ra."
+            "description": "Tập thứ năm (và là tập cuối cùng?) về công trình tai tiếng của Teresa Galmier, bắt đầu như một cuộc kiểm nghiệm sự tương đồng trong những giấc mơ thần bí của các nghệ nhân nhưng đã trở thành một bản miêu tả về cuộc hành trình huyền bí của riêng bà. Quyển sách này chưa bao giờ được xuất bản, và thậm chí, còn chẳng được viết ra."
         },
         {
             "id": "humoursofagentleman",
@@ -128,17 +128,17 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những lời giải thích thất thường, bởi một 'Arun', về việc lùng sục và tiêu diệt những người kẻ được cho là bất tử , bởi những sát thủ của các giáo phái bóng tối. Được xuất bản vào cuối thế kỷ XIX."
+            "description": "Những ghi chép thất thường, bởi một 'Arun', về việc săn lùng và tiêu thụ những người kẻ được cho là bất tử , bởi các môn phái sát thủ mờ ám. Được xuất bản vào cuối thế kỷ XIX."
         },
         {
             "id": "introductiontohistories",
             "unique": true,
-            "label": "Giới Thiệu Về Các Dòng Lịch Sử",
+            "label": "Giới Thiệu Các Dòng Lịch Sử",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Nhà thần bí và cổ vật học thế kỷ 17 Claude Hersault mô tả các sự cố khác nhau trong năm dòng Lịch Sử chính."
+            "description": "Nhà thần bí và cổ vật học Claude Hersault của thế kỉ 17 mô tả các sự kiện rẽ nhánh trong năm dòng Lịch Sử chính."
         },
         {
             "id": "treatiseonunderplaces",
@@ -148,27 +148,27 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Trong quyển sách này, Nhà thần bí và cổ vật học thế kỷ 17 Claude Hersault mô tả về 'Vùng Ranh Giới' hoặc 'Chốn Phía Dưới' nằm trên đường biên giới của giấc mơ. Ông ta cảnh báo rằng nó luôn thay đổi theo thời gian."
+            "description": "Trong quyển này, nhà thần bí và cổ vật Claude Hersault từ thế kỉ 17 mô tả về 'Vùng Ranh Giới' hoặc 'Chốn Phía Dưới' nằm trên vành đai của giấc mơ. Ông ta cảnh báo rằng nó luôn thay đổi theo thời gian."
         },
         {
             "id": "onthewhite",
             "unique": true,
-            "label": "Về Đức Trong Trắng",
+            "label": "Về Cái Trắng",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Solomon Husher viết, có lẽ đã được nhân hóa, về Mùa Đông, và chuyện tình bi thảm buồn tẻ với the Sun(Mặt Trời). Tựa đề là 'Hoàng Hôn Vào Buổi Trưa'."
+            "description": "Solomon Husher viết, có lẽ đã được nhân hóa, về Mùa Đông, và chuyện tình bi thảm buồn tẻ với Mặt Trời. Lời đề từ là 'Hoàng Hôn Vào Buổi Trưa'."
         },
         {
             "id": "waroftheroadscensored",
             "unique": true,
-            "label": "Cuộc Chiến Đường Bộ, 1450-1580, PHIÊN BẢN ĐƯỢC KIỂM DUYỆT",
+            "label": "Đại Chiến Lộ Tuyến, 1450-1580, BẢN KIỂM DUYỆT",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Willis-Ford mô tả Cuộc Chiến Đường Bộ, một sự kiện nằm trong Dòng Lịch Sử khác chúng ta, rất chi tiết. Nhưng nhiều trang đã bị xóa; tên của nhà xuất bản bị bôi đen; và một mẩu giấy nhỏ đáng ngại được ghim vào trang bìa giải thích rằng Willis-Ford đã bị 'cắt bỏ'."
+            "description": "Willis-Ford mô tả Đại Chiến Lộ Tuyến, một sự kiện nằm trong Dòng Lịch Sử khác chúng ta, một cách chi tiết. Nhưng nhiều trang đã bị xóa; tên của nhà xuất bản bị bôi đen; và một mẩu giấy nhỏ đáng ngại được ghim vào trang bìa giải thích rằng Willis-Ford đã bị 'loại bỏ'."
         },
         {
             "id": "queensoftherivers",
@@ -178,7 +178,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một vở kịch đương đại siêu thực của Monica Medina bí ẩn, mà trong đó Những Nữ Hoàng Của Các Con Sông bị giết, từng người một."
+            "description": "Một vở kịch đương đại siêu thực của Monica Medina bí ẩn, mà trong đó những Nữ Hoàng Của Các Con Sông bị sát hại, từng người một."
         },
         {
             "id": "apolloandmarsyas",
@@ -188,17 +188,17 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Bản văn ca kịch của một vở Opera đã mất liên quan đến cuộc chiến giữa Apollo và Marsyas, và kết quả bi thảm của nó. Người viết lời chỉ được xác định danh bằng tên viết tắt: RKNJL."
+            "description": "Bản văn ca kịch của một vở Opera thất lạc kể về cuộc chiến giữa Apollo và Marsyas, và kết quả bi thảm của nó. Người viết lời chỉ được xác định bằng tên viết tắt: RKNJL."
         },
         {
             "id": "skeletonsongs",
             "unique": true,
-            "label": "Khúc Nhạc Huyết Mạch",
+            "label": "Khúc Nhạc Của Bộ Xương",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },            
-            "description": "Những bài thơ về niềm khoái lạc tham lam được sáng tác bởi Arabella Dusk có thể đây là bút danh, được đồn đại như một người thừa kế trở thành phu nhân rồi thành nữ nhà thơ."
+            "description": "Những bài thơ về niềm vui tham lam được sáng tác bởi Arabella Dusk, có thể đây là bút danh, được đồn đại là nữ thừa kế trở thành phu nhân rồi thành nữ nhà thơ."
         },
         {
             "id": "burningofunburntgod",
@@ -218,80 +218,80 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một bài thơ sử thi từ thế kỷ thứ mười tám bởi bút danh 'Solipsistos'."
+            "description": "Một trường ca từ thế kỷ thứ mười tám bởi bút danh 'Solipsistos'."
         },
         {
             "id": "onwhatiscontainedbysilver",
             "unique": true,
-            "label": "Về Những Gì Được Chứa Bởi Bạc ",
+            "label": "Về Những Gì Được Chứa Trong Bạc ",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Bộ toàn thư về các con quái vật của nỗi kinh hoàng được tìm thấy trong gương. Đây là ấn bản gần đây của một văn bản thế kỷ thứ ba viết bởi 'Poemander'."
+            "description": "Bộ toàn thư về các con quái vật của nỗi kinh hoàng được tìm thấy trong gương. Đây là ấn bản gần đây nhất của một văn bản thế kỷ thứ ba viết bởi 'Poemander'."
         },
         {
             "id": "truecompleteasclepian",
             "unique": true,
-            "label": "Giải Thích Chân Thực Và Đầy Đủ Về Những Bí Ẩn Của Người Asclepian Về Cội Nguồn Của Ngôi Nhà",
+            "label": "Giải Thích Chân Thực Và Đầy Đủ Về Những Bí Ẩn Asclepius Về Cội Nguồn Của Ngôi Nhà",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những Mô tả về 'Bí Ẩn Người Asclepian', được tái bản bởi một 'Rylee Grese' từ - được cho là - một văn bản cổ xưa hơn nhiều. Chuyện đó không chắc là thật, nhưng nó có nhắc đến 'Ngôi Nhà Không Tường và Khu Rừng của nó', ngay trong đoạn mở đầu."
+            "description": "Những Mô tả về 'Bí Ẩn Asclepius', được tái bản bởi 'Rylee Grese' từ - được cho là - một văn bản cổ xưa hơn nhiều. Chuyện đó không chắc là thật, nhưng nó có nhắc đến 'Ngôi Nhà không Tường và Khu Rừng của nó', ngay trong đoạn mở đầu."
         },
         {
             "id": "geminiad",
             "unique": true,
-            "label": "The Geminiad",
+            "label": "Song Tủ",
             "aspects": {
                 "knock": 2,
                 "tool": 1,
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một bản thảo mỏng manh, được chiếu sáng với những hình dạng ghép đôi mang vẻ đẹp buồn và rực rỡ, và với tất cả các biến tượng của mặt trăng. Nó có thể đã bảy thế kỷ tuổi, nhưng ngôn ngữ - Fucine - còn cổ xưa hơn nhiều. San hô trang trí cho bìa của nó, và các cạnh trang đủ sắc đến nổi cắt được cổ họng. [Tôi đã có ghi chú về một bản dịch. Bây giờ tôi có thể nghiên cứu nó.]"
+            "description": "Một bản thảo mỏng manh, được trang trí với những hình dạng song sinh mang vẻ đẹp buồn rực rỡ, cùng với tất cả các biến tượng của mặt trăng. Nó có thể từ thế kỷ thứ bảy, nhưng ngôn ngữ - Fucine - còn cổ xưa hơn nhiều. San hô trang trí cho bìa của nó, và các mép giấy đủ sắc đến nổi cắt được cổ họng. [Tôi đã có ghi chú cho bản dịch. Bây giờ tôi có thể nghiên cứu nó.]"
         },
         {
             "id": "geminiadread",
             "unique": true,
-            "label": "The Geminiad [Đọc]",
+            "label": "Song Tử [Đã Đọc]",
             "aspects": {
                 "knock": 2,
                 "tool": 1,
                 "auctionable": 2
             },
-            "description": "Một bản thảo mỏng manh, được chiếu sáng với những hình dạng ghép đôi mang vẻ đẹp buồn và rực rỡ, và với tất cả các biến tượng của mặt trăng.San hô trang trí cho bìa của nó, và các cạnh trang đủ sắc đến nổi cắt được cổ họng. [Tôi đã học được mọi thứ có thể từ thứ này, nhưng bản thân cuốn sách vẫn còn sức mạnh.]"
+            "description": "Một bản thảo mỏng manh, được trang trí với những hình dạng song sinh mang vẻ đẹp buồn rực rỡ, cùng với tất cả các biến tượng của mặt trăng. San hô trang trí cho bìa của nó, và các mép giấy đủ sắc đến nổi cắt được cổ họng. [Tôi đã học được mọi thứ có thể, nhưng bản thân cuốn sách vẫn còn sức mạnh.]"
         },
         {
             "id": "orchidtransfigurations1",
             "unique": true,
-            "label": "Các Cấu Hình Phong Lan, Tập 1: Tiệc Đãi",
+            "label": "Chuyển Hóa Phong Lan, Tập 1: Tiệc Đãi",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Tập đầu tiên của tổng hợp các câu chuyện ngụ ngôn gần giống với Rosicrucian, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
+            "description": "Tập đầu tiên của tổng hợp các ngụ ngôn gần giống với hội Thập Tự Hoa Hồng, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
         },
         {
             "id": "orchidtransfigurations2",
             "unique": true,
-            "label": "Các Cấu Hình Phong Lan, Tập 2: Hạ Sinh",
+            "label": "Chuyển Hóa Phong Lan, Tập 2: Hạ Sinh",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Tập thứ hai của tổng hợp các câu chuyện ngụ ngôn gần giống với Rosicrucian, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
+            "description": "Tập thứ hai của tổng hợp các ngụ ngôn gần giống với hội Thập Tự Hoa Hồng, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
         },
         {
             "id": "orchidtransfigurations3",
             "unique": true,
-            "label": "Các Cấu Hình Phong Lan, Tập 2: Giữa Trưa",
+            "label": "Chuyển Hóa Phong Lan, Tập 2: Giữa Trưa",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Tập thứ ba của tổng hợp các câu chuyện ngụ ngôn gần giống với Rosicrucian, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
+            "description": "Tập thứ ba của tổng hợp các ngụ ngôn gần giống với hội Thập Tự Hoa Hồng, được cho là viết bởi Robert Fludd. Đây là bản dịch tiếng Anh sau này."
         },
         {
             "id": "wainscothistories",
@@ -301,23 +301,23 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Có phụ đề 'Những câu chuyện từ phía sau Bức Tường': một sưu tập về những dòng lịch sử phi truyền thống do William Gore biên soạn, bao gồm cả các trận chiến thường không được thừa nhận và những quốc gia không xuất hiện trên bản đồ, được kể một cách vui tươi, có vẻ như đang hư cấu. "
+            "description": "Có tiêu đề phụ 'Những câu chuyện từ phía sau Bức Tường': một tuyển tập về những dòng lịch sử phi truyền thống do William Gore biên soạn, bao gồm cả các trận chiến thường không được thừa nhận và những quốc gia không nằm trên bản đồ, được kể một cách hóm hỉnh, dường như là hư cấu."
         },
         {
             "id": "chioneatabydos",
             "unique": true,
-            "label": "Chione Tại Xứ Abydos",
+            "label": "Chione Tại Abydos",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một vở kịch nói về cuộc sống chín năm của một nữ thần tuyết ở thành phố Thracia của Abydos, viết bởi 'Apollo Fireweaver'. Nó đã đạt được thành công ở London trong ấn bản năm 1892, khi nó được tái bản từ - dường như là - một văn bản tiếng Hy Lạp cổ hơn. "
+            "description": "Một vở kịch nói về chuyến cư ngụ chín năm của một nữ thần tuyết ở thành phố Abydos xứ Thracia, viết bởi 'Apollo Fireweaver'. Nó đã đạt được thành công ở London trong ấn bản năm 1892, khi nó được tái bản từ - dường như là - một văn bản tiếng Hy Lạp cổ hơn. "
         },
         {
             "id": "irreproachabletraditionssocietynobleendeavour",
             "unique": true,
             "label": "Các Truyền Thống Bất Diệt ...",
-            "description": "Các Truyền Thống Bất Diệt Của Hiệp Hội Những Nhà Nỗ Lực Cao Quý. Các thành viên của Hiệp Hội Những Nhà Nỗ Lực Cao Quý đã sử dụng những cái tên cao quý khi mới thành lập: 'Parsival', 'Roland', 'Oisín'. Họ lấy cảm hứng từ hội Ngọn Lửa Dây Xích, vốn đã mang lại cho hòn đảo của Anh một sức mạnh thật kinh khủng trong một số dòng lịch sử. Một Samuel Partridge đã ghi lại những nỗ lực của họ. ",
+            "description": "Các Truyền Thống Bất Diệt Của Hội Nỗ Lực Cao Quý. Các thành viên của Hội Nỗ Lực Cao Quý đã lấy những danh xưng cao quý khi được khai tâm: 'Parsival', 'Roland', 'Oisín'. Họ lấy cảm hứng từ hội Ngọn Lửa Dây Xích, vốn đã mang lại cho hòn đảo của Anh một sức mạnh kinh khủng trong một số dòng lịch sử. Samuel Partridge đã ghi lại những nỗ lực của họ. ",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
@@ -331,7 +331,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một tập các giáo lý được sưu tầm của Hội Chị Em Nút Thắt, tổ chức chiêm nghiệm phức tạp này đã tồn tại trong mọi dòng lịch sử, nhưng trong một số dòng lịch sử, thực sự rất quyền lực. Điều này đã được ghi lại bởi 'Nuriel', và dành riêng cho Thánh Tryphon. "
+            "description": "Một tập các giáo lý được sưu tầm của Hội Chị Em Nút Thắt, một dòng tu bí truyền thiền định tồn tại trong mọi dòng lịch sử, nhưng trong một số dòng lịch sử thì thực sự rất quyền lực. Sách này được ghi chép bởi 'Nuriel', và dành riêng cho Thánh Tryphon. "
         },
         {
             "id": "roseofhypatia",
@@ -341,7 +341,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một tập các giáo lý được sưu tầm của Hội Chị Em Nút Thắt, tổ chức chiêm nghiệm phức tạp này đã tồn tại trong mọi dòng lịch sử, nhưng trong một số dòng lịch sử, thực sự rất quyền lực. Điều này đã được ghi lại bởi 'Hypatia', và dành riêng cho Thánh Nympha."
+            "description": "Một tập các giáo lý được sưu tầm của Hội Chị Em Nút Thắt, một dòng tu bí truyền thiền định tồn tại trong mọi dòng lịch sử, nhưng trong một số dòng lịch sử thì thực sự rất quyền lực. Sách này được ghi chép bởi 'Hypatia', và dành riêng cho Thánh Nympha."
         },
         {
             "id": "roseofwaznei",
@@ -351,7 +351,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Những lời dạy dị giáo của một chi nhánh bị thất sủng thuộc Hội Chị Em Nút Thắt, tổ chức chiêm nghiệm phức tạp này đã tồn tại trong mọi dòng lịch sử. Điều này đã được ghi lại bởi 'Waznei', và dành riêng cho Thánh Respicius. "
+            "description": "Những giáo lý dị giáo của một chi nhánh bị thất sủng thuộc Hội Chị Em Nút Thắt, một dòng tu bí truyền thiền định đã tồn tại trong mọi dòng lịch sử. Sách này được ghi chép bởi 'Waznei', và dành riêng cho Thánh Respicius. "
         },
         {
             "id": "sunsetpassages",
@@ -361,7 +361,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một bộ sưu tập về những lời cầu nguyện danh dự, những nghi lễ và thánh ca của Nhà Thờ Của Mặt Trời Bất Phục, mọt hội đã đi lên trong dòng Lịch Sử Thứ Ba và Thứ Tư. hội bị tan rã trong sự kiện Nhuận, khi the Sun bị chia cắt, và không tồn tại như một lực lượng hùng hậu. "
+            "description": "Một tuyển tập linh tinh về những lời cầu tang lễ, nghi lễ và thánh ca của Nhà Thờ Của Mặt Trời Bất Phục, một hội đã lên ngôi trong dòng Lịch Sử Thứ Ba và Thứ Tư. hội bị tan rã trong sự kiện Xen Kẽ, khi the Mặt Trời bị chia cắt, và không còn tồn tại như một lực lượng đáng kể nữa. "
         },
         {
             "id": "gospelzacchaeus",
@@ -371,122 +371,122 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một tường thuật cực kỳ dị đoan về Đấng Nazarene Messiah và các công trình của ông, mô tả việc ông thăng thiên lên cõi Mansus thông qua cánh cửa của cơ thể."
+            "description": "Một tường thuật cực kỳ dị đoan về Đấng Messiah người Nazareth và các công trình của ông, mô tả việc ông thăng thiên lên cõi Mansus thông qua cánh cửa của cơ thể."
         },
         {
             "id": "matthiasamethystloss",
             "unique": true,
-            "label": "Về Matthias Và Imago Thạch Anh Tím: Mất Mát",
+            "label": "Về Matthias Và Hoàn Hình Thạch Anh Tím: Mất Mát",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Lời kể về một chuyện tình huyền bí. Một Para nào đó, con trai của Aaron, tuyên bố đã viết thứ này chỉ trong một ngày một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Damascene của Ngôi Nhà Của Lethe - một tổ chức có kỷ luật chặt chẽ của những kẻ bất tử từ chối quá khứ và tương lai của bản thân."
+            "description": "Lời kể về một chuyện tình huyền bí. Một Para nào đó, con trai của Aaron, tuyên bố đã viết thứ này chỉ trong một ngày một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Damascene của Hội Sông Lethe - một tổ chức của các trường giả với kỷ luật nghiêm ngặt luôn chối bỏ quá khứ và tương lai của họ."
         },
         {
             "id": "matthiasamethysttransformation",
             "unique": true,
-            "label": "Về Matthias Và Imago Thạch Anh Tím: Biến Đổi",
+            "label": "Về Matthias Và Hoàn Hình Thạch Anh Tím: Biến Đổi",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Lời kể về một chuyện tình huyền bí. Một Iyavogos nào đó tuyên bố đã viết thứ này chỉ trong một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Aleppine của Ngôi Nhà Của Lethe - tổ chức của những kẻ bất tử không cam kết một Hour nào cả."
+            "description": "Lời kể về một chuyện tình huyền bí. Một Iyavogos nào đó tuyên bố đã viết thứ này chỉ trong một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Aleppine của Hội Sông Lethe - tổ chức của những trường giả không tôn giờ bất kì Thời Thần nào cả."
         },
         {
             "id": "matthiasamethystpursuit",
             "unique": true,
-            "label": "Về Matthias Và Imago Thạch Anh Tím: Theo Đuổi",
+            "label": "Về Matthias Và Hoàn Hình Thạch Anh Tím: Theo Đuổi",
             "aspects": {
-				"text": 1,
+                "text": 1,
                 "auctionable": 2
             },
-            "description": "Lời kể về một chuyện tình huyền bí. một Mek nào đó tuyên bố đã viết thứ này chỉ trong một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Theban thuộc hội Ngôi Nhà Của Lethe - Tổ chức của những kẻ bất tử sử dụng thuật của nước để che giấu bản thân."
+            "description": "Lời kể về một chuyện tình huyền bí. một Mek nào đó tuyên bố đã viết thứ này chỉ trong một đêm như một phần trong lễ truyền thụ của ông vào chi nhánh Theban của Hội Sông Lethe - Tổ chức của các trường giả sử dụng thuật của nước để che giấu bản thân."
         },
         {
             "id": "franklinbancroftdiaries",
             "unique": true,
-            "label": "Chúa Franklin Bancroft: Nhật ký, 1750-1790",
+            "label": "Lãnh Chúa Franklin Bancroft: Nhật ký, 1750-1790",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Chúa Franklin Bancroft được khởi xướng gia nhập vào trường phái của the Flowermaker bởi 'phù thủy hoa hồng' Fionna Ayrshire. Ông vươn lên trở thành nhà cung cấp dịch vụ huyền bí và thú vui bí mật cho Hội, trước khi đột ngột mất tích vào năm 1790."
+            "description": "Lãnh chúa Franklin Bancroft được khởi xướng gia nhập vào trường phái của Thần Tạo Hoa bởi 'phù thủy hoa hồng' Fionna Ayrshire. Ông vươn lên trở thành nhà cung cấp dịch vụ huyền bí và thú vui bí mật cho Hội, trước khi đột ngột mất tích vào năm 1790."
         },
         {
             "id": "indignitiesobliviate",
             "unique": true,
-            "label": "Trách Nhiệm Được Truyền Lại Bởi Tình Huynh Đệ Dối Trá Của Những Kẻ Lãng Quên",
+            "label": "Những Việc Đáng Khinh Bởi Hội Lãng Quên Dối Trá",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Không rõ liệu 'C.R.O.D', người chỉ được định danh bằng tên viết tắt của ông ta, có thực sự là người thành lập Hội Lãng Quên của những Kẻ Tinh Thông bất tử hay không. Ông viết thứ này rằng vào thế kỉ 16, sau khi hội - theo như ông tin rằng - đã trôi qua thời kì đỉnh cao của nó."
+            "description": "Không rõ liệu 'C.R.O.D', người chỉ được định danh bằng tên viết tắt của ông, có thực sự là người thành lập Hội Lãng Quên của những tông đồ bất tử hay không. Ông viết sách này vào thế kỉ 16, sau khi hội - theo như ông tin rằng - đã đi qua thời kì đỉnh cao của nó."
         },
         {
             "id": "furioustantra",
             "unique": true,
-            "label": " Cuồng-Bạo-Lê Đát-Đặc-La",
+            "label": "Mật Điển Cuồng Nộ",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Sau này được chép lại bởi nhà khoa học công nghệ và pháo hoa Jacob Oliver Topp-Mugglestone. Truyện kể rằng ông đã tìm thấy nó bị sét đánh chết mòn trong vỏ cây sồi."
+            "description": "Sau này được chép lại bởi nhà ngoại cảm và pháo hoa Jacob Oliver Topp-Mugglestone. Truyện kể rằng ông đã tìm thấy nó bị khắc cháy trên vỏ cây sồi do sét đánh."
         },
         {
             "id": "devouredtantra",
             "unique": true,
-            "label": "Thôn-Hoàn-Lê Đát-Đặc-La",
+            "label": "Mật Điển Thôn Hoàng",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà ngoại giao-linh mục Stanislav John Schaller đã chép lại thứ này từ thư viện của Red Long, nhưng bản thảo của ông vẫn còn nằm trong một bộ sưu tập tư nhân ở Kerisham."
+            "description": "Nhà ngoại giao-linh mục Stanislav John Schaller đã chép lại thứ này từ thư viện của một Trường Giả Đỏ, nhưng bản thảo của ông vẫn còn nằm trong một bộ sưu tập tư nhân tại Kerisham."
         },
         {
             "id": "ceaselesstantra",
             "unique": true,
-            "label": "Liên-Mạch-Lê Đát-Đặc-La",
+            "label": "Mật Điển Liên Mạch",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Biên đạo múa tiên phong Nicholas Keirle được cho là đã kết hợp Đát-Đặc-La này vào vở ballet đầy đe dọa của mình."
+            "description": "Biên đạo múa tiên phong Nicholas Keirle được cho là đã kết hợp Mật Điển này vào vở ballet đầy đe dọa của mình."
         },
         {
             "id": "knownunknowntantra",
             "unique": true,
-            "label": "Đổng-Vô-Đổng-Lê Đát-Đặc-La",
+            "label": "Mật Điển Tri Thức Ẩn Giấu",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Carlos Garcia Sauri, nhà thần bí xuất thần của dãy núi Pyrenees, được biết đến là người đọc lại quyển này bằng ba thứ tiếng, mặc dù ông chưa bao giờ đặt chân đến Tiểu Lục Địa."
+            "description": "Carlos Garcia Sauri, nhà thần bí xuất thần từ dãy núi Pyrenees, được biết đến là người đọc lại quyển này bằng ba thứ tiếng, mặc dù ông chưa bao giờ đặt chân đến Tiểu Lục Địa."
         },
         {
             "id": "encirclingtantra",
             "unique": true,
-            "label": "Vây-Bủa-Lê Đát-Đặc-La",
+            "label": "Mật Điển Vây Bủa",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà thám hiểm kiêm doanh nhân T. Everett Duplantis đã từng cố gắng cướp bóc ngôi đền nơi văn bản này được lưu giữ. Số phận của ông ta được ghi trong một phụ lục nhỏ."
+            "description": "Nhà thám hiểm kiêm doanh nhân T. Everett Duplantis đã từng cố gắng cướp bóc ngôi đền nơi văn bản này được lưu giữ. Số phận của ông ta được ghi lại trong phần phụ lục nhỏ."
         },
         {
             "id": "shavenlocktantra",
             "unique": true,
-            "label": "Thôn-Đầu-Lê Đát-Đặc-La",
+            "label": "Mật Điển Thế Đầu",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Còn được biết đến như 'Kẻ Đã Cạo Trọc Đầu'. Văn bản này, theo như chuyện kể, là truyền thuyết mà ngay cả các Vanaras biến dạng cũng bác bỏ."
+            "description": "Còn được biết đến như 'Kẻ Đã Cạo Tóc Mình'. Văn bản này, theo như chuyện kể, là giáo lý mà ngay cả các Vanaras biến dạng cũng từ chối."
         },
         {
             "id": "tantraworms",
             "unique": true,
-            "label": "Khâu-Dẫn-Lê Đát-Đặc-La",
+            "label": "Mật Điển Trùng Thể",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
@@ -496,32 +496,32 @@
         {
             "id": "bookofcentipede",
             "unique": true,
-            "label": "Quyển Sách Của The Centipede",
+            "label": "Quyển Sách Của Thần Rết",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Vào giữa những năm 1860, một 'Madam Yi' đã giới thiệu một chương trình giải trí dựa trên quyển sách này, bà đã tuyên bố như vậy."
+            "description": "Vào giữa những năm 1860, một 'Madam Yi' đã trình diễn tiết mục giải trí dựa trên quyển sách này, theo bà đã tuyên bố."
         },
         {
             "id": "accountkanishkspidersdoor",
             "unique": true,
-            "label": "Những Giải Thích Của Kanishk Tại Cửa Nhện.",
+            "label": "Ghi Chép Về Kanishk Tại Cổng Nhện.",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Lok Kahuli, nạn nhân và cũng là người tình của Kanishk, đã viết lại lời kể này, có lẽ đây cũng là một di chúc."
+            "description": "Lok Kahuli, nạn nhân và cũng là người tình của Kanishk, đã viết lại lời kể này, có lẽ là sau khi chết."
         },
         {
             "id": "stumm",
             "unique": true,
-            "label": "RẦMM!",
+            "label": "CĂM LẶNG!",
             "slots": [
                 {
                     "id": "projector",
                     "label": "Máy Chiếu",
-                    "description": "Tôi sẽ cần mua một máy chiếu để xem cái này.",
+                    "description": "Tôi sẽ cần mua một máy chiếu để xem được cái này.",
                     "required": {
                         "funds": 1
                     },
@@ -532,12 +532,12 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một cái hộp phim nitrat có nhãn RẦMM! - 'Im lặng' hoặc có lẽ là 'Câm'. Tên của đạo diễn 'Jernik Krosse' được thêm vào một cách nguệch ngoạc."
+            "description": "Một cái hộp phim nitrat có nhãn STUMM! - 'Im lặng' hoặc có lẽ là 'Câm'. Tên của đạo diễn 'Jernik Krosse' được ghi thêm vào một cách nguệch ngoạc."
         },
         {
             "id": "vinzantinscriptions",
             "unique": true,
-            "label": "Những Chữ Khắc Vinzant",
+            "label": "Những Văn Khắc Vinzant",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
@@ -562,7 +562,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Chống lại Hội Chị Em Nút Thắt và những Tội Lỗi trong các Phong Tục Đồi Trụy của bọn chúng'. Hieronymus Pseudo-Hypnerotomachus đã giận dữ viết về tầm ảnh hưởng nguy hiểm của Hội Chị Em đối đối với tổ chức Nhà Thờ Của Mặt Trời Bất Phục do chính ông kiểm soát."
+            "description": "'Chống lại Hội Chị Em Nút Thắt và sự Dơ Bẩn từ các Tập Tục Đồi Trụy của chúng'. Hieronymus Pseudo-Hypnerotomachus đã giận dữ viết về tầm ảnh hưởng nguy hiểm của Hội Chị Em đối với Nhà Thờ Của Mặt Trời Bất Phục do chính ông kiểm soát."
         },
         {
             "id": "morphycodex",
@@ -572,97 +572,97 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Trong quyển sách, một nữ tu sĩ của Hội Chị Em Nút Thắt khẳng định rằng đã nhận ra ý nghĩa thực sự trong sự ra đời của the Thunderskin."
+            "description": "Trong quyển sách, một nữ tu sĩ của Hội Chị Em Nút Thắt khẳng định rằng đã nhận ra ý nghĩa thực sự trong sự ra đời của Thần Bọc Sấm."
         },
         {
             "id": "leoninetantra",
             "unique": true,
-            "label": "Mãnh-Sư-Lê Đát-Đặc-La",
+            "label": "Mật Điển Vương Giả",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Trong bản dịch trứ danh nhất của Mãnh-Sư-Lê Đát-Đặc-La, Ashley Phillips được liệt kê là người dịch, nhưng sự tồn tại của kẻ này đã bị phủ nhận rõ ràng trong phần mở đầu. Sự nhầm lẫn này là một đặc điểm thường thấy của những cuốn sách đề cập đến tổ chức Những Hoàng Tử Trùm Đầu Vĩ Đại."
+            "description": "Trong bản dịch trứ danh nhất của Mật Điển Vương Giả, Ashley Phillips được liệt kê là người dịch, nhưng sự tồn tại của kẻ này lại bị phủ nhận rõ ràng trong phần mở đầu. Sự rắc rối này là một điểm thường thấy của các cuốn sách đề cập đến hội Hoàng Tử Trùm Đầu Vĩ Đại."
         },
         {
             "id": "incandescenttantra",
             "unique": true,
-            "label": "Quang-Huyễn-Lê Đát-Đặc-La",
+            "label": "Mật Điển Sáng Chói",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Michael Blockley, ông trùm sắt lập dị, rất thích trích dẫn từ Đát-Đặc-La này. Blockley đã chết trong một vụ cháy nhà máy."
+            "description": "Michael Blockley, ông trùm sắt lập dị, rất thích trích dẫn từ Mật Điển này. Blockley đã chết trong một vụ cháy nhà máy."
         },
         {
             "id": "thirstingtantra",
             "unique": true,
-            "label": "Hạt-Ngạ-Lê Đát-Đặc-La",
+            "label": "Mật Điển Khát Khao",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "C.G. Burial, nhà vận động phe ôn hòa đã xuất bản vài phần trong văn bản này thành mọt tập sách nhỏ, nhưng đã bị thu hồi và tiêu hủy sau khi nó trở nên quá phổ biến."
+            "description": "C.G. Burial, nhà vận động phe ôn hòa đã xuất bản vài phần trong văn bản này thành mọt tập sách nhỏ, nhưng đã phải bị thu hồi và tiêu hủy sau khi trở nên quá phổ biến."
         },
         {
             "id": "flayedtantra",
             "unique": true,
-            "label": "Xẻo-bì-lê Đát-đặc-la",
+            "label": "Mật Điển Róc Da",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Đát-đặc-la này ghi lại từ những phát ngôn của một cá nhân bí ẩn được định danh là 'Peel', với nhiều phẩm chất của Naga thần thoại. Xẻo-Bì-lê Đát-đặc-la đóng một vai trò đáng chú ý trong quá trình nuôi dưỡng bệnh hoang tưởng của Alexander Sparrow."
+            "description": "Mật Điển này ghi lại từ những phát ngôn của một cá nhân huyền bí được mang danh 'Peel', với nhiều phẩm chất của Naga thần thoại. Mật Điển Róc Da đóng một vai trò đáng chú ý trong quá trình nuôi dưỡng bệnh hoang tưởng của Alexander Sparrow."
         },
         {
             "id": "watchfultantra",
             "unique": true,
-            "label": "Thông-nhãn-lê Đát-đặc-la",
+            "label": "Mật Điển Cảnh Giác",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nổi tiếng vì dính líu đến cái chết của Dafyd Jones và Meredith Blaine, hai nhà vật lý đầu tiên từng tuyên bố là người có bản sao duy nhất của nó và đã đói chọi nhau để dành lấy thứ này vào năm 1840."
+            "description": "Nổi tiếng vì dính líu đến cái chết của Dafyd Jones và Meredith Blaine, hai nhà vật lý đầu tiên từng tuyên bố là người có bản sao duy nhất của nó và đã đói chọi nhau để giành lấy thứ này vào năm 1840."
         },
         {
             "id": "twinserpenttantra",
             "unique": true,
-            "label": "Song-Xà-lê Đát-đặc-la",
+            "label": "Mật Điển Song Xà",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Ngay trước khi Thế Chiến bùng nổ, 'Alexander Sparrow' - khá chắc rằng đây là một bút danh - đã xuất bản những tờ rơi khẳng định tầm ảnh hưởng của 'Những Hoàng Tử Rắn' đối với các vấn đề trên thế giới. Văn bản có tên Song-Xà-lê Đát-đặc-la chính là nguồn cảm hứng chính của ông."
+            "description": "Ngay trước khi Thế Chiến bùng nổ, 'Alexander Sparrow' - khá chắc rằng đây là bút danh - đã xuất bản các tờ rơi tuyên bố tầm ảnh hưởng của 'Những Hoàng Tử Rắn' đối với các vấn đề thế giới. Văn bản có tên Mật Điển Song Xà chính là nguồn cảm hứng chính cho ông."
         },
         {
             "id": "firecircletantra",
             "unique": true,
-            "label": "Hỏa-luân-lê Đát-đặc-la",
+            "label": "Mật Điển Hỏa Luân",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một bản sao còn tồn tại được biết đến của cuốn sách này ở Tây Âu đã bị đánh cắp khỏi thư viện Anh quốc vào năm 1892. Một Harvey Hattington thú nhận tội ác và tuyên bố đã ăn nó với bơ và tỏi, trong một khoảnh khắc bất chợt không thể cưỡng lại."
+            "description": "Bản sao sót lại được biết đến của cuốn sách này ở Tây Âu đã bị đánh cắp khỏi thư viện Anh quốc vào năm 1892. Harvey Hattington thú nhận tội ác và tuyên bố đã ăn nó với bơ và tỏi, trong một khoảnh khắc bất chợt không thể cưỡng lại."
         },
         {
             "id": "asthesunhiscourse",
             "unique": true,
-            "label": "Mặt Trời Là Đường Đi Của Ông",
+            "label": "Khi Mặt Trời Đi Hết Quãng Đường",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Joel từ xứ Bridge, một người lính nghỉ hưu và đôi khi là một nhân viên thu ngân, đã viết bài thơ sử thi này về quyết định nổi tiếng không thể giải thích được của Alexander tại Issus để rút khỏi cuộc chiến với người Achaemenids, và chuyến đi trở lại Macedonia sau đó của ông ta."
+            "description": "Joel từ xứ Bridge, một cựu binh và đôi khi là một nhân viên thu trạm, đã viết trường ca này về quyết định khó hiểu của Alexander tại Issus để rút khỏi cuộc chiến với người Achaemenids, và việc ông sao đó trở lại Macedonia."
         },
         {
             "id": "concursumdiaries",
             "unique": true,
-            "label": "Nhật Kí Đồng Quy",
+            "label": "Nhật Ký Đồng Quy",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhật ký của nhà thám hiểm và là kẻ sát nhân Lars Westergren. Hắn đã dịch chúng sang tiếng Phrygian một cách vô ích, vì mục đích riêng tư."
+            "description": "Nhật ký của nhà thám hiểm và sát nhân Lars Westergren. Hắn đã dịch chúng sang tiếng Phrygian một cách vô ích, vì mục đích riêng tư."
         },
         {
             "id": "ironbook",
@@ -672,7 +672,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một quyển sách hướng dẫn của Ordo Limiae, một tổ chức của những kẻ gần như bất tử bảo tồn một khu vực bí mật ở đầu nguồn sông Limia, tại tỉnh Hispania Gallaecia của La Mã. Sách hướng dẫn này được biên soạn bởi một Melerai Yivni, người tuyên bố đã du hành để gia nhập hội Ordo từ 'Ngã Tư Của Vùng Nước'."
+            "description": "Sách hướng dẫn của Ordo Limiae, tổ chức của những kẻ bán bất tử duy trì một khu bí mật tại nguồn sông Limia, tỉnh Hispania Gallaecia của La Mã. Sách này được biên soạn bởi Melerai Yivni, người tuyên bố đã đến để gia nhập hội Ordo từ 'Ngã Tư Của Con Nước'."
         },
         {
             "id": "silverbook",
@@ -682,52 +682,52 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một quyển sách hướng dẫn Ordo Limiae, một tổ chức của những kẻ gần như bất tử bảo tồn một khu vực bí mật ở đầu nguồn sông Limia, tại tỉnh Hispania Gallaecia của La Mã. Sách hướng dẫn này được biên soạn bởi một Burzghash, người giải thích rằng ông ta đến để gia nhập hội Ordo từ 'Thành Phố Của Những Con Đại Bàng Đưa Tin' sau khi ông từ bỏ sự phục tùng với Ivory Dove."
+            "description": "Sách hướng dẫn của Ordo Limiae, tổ chức của những kẻ bán bất tử duy trì một khu bí mật tại nguồn sông Limia, tỉnh Hispania Gallaecia của La Mã. Sách này được biên soạn bởi Burzghash, người giải thích rằng ông ta đến để gia nhập hội Ordo từ 'Thành Phố Của Những Con Đại Bàng Đưa Tin' sau khi từ bỏ sự phục tùng với Bồ Câu Ngà."
         },
         {
             "id": "ivorybook",
             "unique": true,
-            "label": "Quyển Sách Ngà Voi",
+            "label": "Quyển Sách Ngà",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một quyển sách hướng dẫn Ordo Limiae, một tổ chức của những kẻ gần như bất tử bảo tồn một khu vực bí mật ở đầu nguồn sông Limia, tại tỉnh Hispania Gallaecia của La Mã. Sách hướng dẫn này được biên soạn bởi một Kurenai, người tuyển bố đã chạy trốn khỏi 'Sự Chuyên Chế Của Chính Quyền Nhật Bản' để vòng quanh thế giới và gia nhập hội Ordo."
+            "description": "Sách hướng dẫn của Ordo Limiae, tổ chức của những kẻ bán bất tử duy trì một khu bí mật tại nguồn sông Limia, tỉnh Hispania Gallaecia của La Mã. Sách này được biên soạn bởi Kurenai, người tuyển bố đã chạy trốn khỏi 'Chuyên Chế Của Ngai Hoa Cúc' để vượt qua châu lục và gia nhập hội Ordo."
         },
         {
             "id": "worlddoesnotweep",
             "unique": true,
-            "label": "Thế Giới Không Rơi Lệ",
+            "label": "Thế Gian Không Lệ",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Joshua 'Áo Nâu' tìm thấy thứ này trong một cái giếng ở Hamath. Có một câu chuyện là thường rằng nó đã bị Alexander bỏ lại trong khi rút lui khỏi Issus."
+            "description": "Joshua 'Áo Nâu' tìm thấy thứ này trong một cái giếng ở Hamath. Có một câu chuyện khó tin rằng nó đã bị Alexander bỏ lại trong khi rút lui khỏi Issus."
         },
         {
             "id": "deedsofthescarredcaptain",
             "unique": true,
-            "label": "Chiến Công Của Đội Trưởng Mặt Sẹo",
+            "label": "Chiến Công Của Thống Chế Mặt Sẹo",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Được ráp lại một cách tỉ mỉ bởi người người lính đánh thuê và đôi khi là người chuyển tiền, Pavel Shulga, trong những năm ở Hy Lạp."
+            "description": "Được ráp lại một cách tỉ mỉ bởi lính đánh thuê và đôi khi là người chuyển tiền, Pavel Shulga, trong những năm tháng ông ta ở Hy Lạp."
         },
         {
             "id": "bookofdissolution",
             "unique": true,
-            "label": "Quyển Sách Của Sự Tan Biến",
+            "label": "Sách Tan Rã",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Alexander Probst, dựa trên công trình nền tảng của Hosty Moor, đã tìm lại được bản sao của tác phẩm này từ một ngôi đền trên núi ở Ba Tư. Các bản sao khác cũng dần dần xuất hiện, thường được khắc trên những phiến đá."
+            "description": "Alexander Probst, dựa trên công trình nền tảng của Hosty Moor, đã tìm lại được bản sao của tác phẩm này từ một ngôi đền trên núi ở Ba Tư. Các bản sao khác cũng dần dần xuất hiện, thường được khắc cháy trên đá."
         },
         {
             "id": "catalogueofunchartedpleasures",
             "unique": true,
-            "label": "Danh Mục Các Thú Vui Chưa Được Khám Phá",
+            "label": "Danh Mục Khoái Cảm Chưa Khám Phá",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
@@ -742,7 +742,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà thần bí học Brodnax thảo luận về nguồn gốc the Sister-and-Witch, và của the Thunderskin."
+            "description": "Nhà thần bí học Brodnax thảo luận về nguồn gốc của Thánh Nữ-Phù Thủy và Thần Bọc Sấm."
         },
         {
             "id": "theskythesoul",
@@ -752,47 +752,47 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Công lao vĩ đại của Kalle, một nhà thơ khổ hạnh viết văn tại triều đình của Những Vị Vua Không Bóng."
+            "description": "Công lao vĩ đại của Kalle, một nhà thơ khổ hạnh viết văn tại triều đình của Những Vị Vua Vô Bóng."
         },
         {
             "id": "onthematterandthedeedsofserpents",
             "unique": true,
-            "label": "Về Vấn Đề Và Hành Động Của Loài Rắn",
+            "label": "Bản Chất Và Hành Động Của Rắn",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Đây có lẽ là 'Lời Tiên Tri Của Người Naga' được chuyển thể sang tiếng Anh và được minh họa bởi 'William Midnight' ở Paris vào những năm 1880; nhưng nó cho thấy một số sự không giống nhau từ văn bản đó. Điều này chắc cũng thường thấy theo tiêu chuẩn của văn bản Vak."
+            "description": "Đây có lẽ là 'Lời Tiên Tri Của Naga' được chuyển thể sang tiếng Anh và được minh họa bởi 'William Midnight' ở Paris vào những năm 1880; nhưng có  một số điểm không tương đồng với văn bản đó. Điều này là cũng thường thấy theo tiêu chuẩn của văn bản Vak."
         },
         {
             "id": "serenityofblackwood",
             "unique": true,
-            "label": "Sự Thanh Bình Của Khu Rừng Đen",
+            "label": "Sự Thanh Tĩnh Của Rừng Đen",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một sử học ngụ ngôn của Ngôi Nhà Của Lethe, người được cho rằng đã lấy cảm hứng tư the Centipede. 'Sereno Rừng Đen' là một bí danh huyền bí cho đến ngày nay."
+            "description": "Một sử học ngụ ngôn của Hội Sông Lethe, được cho rằng đã lấy cảm hứng từ Thần Rết. 'Sereno Rừng Đen' là một bí danh huyền bí cho đến tận nay."
         },
         {
             "id": "bookofthrones",
             "unique": true,
-            "label": "Quyển Sách Của Những Ngai Vàng",
+            "label": "Quyển Sách Về Những Ngai Vàng",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một truyền thuyết về Đế Chế Không Bóng, được Alexander Peterhans chép lại từ biên niên sử tại một ngôi đền bí mật ở Anatolia."
+            "description": "Một truyền thuyết về Đế Chế Vô Bóng, được Alexander Peterhans chép lại từ biên niên sử tại một ngôi đền bí mật ở Anatolia."
         },
         {
             "id": "secondglory",
             "unique": true,
-            "label": "Lần Vinh Quang Thứ Hai",
+            "label": "Vinh Quang Thứ Hai",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Thầy tế lễ Juceh kỷ niệm sự ra đi của những-vị-thần-đá, những Hour đi trước loài người."
+            "description": "Thầy tế lễ Juceh ca tụng sự tận diện của Những-Thời-Thần-Đá, những Thời Thần xuất hiện trước loài người."
         },
         {
             "id": "bookoftrueblood",
@@ -802,7 +802,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Cassius Người Thoman đã tiết lộ những hành vị của Quân Đoàn Không Số , đây là một đội quân bí mật bảo vệ Rome chống lại Đế Chế Không Bóng."
+            "description": "Cassius Người Thoman tiết lộ những việc làm của Quân Đoàn Vô Số, một đội quân bí mật bảo vệ Rome chống lại Đế Chế Vô Bóng."
         },
         {
             "id": "burningwoman",
@@ -812,37 +812,37 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một bản chuyển thể từ vở kịch của Menander Kẻ Chiến Thắng, có thể là nhà viết kịch cùng tên, viết bằng tiếng Phrygian cùng lời bình."
+            "description": "Một bản chuyển thể từ vở kịch Menander Kẻ Chiến Thắng, có thể là nhà viết kịch cùng tên, viết bằng tiếng Phrygian cùng lời bình."
         },
         {
             "id": "twentysixenticementsseventorments",
             "unique": true,
-            "label": "Hai Mươi Sáu Sự Cám Dỗ, Bảy Sự Dằn Vặt",
+            "label": "Hai Mươi Sáu Cám Dỗ, Bảy Khổ Hình",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà họa sĩ Niels Frederik Malskær nổi danh vì đã thử một loạt các bức vẽ dựa trên Những Sự Dằn Vặt. Đến Sự Dằn Vặt Thứ Năm, những yêu cầu cho bức vẽ đã tăng quá mức khiến ông chết vì mất máu. Các giản đồ trong văn bản này rất may là ít chi tiết hơn."
+            "description": "Danh họa Niels Frederik Malskær, khét tiếng là người đã vẽ một loạt các bức tranh dựa trên Những Khổ Hình. Đến Khổ Hình Thứ Năm, những yêu cầu cho bức tranh đã tăng quá mức khiến ông chết vì mất máu. Các giản đồ trong văn bản này rất may thay là ít phức tạp hơn."
         },
         {
             "id": "historyofshadowlesskings",
             "unique": true,
-            "label": "Lịch sử Chân Thực Và Chính Xác Của Những Vị Vua Không Bóng",
+            "label": "Lịch sử Chân Thực Và Chính Xác Về Câc Vị Vua Vô Bóng",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Lịch sử Chân Thực Và Chính Xác Của Những Vị Vua Không Bóng, viết bởi Isaac của xứ Karth.'  mô tả quyền thế hàng nghìn năm của Đế Chế Không Bóng."
+            "description": "'Lịch sử Chân Thực Và Chính Xác Về Các Vị Vua Vô Bóng, viết bởi Isaac xứ Karth.' mô tả lại quyền thế hàng nghìn năm của Đế Chế Vô Bóng."
         },
         {
             "id": "highmysterieschurchsolar",
             "unique": true,
-            "label": "Những Bí Ẩn Tối Cao Về Căn Phòng Sâu Kín Nằm Trong Thánh Điện Dương",
+            "label": "Những Bí Ẩn Tối Cao Về Căn Phòng Sâu Kín Trong Thánh Điện Thái Dương",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Những Bí Ẩn Tối Cao Về Căn Phòng Sâu Kín Nằm Trong Thánh Điện Dương'. Các nghi thức bí mật của Nhà Thờ Của Mặt Trời Bất Phục, là tổ chức đã nắm giữ quyền lực ít nhất hai dòng Lịch Sử."
+            "description": "'Những Bí Ẩn Tối Cao Về Căn Phòng Sâu Kín Trong Thánh Điện Thái Dương'. Các nghi thức bí mật từ Nhà Thờ Của Mặt Trời Bất Phục, một tổ chức đã nắm giữ quyền lực ít nhất hai dòng Lịch Sử."
         },
         {
             "id": "medusaslament",
@@ -852,7 +852,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Khúc ca về cái chết của the Hour với tên gọi Seven-Coils, 'Đức Cha Của The Mother'."
+            "description": "Về cái chết của một Thời Thần với tên gọi Thất Bàn, 'Đức Cha Của Mẹ'."
         },
         {
             "id": "bookofmasks",
@@ -862,7 +862,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Tác phẩm của Athena Vana viết về the Hour gian xảo với tên gọi là the Vagabond, kẻ còn được gọi là the Laughingthrush, the Centipede, the Pilgrim, và còn bằng nhiều cái tên khác - hoặc như Vana có nói, chúng như những 'Chiếc Mặt Nạ'."
+            "description": "Tác phẩm của Athena Vana viết về Thời Thần nổi loạn tên là Thần Lữ Hành, kẻ còn được gọi là Chim Khướu, thần Rết, kẻ Hành Hương, và còn bằng nhiều cái tên khác - hoặc như Vana gọi, những 'Chiếc Mặt Nạ'."
         },
         {
             "id": "inthemountainsasupontheplain",
@@ -872,57 +872,57 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Trên Những Ngọn Núi Dưới Những Đồng Bằng, Chẳng Có Lối Đi Nào Mà Không Một Ai Đã Đi Qua'. Ninegala của xứ Lagash mô tả những bí mật được tìm thấy trên những ngọn núi."
+            "description": "'Trên Những Ngọn Núi Dưới Những Đồng Bằng, Chẳng Có Lối Đi Nào Mà Chưa Một Ai Đi Qua'. Ninegala xứ Lagash mô tả những bí mật được tìm thấy trên những ngọn núi."
         },
         {
             "id": "memoryofgods",
             "unique": true,
-            "label": "Trong Ký Ức Của Những Vị Thần",
+            "label": "Tưởng Nhớ Các Vị Thần",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Kẻ Bán Rong', một Kẻ Tinh Thông người Gaulish vô danh đã gia nhập một tổ chức được xác định là Ordo Limiae, viết một cách thương tiếc về sự hủy diệt của Những-vị-thần-đá - những thực thể đi trước nhân loại."
+            "description": "'Đứa Con Mộ Bia', một tín đồ người Gaul vô danh đã gia nhập một tổ chức được gọi là Ordo Limiae, viết một cách thương tiếc về sự tận diệt của Những-thời-thần-đá - những thực thể có trước nhân loại."
         },
         {
             "id": "sevenfoldslayingsevencoiled",
             "unique": true,
-            "label": "Bảy Lần Giết Của The Seven-Coiled",
+            "label": "Bảy Lần Sát Hại Của Thất Bàn",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Bài giải thích về sự hủy diệt của một Hour sơ khai, một Vị-thần-đá."
+            "description": "Bản ghi chép về sự hủy diệt của một Thời Thần sơ khai, một Thời-thần-đá."
         },
         {
             "id": "bighuff",
             "unique": true,
-            "label": "Công Trình Của Ta, Quyền Lực Của Ta, Thành Quả Của Ta...",
+            "label": "Công Trình, Quyền Lực, Thành Quả Của Ta...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'Công Trình Của Ta, Quyền Lực Của Ta, Thành Quả Của Ta Và Những Bất Công Gây Ra Cho Ta'. Hokobald của xứ Pocsind, trước đây thuộc hội của kẻ người bất tử được một số gọi là Ngôi Nhà Của Lethe, toan tính trả mối thù."
+            "description": "'Công Trình, Quyền Lực, Thành Quả Của Ta Và Những Bất Công Ta Gặp Phải'. Hokobald của xứ Pocsind, cựu thành viên của một hội những kẻ bất tử gọi là Hội Sông Lethe, toan tính trả mối thù."
         },
         {
             "id": "dreamconspiracyskies",
             "unique": true,
-            "label": "Giấc Mộng Về Âm Mưu Trời Hạ",
+            "label": "Giấc Mộng Về Âm Mưu Của Hạ Thiên",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà tiên tri bị thất sủng Damaon Azenaten đã chọn lọc những câu chuyện cổ tích về Penelope xứ Gordion, tác phẩm của nhà thơ cung đình Kalle và những phần bị cấm trong tác phẩm của Kẻ Tinh Thông Arrettrez, khám phá những chủ đề thường thấy."
+            "description": "Nhà tiên tri bị thất sủng Damaon Azenaten đã chọn lọc những câu chuyện hoang đường từ Penelope xứ Gordion, tác phẩm của nhà thơ cung đình Kalle và những phần bị cấm trong tác phẩm từ tín đồ Arrettrez, nhằm xác định một điểm chung."
         },
         {
             "id": "bookwhitecat",
             "unique": true,
-            "label": "Quyển Sách Của Chú Mèo Trắng",
+            "label": "Quyển Sách Của Con Mèo Trắng",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Những câu chuyện được mang đến Penelope xứ Gordion bởi một chú mèo trắng mù."
+            "description": "Những câu chuyện được gửi đến Penelope xứ Gordion bởi một chú mèo trắng mù."
         },
         {
             "id": "focusamber",
@@ -932,37 +932,37 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Omar, Kẻ Chói Sáng, đã dành bảy năm để quản lý một ngọn hải đăng ở Tyre, để chuộc tội cho việc dập tắt ngọn lửa thiêng. Đến cuối kỳ vụ, ông ta khiếp sợ ngọn lửa đến nỗi không thể đứng chung phòng với một ngọn nến. Tác phẩm này được viết trong sự đền tội nửa vời."
+            "description": "Omar, Kẻ Bốc Cháy, đã dành bảy năm để quản lý một ngọn hải đăng ở Tyre, nhằm đền tội cho việc dập tắt ngọn lửa thiêng. Đến cuối kỳ vụ, ông ta khiếp sợ ngọn lửa đến nỗi không thể đứng chung phòng với một ngọn nến. Tác phẩm này được viết nhằm chuộc tội một phần."
         },
         {
             "id": "songscarapacecross",
             "unique": true,
-            "label": "Những Bài Ca Của Carapace Cross",
+            "label": "Những Bài Ca Của Loài Giáp Lai",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Micah Xi, đôi khi được gọi là Magus của xứ Quartz, đã khắc tác phẩm này bằng axit trên đá. Nó đã được chép lại nhiều lần kể từ đó, nhưng các bản sao chép thường bị mất do hiện tượng lở đất."
+            "description": "Micah Xi, đôi khi được gọi là Magus xứ Quartz, đã khắc tác phẩm này bằng axit lên đá. Nó đã được khắc lại nhiều lần kể từ đó, nhưng các tái bản thường bị mất do hiện tượng lở đất."
         },
         {
             "id": "originsofhours",
             "unique": true,
-            "label": "Nguồn Gốc Của Những Hour",
+            "label": "Nguồn Gốc Của Thời Thần",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà hiền triết- kẻ xuất thần: Soham, một vị khách hay đến thăm cõi Mansus, tuyên bố rằng đã trực tiếp nói chuyện với the Beachcrow. Soham sau đó khăng khăng đòi được thiên táng."
+            "description": "Nhà hiền triết- kẻ xuất thần: Soham, một vị khách hay đến thăm cõi Mansus, tuyên bố rằng đã trực tiếp trò chuyện với Quạ Biển. Soham sau đó khăng khăng đòi được thiên táng."
         },
         {
             "id": "wherehasshegone",
             "unique": true,
-            "label": "Nàng Đi Đâu Mất?",
+            "label": "Bà Đã Đi Đâu?",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "'The Speeth' - có lẽ là một Kẻ Tinh Thông, hoặc có lẽ là một hội đồng các học giả - đưa ra giả thuyết về các sự kiện bí mật từ bằng chứng hạn chế với độ chính xác thuyết phục."
+            "description": "'The Speeth' - có lẽ là một tín đồ, hoặc là một hội đồng các học giả - đưa ra giả thuyết về các sự kiện bí mật từ bằng chứng hạn chế với độ chính xác thuyết phục."
         },
         {
             "id": "bookextinguishedheart",
@@ -972,17 +972,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Trong thời của những Vị Vua Không Bóng, Ennis Lazali đã bị xử tử vì đã tiên tri về Sự Chia Rẽ của the Sun. Nếu bất kì kẻ bắt giữ nào của ông ta hóa thành Long, có lẽ giờ những vị vua đã cảm thấy bực tức."
+            "description": "Trong thời của những Vị Vua Vô Bóng, Ennis Lazali bị hành quyết vì đã tiên tri về Sự Chia Cắt của Mặt Trời. Nếu có kẻ nào đã bắt ông ta giờ mà đã thành Trường Giả, hẳn giờ sẽ cảm thấy rất xấu hổ."
         },
         {
             "id": "howendwillbegin",
             "unique": true,
-            "label": "Sự Kết Thúc Sẽ Bắt Đầu Như Thế Nào",
+            "label": "Kết Thúc Sẽ Bắt Đầu Như Thế Nào",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Một lời tiên tri sự kiện Những Cuộc Chiến Đường Bộ, được ghi lại ở Tiểu Lục Địa vào những ngày trước khi xuất hiện hội Những Hoàng Tử Trùm Đầu Vĩ Đại."
+            "description": "Lời tiên tri về Đại Chiến Lộ Tuyến, được ghi chép ở Tiểu Lục Địa vào những ngày trước khi xuất hiện Những Hoàng Tử Trùm Đầu Vĩ Đại."
         },
         {
             "id": "manneralchemistspared",
@@ -992,7 +992,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Năm 1782, Anaël Verdier sử dụng văn bản này làm cơ sở cho bài thuyết trình trước Viện Hàn lâm Khoa học ở Paris. Ông ta bị hành quyết bí mật vào sáng hôm sau mà không cần xét xử."
+            "description": "Năm 1782, Anaël Verdier sử dụng văn bản này làm cơ sở cho bài thuyết trình trước Viện Hàn lâm Khoa học ở Paris. Ông bị hành quyết bí mật vào sáng hôm sau mà không cần xét xử."
         },
         {
             "id": "fivecreations",
@@ -1002,27 +1002,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Nhà học giả hành trình Shohei đã tranh luận về 5 nguồn gốc có thể có của nhân loại liên quan tới một nhân vật trùm đầu được cho là the Beach-Crow. Shohei sau đó tuyên bố rằng tất cả các giải thích này đã được chứng minh là sai, nhưng cuộc tranh luận vẫn được ghi lại."
+            "description": "Nhà học giả du hành Shohei đã tranh luận về 5 nguồn gốc khả dĩ của nhân loại với một kẻ trùm đầu sau này được cho là Quạ Biển. Shohei sau đó tuyên bố rằng tất cả các giải thích này đã được chứng minh là sai, nhưng cuộc tranh luận vẫn được ghi lại."
         },
         {
             "id": "commandspreservationallexists",
             "unique": true,
-            "label": "Những Lời Dạy Về Việc Duy Trì Những Gì Còn Tồn Tại",
+            "label": "Những Lời Dạy Bảo Tồn Vạn Vật Còn Hiện Hữu",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Elie Áo Đen, Damascene Matriarch của Hội Chị Em Nút Thắt, bị bắt giữ bởi hoàng đế Didius Julianus. Bà được chỉ định rằng những học thuyết bí mật này phải được ghi lại bằng văn bản để bảo toàn trong trường hợp chúng bị mất. Đáng tiếc thay, theo như chuyện kể, Didius Julianus đã ra lệnh chôn tác phẩm cùng bà trong ngôi mộ không được đánh dấu."
+            "description": "Elie Áo Đen, Nữ Tổ Damascus của Hội Chị Em Nút Thắt, bị bắt giữ bởi hoàng đế Didius Julianus. Bà được chỉ định rằng những học thuyết bí mật này phải được ghi lại bằng văn bản để bảo toàn trong trường hợp chúng bị mất. Đáng tiếc thay, theo chuyện kể, Didius Julianus đã ra lệnh chôn tác phẩm cùng bà trong một ngôi mộ không tên."
         },
         {
             "id": "timedivision",
             "unique": true,
-            "label": "Thời Khắc Chia Cách",
+            "label": "Thời Khắc Chia Cắt",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Trong tác phẩm, Amira Zahra tiên tri những sự kiện sau này được gọi là Nhuận, khi một Hour với tên gọi the Sun-in-Splendour sẽ bị chia cách."
+            "description": "Trong tác phẩm, Amira Zahra tiên tri những sự kiện sau này được gọi là Xen Kẽ, khi một Thời Thần được gọi là Mặt Trời Tráng Lệ sẽ bị chia cách."
         },
         {
             "id": "manualdeparture",
@@ -1032,7 +1032,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Tác giả, người tự nhận mình là Jekadu, tự xưng là một trong Những Hoàng Tử Trùm Đầu Vĩ Đại từ Vùng Đất Của Con Sông. Phong cách văn rất thân mật, thậm chí là tán gẫu."
+            "description": "Tác giả, danh xưng là Jekadu, tự nhận mình là một trong Những Hoàng Tử Trùm Đầu Vĩ Đại từ Vùng Đất Của Con Sông. Phong cách văn rất thân mật, thậm chí là tán gẫu."
         },
         {
             "id": "birdsong",
@@ -1042,7 +1042,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Trong tác phẩm, bốn nhân vật bí ẩn kể những câu chuyện mà họ đã nghe trong nhiều năm tại Giàn Cây, địa điểm bí mật nơi các Hour dạng chim tập trung."
+            "description": "Trong tác phẩm, bốn nhân vật bí ẩn kể những câu chuyện mà họ đã nghe trong nhiều năm tại Ổ Đậu, địa điểm bí mật nơi các Thời Thần dạng chim tụ họp."
         },
         {
             "id": "voyagesfo",
@@ -1067,12 +1067,12 @@
         {
             "id": "kitlingripe",
             "unique": true,
-            "label": "Mèo Con Ripe Và Ngôi Mộ Của Moldywarp(Cùng Những Câu Chuyện Khác)",
+            "label": "Mèo Con Ripe Và Ngôi Mộ Của Chuột Chũi (Cùng Những Chuyện Khác)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Một cuốn sách minh họa tuyệt vời về những câu chuyện thiếu nhi được kết nối lỏng lẻo, được sưu tầm bởi một N.K. Field. Rất ít trong số chúng phù hợp với trẻ em."
+            "description": "Một cuốn sách minh họa lộng lẫy về những câu chuyện thiếu nhi được kết nối lỏng lẻo, do N.K. Field sưu tầm. Rất ít trong số chúng phù hợp với trẻ em."
         },
         {
             "id": "raptintheking",
@@ -1082,7 +1082,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Những tường thuật chi tiết của James Colin Murphy về những bia ký bí mật và những vũ điệu xuất thần được quan sát thấy trong các mộ địa và nghĩa địa ở Nam Âu, ở Ai Cập và ở Anatolia. Tác giả tự nhận là một ngạ quỷ, một kẻ ăn thịt người chôn vùi: hắn tuyên bố đã chứng kiến các điệu múa ấy trong lúc thưởng thức món ăn của mình."
+            "description": "Những tường thuật chi tiết của James Colin Murphy về những bia ký bí mật và các vũ điệu xuất thần được quan sát thấy trong các mộ địa và nghĩa địa ở Nam Âu, Ai Cập và Anatolia. Tác giả tự nhận là một ngạ quỷ, một kẻ ăn thịt người chôn cất: hắn tuyên bố đã chứng kiến các điệu múa ấy trong lúc thưởng thức món ăn của mình."
         },
         {
             "id": "vienneseconundra",
@@ -1092,7 +1092,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Nico Van Driel mô tả những sự kiện kỳ lạ tại Vienna - sự mất tích của trẻ em; dịch bệnh do những hành động của ký sinh trùng; động vật bị cắt xẻo; những cơn ác mộng về giun; các hoạt động của một tổ chức từ thiện, Tân Ligeian, tài trợ việc chôn cất người nghèo. Bà đề xuất giả thuyết những mối liên kết đặc biết giữa các hoạt động này."
+            "description": "Nico Van Driel mô tả những sự kiện kỳ lạ tại Vienna - sự mất tích của trẻ em; dịch bệnh do những hành động của ký sinh trùng; động vật bị cắt xẻo; những cơn ác mộng về giun; hoạt động của một tổ chức từ thiện, Tân Ligeia, tài trợ việc chôn cất người nghèo. Bà đề xuất giả thuyết những mối liên kết đặc biết giữa các hoạt động này."
         }
     ]
 }
