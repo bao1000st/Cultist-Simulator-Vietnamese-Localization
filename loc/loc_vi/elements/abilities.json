@@ -765,7 +765,7 @@
 				{
 						"id": "scar_winter",
 						"label": "Vết Sẹo: Vết Thương Cũ",
-						"description": "Hãy bước lại gần về hoàng hôn, và chiêm ngưỡng những ngôi sao đầu tiền của màn đêm. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
+						"description": "Hãy bước lại gần về hoàng hôn, và chiêm ngưỡng những ngôi sao đầu tiên của màn đêm. [Bạn đã hi sinh vĩnh viễn để có sức mạnh.]",
 						"aspects": {
 								"tool": 1,
 								"winter": 4,

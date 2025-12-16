@@ -46,6 +46,7 @@ The lodge of sage knight: Căn Lêu Của Hiệp Sĩ Hiền Triết
 The Tricuspid Gate: Cổng Ba Lá
 The Kingskin Gate: Cổng Da Vua
 Roost => Ổ Đậu
+violet chamber => Điện Tím
 
 
 Adept: Tín đồ

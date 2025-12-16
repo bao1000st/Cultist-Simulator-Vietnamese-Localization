@@ -17,7 +17,7 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "Cửa hàng âm u của Bà Morland, người kinh doanh những cuốn sách hiếm có và có khi là nguy hiểm.",
+            "description": "Cửa hàng âm u của Bà Morland, người kinh doanh những cuốn sách hiếm có và đôi khi là nguy hiểm.",
             "unique": true,
             "xtriggers": {
                 "exhaustlocation": "locationbookdealer_exhausted"
@@ -25,8 +25,8 @@
         },
         {
             "id": "locationbookdealer_exhausted",
-            "label": "Cửa Hàng Của Morland [Đã Đóng Cửa]",
-            "description": "Đây từng là địa chỉ của bà Morland, một đại lý sách, nhưng bây giờ, tôi sẽ phải tìm kiếm kiến thức ở nơi khác.",
+            "label": "Cửa Hàng Của Morland [Đã Đóng]",
+            "description": "Đây từng là địa chỉ của bà Morland, một đại lý sách, nhưng giờ, tôi phải tìm kiếm kiến thức ở một nơi khác.",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
@@ -34,7 +34,7 @@
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Đặt một Trụ Sở Cũ vào đây để từ bỏ nó và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
+                    "description": "Đặt Trụ Sở cũ vào đây để rời khỏi và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -52,12 +52,12 @@
             "aspects": {
                 "location": 1
             },
-            "description": "Oriflamme chuyên về đồ cổ, nước hoa, những mẫu vật được độn xác, và các văn tự hiếm có. Hiện tại nó đang hoạt động ở cơ sở mới chật chội, từ khi cơ sở cũ bị phá hủy bởi một đám cháy không rõ nguyên nhân. [Bạn có thể mua hoặc bán các mặt hàng tại Oriflamme.]",
+            "description": "Oriflamme chuyên về đồ cổ, nước hoa, mẫu vật độn xác, và các văn tự hiếm có. Hiện tại nó đang hoạt động ở cơ sở mới chật chội, sau khi chỗ cũ bị phá hủy bởi một đám cháy không rõ nguyên nhân. [Bạn có thể mua hoặc bán các mặt hàng tại Oriflamme.]",
             "slots": [
                 {
                     "id": "Sell",
                     "label": "Bán",
-                    "description": "Thêm một mặt hàng ở đây để bán đấu giá nó.",
+                    "description": "Đặt một vật phẩm vào đây để bán đấu giá nó.",
                     "required": {
                         "auctionable": 1
                     },
@@ -68,8 +68,8 @@
         },
         {
             "id": "locationcabaretclosed",
-            "label": "Câu Lạc Bộ Lột Xác [Đã Đóng Cửa]",
-            "description": "Một quán rượu với một cái tên bí ẩn. Nó chỉ mở cửa vào các đêm nhất định trong tuần; nó sẽ sớm mở lại.",
+            "label": "Câu Lạc Bộ Lột Xác [Đã Đóng]",
+            "description": "Một quán rượu với cái tên bí ẩn. Nó chỉ mở cửa vào một số đêm nhất định trong tuần; nó sẽ sớm mở cửa.",
             "unique": true,
             "lifetime": 30,
             "decayTo": "locationcabaret",
@@ -85,7 +85,7 @@
                 "grail": 1,
                 "heart": 1
             },
-            "description": "Một quán rượu với một cái tên bí ẩn.",
+            "description": "Một quán rượu với cái tên bí ẩn.",
             "slots": [
                 {
                     "id": "Entry",
@@ -106,12 +106,12 @@
         {
             "id": "hq.abandoned",
             "label": "Trụ Sở Bỏ Hoang",
-            "description": "Quên nó đi J.N.",
+            "description": "Bỏ qua đi, J.N.",
             "lifetime": 1
         },
         {
             "id": "generichq",
-            "label": "Trụ Sở Chính ?",
+            "label": "Trụ Sở Chính?",
             "aspects": {
                 "hq": 1
             },
@@ -125,12 +125,12 @@
                 "hq": 1,
                 "location": 1
             },
-            "description": "Chuyện làm ăn của chúng ta cần phải kín đáo. Chúng ta có sủ dụng một nơi nào đó bí mật hơn.",
+            "description": "Công việc của ta cần phải kín đáo. Chúng ta có thể dùng một nơi nào đó bí mật hơn.",
             "slots": [
                 {
                     "id": "Cupboard",
                     "label": "Cái Tủ",
-                    "description": "Đặt Tông Đồ vào đây để chuyển đổi họ vĩnh viễn thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -148,17 +148,17 @@
         },
         {
             "id": "hq.townhouse",
-            "label": "Nhà Mặt Phố Sang Trọng",
+            "label": "Nhà Phố Sang Trọng",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "Chúng ta luôn đóng kín rèm trước khi cuộn lại tấm thảm và đánh dấu sàn bằng phấn.",
+            "description": "Ta luôn đóng kín rèm trước khi cuộn lại tấm thảm và đánh dấu sàn bằng phấn trắng.",
             "slots": [
                 {
                     "id": "Attic",
-                    "description": "Đặt Tông Đồ ở đây để chuyển đổi họ vĩnh viễn thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -170,7 +170,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để nâng tầm ảnh hưởng của sần thắc Chén Thánh.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Chén Thánh.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -190,11 +190,11 @@
                 "location": 1,
                 "sanctuary": 1
             },
-            "description": "Ngay cả vào sáng chủ nhật, đều có những điều kỳ quặc trong công tác của hội, nhưng hầu hết người ngoài không nhận thấy. Người ngoài không được mời đến các buổi lễ mà chúng ta tổ chức vào những giờ lạnh giá.",
+            "description": "Ngay cả vào sáng chủ nhật, vẫn có những điều kỳ quặc trong công tác của hội, nhưng hầu hết người ngoài không nhận thấy. Người ngoài không được mời đến các buổi lễ mà ta tổ chức vào những giờ lạnh lẽo.",
             "slots": [
                 {
                     "id": "Vestry",
-                    "description": "Khóa Tông Đồ ở đây để chuyển đổi họ vĩnh viễn thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -206,7 +206,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để nâng cao ảnh hưởng của thần sắc Tiếng Gõ.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Tiếng Gõ.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -220,18 +220,18 @@
         },
         {
             "id": "hq.mithraeum",
-            "label": "Mithraeum Thắp-Nến",
+            "label": "Đền Mithras Thắp Nến",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "sanctuary": 1,
                 "secret": 1
             },
-            "description": "Các đồng tu đã cử hành các Điều Huyền Bí ở đây trong gần hai nghìn năm. Ngôn từ có thay đổi, vị thần có thay đổi, nhưng luôn luôn, phải có máu.",
+            "description": "Các đồng tu đã tiến hành các Nghi Lễ Huyền Bí tại đây trong gần hai nghìn năm. Ngôn từ có thay đổi, vị thần có thay đổi, nhưng luôn luôn, phải có máu.",
             "slots": [
                 {
                     "id": "Chains",
-                    "description": "Đặt Tông Đồ vào đây để chuyển đổi họ, vĩnh viễn, thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -243,7 +243,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để nâng tầm ảnh hưởng của thần sắc Đèn Lồng.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Đèn Lồng.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -257,18 +257,18 @@
         },
         {
             "id": "hq.hospital",
-            "label": "Ngôi Nhà Màu Tím",
+            "label": "Căn Nhà Tím",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
                 "secret": 1
             },
-            "description": "Chúng tôi đã sơn những bức tường với màu sắc phong phú của Căn Buồng Tím . Chúng tôi đã làm sạch mạng và đặt các cửa chớp kín đáo sau mọi ô cửa sổ. Và chúng tôi đã đổi tất cả các ổ khóa.",
+            "description": "Chúng tôi đã sơn bức tường bằng màu sắc phong phú của Điện Tím. Cũng đã dọn sạch mạng nhện và đặt các cửa chớp kín đáo sau mọi cửa sổ. Và chúng tôi đã đổi tất cả các ổ khóa.",
             "slots": [
                 {
                     "id": "Cell",
-                    "description": "Đặt Tông Đồ vào đây để chuyển đổi họ, vĩnh viễn, thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -280,7 +280,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để nâng cao ảnh hưởng của thần sắc Tiếng Gõ.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Tiếng Gõ.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -294,17 +294,17 @@
         },
         {
             "id": "hq.bookshop",
-            "label": "Căn Phòng Phía Sau Hiệu Sách",
+            "label": "Dãy Phòng Sau Hiệu Sách",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "Những phần ít chú ý trong kho của Morland vẫn còn đây. Theo thời gian, những kẻ lạ tìm đến để bán đi những quyển sách, và đôi khi chúng ta say mê chúng.",
+            "description": "Những phần ít chú ý trong kho của Morland vẫn tồn tại đây. Theo thời gian, những kẻ lạ tìm đến để bán đi các quyển sách, và đôi khi ta nên chiều lòng chúng.",
             "slots": [
                 {
                     "id": "Cellar",
-                    "description": "Đặt Tông Đồ vào đây để chuyển đổi họ vĩnh viễn thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -316,7 +316,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để nâng cao tầm ảnh hưởng của thần sắc Trái Tim.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Trái Tim.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -337,11 +337,11 @@
                 "pit": 1,
                 "secret": 1
             },
-            "description": "Xà gồ nặng mùi chuột cống. Nhưng mùi của chúng gần như bị che lấp dưới mùi tanh hôi của dòng sông. Còn lâu con người ta mới nghĩ rằng đây là nơi mình muốn đến. Tất cả mọi thứ, trên đường đi của chúng, đều phải là lợi thế.",
+            "description": "Xà gồ nặng mùi chuột cống. Nhưng mùi của chúng cũng gần như bị che lấp dưới mùi tanh hôi của dòng sông. Còn lâu mới có ai muốn tới nơi đây. Theo cách nào đó, mọi điều này lại là lợi thế.",
             "slots": [
                 {
                     "id": "Shed",
-                    "description": "Đặt Tông Đồ vào đây để chuyển đổi họ vĩnh viễn thành Tù Nhân.",
+                    "description": "Đặt Tông Đồ vào đây để chuyển đổi vĩnh viễn thành Tù Nhân.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -353,7 +353,7 @@
                 {
                     "id": "funds",
                     "label": "Tiền Vốn",
-                    "description": "Đặt Tiền Vốn vào đây để năng cao tầm ảnh hưởng của thần sắc Lò Rèn.",
+                    "description": "Đặt Tiền Vốn vào đây để tăng ảnh hưởng của Lò Rèn.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -367,16 +367,16 @@
         },
         {
             "id": "hq.church.potential",
-            "label": "Nhà Thờ Không Kẻ Trông Coi",
+            "label": "Nhà Thờ Không Người",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "mục sư biến mất, trong một đêm, khá đột ngột, cùng với nhóm nội bộ của mình và khối kho báu lớn nhất của nhà thờ. Nhiều người cho rằng ông ta đã đến một nơi tốt đẹp hơn: có thể là một miền đất đầy nắng bên cạnh một bờ biển lắp lánh. Chúng ta có thể tuyển mộ những con chiên vô chủ kia, và biến nơi này thành trụ sở hoạt động.",
+            "description": "mục sư biến mất, trong một đêm, thật đột ngột, cùng với nhóm kín của mình và khối tài sản lớn nhất của nhà thờ. Nhiều người cho rằng ông ta đã đến một nơi tốt đẹp hơn: có thể là một miền đất đầy nắng bên cạnh một bờ biển lắp lánh. Ta có thể tuyển mộ những con chiên vô chủ kia, và biến nơi này thành trụ sở hoạt động.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Đặt một Trụ Sở Cũ vào đây để từ bỏ nó và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
+                    "description": "Đặt Trụ Sở cũ vào đây để rời khỏi và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -396,11 +396,11 @@
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "Đây từng là một nơi để thờ phụng. Chúng ta có thể tái sử dụng nó.",
+            "description": "Đây từng là một nơi để thờ phụng. Ta có thể tái sử dụng nó lần nữa.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Đặt một Trụ Sở Cũ vào đây để từ bỏ nó và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
+                    "description": "Đặt Trụ Sở cũ vào đây để rời khỏi và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -420,11 +420,11 @@
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "Những hồn ma - theo hàng xóm kể rằng - vẫn lang thang trong hành lang vang vọng này. Nếu ta chiếm trọn nơi này, dĩ nhiên, chúng sẽ rời đi, hoặc chúng ta sẽ tận dụng bọn chúng.",
+            "description": "Những hồn ma - theo hàng xóm kể rằng - vẫn lang thang trong hành lang vang vọng này. Nếu ta chiếm trọn nơi này, dĩ nhiên, chúng sẽ rời đi, hoặc ta sẽ biến chúng thành công cụ cho mình.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Đặt một Trụ Sở Cũ vào đây để từ bỏ nó và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
+                    "description": "Đặt Trụ Sở cũ vào đây để rời khỏi và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -448,7 +448,7 @@
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Đặt một Trụ Sở Cũ vào đây để từ bỏ nó và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
+                    "description": "Đặt Trụ Sở cũ vào đây để rời khỏi và chuyển đến địa điểm mới này. Sẽ không thể quay lại được.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -463,21 +463,21 @@
         },
         {
             "id": "locationstreetsstrange",
-            "label": "Con Đường Kỳ Ảo bởi Ánh Trăng",
+            "label": "Con Phố Kì Ảo Dưới Ánh Trăng",
             "aspects": {
                 "location": 1
             },
-            "description": "Đôi khi, ánh trăng là chìa khóa mở cánh cửa đưa chúng ta đến những chiều không gian mới lạ. tôi tìm thấy được một nơi, vào một hay hai ngày nào đó, nơi mà đường phố dường như uốn lượn một cách đầy kỳ ảo. Nếu tôi dạo bước ở đây, phải chăng tôi có thể tìm được nguồn cảm hứng hoặc tôi sẽ bị xúc động đến phát điên.",
+            "description": "Đôi khi, ánh trăng là chìa khóa mở cánh cửa đưa chúng ta đến những chiều không gian mới lạ. tôi tìm thấy được một nơi, vào một hay hai ngày nào đó, nơi mà đường phố dường như uốn lượn một cách đầy kỳ ảo. Nếu dạo bước ở đây, phải chăng tôi có thể tìm được nguồn cảm hứng hoặc bị rung động đến phát điên.",
             "lifetime": 120
         },
         {
             "id": "location.gallery",
-            "label": "Phòng Trưng Bày Montmerenzi-McDonald",
-            "comments": "currently just used for early Ghoul flavour, but we could do more.",
+            "label": "Phòng Triển Lãm Montmerenzi-McDonald",
+            "comments": "hiện chỉ dùng bổ sung cho Ngạ Quỷ ban đầu, nhưng ta có thể dùng vào thứ khác.",
             "aspects": {
                 "location": 1
             },
-            "description": "Alistair Montmerenzi, người thứ ba cũng như là người cuối cùng trong số các nhà vẽ bản đồ Montmerenzi, và cùng nhà hảo tâm bí ẩn của ông Timothy McDonald, đã thu thập được bộ sưu tập nho nhỏ nhưng đầy nổi bật này. Sau khi mất tích trong chuyến thám hiểm địa cực cuối cùng, bộ sưu tập đã được ra mắt công chúng trong một tòa nhà màu xám mặt trống bên cạnh một công viên yên tĩnh ... với điều kiện không được chụp ảnh bất kỳ tác phẩm nào ở đó, cũng như không được tiếp xúc với ánh sáng ban ngày."
+            "description": "Alistair Montmerenzi, người thứ ba cũng như là kẻ cuối cùng trong số các nhà bản đồ học Montmerenzi, và nhà hảo tâm huyền bí Timothy McDonald, đã thu thập được bộ sưu tập nhỏ nhưng đầy nổi bật này. Sau khi mất tích trong chuyến thám hiểm địa cực cuối cùng, bộ sưu tập được ra mắt công chúng trong một tòa nhà màu xám mặt tiền trống bên cạnh một công viên yên tĩnh ... với quy định không tác phẩm nào được chụp ảnh và tiếp xúc với ánh sáng ban ngày."
         },
         {
             "id": "location.cemetery",
@@ -486,7 +486,7 @@
                 {
                     "id": "muscle",
                     "label": "Cơ Bắp",
-                    "description": "Tôi có thể nhờ một người trợ giúp hoặc có thể tự mình đào bới.",
+                    "description": "Tôi có thể nhờ một người giúp việc hoặc tự mình đào bới.",
                     "actionid": "explore",
                     "required": {
                         "health": 1,
@@ -494,7 +494,7 @@
                     }
                 }
             ],
-            "description": "Trong thế giới thức giấc, cũng như trong những giấc mơ, cái chết hầu hết đều được tìm thấy ở phía tận cùng.",
+            "description": "Trong thế giới thức giấc, cũng như trong giấc mơ, người chết hầu hết đều được tìm thấy ở phía dưới.",
             "aspects": {
                 "location": 1
             },
@@ -504,12 +504,12 @@
         {
             "id": "location.cemetery.closing",
             "label": "Nghĩa Trang Bị Giám Sát",
-            "description": "Các nhà chức trách đã nhận thấy hoạt động đặc biệt ở nơi này. Họ đã theo dõi nó. Các lượt viếng thăm sẽ mất nhiều thời gian hơn và rất nhanh sau đó chúng sẽ không thể thực hiện được nữa.",
+            "description": "Phía chức trách đã nhận thấy hoạt động đặc biệt ở nơi này. Chúng đã bắt đầu canh gác. Mỗi lần viếng thăm sẽ càng mất nhiều thời gian hơn và sớm thôi, sẽ không thực hiện được nữa.",
             "slots": [
                 {
                     "id": "muscle",
                     "label": "Cơ Bắp",
-                    "description": "Tôi có thể nhờ một người trợ giúp hoặc có thể tự mình đào bới.",
+                    "description": "Tôi có thể nhờ một người giúp việc hoặc tự mình đào bới.",
                     "actionid": "explore",
                     "required": {
                         "health": 1,
