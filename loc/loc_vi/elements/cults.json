@@ -20,7 +20,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -29,26 +29,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với những the Hour của đấu tranh và chinh phục. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Sát Thủ.]",
+            "description": "Một hội huyền bí tôn thờ các Thời Thần của đấu tranh và chinh phục. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Sát Thủ.]",
             "unique": true
         },
         {
             "id": "cultforge_1",
-            "label": "Hội Bất Nao Núng",
+            "label": "Hội Bất Khuất",
             "aspects": {
                 "society": 1,
                 "venerationforge": 1
@@ -66,7 +66,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -75,21 +75,21 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền ngọn lửa của sự thay đổi và tái tạo. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Người Tái Tạo.]",
+            "description": "Một hội huyền bí tôn thờ ngọn lửa của sự thay đổi và tái tạo. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Tái Thiết Đồ.]",
             "unique": true
         },
         {
@@ -112,7 +112,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -121,26 +121,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền những bí ẩn về sự sinh sôi, máu đỏ và lòng ham muốn. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Giám Mục.]",
+            "description": "Một hội huyền bí gắn liền với các bí ẩn về sự sinh sôi, máu đỏ và ham muốn. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Luyến Đồ.]",
             "unique": true
         },
         {
             "id": "cultheart_1",
-            "label": "Thánh Đường Không Ngừng Nghỉ",
+            "label": "Bất Diệt Thánh Điện",
             "aspects": {
                 "society": 1,
                 "venerationheart": 1
@@ -158,7 +158,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -167,26 +167,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với nhịp trống không bao giờ có thể kết thúc. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Nghệ Nhân Tarantella.]",
+            "description": "Một hội huyền bí gắn liền với nhịp đập không bao giờ kết thúc. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Cuồng Vũ Đồ.]",
             "unique": true
         },
         {
             "id": "cultknock_1",
-            "label": "Hội Của Vết Thương Thần Thánh",
+            "label": "Thánh Thương Giáo Hội",
             "aspects": {
                 "society": 1,
                 "venerationknock": 1
@@ -204,7 +204,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -213,21 +213,21 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền những the Hour mở ra các cách cửa. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Người Then Chốt.]",
+            "description": "Một hội huyền bí tôn thờ những Thời Thần khai mở các cánh cửa. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Khải Đồ.]",
             "unique": true
         },
         {
@@ -250,7 +250,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -259,26 +259,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền sự thấu hiểu về thứ Ánh Sáng len lơi từ nơi khốc liệt. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Nhà Tiên Tri.]",
+            "description": "Một hội huyền bí gắn liền sự với thấu hiểu thứ Ánh Sáng len lỏi từ chốn khốc liệt. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Tiên Tri Đồ.]",
             "unique": true
         },
         {
             "id": "cultmoth_1",
-            "label": "Hội Rừng Hoang Dã",
+            "label": "Hội Rừng Hoang",
             "aspects": {
                 "society": 1,
                 "venerationmoth": 1
@@ -296,7 +296,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -305,26 +305,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với những the Hour hỗn loạn và bất định. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Người Bện Da.]",
+            "description": "Một hội huyền bí tôn thờ những Thời Thần hỗn loạn và bất định. [Có thể sử dùng Giáo Phái với hành động Nói Chuyện để tuyển mộ hoặc thăng tiến tông đồ, rồi cử họ đi làm các công việc lặt vặt để thu thập tài nguyên. Giáo Đồ có thể được thăng tiến thành Môn Đồ; một số Môn Đồ tài năng có thể được tôn vinh cao hơn nữa, thành Hoán Da Đồ.]",
             "unique": true
         },
         {
             "id": "cultsecrethistories_1",
-            "label": "Hội Của Thánh Hydra",
+            "label": "Hội Thánh Hydra",
             "aspects": {
                 "society": 1,
                 "venerationedge": 1,
@@ -349,7 +349,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -358,26 +358,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "For the higher mysteries, deeper oaths are needed."
+                    "description": "Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với việc nghiên cứu năm Dòng Lịch Sử và hàng nghìn rẽ nhánh bán thực của chúng. [Thánh Hydra, thật lạ thường, sẽ cho phép bạn sử dụng bất kỳ thần sắc nào để thăng tiến Tín đồ; nhưng điều đó sẽ không có các Chuyên Gia Cao Cấp.]",
+            "description": "Một hội huyền bí gắn liền với việc nghiên cứu năm Dòng Lịch Sử và hàng nghìn rẽ nhánh bán thực của chúng. [Thánh Hydra, thật lạ thường, sẽ cho phép bạn sử dụng bất kỳ khía cạnh nào để thăng tiến Tín đồ; nhưng hội không có các Sứ Đồ chuyên biệt.]",
             "unique": true
         },
         {
             "id": "cultwinter_1",
-            "label": "Đứa Con Của Sự Lặng Im",
+            "label": "Đứa Con Của Lặng Im",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -395,7 +395,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -404,26 +404,26 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với sự im lặng khởi đầu và cái giá lạnh chấm dứt. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, dẫn tới tình trạng lặng im chết người.]",
+            "description": "Một hội huyền bí gắn liền với sự im lặng đang tìm đến và cái lạnh chấm dứt mọi vật. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, dẫn tới sự lặng im chết người.]",
             "unique": true
         },
         {
             "id": "cultwinter_2",
-            "label": "Những Pháo Đài Của Chim Bồ Câu",
+            "label": "Tháp Đài Bồ Câu",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -441,7 +441,7 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "Một hội viên mới, hoặc một giáo đồ dày dạn kinh nghiệm."
+                    "description": "Một hội viên mới, hoặc một môn đồ dày dạn."
                 },
                 {
                     "id": "Ceremony",
@@ -450,21 +450,21 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Để tuyển mộ một người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
+                    "description": "Để chiêu mộ người mới, ta chỉ cần một bí mật nho nhỏ. Những bí ẩn càng cao xa đòi hỏi những lời thề càng sâu sắc."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Lễ Phục",
+                    "label": "Bổ Trợ",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "Dùng vào đúng dịp. Sẽ tiêu hao thành phần và tầm ảnh hưởng; Hãy biết sử dụng, nhưng không tiêu thụ, những loại Công cụ."
+                    "description": "Tạo không khí trang trọng hơn. Nguyên Liệu và Ảnh Hưởng sẽ bị tiêu biến; còn Công Cụ thì sẽ được giữ lại sau nghi lễ."
                 }
             ],
-            "description": "Một hội huyền bí gắn liền với tất cả những gì đã mất, và những gì sẽ có thể trở lại. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, dẫn tới tình trạng lặng im chết người.]",
+            "description": "Một hội huyền bí gắn liền với tất cả những gì đã mất, và những gì sẽ có thể trở lại. [Bạn có thể sử dụng những Giáo Phái với động từ Trò Chuyện để tuyển mộ hoặc thăng tiến một tông đồ, và cử họ đi làm những công việc lặt vặt để thu thập tài nguyên. Một Tín Đồ có thể được thăng tiến thành Giáo Đồ; một số Giáo Đồ tài năng có thể được tôn vinh cao hơn nữa, dẫn tới sự lặng im chết người.]",
             "unique": true,
             "icon": "cultwinter_1"
         }

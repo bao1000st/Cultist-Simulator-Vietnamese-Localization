@@ -49,7 +49,18 @@ Roost => Ổ Đậu
 violet chamber => Điện Tím
 
 
-Adept: Tín đồ
+Adept: Tín đồ, chỉ chung về các người có hiểu biết và giáo lý
+đây là phân cấp chi tiết trong culist simulator:
+Follower -> Believer -> Disciple -> Exalted (mỗi hội có thể có tên riêng cho cấp bậc cao nhất này, vd phía dưới)
+tông đồ -> giáo đồ -> môn đồ -> sứ đồ
+  - reshaper: Tái Thiết Đồ
+  - Cyprian: Luyến Đồ
+  - Tarantellist: Cuồng Vũ Đồ
+  - Key: Khải Đồ
+  - Seer: Tiên Tri Đồ
+  - Skintwister: Hoán Da Đồ
+  - Those who are Silent: Kẻ Thầm Lặng
+
 the Dead : Tử Giả
 the Know : Tri Giả
 the Long : Trường Giả
@@ -97,7 +108,7 @@ The Elegiast: Thần Bi Ca, Ivory Dove: Bồ Câu Ngà
 The Beachcomber, The Beach-Crow: Thần Dạo Biển, Quạ Biển
 The Wolf Divided: Thần Sói Chia Cắt
 
-// Các hội và tổ chức
+// Các hội và tổ chức (XEM CULTS.JSON ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
 War of the roads: Đại Chiến Lộ Tuyến, cuộc chiến giữa ba hội, tranh chấp triết học-quân sự giữa Tuyến Bình Minh và Tuyến Hoàng Hôn (trường phái kim thuật)
 the Church of unconquered Sun : Nhà Thờ Của Mặt Trời Bất Phục
 children of leashed flame :  Hội Đứa Con Của Ngọn Lửa Dây Xích
@@ -111,12 +122,14 @@ Society of the Noble Endeavour => Hội Nỗ Lực Cao Quý
 Obliviates => Hội Lãng Quên: nguồn gốc đầu tiên của hội sông Lethe
 the new ligeians => Tân Legeia
 
+
+
 // Các sinh vật khác
 Alukites (also known as Empousai or Soucouyants) : quỷ hút máu
 the Worm : Trùng Thể 
 Carapace Cross: tộc/loài Giáp Lai
 
-// một số danh từ (xem Abilities.json để có thêm nhiều từ hơn)
+// một số danh từ (XEM Abilities.json ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
 Health : Sức Khỏe
 Reason : Lý Trí
 fascination : mê hoặc
