@@ -2,43 +2,43 @@
     "elements": [
         {
             "id": "commissionarticlesecrethistory",
-            "label": "Commission: Secret Histories",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật",
             "aspects": {},
-            "description": "I must CHANGE",
+            "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
             "decayTo": "commissionarticlesecrethistories",
             "noartneeded": true
         },
         {
             "id": "commissionarticlesecrethistoryb",
-            "label": "Commission: Secret Histories",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật",
             "aspects": {},
-            "description": "I must CHANGE",
+            "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
             "decayTo": "commissionarticlesecrethistoriesb",
             "noartneeded": true
         },
         {
             "id": "commissionarticlesecrethistoryc",
-            "label": "Commission: Secret Histories",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật",
             "aspects": {},
-            "description": "I must CHANGE",
+            "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
             "decayTo": "commissionarticlesecrethistoriesc",
             "noartneeded": true
         },
         {
             "id": "commissionarticlesecrethistories",
-            "label": "Commission: Secret Histories",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with any information you can assemble on the secret histories of the world. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy muốn bạn cung cấp bất kỳ thông tin nào có thể tổng hợp được về những dòng lịch sử bí mật của thế giới. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -46,7 +46,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -59,16 +59,16 @@
         },
         {
             "id": "commissionarticlesecrethistoriesb",
-            "label": "Commission: Secret Histories (Substantial)",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He's looking for a Substantial treatise on the secret histories of the world. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy đang tìm kiếm một luận thuyết chi tiết về những dòng lịch sử bí mật của thế giới. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -76,7 +76,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -89,16 +89,16 @@
         },
         {
             "id": "commissionarticlesecrethistoriesc",
-            "label": "Commission: Secret Histories (Very Substantial)",
+            "label": "Đơn Hàng: Lịch Sử Bí Mật (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He's looking for particularly obscure information on the secret histories of the world. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy đang tìm kiếm những thông tin đặc biệt hiếm có về những dòng lịch sử bí mật của thế giới. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -106,7 +106,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -114,7 +114,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -127,16 +127,16 @@
         },
         {
             "id": "commissionarticlelantern",
-            "label": "Commission: Lantern",
+            "label": "Đơn Hàng: Đèn Lồng",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with any information you can assemble on the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy muốn bạn cung cấp bất kỳ thông tin nào có thể tổng hợp được về những bí mật khốc liệt của Đèn Lồng. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -144,7 +144,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -157,16 +157,16 @@
         },
         {
             "id": "commissionarticlelanternb",
-            "label": "Commission: Lantern (Substantial)",
+            "label": "Đơn Hàng: Đèn Lồng (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with a Substantial discussion of the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy muốn bạn cung cấp một bản thảo luận chi tiết về những bí mật khốc liệt của Đèn Lồng. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -174,7 +174,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -187,16 +187,16 @@
         },
         {
             "id": "commissionarticlelanternc",
-            "label": "Commission: Lantern (Very Substantial)",
+            "label": "Đơn Hàng: Đèn Lồng (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has offered you a commission. He would like you to provide him with an Very Substantial investigation of the severe mysteries of the Lantern. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Tiến sĩ Ibn al-Adim, biệt danh là Người Thành Aleppo, đã đưa ra một đơn hàng. Ông ấy muốn bạn cung cấp một bản thảo luận chuyên sâu về những bí mật khốc liệt của Đèn Lồng. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -204,7 +204,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -212,7 +212,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -225,16 +225,16 @@
         },
         {
             "id": "commissionarticleforge",
-            "label": "Commission: Forge",
+            "label": "Đơn Hàng: Lò Rèn",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something inspired by the principle of the Forge. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn thứ gì đó được truyền cảm hứng bởi nguyên lý Lò Rèn. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -242,7 +242,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -255,16 +255,16 @@
         },
         {
             "id": "commissionarticleforgeb",
-            "label": "Commission: Forge (Substantial)",
+            "label": "Đơn Hàng: Lò Rèn (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something more Substantial on the Forge. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn thứ gì đó chi tiết hơn về Lò Rèn. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -272,7 +272,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -285,16 +285,16 @@
         },
         {
             "id": "commissionarticleforgec",
-            "label": "Commission: Forge (Very Substantial)",
+            "label": "Đơn Hàng: Lò Rèn (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like something Very Substantial, or indeed intense, on the change and the suffering the Forge brings. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn một tác phẩm cực kỳ chuyên sâu, hay thật mãnh liệt, về sự thay đổi và những thống khổ mà Lò Rèn mang lại. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -302,7 +302,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -310,7 +310,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -323,16 +323,16 @@
         },
         {
             "id": "commissionarticlegrail",
-            "label": "Commission: Grail",
+            "label": "Đơn Hàng: Chén Thánh",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She would like something titillating about the Red Grail. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn một thứ gì đó kích thích về Thánh Chén Máu. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -340,7 +340,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -353,16 +353,16 @@
         },
         {
             "id": "commissionarticlegrailb",
-            "label": "Commission: Grail (Substantial)",
+            "label": "Đơn Hàng: Chén Thánh (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She's interested in a more Substantial response to the Red Grail and its allure. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà ấy muốn một bản phản hồi chi tiết hơn về Thánh Chiến Máu và sự mê hoặc của nó. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -370,7 +370,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -383,16 +383,16 @@
         },
         {
             "id": "commissionarticlegrailc",
-            "label": "Commission: Grail (Very Substantial)",
+            "label": "Đơn Hàng: Chén Thánh (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She wants something Very Substantial and 'unflinching' on the Red Grail. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn một thứ gì đó chuyên sâu và 'không chùn bước' về Thánh Chén Đỏ. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -400,7 +400,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -408,7 +408,7 @@
                 },
                 {
                     "id": "passion1",
-                    "label": "Passion",
+                    "label": "Đam Mê",
                     "required": {
                         "passion": 1
                     },
@@ -421,16 +421,16 @@
         },
         {
             "id": "commissionarticlemoth",
-            "label": "Commission: Moth",
+            "label": "Đơn Hàng: Bướm Đêm",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. In particular, she wants something suitably intriguing about the principle called Moth. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Đặc biệt, bà muốn thứ gì đó đủ sức hấp dẫn về nguyên lý mang tên Bướm Đêm. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -438,7 +438,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -451,16 +451,16 @@
         },
         {
             "id": "commissionarticlemothb",
-            "label": "Commission: Moth (Substantial)",
+            "label": "Đơn Hàng: Bướm Đêm (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She wants a Substantially enigmatic piece on Moth. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn một bài viết có chiều sâu và huyền bí về Bướm Đêm. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -468,7 +468,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -481,16 +481,16 @@
         },
         {
             "id": "commissionarticlemothc",
-            "label": "Commission: Moth (Very Substantial)",
+            "label": "Đơn Hàng: Bướm Đêm (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Mme Olympe Bechet is seeking suitable articles for the 'Kerisham Review'. She'd like an Very Substantial elaboration of Moth and its enigmas. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Bà Olympe Bechet đang tìm kiếm những bài viết phù hợp cho tờ 'Tạp chí Kerisham'. Bà muốn một bài diễn giải chuyên sâu về Bướm Đêm và những bí ẩn nan giải của nó. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -498,7 +498,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -506,7 +506,7 @@
                 },
                 {
                     "id": "passion1",
-                    "label": "Passion",
+                    "label": "Đam Mê",
                     "required": {
                         "passion": 1
                     },
@@ -519,16 +519,16 @@
         },
         {
             "id": "commissionarticleheart",
-            "label": "Commission: Heart",
+            "label": "Đơn Hàng: Trái Tim",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like some notes on the corporal mysteries of the Heart. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn một ghi chép về những bí ẩn nhục thể của Trái Tim. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -536,7 +536,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -549,16 +549,16 @@
         },
         {
             "id": "commissionarticleheartb",
-            "label": "Commission: Heart (Substantial)",
+            "label": "Đơn Hàng: Trái Tim (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like Substantial research on the corporal mysteries of the Heart. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn một nghiên cứu chi tiết về những bí mật nhục thể của Trái Tim. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -566,7 +566,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -579,16 +579,16 @@
         },
         {
             "id": "commissionarticleheartc",
-            "label": "Commission: Heart (Very Substantial)",
+            "label": "Đơn Hàng: Trái Tim (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like Very Substantial research on the corporal mysteries of the Heart.[You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn một nghiên cứu chuyên sâu về những bí mật nhục thể của Trái Tim. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -596,7 +596,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -604,7 +604,7 @@
                 },
                 {
                     "id": "passion1",
-                    "label": "Passion",
+                    "label": "Đam Mê",
                     "required": {
                         "passion": 1
                     },
@@ -617,16 +617,16 @@
         },
         {
             "id": "commissionarticleedge",
-            "label": "Commission: Edge",
+            "label": "Đơn Hàng: Lưỡi Dao",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like whatever you can assemble on the practices of the Edge. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn bất kỳ thứ gì bạn tổng hợp được về các bí pháp của Lưỡi Dao. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -634,7 +634,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -647,16 +647,16 @@
         },
         {
             "id": "commissionarticleedgeb",
-            "label": "Commission: Edge (Substantial)",
+            "label": "Đơn Hàng: Lưỡi Dao (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like Substantial notes on the practices of the Edge. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn một ghi chép chi tiết về các bí pháp của Lưỡi Dao. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -664,7 +664,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -677,16 +677,16 @@
         },
         {
             "id": "commissionarticleedgec",
-            "label": "Commission: Edge (Very Substantial)",
+            "label": "Đơn Hàng: Lưỡi Dao (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "The Count will pay for information of interest. This time, he'd like an Very Substantial work on the practices of the Edge. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Bá Tước sẽ trả công cho những thông tin mà ông quan tâm. Lần này, ông muốn một tác phẩm chuyên sâu về các bí pháp của Lưỡi Dao. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -694,7 +694,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -702,7 +702,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -715,16 +715,16 @@
         },
         {
             "id": "commissionarticleknock",
-            "label": "Commission: Knock",
+            "label": "Đơn Hàng: Tiếng Gõ",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like some notes on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn vài ghi chép về những bí ẩn nhục thể của Tiếng Gõ. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -732,7 +732,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -745,16 +745,16 @@
         },
         {
             "id": "commissionarticleknockb",
-            "label": "Commission: Knock (Substantial)",
+            "label": "Đơn Hàng: Tiếng Gõ (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like Substantial research on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn một nghiên cứu chi tiết về những bí ẩn nhục thể của Tiếng Gõ. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -762,7 +762,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -775,16 +775,16 @@
         },
         {
             "id": "commissionarticleknockc",
-            "label": "Commission: Knock (Very Substantial)",
+            "label": "Đơn Hàng: Tiếng Gõ (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like Very Substantial research on the corporal mysteries of Knock. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn một nghiên cứu chuyên sâu về những bí ẩn nhục thể của Tiếng Gõ. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -792,7 +792,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -800,7 +800,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -813,16 +813,16 @@
         },
         {
             "id": "commissionarticlewinter",
-            "label": "Commission: Winter",
+            "label": "Đơn Hàng: Mùa Đông",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like some notes on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 2 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn vài ghi chép về những bí ẩn nhục thể của Mùa Đông. [Cần có mảnh Giáo Lý tương ứng từ cấp 2 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -830,7 +830,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -843,16 +843,16 @@
         },
         {
             "id": "commissionarticlewinterb",
-            "label": "Commission: Winter (Substantial)",
+            "label": "Đơn Hàng: Mùa Đông (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like Substantial research on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 4 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn một nghiên cứu chi tiết về những bí ẩn nhục thể của Mùa Đông. [Cần có mảnh Giáo Lý tương ứng từ cấp 4 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -860,7 +860,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -873,16 +873,16 @@
         },
         {
             "id": "commissionarticlewinterc",
-            "label": "Commission: Winter (Very Substantial)",
+            "label": "Đơn Hàng: Mùa Đông (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
             },
-            "description": "Poppy will pay for information of interest. This time, she'd like Very Substantial research on the corporal mysteries of Winter. [You'll need a matching Lore fragment of at least level 6 to complete this commission.]",
+            "description": "Poppy sẽ trả công cho những thông tin mà bà quan tâm. Lần này, bà muốn một nghiên cứu chuyên sâu về những bí ẩn nhục thể của Mùa Đông. [Cần có mảnh Giáo Lý tương ứng từ cấp 6 trở lên để hoàn thành đơn hàng này.]",
             "slots": [
                 {
                     "id": "lore",
-                    "label": "Lore",
+                    "label": "Giáo Lý",
                     "required": {
                         "lore": 1
                     },
@@ -890,7 +890,7 @@
                 },
                 {
                     "id": "reason1",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },
@@ -898,7 +898,7 @@
                 },
                 {
                     "id": "reason2",
-                    "label": "Reason",
+                    "label": "Lý Trí",
                     "required": {
                         "reason": 1
                     },

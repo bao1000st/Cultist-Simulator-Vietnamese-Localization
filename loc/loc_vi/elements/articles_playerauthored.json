@@ -38,7 +38,7 @@
         },
         {
             "id": "articleknockc",
-            "label": "Tiếng Gõ: Nghiên Cứu Chuyên Sâu:",
+            "label": "Tiếng Gõ: Nghiên Cứu Chuyên Sâu",
             "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
             "aspects": {
                 "article": 1,
@@ -47,7 +47,7 @@
         },
         {
             "id": "articlelanternc",
-            "label": "Đèn Lồng: Nghiên Cứu Chuyên Sâu:",
+            "label": "Đèn Lồng: Nghiên Cứu Chuyên Sâu",
             "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
             "aspects": {
                 "article": 1,
@@ -56,7 +56,7 @@
         },
         {
             "id": "articlemothc",
-            "label": "Bướm Đêm: Nghiên Cứu Chuyên Sâu:",
+            "label": "Bướm Đêm: Nghiên Cứu Chuyên Sâu",
             "description": "Tác phẩm của chính bạn, ở dạng bản thảo. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
             "aspects": {
                 "article": 1,
@@ -74,7 +74,7 @@
         },
         {
             "id": "articlewinterc",
-            "label": "Cái Trắng: Nghiên Cứu Chuyên Sâu:",
+            "label": "Cái Trắng: Nghiên Cứu Chuyên Sâu",
             "description": "Càng sâu đi, thì càng ngắn ngủi. [Nói Chuyện với Người Bảo Trợ để được trả tiền.]",
             "aspects": {
                 "article": 1,

@@ -58,8 +58,10 @@ the Hour : Thời Thần
 
 
 // một số Trường Giả hoặc nhân vật quan trọng
-The barrowchild: 'Đứa Con Mộ Bia'
+The barrowchild: Đứa Con Mộ Bia
 Omar, the blaze: Omar, Kẻ Bốc Cháy
+the Aleppine: Người Thành Aleppo
+the count: Bá Tước
 
 // một số thừ liên quan đến Thời Thần
 Thirstlies : Khát Thần
