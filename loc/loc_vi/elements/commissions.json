@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "commissionarticlesecrethistory",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật",
+            "label": "Viết Thuê: Lịch Sử Bí Mật",
             "aspects": {},
             "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
@@ -11,7 +11,7 @@
         },
         {
             "id": "commissionarticlesecrethistoryb",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật",
+            "label": "Viết Thuê: Lịch Sử Bí Mật",
             "aspects": {},
             "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
@@ -20,7 +20,7 @@
         },
         {
             "id": "commissionarticlesecrethistoryc",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật",
+            "label": "Viết Thuê: Lịch Sử Bí Mật",
             "aspects": {},
             "description": "Tôi phải THAY ĐỔI",
             "lifetime": 1,
@@ -29,7 +29,7 @@
         },
         {
             "id": "commissionarticlesecrethistories",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật",
+            "label": "Viết Thuê: Lịch Sử Bí Mật",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -59,7 +59,7 @@
         },
         {
             "id": "commissionarticlesecrethistoriesb",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật (Chi Tiết)",
+            "label": "Viết Thuê: Lịch Sử Bí Mật (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -89,7 +89,7 @@
         },
         {
             "id": "commissionarticlesecrethistoriesc",
-            "label": "Đơn Hàng: Lịch Sử Bí Mật (Chuyên Sâu)",
+            "label": "Viết Thuê: Lịch Sử Bí Mật (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -127,7 +127,7 @@
         },
         {
             "id": "commissionarticlelantern",
-            "label": "Đơn Hàng: Đèn Lồng",
+            "label": "Viết Thuê: Đèn Lồng",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -157,7 +157,7 @@
         },
         {
             "id": "commissionarticlelanternb",
-            "label": "Đơn Hàng: Đèn Lồng (Chi Tiết)",
+            "label": "Viết Thuê: Đèn Lồng (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -187,7 +187,7 @@
         },
         {
             "id": "commissionarticlelanternc",
-            "label": "Đơn Hàng: Đèn Lồng (Chuyên Sâu)",
+            "label": "Viết Thuê: Đèn Lồng (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -225,7 +225,7 @@
         },
         {
             "id": "commissionarticleforge",
-            "label": "Đơn Hàng: Lò Rèn",
+            "label": "Viết Thuê: Lò Rèn",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -255,7 +255,7 @@
         },
         {
             "id": "commissionarticleforgeb",
-            "label": "Đơn Hàng: Lò Rèn (Chi Tiết)",
+            "label": "Viết Thuê: Lò Rèn (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -285,7 +285,7 @@
         },
         {
             "id": "commissionarticleforgec",
-            "label": "Đơn Hàng: Lò Rèn (Chuyên Sâu)",
+            "label": "Viết Thuê: Lò Rèn (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -323,7 +323,7 @@
         },
         {
             "id": "commissionarticlegrail",
-            "label": "Đơn Hàng: Chén Thánh",
+            "label": "Viết Thuê: Chén Thánh",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -353,7 +353,7 @@
         },
         {
             "id": "commissionarticlegrailb",
-            "label": "Đơn Hàng: Chén Thánh (Chi Tiết)",
+            "label": "Viết Thuê: Chén Thánh (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -383,7 +383,7 @@
         },
         {
             "id": "commissionarticlegrailc",
-            "label": "Đơn Hàng: Chén Thánh (Chuyên Sâu)",
+            "label": "Viết Thuê: Chén Thánh (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -421,7 +421,7 @@
         },
         {
             "id": "commissionarticlemoth",
-            "label": "Đơn Hàng: Bướm Đêm",
+            "label": "Viết Thuê: Bướm Đêm",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -451,7 +451,7 @@
         },
         {
             "id": "commissionarticlemothb",
-            "label": "Đơn Hàng: Bướm Đêm (Chi Tiết)",
+            "label": "Viết Thuê: Bướm Đêm (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -481,7 +481,7 @@
         },
         {
             "id": "commissionarticlemothc",
-            "label": "Đơn Hàng: Bướm Đêm (Chuyên Sâu)",
+            "label": "Viết Thuê: Bướm Đêm (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -519,7 +519,7 @@
         },
         {
             "id": "commissionarticleheart",
-            "label": "Đơn Hàng: Trái Tim",
+            "label": "Viết Thuê: Trái Tim",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -549,7 +549,7 @@
         },
         {
             "id": "commissionarticleheartb",
-            "label": "Đơn Hàng: Trái Tim (Chi Tiết)",
+            "label": "Viết Thuê: Trái Tim (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -579,7 +579,7 @@
         },
         {
             "id": "commissionarticleheartc",
-            "label": "Đơn Hàng: Trái Tim (Chuyên Sâu)",
+            "label": "Viết Thuê: Trái Tim (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -617,7 +617,7 @@
         },
         {
             "id": "commissionarticleedge",
-            "label": "Đơn Hàng: Lưỡi Dao",
+            "label": "Viết Thuê: Lưỡi Dao",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -647,7 +647,7 @@
         },
         {
             "id": "commissionarticleedgeb",
-            "label": "Đơn Hàng: Lưỡi Dao (Chi Tiết)",
+            "label": "Viết Thuê: Lưỡi Dao (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -677,7 +677,7 @@
         },
         {
             "id": "commissionarticleedgec",
-            "label": "Đơn Hàng: Lưỡi Dao (Chuyên Sâu)",
+            "label": "Viết Thuê: Lưỡi Dao (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -715,7 +715,7 @@
         },
         {
             "id": "commissionarticleknock",
-            "label": "Đơn Hàng: Tiếng Gõ",
+            "label": "Viết Thuê: Tiếng Gõ",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -745,7 +745,7 @@
         },
         {
             "id": "commissionarticleknockb",
-            "label": "Đơn Hàng: Tiếng Gõ (Chi Tiết)",
+            "label": "Viết Thuê: Tiếng Gõ (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -775,7 +775,7 @@
         },
         {
             "id": "commissionarticleknockc",
-            "label": "Đơn Hàng: Tiếng Gõ (Chuyên Sâu)",
+            "label": "Viết Thuê: Tiếng Gõ (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -813,7 +813,7 @@
         },
         {
             "id": "commissionarticlewinter",
-            "label": "Đơn Hàng: Mùa Đông",
+            "label": "Viết Thuê: Mùa Đông",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -843,7 +843,7 @@
         },
         {
             "id": "commissionarticlewinterb",
-            "label": "Đơn Hàng: Mùa Đông (Chi Tiết)",
+            "label": "Viết Thuê: Mùa Đông (Chi Tiết)",
             "aspects": {
                 "commission": 1,
                 "job": 1
@@ -873,7 +873,7 @@
         },
         {
             "id": "commissionarticlewinterc",
-            "label": "Đơn Hàng: Mùa Đông (Chuyên Sâu)",
+            "label": "Viết Thuê: Mùa Đông (Chuyên Sâu)",
             "aspects": {
                 "commission": 1,
                 "job": 1

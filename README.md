@@ -60,6 +60,9 @@ tông đồ -> giáo đồ -> môn đồ -> sứ đồ
   - Seer: Tiên Tri Đồ
   - Skintwister: Hoán Da Đồ
   - Those who are Silent: Kẻ Thầm Lặng
+  - Conqueress: Chinh Đồ
+  - Conclusion: Hồi Kết
+  - Herald: Sứ Giả
 
 the Dead : Tử Giả
 the Know : Tri Giả
