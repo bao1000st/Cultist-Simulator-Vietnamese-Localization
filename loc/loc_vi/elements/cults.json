@@ -24,7 +24,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -70,7 +70,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -116,7 +116,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -162,7 +162,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -208,7 +208,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -254,7 +254,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -300,7 +300,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -353,7 +353,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -399,7 +399,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
@@ -445,7 +445,7 @@
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Nghi Lễ",
+                    "label": "Nghi Thức",
                     "actionid": "talk",
                     "required": {
                         "lore": 1

@@ -1,422 +1,489 @@
-{"elements":
-    [
-		{	
+{
+    "elements": [
+        {
             id: "acquaintance",
             label: "Người Quen",
-			description: "Chưa phải là bạn, cũng chưa phải là thù.",
+            description: "Chưa phải là bạn, cũng chưa phải là thù.",
             isAspect: true
         },
-		        {
+        {
             id: "independent",
             label: "Kẻ Trung Lập",
-			description: "Một học viên của bộ mộn nghệ thuật vô hình, với động cơ của riêng mình.",
+            description: "Một học viên của bộ mộn nghệ thuật vô hình, với động cơ của riêng mình.",
             isAspect: true
-        }, 
-		        {
+        },
+        {
             id: "benefactor",
             label: "Nhà Hảo Tâm",
-			description: "Một người hâm mộ công việc của tôi, người mà tôi đã trở nên thân thiết.",
+            description: "Một người hâm mộ công việc của tôi, người mà tôi đã trở nên thân thiết.",
             isAspect: true
-        }, 				
+        },
         {
             id: "follower",
             label: "Tông Đồ",
-			description: "Một học sinh, trợ thủ, hộ vệ, nhà vô địch, kẻ bị gạt, kẻ phải hi sinh... bạn đồng hành.",
+            description: "Một học sinh, trợ thủ, hộ vệ, nhà vô địch, kẻ bị gạt, kẻ phải hi sinh... bạn đồng hành.",
             isAspect: true
-        },       {
+        },
+        {
             id: "hireling",
             label: "Tay Sai",
-			description: "Tôi đã thương lượng dịch vụ với dạng người kiểu này, trong khoảng một thời gian ngắn.",
+            description: "Tôi đã thương lượng dịch vụ với dạng người kiểu này, trong khoảng một thời gian ngắn.",
             isAspect: true
         },
-		     {
+        {
             id: "disciple",
             label: "Giáo Đồ",
-			description: "Một kẻ khởi xướng thật sự của những điều huyền bí.",
+            description: "Một kẻ khởi xướng thật sự của những điều huyền bí.",
             isAspect: true
         },
-				     {
+        {
             id: "devotee",
             label: "Kẻ Sùng Đạo",
-			description: "Vừa rồi, sự tận tâm của kẻ này đã bị tiêu hao hết. Nhưng sớm thôi khi nó phai dần đi, và kẻ này sẽ tự đặt câu hỏi về những gì mình đã gây ra.",
-			isAspect:true
+            description: "Vừa rồi, sự tận tâm của kẻ này đã bị tiêu hao hết. Nhưng sớm thôi khi nó phai dần đi, và kẻ này sẽ tự đặt câu hỏi về những gì mình đã gây ra.",
+            isAspect: true
         },
-				     {
+        {
             id: "exalted",
             label: "Kẻ Cao Quý",
-			description: "Kẻ này chẳng còn thể vươn cao hơn nữa... ít nhất là, không phải trong khi tôi đang dẫn đầu.",
+            description: "Kẻ này chẳng còn thể vươn cao hơn nữa... ít nhất là, không phải trong khi tôi đang dẫn đầu.",
             isAspect: true
         },
-		        {
+        {
             id: "prisoner",
             label: "Tù Nhân",
-			description: "Tôi nắm trọn kẻ này trong lòng bàn tay mình.",
+            description: "Tôi nắm trọn kẻ này trong lòng bàn tay mình.",
             isAspect: true
         },
-		        {
+        {
             id: "hunter",
             label: "Thợ Săn",
-			description: "Luật lệ của nền văn minh vẫn còn non trẻ so với luật lệ của những the Hour, nhưng chúng cũng vậy, đôi khi phải cần đến sự hy sinh. Kẻ này chính là đại diện của pháp luật.",
+            description: "Luật lệ của nền văn minh vẫn còn non trẻ so với luật lệ của những the Hour, nhưng chúng cũng vậy, đôi khi phải cần đến sự hy sinh. Kẻ này chính là đại diện của pháp luật.",
             isAspect: true
         },
-				        {
+        {
             id: "patron",
             label: "Người Bảo Trợ",
-			description: "Một nhân vật đáng chú ý trong những vòng kết nối, nơi tôi thường vẫn đến.",
+            description: "Một nhân vật đáng chú ý trong những vòng kết nối, nơi tôi thường vẫn đến.",
             isAspect: true
         },
-						        {
+        {
             id: "approval",
             label: "Chấp Thuận",
-			description: "Ai đó nhìn tôi với sự tán thành ngày một tăng.",
+            description: "Ai đó nhìn tôi với sự tán thành ngày một tăng.",
             isAspect: true
         },
-						        {
+        {
             id: "tutor",
             label: "Gia Sư",
-			description: "Người này có những kiến thức rất giá trị.",
+            description: "Người này có những kiến thức rất giá trị.",
             isAspect: true
         },
-				        {
+        {
             id: "annoyance",
             label: "Kẻ Gây Rối",
-			description: "Đây là một cái gai trên lưng tôi. Vậy mà tôi vẫn chưa thể tìm ra cách để loại bỏ nó.",
+            description: "Đây là một cái gai trên lưng tôi. Vậy mà tôi vẫn chưa thể tìm ra cách để loại bỏ nó.",
             isAspect: true
         },
-		{
-		    id: "sending",
+        {
+            id: "sending",
             label: "Hồn Gửi",
-			description: "Rõ ràng không phải là tôi, Những cũng chẳng rõ ràng là một thứ gì khác.",
+            description: "Rõ ràng không phải là tôi, Những cũng chẳng rõ ràng là một thứ gì khác.",
             isAspect: true
         },
         {
             id: "edge",
             label: "Lưỡi Dao",
-			description: "Mọi cuộc chinh phục đều xảy ra ở Lưỡi Dao này. Một kẻ cư ngụ nới đó đã bị mù, nhưng chẳng còn thể bị thương. Kẻ khác lại thật mạnh mẽ, và ngày càng mạnh hơn. [Lưỡi Dao chính là nguyên tắc của chiến đấu và đấu tranh.]",
+            description: "Mọi cuộc chinh phục đều xảy ra ở Lưỡi Dao này. Một kẻ cư ngụ nới đó đã bị mù, nhưng chẳng còn thể bị thương. Kẻ khác lại thật mạnh mẽ, và ngày càng mạnh hơn. [Lưỡi Dao chính là nguyên tắc của chiến đấu và đấu tranh.]",
             isAspect: true,
-			noartneeded:true
-			},
+            noartneeded: true
+        },
         {
             id: "forge",
             label: "Lò Rèn",
-			description: "'Ngọn lửa', Tôi đã từng đọc được, 'chính là mùa đông sưởi ấm, là mùa xuân phá hủy.' [Nguyên tắc của Lò Rèn chính là biến đổi và hủy diệt.]",
+            description: "'Ngọn lửa', Tôi đã từng đọc được, 'chính là mùa đông sưởi ấm, là mùa xuân phá hủy.' [Nguyên tắc của Lò Rèn chính là biến đổi và hủy diệt.]",
             isAspect: true
         },
-		     
+
         {
             id: "grail",
             label: "Chén Thánh",
-			description: "Cơn đói khát, cơn ham muốn, những làn nước chết đuối. [Nguyên tắc của Chén Thánh tôn vinh cả sự sinh sôi lẫn sự thiết tiệc.]",
-			isAspect: true,
-			induces:[{id:"grailinduction",chance:5}]
+            description: "Cơn đói khát, cơn ham muốn, những làn nước chết đuối. [Nguyên tắc của Chén Thánh tôn vinh cả sự sinh sôi lẫn sự thiết tiệc.]",
+            isAspect: true,
+            induces: [
+                {
+                    id: "grailinduction",
+                    chance: 5
+                }
+            ]
         },
         {
             id: "heart",
             label: "Trái Tim",
-			description: "The Heart Relentless đập từng nhịp để bảo vệ vỏ bọc của cái thế giới mà ta đã quá hiểu rõ. [Trái Tim chính chính là nguyên tắc được vẫn tiếp tục và bảo tồn.]",
+            description: "The Heart Relentless đập từng nhịp để bảo vệ vỏ bọc của cái thế giới mà ta đã quá hiểu rõ. [Trái Tim chính chính là nguyên tắc được vẫn tiếp tục và bảo tồn.]",
             isAspect: true,
-			induces:[{id:"heartinduction",chance:10}]
+            induces: [
+                {
+                    id: "heartinduction",
+                    chance: 10
+                }
+            ]
         },
-		        {
+        {
             id: "knock",
             label: "Tiếng Gõ",
-			description: "Tiếng Gõ thừa nhận thứ không bị niêm phong và cô lập. Nó đẩy ta một cách vui sướng ra khỏi vùng an toàn của sự ngu dốt. [Tiếng Gõ là nguyên tắc khai mở những cánh cửa và phá vỡ mọi rào cản.]",
+            description: "Tiếng Gõ thừa nhận thứ không bị niêm phong và cô lập. Nó đẩy ta một cách vui sướng ra khỏi vùng an toàn của sự ngu dốt. [Tiếng Gõ là nguyên tắc khai mở những cánh cửa và phá vỡ mọi rào cản.]",
             isAspect: true
         },
-			 {
+        {
             id: "lantern",
             label: "Đèn Lồng",
-			description: "'Cuộc sống là một ngọn lửa thuần khiết, và chúng ta đang sống cạnh một mặt trời vô hình nằm sâu thẳm trong bản thân.' - Thomas Browne. [Lòng Đèn là nguyên tắc của một nơi bí ẩn vẫn thường hay gọi là Ngôi Nhà của the Sun, và của nguồn ánh sáng ngay phía trên nó.]",
+            description: "'Cuộc sống là một ngọn lửa thuần khiết, và chúng ta đang sống cạnh một mặt trời vô hình nằm sâu thẳm trong bản thân.' - Thomas Browne. [Lòng Đèn là nguyên tắc của một nơi bí ẩn vẫn thường hay gọi là Ngôi Nhà của the Sun, và của nguồn ánh sáng ngay phía trên nó.]",
             isAspect: true,
-			induces:[{id:"lanterninduction",chance:5}]
+            induces: [
+                {
+                    id: "lanterninduction",
+                    chance: 5
+                }
+            ]
         },
-		        {
-			id: "moth",
-			label: "Bướm Đêm",
-			isAspect: true,
-			description: "Tôi biết một người đàn ông thường bắt bướm đêm vào một cái bình chuông. Vào những đêm thế này, ông sẽ thả từng con một để chúng chết trong những ngọn nến. [Bướm Đêm là nguyên tắc hoang dại và nguy hiểm của sự hỗn loạn và sự đau xót.]",
-			induces:[{id:"mothinduction",chance:10}]
-    },
-	        {
+        {
+            id: "moth",
+            label: "Bướm Đêm",
+            isAspect: true,
+            description: "Tôi biết một người đàn ông thường bắt bướm đêm vào một cái bình chuông. Vào những đêm thế này, ông sẽ thả từng con một để chúng chết trong những ngọn nến. [Bướm Đêm là nguyên tắc hoang dại và nguy hiểm của sự hỗn loạn và sự đau xót.]",
+            induces: [
+                {
+                    id: "mothinduction",
+                    chance: 10
+                }
+            ]
+        },
+        {
             id: "secrethistories",
-            label: "Dòng Lịch Sử Bí Mật",
-			        description: "Lịch sử là một vết sẹo nằm trên vỏ bọc của thế giới. [Dòng Lịch Sử Bí Mật mô tả sự phức tạp chưa từng biết của thế giới, và vô số quá khứ của nó.]",
+            label: "Lịch Sử Bí Mật",
+            description: "Lịch sử là một vết sẹo nằm trên vỏ bọc của thế giới. [Lịch Sử Bí Mật mô tả sự phức tạp chưa từng biết của thế giới, và vô số quá khứ của nó.]",
             isAspect: true
         },
 
-		        {
+        {
             id: "winter",
             label: "Mùa Đông",
-			description: "... [Mùa Đông là nguyên tắc của sự lặng im, của những kết thức, và của những điều vẫn chưa chết hẳn.]",
+            description: "... [Mùa Đông là nguyên tắc của sự lặng im, của những kết thức, và của những điều vẫn chưa chết hẳn.]",
             isAspect: true
         },
-								{
+        {
             id: "ability",
             label: "Khả Năng",
             isAspect: true,
-			description: "Bộ não hoặc quả tim hay cánh tay hoặc con mắt. Hầu hết chúng ta được sinh ra với gần đủ những thứ đó."
+            description: "Bộ não hoặc quả tim hay cánh tay hoặc con mắt. Hầu hết chúng ta được sinh ra với gần đủ những thứ đó."
         },
-										{
+        {
             id: "scar",
             label: "Vết Sẹo",
             isAspect: true,
-			description: "Hậu quả không thể thay đổi của một hành động không thể thay đổi."
+            description: "Hậu quả không thể thay đổi của một hành động không thể thay đổi."
         },
-										{
+        {
             id: "advancement",
             label: "Tiến Bộ",
             isAspect: true,
-			description: "Hương vị của thứ sắp thành hiện thực. [với đủ những thẻ bài loại này, bạn có thể phát triển một Khả Năng.]"
+            description: "Hương vị của thứ sắp thành hiện thực. [với đủ những thẻ bài loại này, bạn có thể phát triển một Khả Năng.]"
         },
-												{
+        {
             id: "potential",
             label: "Tiềm Năng",
             isAspect: true,
-			description: "Phải chăng là dấu án của sự vĩ đại? [Trong những trường hợp thích hợp, tông đồ này có thể càng trở nên mạnh mẽ hơn.]"
+            description: "Phải chăng là dấu án của sự vĩ đại? [Trong những trường hợp thích hợp, tông đồ này có thể càng trở nên mạnh mẽ hơn.]"
         },
-						{
+        {
             id: "job",
             label: "Công Việc",
             isAspect: true,
-			description: "Một sự sắp đặt để đánh đổi mạng sống của một kẻ vì tiền.",
-			induces:[{id:"needs",chance:100}],
+            description: "Một sự sắp đặt để đánh đổi mạng sống của một kẻ vì tiền.",
+            induces: [
+                {
+                    id: "needs",
+                    chance: 100
+                }
+            ],
         },
-								{
+        {
             id: "dance",
             label: "Nhảy Múa",
             isAspect: true,
-			description: "Cổ xưa hơn cả ngôn ngữ, trẻ trung hơn cả cuộc sống.",
-			induces:[{id:"heartinduction",chance:10},{id:"mothglimmeringinduction",chance:10}]
+            description: "Cổ xưa hơn cả ngôn ngữ, trẻ trung hơn cả cuộc sống.",
+            induces: [
+                {
+                    id: "heartinduction",
+                    chance: 10
+                },
+                {
+                    id: "mothglimmeringinduction",
+                    chance: 10
+                }
+            ]
         },
-					{
+        {
             id: "ecdysijob",
             label: "Một Vị Trí Ở Câu Lạc Bộ Ecdysis",
             isAspect: true,
-			description: "Tôi đã giành được một vị trí trên sân khấu ở Câu Lạc Bộ Ecdysis."
+            description: "Tôi đã giành được một vị trí trên sân khấu ở Câu Lạc Bộ Ecdysis."
         },
-								{
+        {
             id: "demotion",
             label: "Cách Chức",
             isAspect: true,
-			description: "Tôi đã xa công việc quá lâu rồi."
+            description: "Tôi đã xa công việc quá lâu rồi."
         },
-		{
+        {
             id: "ritual",
-            label: "Nghi Thức",
+            label: "Nghi Lễ",
             isAspect: true,
-			description: "'The proper things, in the proper manner, in the proper order. God help us all.' - attributed to Hersault. [A Rite allows you to combine aspects to perform a summoning.]"
+            description: "'The proper things, in the proper manner, in the proper order. God help us all.' - attributed to Hersault. [A Rite allows you to combine aspects to perform a summoning.]"
         },
-				{
+        {
             id: "society",
             label: "Hội",
             isAspect: true,
-			description: "Để chiêu mộ được những kẻ tin điều, tôi phải gầy dựng nên một thứ gì đó để chúng tin tưởng vào."
+            description: "Để chiêu mộ được những kẻ tin điều, tôi phải gầy dựng nên một thứ gì đó để chúng tin tưởng vào."
         },
-		{id:"rededicable",
-		label:"Bấp Bênh",
-		description:"Tổ chức này đã bắt đầu đặt câu hỏi về các nguyên lý của nó. Tôi có thể tạo áp lực để thay đổi hướng đi của nó.",
-		isAspect:true
-		},
-		        {
+        {
+            id: "rededicable",
+            label: "Bấp Bênh",
+            description: "Tổ chức này đã bắt đầu đặt câu hỏi về các nguyên lý của nó. Tôi có thể tạo áp lực để thay đổi hướng đi của nó.",
+            isAspect: true
+        },
+        {
             id: "ingredient",
             label: "Thành Phần",
             isAspect: true,
-			description: "Nhiên liệu, thuốc mỡ, chất màu, sự kiên nhẫn: tất cả đều phải được tiêu hao kịp thời.",
-			induces:[{id:"needs",chance:100}],
-			comments:"This is so anything that generates Funds will always trigger the needs timer if it's not already running."
+            description: "Nhiên liệu, thuốc mỡ, chất màu, sự kiên nhẫn: tất cả đều phải được tiêu hao kịp thời.",
+            induces: [
+                {
+                    id: "needs",
+                    chance: 100
+                }
+            ],
+            comments: "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
         },
-				        {
+        {
             id: "pigment",
             label: "Thuốc Màu",
             isAspect: true,
-			description: "Có thể áp dụng thứ này cho những bức tranh sơn dầu."
+            description: "Có thể áp dụng thứ này cho những bức tranh sơn dầu."
         },
-				        {
+        {
             id: "poison",
             label: "Độc Chết Người",
             isAspect: true,
-			description: "Trong mọi trường hợp, bạn không nên đưa nó vào bất kỳ ai mà bạn muốn giữ lại bên cạnh."
+            description: "Trong mọi trường hợp, bạn không nên đưa nó vào bất kỳ ai mà bạn muốn giữ lại bên cạnh."
         },
-				        {
+        {
             id: "influence",
             label: "Ảnh Hưởng",
             isAspect: true,
-			description: "Một tiếng vọng, một sự cộng hưởng, một mối liên kết. Một cái gì đó sẽ sớm mờ đi."
+            description: "Một tiếng vọng, một sự cộng hưởng, một mối liên kết. Một cái gì đó sẽ sớm mờ đi."
         },
         {
             id: "tool",
             label: "Công Cụ",
             isAspect: true,
-			description: "'Một thanh kiếm vốn không thể giết người; nó chỉ là nhạc cụ trong tay của kẻ sát nhân.' - Seneca the Younger"
+            description: "'Một thanh kiếm vốn không thể giết người; nó chỉ là nhạc cụ trong tay của kẻ sát nhân.' - Seneca the Younger"
         },
-		        {
+        {
             id: "mirror",
             label: "Chiếc Gương",
             isAspect: true,
-			description: "Tổn hại làn da của ánh sáng, ắt ánh sáng sẽ đổ máu."
+            description: "Tổn hại làn da của ánh sáng, ắt ánh sáng sẽ đổ máu."
         },
-		{
-		id: "riddle",
-		label: "Câu Đố",
-		isAspect: true,
-		description: "Một số câu hỏi chỉ có một câu trả lời. Một số lại không có câu trả lời nào cả."
-		},
-		
-		 {
+        {
+            id: "riddle",
+            label: "Câu Đố",
+            isAspect: true,
+            description: "Một số câu hỏi chỉ có một câu trả lời. Một số lại không có câu trả lời nào cả."
+        },
+
+        {
             id: "reputation",
             label: "Danh Tiếng",
             isAspect: true,
-			description: "'Nhiều kể sợ danh tiếng của mình, nên cũng ít có lương tâm.' - Pliny"
+            description: "'Nhiều kể sợ danh tiếng của mình, nên cũng ít có lương tâm.' - Pliny"
         },
-				 {
+        {
             id: "evidencelevel",
             label: "Cấp Độ Bằng Chứng",
             isAspect: true,
-			description: "Một số hình thức minh chứng vốn thuyết phục hơn những hình thức khác."
+            description: "Một số hình thức minh chứng vốn thuyết phục hơn những hình thức khác."
         },
-						 {
+        {
             id: "suspicious",
             label: "Khả Nghi",
             isAspect: true,
-			description: "Một thám tử có thể muốn điều tra điều này."
+            description: "Một thám tử có thể muốn điều tra điều này."
         },
-						 {
+        {
             id: "healthskill",
             label: "Sức Mạnh",
             isAspect: true,
-			description: "Ta dần lớn mạnh cả ngày lẫn đêm. [Thẻ này cho phép bạn làm việc tốt hơn với tư cách một người lao động chân tay hoặc một vũ công.]"
+            description: "Ta dần lớn mạnh cả ngày lẫn đêm. [Thẻ này cho phép bạn làm việc tốt hơn với tư cách một người lao động chân tay hoặc một vũ công.]"
         },
-								 {
+        {
             id: "murderskill",
             label: "Nguy Hiểm",
             isAspect: true,
-			description: "Đối diện trực tiếp luôn là điều không khôn ngoan. Nhưng phương án cuối cùng, nếu gặp phải khó khăn, ta vốn rất nguy hiểm."
+            description: "Đối diện trực tiếp luôn là điều không khôn ngoan. Nhưng phương án cuối cùng, nếu gặp phải khó khăn, ta vốn rất nguy hiểm."
         },
-								 {
+        {
             id: "passionskill",
             label: "Trí Tượng Tưởng",
             isAspect: true,
-			description: "Hộp sọ ta rung chuyển với những linh ảnh.[Thẻ này cho phép bạn tạo ra những bức vẽ tham vọng hơn.]"
+            description: "Hộp sọ ta rung chuyển với những linh ảnh.[Thẻ này cho phép bạn tạo ra những bức vẽ tham vọng hơn.]"
         },
-										 {
+        {
             id: "reasonskill",
             label: "Học Bổng",
             isAspect: true,
-			description: "Ta là trụ cột của sự thông thái. [Thẻ này hiện chỉ cho phép bạn tăng Lý Lẽ cao hơn nữa.]"
+            description: "Ta là trụ cột của sự thông thái. [Thẻ này hiện chỉ cho phép bạn tăng Lý Lẽ cao hơn nữa.]"
         },
-		{id: "way",
-		label: "Đường Về Trong Giấc Mơ",
-		isAspect: true,
-		description: "Một số ký ức tựa như những bức phác thảo của giấc mơ. Một số thậm chí còn đi qua Ranh Giới của giấc mơ, đến với Khu Rừng và Ngôi Nhà nằm trên đó."
-		},
-			{id: "desire",
-		label: "Khao Khát",
-		isAspect: true,
-		description: "Mục đích cuối cùng của ta. Sẽ có cái giá mà ta phải trả."
-		},
-		
-				{id: "promise",
-		label: "Lời Hứa",
-		isAspect: true,
-		description: "Một cam kết cho một kết luận."
-		},
-								{id: "rivalmarks",
-		label: "Đối Thủ Thăng Thiên",
-		isAspect: true,
-		description: "Cơ hội để được lên Ngôi Nhà của the Sun là rất hiếm có. Nếu có kẻ khác nhận được nó, Ta có lẽ phải mất cơ hội của mình. [Nếu thẻ này lên tới bảy, Đối Thủ của bạn có cơ hội giành chiến thắng trong trò chơi này trong Thời Kỳ Tham Vọng tiếp theo.]"
-		},
-		
-						{id: "changemarks",
-		label: "Hình Dạng Biến Đổi",
-		isAspect: true,
-		description: "Mỗi lần biến đổi, tôi đều để lại một thứ gì đó."
-		},
-				{id: "powermarks",
-		label: "Dấu Hiệu Của Biến Dạng",
-		isAspect: true,
-		description: "Ta có thể tìm được sự bất tử và sức mạnh trong the Hour với tên gọi the Forge of Days. Cái chạm của bà mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
-		},
-						{id: "sensationmarks",
-		label: "Dấu Hiệu Của Khoái Cảm",
-		isAspect: true,
-		description: "Ta có thể tìm được sự bất tử và khoái cảm trong the Hour với tên gọi the Red Grail. Cái chạm của bà mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
-		},
-						{id: "enlightenmentmarks",
-		label: "Dấu Hiệu Của Ánh Sáng",
-		isAspect: true,
-		description: "Ta có thể tìm được sự bất tử và khai sáng trong the Hour với tên gọi the Watchman. Cái chạm của ông mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
-		},
-								{id: "remembrancemarks",
-		label: "Móng Vuốt Của Ký Ức",
-		isAspect: true,
-		description: "Bên dưới sỏi đá, là xương. bên trong xương, là ký ức. trong ký ức, chính là những sắc màu.",
-		comments:"Important! this is used to trigger the extra corpse-remnants discovery from Expeditions for Ghoul"
-		},
-			{id: "follower_lustenlightenment",
-			isAspect:true,
-			isHidden:true},
-			
-			{id: "follower_lustpower",
-			isAspect:true,
-			isHidden:true},
-			
-			{id: "follower_lustsensation",
-			isAspect:true,
-			isHidden:true},
-			
-			{id: "follower_lustchange",
-			isAspect:true,
-			isHidden:true},
-			
-				{id: "detectivetemptation",
-				comments:"Thần Sắc cho Thám Tử trong vật phẩm tình tiết.",
-			isAspect:true,
-			isHidden:true},
-			
-			
+        {
+            id: "way",
+            label: "Đường Về Trong Giấc Mơ",
+            isAspect: true,
+            description: "Một số ký ức tựa như những bức phác thảo của giấc mơ. Một số thậm chí còn đi qua Ranh Giới của giấc mơ, đến với Khu Rừng và Ngôi Nhà nằm trên đó."
+        },
+        {
+            id: "desire",
+            label: "Khao Khát",
+            isAspect: true,
+            description: "Mục đích cuối cùng của ta. Sẽ có cái giá mà ta phải trả."
+        },
 
-{id:"long.preference.assault",
-isAspect:true,
-isHidden:true
-},
-{id:"long.preference.intrigue",
-isAspect:true,
-isHidden:true
-},
-{id:"long.preference.dreamwork",
-isAspect:true,
-isHidden:true
-},
-{id:"long.preference.winter",
-isAspect:true,
-isHidden:true
-},
-			
-		{id:"ascend",
-		label: "Thăng Cấp",
-		isAspect:true,
-		description: "Tiến lên Dấu Hiệu kế tiếp.",
-		comments: "Thần Sắc Công Thức",
-			noartneeded: true
-		},
-		{id:"descend",
-		label: "Hạ Cấp",
-		isAspect:true,
-		description: "Nếu ta không cho những cơn đói khát mới này được ăn no, các Dấu Hiệu sẽ phai dần.",
-			noartneeded: true,
-		comments: "Thần Sắc Công Thức"},
-		
-				{
+        {
+            id: "promise",
+            label: "Lời Hứa",
+            isAspect: true,
+            description: "Một cam kết cho một kết luận."
+        },
+        {
+            id: "rivalmarks",
+            label: "Đối Thủ Thăng Thiên",
+            isAspect: true,
+            description: "Cơ hội để được lên Ngôi Nhà của the Sun là rất hiếm có. Nếu có kẻ khác nhận được nó, Ta có lẽ phải mất cơ hội của mình. [Nếu thẻ này lên tới bảy, Đối Thủ của bạn có cơ hội giành chiến thắng trong trò chơi này trong Thời Kỳ Tham Vọng tiếp theo.]"
+        },
+
+        {
+            id: "changemarks",
+            label: "Hình Dạng Biến Đổi",
+            isAspect: true,
+            description: "Mỗi lần biến đổi, tôi đều để lại một thứ gì đó."
+        },
+        {
+            id: "powermarks",
+            label: "Dấu Hiệu Của Biến Dạng",
+            isAspect: true,
+            description: "Ta có thể tìm được sự bất tử và sức mạnh trong the Hour với tên gọi the Forge of Days. Cái chạm của bà mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
+        },
+        {
+            id: "sensationmarks",
+            label: "Dấu Hiệu Của Khoái Cảm",
+            isAspect: true,
+            description: "Ta có thể tìm được sự bất tử và khoái cảm trong the Hour với tên gọi the Red Grail. Cái chạm của bà mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
+        },
+        {
+            id: "enlightenmentmarks",
+            label: "Dấu Hiệu Của Ánh Sáng",
+            isAspect: true,
+            description: "Ta có thể tìm được sự bất tử và khai sáng trong the Hour với tên gọi the Watchman. Cái chạm của ông mang đến cơn thèm khát và những Dấu Hiệu đặc biệt."
+        },
+        {
+            id: "remembrancemarks",
+            label: "Móng Vuốt Của Ký Ức",
+            isAspect: true,
+            description: "Bên dưới sỏi đá, là xương. bên trong xương, là ký ức. trong ký ức, chính là những sắc màu.",
+            comments: "Important! this is used to trigger the extra corpse-remnants discovery from Expeditions for Ghoul"
+        },
+        {
+            id: "follower_lustenlightenment",
+            isAspect: true,
+            isHidden: true
+        },
+
+        {
+            id: "follower_lustpower",
+            isAspect: true,
+            isHidden: true
+        },
+
+        {
+            id: "follower_lustsensation",
+            isAspect: true,
+            isHidden: true
+        },
+
+        {
+            id: "follower_lustchange",
+            isAspect: true,
+            isHidden: true
+        },
+
+        {
+            id: "detectivetemptation",
+            comments: "Thần Sắc cho Thám Tử trong vật phẩm tình tiết.",
+            isAspect: true,
+            isHidden: true
+        },
+
+
+
+        {
+            id: "long.preference.assault",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "long.preference.intrigue",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "long.preference.dreamwork",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "long.preference.winter",
+            isAspect: true,
+            isHidden: true
+        },
+
+        {
+            id: "ascend",
+            label: "Thăng Cấp",
+            isAspect: true,
+            description: "Tiến lên Dấu Hiệu kế tiếp.",
+            comments: "Thần Sắc Công Thức",
+            noartneeded: true
+        },
+        {
+            id: "descend",
+            label: "Hạ Cấp",
+            isAspect: true,
+            description: "Nếu ta không cho những cơn đói khát mới này được ăn no, các Dấu Hiệu sẽ phai dần.",
+            noartneeded: true,
+            comments: "Thần Sắc Công Thức"
+        },
+
+        {
             id: "article",
             label: "Bài Báo",
             isAspect: true,
-			description: "Một tác phẩm gốc về một chủ đề cụ thể."
+            description: "Một tác phẩm gốc về một chủ đề cụ thể."
         },
-		{
+        {
             id: "text",
             label: "Văn Bản",
             isAspect: true,
-			description: "Sách là những ký ức chẳng bao giờ chết đi."
+            description: "Sách là những ký ức chẳng bao giờ chết đi."
         },
         {
             id: "legacyplotitem",
@@ -425,17 +492,17 @@ isHidden:true
             isHidden: true,
             comments: "Used for plot items that shouldn't be passed down to another legacy through LEVER_LastBook, since they can break flows."
         },
-				{
+        {
             id: "autographed",
             label: "Đã Ký",
             isAspect: true,
-			description: "Được ký bởi người đã làm ra nó."
+            description: "Được ký bởi người đã làm ra nó."
         },
-		{
+        {
             id: "lore",
             label: "Truyền Thuyết",
             isAspect: true,
-			description: "Thứ kiến thức của nghệ thuật vô hình. Tôi có thể sử dụng nó để thu hút thêm tông đồ, thực hiện các nghi thức, mở con đường đến cõi Mansus, tìm kiếm sự thăng thiên... [Mảnh Truyền Thuyết đôi khi có thể được nâng cấp với Nghiên Cứu, và với các mảnh tương xứng.]"
+            description: "Thứ kiến thức của nghệ thuật vô hình. Tôi có thể sử dụng nó để thu hút thêm tông đồ, thực hiện các nghi thức, mở con đường đến cõi Mansus, tìm kiếm sự thăng thiên... [Mảnh Truyền Thuyết đôi khi có thể được nâng cấp với Nghiên Cứu, và với các mảnh tương xứng.]"
         },
         {
             id: "subvertable_lore",
@@ -444,267 +511,282 @@ isHidden:true
             isHidden: true,
             noartneeded: true
         },
-		
-		{
-        id: "memory",
+
+        {
+            id: "memory",
             label: "Ký Ức",
-			isAspect:true,
+            isAspect: true,
             description: "Chúng ta nhớ những người đã chết, cho đến khi chúng ta quên họ."
         },
-				{
+        {
             id: "language",
             label: "Một Ngôn Ngữ",
             isAspect: true,
-			description: "Thứ này rất hữu ích cho việc dịch văn bản."
+            description: "Thứ này rất hữu ích cho việc dịch văn bản."
         },
-						{
+        {
             id: "tutorlatin",
             label: "Học Giả Tiếng Latinh",
             isAspect: true,
-		description: "Một học giả về tiếng Latinh, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
+            description: "Một học giả về tiếng Latinh, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
         },
-						{
+        {
             id: "tutorgreek",
             label: "Học Giả Tiếng Hy Lạp",
             isAspect: true,
-		description: "Một học giả về tiếng Hy Lạp, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
+            description: "Một học giả về tiếng Hy Lạp, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
         },
-								{
+        {
             id: "tutoraramaic",
             label: "Học Giả Tiếng A-Ram",
             isAspect: true,
-			description: "Một học giả về tiếng A-Ram, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
+            description: "Một học giả về tiếng A-Ram, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
         },
-								{
+        {
             id: "tutorsanskrit",
             label: "Học Giả Tiếng Phạn",
             isAspect: true,
-			description: "Một học giả về tiếng Phạn, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
+            description: "Một học giả về tiếng Phạn, người có thể sẵn sàng dạy kèm cho bạn nếu bạn học với họ."
         },
-										{
+        {
             id: "spirittutorfucine",
             label: "Người Nói Tiếng Fucine",
             isAspect: true,
-			description: "Linh hồn này có thể dạy được bạn tiếng Fucine, nếu bạn biết một ngôn ngữ tương đồng."
+            description: "Linh hồn này có thể dạy được bạn tiếng Fucine, nếu bạn biết một ngôn ngữ tương đồng."
         },
-		
-		{
+
+        {
             id: "spirittutorphrygian",
             label: "Người Nói Tiếng Phrygian",
             isAspect: true,
-			description: "Linh hồn này có thể dạy được bạn tiếng Phrygian, nếu bạn biết một ngôn ngữ tương đồng."
+            description: "Linh hồn này có thể dạy được bạn tiếng Phrygian, nếu bạn biết một ngôn ngữ tương đồng."
         },
-		
-		{
+
+        {
             id: "spirittutormandaic",
             label: "Người Nói Tiếng Mandaic",
             isAspect: true,
-			description: "Linh hồn này có thể dạy được bạn tiếng Mandaic Sâu, nếu bạn biết một ngôn ngữ tương đồng."
+            description: "Linh hồn này có thể dạy được bạn tiếng Mandaic Sâu, nếu bạn biết một ngôn ngữ tương đồng."
         },
-		
-		
-{id:"spiritsicknessprotector",
-label:"Phylaxian",
-description:"Nếu tôi nói chuyện với thứ này về Sức Khỏe của tôi, nó có thể cho tôi sự bảo vệ khỏi bệnh tật.",
-isAspect:true},
 
-{id:"spiriteatspassion",
-label:"Ngọn Đèn Mất Mát",
-description:"Nếu tôi nói chuyện với thứ này, Tôi có thể dâng tặng nó Đam Mê của mình.",
-isAspect:true},
 
-{id:"spiriteatsreason",
-label:"Máy Đập Suy Nghĩ",
-description:"Nếu tôi nói chuyện với thứ này, Tôi có thể dâng tặng nó Lý Trí của mình.",
-isAspect:true},
-								        {
+        {
+            id: "spiritsicknessprotector",
+            label: "Phylaxian",
+            description: "Nếu tôi nói chuyện với thứ này về Sức Khỏe của tôi, nó có thể cho tôi sự bảo vệ khỏi bệnh tật.",
+            isAspect: true
+        },
+
+        {
+            id: "spiriteatspassion",
+            label: "Ngọn Đèn Mất Mát",
+            description: "Nếu tôi nói chuyện với thứ này, Tôi có thể dâng tặng nó Đam Mê của mình.",
+            isAspect: true
+        },
+
+        {
+            id: "spiriteatsreason",
+            label: "Máy Đập Suy Nghĩ",
+            description: "Nếu tôi nói chuyện với thứ này, Tôi có thể dâng tặng nó Lý Trí của mình.",
+            isAspect: true
+        },
+        {
             id: "auctionable",
             label: "Đấu Giá Được",
-			description: "Tôi có thể bán đấu giá thứ này, mặc dù giá trị khi đâu giá luôn không rõ ràng.",
+            description: "Tôi có thể bán đấu giá thứ này, mặc dù giá trị khi đâu giá luôn không rõ ràng.",
             isAspect: true
         },
-						        {
+        {
             id: "compensationvalue",
             label: "Giá Trị Spintria",
-			description: "Spintriae là loại tiền tế của thế giới ngầm. Một số spintriae có giá trị hơn số còn lại. Nhưng đừng mong lấy lại được phần tiền thừa. Đây chẳng phải một cửa hàng tạp hóa đâu.",
+            description: "Spintriae là loại tiền tế của thế giới ngầm. Một số spintriae có giá trị hơn số còn lại. Nhưng đừng mong lấy lại được phần tiền thừa. Đây chẳng phải một cửa hàng tạp hóa đâu.",
             isAspect: true
         },
-		        {
+        {
             id: "hq",
             label: "Trụ Sở Chính",
-			description: "Dành cho đối thoại và triệu tập.",
-        isAspect: true
-},
-		        {
+            description: "Dành cho đối thoại và triệu tập.",
+            isAspect: true
+        },
+        {
             id: "hq.potential",
             label: "Trụ Sở Chính Tiềm Năng",
-			description: ".",
-        isAspect: true,
-		isHidden:true
-},
-		        {
+            description: ".",
+            isAspect: true,
+            isHidden: true
+        },
+        {
             id: "movehq",
             label: "Chuyển Tới Trụ Sở Mới",
-			description: "Thần sắc công thức",
-        isAspect: true,
-		noartneeded:true
-},
+            description: "Thần sắc công thức",
+            isAspect: true,
+            noartneeded: true
+        },
 
-{id:"library",
-label:"Thư Viện",
-description:"Một bộ sưu tập các tập sách nhỏ, các bản sao một phần và nhũng thứ phù du có thể giúp ích cho việc nghiên cứu.",
-isAspect:true
-},
+        {
+            id: "library",
+            label: "Thư Viện",
+            description: "Một bộ sưu tập các tập sách nhỏ, các bản sao một phần và nhũng thứ phù du có thể giúp ích cho việc nghiên cứu.",
+            isAspect: true
+        },
 
-{id:"pit",
-label:"Hố Sâu",
-description:"Một cái giếng đơn độc không ánh sáng, nơi ta có thể trải qua những nhận biết ghê tợn.",
-isAspect:true
-},
+        {
+            id: "pit",
+            label: "Hố Sâu",
+            description: "Một cái giếng đơn độc không ánh sáng, nơi ta có thể trải qua những nhận biết ghê tợn.",
+            isAspect: true
+        },
 
-{id:"secret",
-label:"Bí Mật",
-description:"Chỗ này thường rất dễ bị bỏ qua. [Sử dụng nơi này như Trụ Sở Chính sẽ khiến các lá bài Danh Tiếng biến mất.]",
-isAspect:true,
-induces:[{id:"secret.induction",chance:30}]
-},
-{id:"sanctuary",
-label:"Thánh Địa",
-description:"Một không gian được thiết kế để chiêm nghiệm và có khi là cả sự yên bình.",
-isAspect:true
-},
+        {
+            id: "secret",
+            label: "Bí Mật",
+            description: "Chỗ này thường rất dễ bị bỏ qua. [Sử dụng nơi này như Trụ Sở Chính sẽ khiến các lá bài Danh Tiếng biến mất.]",
+            isAspect: true,
+            induces: [
+                {
+                    id: "secret.induction",
+                    chance: 30
+                }
+            ]
+        },
+        {
+            id: "sanctuary",
+            label: "Thánh Địa",
+            description: "Một không gian được thiết kế để chiêm nghiệm và có khi là cả sự yên bình.",
+            isAspect: true
+        },
 
         {
             id: "location",
             label: "Địa Điểm",
-			description: "Những địa điểm ! Mọi thứ phải nằm ở đâu đó, và đâu đó ấy chính là đây.",
-        isAspect: true
-},
-       {
+            description: "Những địa điểm ! Mọi thứ phải nằm ở đâu đó, và đâu đó ấy chính là đây.",
+            isAspect: true
+        },
+        {
             id: "vaultcapital",
             label: "Tại Thủ Đô",
-			description: "Một nơi bí mật ở thủ đô đông đúc nơi tôi sống.",
-        isAspect: true
-},
-      {
+            description: "Một nơi bí mật ở thủ đô đông đúc nơi tôi sống.",
+            isAspect: true
+        },
+        {
             id: "vaultshires",
             label: "Tại Thôn",
-			description: "Đồng xanh, đồi xám.",
-        isAspect: true
-},
-      {
-	    id: "vaultcontinent",
-		label: "Trên Lục Địa",
-			description: "Băng qua một vùng biển hẹp, trong những biên gới không thể ngờ đến của các quốc gia cạnh tranh.",
-        isAspect: true
-},
-      {
+            description: "Đồng xanh, đồi xám.",
+            isAspect: true
+        },
+        {
+            id: "vaultcontinent",
+            label: "Trên Lục Địa",
+            description: "Băng qua một vùng biển hẹp, trong những biên gới không thể ngờ đến của các quốc gia cạnh tranh.",
+            isAspect: true
+        },
+        {
             id: "vaultlandbeyondforest",
             label: "Tại Miền Đất Ngoài Cánh Rừng",
-			description: "Những con đèo mù sương và những ngôi làng xa xôi, nơi làn da của thế giới này thật mỏng manh.",
-        isAspect: true
-},
+            description: "Những con đèo mù sương và những ngôi làng xa xôi, nơi làn da của thế giới này thật mỏng manh.",
+            isAspect: true
+        },
 
-     {
+        {
             id: "vaultrendingmountains",
             label: "Tại Dãy Núi Cheo Leo",
-			description: "Cạnh sườn sắc nâu, phủ đầy tuyết, tránh xa khỏi sự giúp đỡ.",
-        isAspect: true
-},
+            description: "Cạnh sườn sắc nâu, phủ đầy tuyết, tránh xa khỏi sự giúp đỡ.",
+            isAspect: true
+        },
 
-     {
+        {
             id: "vaultloneandlevelsands",
             label: "Tại Mặt Cát Cô Độc",
-			description: "Ở một nơi khô cằn và xa xôi, những chân trời cồn cát đang chờ đón ngươi.",
-        isAspect: true
-},
+            description: "Ở một nơi khô cằn và xa xôi, những chân trời cồn cát đang chờ đón ngươi.",
+            isAspect: true
+        },
 
-     {
+        {
             id: "vaulteveningisles",
             label: "Quanh Quần Đảo Đêm",
-			description: "Những chuỗi đảo đá bị sóng đánh rung động với sự sống xanh.",
-        isAspect: true
-},
-       {
+            description: "Những chuỗi đảo đá bị sóng đánh rung động với sự sống xanh.",
+            isAspect: true
+        },
+        {
             id: "peril",
             label: "Mối Nguy Hiểm",
-			description: "Một trở ngại, một nguy hiểm hoặc một kết luận còn quá non trẻ.",
-        isAspect: true
-},
-      {
+            description: "Một trở ngại, một nguy hiểm hoặc một kết luận còn quá non trẻ.",
+            isAspect: true
+        },
+        {
             id: "curse",
             label: "Lời Nguyền",
-			description: "Một ảnh hưởng độc hại mà bạn phải đánh bại.",
-        isAspect: true
-},
-      {
+            description: "Một ảnh hưởng độc hại mà bạn phải đánh bại.",
+            isAspect: true
+        },
+        {
             id: "guardian",
             label: "Hộ Vệ",
-			description: "Một thực thể đã được giao nhiệm vụ ngăn cản sự xâm nhập bên ngoài.",
-        isAspect: true
-},
-      {
+            description: "Một thực thể đã được giao nhiệm vụ ngăn cản sự xâm nhập bên ngoài.",
+            isAspect: true
+        },
+        {
             id: "seal",
             label: "Niêm Phong",
-			description: "Tiến trình của bạn đang bị ngăn cản.",
-        isAspect: true
-},
-      {
+            description: "Tiến trình của bạn đang bị ngăn cản.",
+            isAspect: true
+        },
+        {
             id: "vault",
             label: "Hầm Chứa",
-			description: "Có thứ gì đó quý báu ở đây.",
-        isAspect: true
-},
-      {
+            description: "Có thứ gì đó quý báu ở đây.",
+            isAspect: true
+        },
+        {
             id: "challenge.knowledge",
             label: "Yêu Cầu Kiến Thức",
-			description: "Đây là một câu đố với những mảnh ghép còn thiếu. Tôi có thể tìm được những mảnh đó trong những khía cạnh lạ kì của học bổng. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Uyên Bác, hoặc một Trụ Sở với Thư Viện.]",
-        isAspect: true
-},
+            description: "Đây là một câu đố với những mảnh ghép còn thiếu. Tôi có thể tìm được những mảnh đó trong những khía cạnh lạ kì của học bổng. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Uyên Bác, hoặc một Trụ Sở với Thư Viện.]",
+            isAspect: true
+        },
 
 
-      {
+        {
             id: "challenge.intuition",
             label: "Yêu Cầu Sự Uyên Bác",
-			description: "Với thời gian và sự yên bình, câu trả lời đôi khi đến mà chẳng báo trước. [Để nâng cấp hoặc phá vỡ Mảnh này, Bạn cần có Ánh Sáng Le Lói, hoặc một Trụ Sở với Thánh Địa.]",
-        isAspect: true
-},
+            description: "Với thời gian và sự yên bình, câu trả lời đôi khi đến mà chẳng báo trước. [Để nâng cấp hoặc phá vỡ Mảnh này, Bạn cần có Ánh Sáng Le Lói, hoặc một Trụ Sở với Thánh Địa.]",
+            isAspect: true
+        },
 
-      {
+        {
             id: "challenge.grim",
             label: "Yêu Cầu Bài Học Nghiệt Ngã",
-			description: "Ta sẽ học hỏi. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Kinh Sợ (có thể sinh sôi được), kỹ năng Quyền Lực Lặng Im, hoặc một Trụ Sở với Hố Sâu.]",
-        isAspect: true
-},
+            description: "Ta sẽ học hỏi. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Kinh Sợ (có thể sinh sôi được), kỹ năng Quyền Lực Lặng Im, hoặc một Trụ Sở với Hố Sâu.]",
+            isAspect: true
+        },
 
-      {
+        {
             id: "challenge.obsessive",
             label: "Yêu Cần Nghiên Cứu Ám Ảnh",
-			description: "Chủ đề này đòi hỏi sự chú ý nhiều hơn là được an toàn. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thư Viện, kĩ năng Chẳng Bao Giờ Nói Không, hoặc một Lý Trí. Có một rủi ro rất nhỏ là Lý Trí của bạn có thể bị tổn thương vĩnh viễn.]",
-        isAspect: true
-},
+            description: "Chủ đề này đòi hỏi sự chú ý nhiều hơn là được an toàn. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thư Viện, kĩ năng Chẳng Bao Giờ Nói Không, hoặc một Lý Trí. Có một rủi ro rất nhỏ là Lý Trí của bạn có thể bị tổn thương vĩnh viễn.]",
+            isAspect: true
+        },
 
-      {
+        {
             id: "challenge.paradox",
             label: "Yêu Cầu Giải Pháp Nghịch Lý",
-			description: "Sự thật chính là một con rắn. Câu trả lời sẽ làm no cơn đói của nó. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thánh Địa, kỹ năng Khai Mở Tâm Hồn, hoặc một Đam Mê. Có một rủi ro rất nhỏ là Đam Mê của bạn có thể bị tổn thương vĩnh viễn.]",
-        isAspect: true
-},
+            description: "Sự thật chính là một con rắn. Câu trả lời sẽ làm no cơn đói của nó. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thánh Địa, kỹ năng Khai Mở Tâm Hồn, hoặc một Đam Mê. Có một rủi ro rất nhỏ là Đam Mê của bạn có thể bị tổn thương vĩnh viễn.]",
+            isAspect: true
+        },
 
 
-      {
+        {
             id: "challenge.illumination",
             label: "Yêu Cầu Sự Chiếu Sáng",
-			description: "Nước làm đầy cốc; ánh sáng sẽ lấp đầy tâm trí. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Mê Hoặc (có thể sinh sôi được), một Trụ Sở với Thư Viện, hoặc kĩ năng Tâm Trí Tinh Tế.]",
-        isAspect: true
-},
+            description: "Nước làm đầy cốc; ánh sáng sẽ lấp đầy tâm trí. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Mê Hoặc (có thể sinh sôi được), một Trụ Sở với Thư Viện, hoặc kĩ năng Tâm Trí Tinh Tế.]",
+            isAspect: true
+        },
 
-      {
+        {
             id: "challenge.practical",
             label: "Yêu Cầu Thử Nghiệm Thực Tế",
-			description: "Đau đớn chỉ là những gì xảy ra bây giờ; kiến thức mới là những gì chúng ta sẽ nhớ mãi. [Để nâng cấp hoặc phá vỡ Mảnh này,bạn cần phải mạo hiểm Sức Khỏe của mình hoặc sử dụng Tù Nhân.]",
-        isAspect: true
-},
+            description: "Đau đớn chỉ là những gì xảy ra bây giờ; kiến thức mới là những gì chúng ta sẽ nhớ mãi. [Để nâng cấp hoặc phá vỡ Mảnh này,bạn cần phải mạo hiểm Sức Khỏe của mình hoặc sử dụng Tù Nhân.]",
+            isAspect: true
+        },
 
 
 
@@ -712,316 +794,328 @@ isAspect:true
         {
             id: "summoned",
             label: "Được Triệu Hồi",
-			description: "Thứ này không phải từ thế giới này.",
+            description: "Thứ này không phải từ thế giới này.",
             isAspect: true
         },
-		    {
+        {
             id: "illhealth",
             label: "Sức Khỏe Đau Yếu",
-			description: "Có lẽ tôi có thể nghỉ ngơi, và hồi phục.",
+            description: "Có lẽ tôi có thể nghỉ ngơi, và hồi phục.",
             isAspect: true
         },
-		
-		 {
+
+        {
             id: "inducesdespair",
             label: "Gây Tuyệt Vọng",
-			description: "Thứ này có thể gây ra Tuyệt Vọng.",
+            description: "Thứ này có thể gây ra Tuyệt Vọng.",
             isAspect: true
         },
-						 {
+        {
             id: "inducesvisions",
             label: "Gây Ảo Tưởng",
-			description: "Tôi có thể sẽ nhìn thấy nhiều thứ.",
+            description: "Tôi có thể sẽ nhìn thấy nhiều thứ.",
             isAspect: true
         },
-				 {
+        {
             id: "commissiongiven",
             label: "Phận Sự Được Đưa Ra",
-			description: "Một nhiệm vụ đang chờ bạn chú ý.",
+            description: "Một nhiệm vụ đang chờ bạn chú ý.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-						 {
+        {
             id: "commissionfulfilled",
             label: "Phận Sự Được Hoàn Thành",
-			description: "Bạn đã hoàn thành một nhiệm vụ.",
+            description: "Bạn đã hoàn thành một nhiệm vụ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		 {
+        {
             id: "recruiting",
             label: "Tuyển Mộ",
-			description: "Để nhìn thấy ánh sáng, con người ta không thể bị mù; nhưng đôi khi, chính ánh sáng lại làm chúng ta mù lòa.",
+            description: "Để nhìn thấy ánh sáng, con người ta không thể bị mù; nhưng đôi khi, chính ánh sáng lại làm chúng ta mù lòa.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		{
+        {
             id: "hiring",
             label: "Thuê Mướn",
-			description: "Kéo dài thời gian làm việc của kẻ làm thuê.",
+            description: "Kéo dài thời gian làm việc của kẻ làm thuê.",
             isAspect: true,
-			comments: "Thần sắc công thức. dùng để thuê lại người làm thuê.",
-			noartneeded: true
+            comments: "Thần sắc công thức. dùng để thuê lại người làm thuê.",
+            noartneeded: true
         },
-		{
+        {
             id: "refiring",
             label: "Tiếp Lửa",
-			description: "Kéo dài thời gian làm việc của kẻ sùng đạo.",
+            description: "Kéo dài thời gian làm việc của kẻ sùng đạo.",
             isAspect: true,
-			comments: "Thần sắc công thức. dùng để tiếp lửa cho kẻ sùng đạo.",
-			noartneeded: true
+            comments: "Thần sắc công thức. dùng để tiếp lửa cho kẻ sùng đạo.",
+            noartneeded: true
         },
-		{
+        {
             id: "promotiontodisciple",
             label: "Thăng Cấp",
-			description: "Đã đến lúc thực hiện những lời thề sâu sắc hơn.",
+            description: "Đã đến lúc thực hiện những lời thề sâu sắc hơn.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_edge",
             label: "Tôn Vinh: Lưỡi Dao",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-			 {
+        {
             id: "promotionto_d_forge",
             label: "Tôn Vinh: Lò Rèn",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_grail",
             label: "Tôn Vinh: Chén Thánh",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_heart",
             label: "Tôn Vinh: Trái Tim",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_knock",
             label: "Tôn Vinh: Tiếng Gõ",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_lantern",
             label: "Tôn Vinh: Đèn Lồng",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_moth",
             label: "Tôn Vinh: Bướm Đêm",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "promotionto_d_winter",
             label: "Tôn Vinh: Mùa Đông",
-			description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
+            description: "Đây là những bí ẩn thực sự về sự tôn kính của chúng ta.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-							 {
+        {
             id: "rival_promotion",
             label: "Thăng Cấp: Đối Thủ",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "fatiguing",
             label: "Một Cam Kết Được Thực Hiện",
-			description: "Có điều gì đó đã xảy ra.",
+            description: "Có điều gì đó đã xảy ra.",
             isAspect: true,
-			comments: "Thần sắc công thức; dẫn đến trạng thái mệt mỏi, hoặc chuyển đổi các thẻ thành phần đầu-tư-tình-huống thành một dạng không kích hoạt liên tục một thẻ công thức đang muốn hấp thụ nhiều nó(ví dụ như Lý Trí trong Nghiên Cứu, Tiền Vốn trong Đấu Thầu).",
-			noartneeded: true
+            comments: "Thần sắc công thức; dẫn đến trạng thái mệt mỏi, hoặc chuyển đổi các thẻ thành phần đầu-tư-tình-huống thành một dạng không kích hoạt liên tục một thẻ công thức đang muốn hấp thụ nhiều nó(ví dụ như Lý Trí trong Nghiên Cứu, Tiền Vốn trong Đấu Thầu).",
+            noartneeded: true
         },
-							 {
+        {
             id: "exhaustlocation",
             label: "Địa Điểm Đã Kiệt Quệ",
-			description: "Một địa điểm đã bị kiệt quệ, và sẽ không mở lại trừ khi được tái thiết tường tận.",
+            description: "Một địa điểm đã bị kiệt quệ, và sẽ không mở lại trừ khi được tái thiết tường tận.",
             isAspect: true,
-			noartneeded: true
+            noartneeded: true
         },
-			 {
+        {
             id: "restore",
             label: "Chẳng Có Gì Xảy Ra",
-			description: "Mọi như vẫn như nó đã từng",
+            description: "Mọi như vẫn như nó đã từng",
             isAspect: true,
-			comments: "Thần sắc công thức; xảy khi khi gặp trường hợp thất bại trong việc chuyển đổi thẻ thành phần kiếm-soát-tình-huống trở về dạng ban đầu của nó.",
-			noartneeded: true
+            comments: "Thần sắc công thức; xảy khi khi gặp trường hợp thất bại trong việc chuyển đổi thẻ thành phần kiếm-soát-tình-huống trở về dạng ban đầu của nó.",
+            noartneeded: true
         },
-					 {
+        {
             id: "decline",
             label: "Suy Vong",
-			description: "Một thứ gì đó đang đến hồi kết.",
+            description: "Một thứ gì đó đang đến hồi kết.",
             isAspect: true,
-			comments: "Thần sắc công thức; xảy ra khi ta muốn phân rã một thứ gì đó ví dụ như một khoản đầu tư.",
-			noartneeded: true
+            comments: "Thần sắc công thức; xảy ra khi ta muốn phân rã một thứ gì đó ví dụ như một khoản đầu tư.",
+            noartneeded: true
         },
-				{
+        {
             id: "avowal",
             label: "Nỗ Lực",
-			description: "Một thay đổi tích cực về lòng trung thành",
+            description: "Một thay đổi tích cực về lòng trung thành",
             isAspect: true,
-			comments: "Thần sắc công thức; xảy ra khi ta muốn lật ngược lòng trung thành của một ai đó theo hướng tích cực.",
-			noartneeded: true
+            comments: "Thần sắc công thức; xảy ra khi ta muốn lật ngược lòng trung thành của một ai đó theo hướng tích cực.",
+            noartneeded: true
         },
-		{
+        {
             id: "rejection",
             label: "Bác Bỏ",
-			description: "Một thay đổi về lòng trung thành.",
+            description: "Một thay đổi về lòng trung thành.",
             isAspect: true,
-			comments: "Thần sắc công thức; xảy ra khi ta muốn lật ngược sự trung thành của một ai đó.",
-			noartneeded: true
+            comments: "Thần sắc công thức; xảy ra khi ta muốn lật ngược sự trung thành của một ai đó.",
+            noartneeded: true
         },
-		{id:"scarability",
-		label:"Khả Năng Vết Sẹo",
-		description:"Chuyển đổi vĩnh viễn một khả năng (còn hoạt động hoặc đã kiệt quệ) thành phiên bản chứa thần sắt vết sẹo của nó",
-		isAspect:true,
-		noartneeded:true},
-		
-				 {
+        {
+            id: "scarability",
+            label: "Khả Năng Vết Sẹo",
+            description: "Chuyển đổi vĩnh viễn một khả năng (còn hoạt động hoặc đã kiệt quệ) thành phiên bản chứa thần sắt vết sẹo của nó",
+            isAspect: true,
+            noartneeded: true
+        },
+
+        {
             id: "restorehealth",
             label: "Khôi Phục Sức Khỏe",
-			description: "Sức khỏe sẽ trở lại.",
+            description: "Sức khỏe sẽ trở lại.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		
-						 {
+
+        {
             id: "damagehealth",
             label: "Tổn Thương Sức Khỏe",
-			description: "Sức khỏe sẽ bị thương tích.",
+            description: "Sức khỏe sẽ bị thương tích.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-							 {
+        {
             id: "fallsick",
             label: "Đổ Bệnh",
-			description: "Sức Khỏe sẽ trở nên phiền não; điều này cũng có thể ảnh hưởng đến mọi người.",
+            description: "Sức Khỏe sẽ trở nên phiền não; điều này cũng có thể ảnh hưởng đến mọi người.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "destroyhealth",
             label: "Hủy Hoại Sức Khỏe",
-			description: "Sức Khỏe sẽ bị hủy hoại.",
+            description: "Sức Khỏe sẽ bị hủy hoại.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "damagereason",
             label: "Tổn Thương Lý Trí",
-			description: "Lý Trí sẽ trở thành Kinh Sợ.",
+            description: "Lý Trí sẽ trở thành Kinh Sợ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-										 {
+        {
             id: "toreason",
             label: "To Reason",
-			description: "...will become Reason.",
+            description: "...will become Reason.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-					 {
+        {
             id: "topassion",
             label: "Hóa Thành Đam Mê",
-			description: "...sẽ trở thành Đam Mê.",
+            description: "...sẽ trở thành Đam Mê.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-							 {
+        {
             id: "tohealth",
             label: "Hóa thành Sức Khỏe",
-			description: "...sẽ trở thành Sức Khỏe.",
+            description: "...sẽ trở thành Sức Khỏe.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-										 {
+        {
             id: "dreadful",
             label: "Ghê Sợ",
-			description: "Có nguy cơ tạo ra Kinh Sợ.",
+            description: "Có nguy cơ tạo ra Kinh Sợ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true,			
-			induces:[{id:"dreadinduction",chance:30}]
+            comments: "Thần sắc công thức",
+            noartneeded: true,
+            induces: [
+                {
+                    id: "dreadinduction",
+                    chance: 30
+                }
+            ]
         },
-												 {
+        {
             id: "fascinating",
             label: "Mê Hoặc",
-			description: "Có nguy cơ tạo ra Mê Hoặc.",
+            description: "Có nguy cơ tạo ra Mê Hoặc.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true,			
-			induces:[{id:"fascinationinduction",chance:30}]
+            comments: "Thần sắc công thức",
+            noartneeded: true,
+            induces: [
+                {
+                    id: "fascinationinduction",
+                    chance: 30
+                }
+            ]
         },
-										 {
+        {
             id: "damagepassion",
             label: "Tổn Thương Đam Mê",
-			description: "Đam Mê sẽ trở thành Mê Hoặc.",
+            description: "Đam Mê sẽ trở thành Mê Hoặc.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		
-						 {
+
+        {
             id: "killmortal",
             label: "Giết Kẻ Phàm",
-			description: "Những Kẻ Phàm sẽ bị thay thế bằng xác chết.",
+            description: "Những Kẻ Phàm sẽ bị thay thế bằng xác chết.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
-        
-		},
-		{
-		    id: "longded",
-            label: "Giết Một Long",
-			description: "Long sẽ được thay thế bằng phần thưởng của kẻ đó.",
-            isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
+
         },
-								 {
+        {
+            id: "longded",
+            label: "Giết Một Long",
+            description: "Long sẽ được thay thế bằng phần thưởng của kẻ đó.",
+            isAspect: true,
+            comments: "Thần sắc công thức",
+            noartneeded: true
+        },
+        {
             id: "killsummoned",
             label: "Giết Thể Triệu Hồi",
-			description: "Những thể triệu hồi sẽ được thay thế bởi những ảnh hưởng tính chất hoặc thuật chặn triệu hồi.",
+            description: "Những thể triệu hồi sẽ được thay thế bởi những ảnh hưởng tính chất hoặc thuật chặn triệu hồi.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
         {
             id: "killmanifesting",
@@ -1031,743 +1125,881 @@ isAspect:true
             comments: "Thần sắc công thức",
             noartneeded: true
         },
-								 {
+        {
             id: "dissolution",
             label: "Tan Biến",
-			description: "không thành có, có thành không. Làm tan biến một cái gì đó thành Tầm Ảnh Hưởng.",
+            description: "không thành có, có thành không. Làm tan biến một cái gì đó thành Tầm Ảnh Hưởng.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		
-							 {
+
+        {
             id: "raiseshattered",
             label: "Ví dụ như biến đổi một xác chết thành Phục Sinh Vụn Vỡ",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-									 {
+        {
             id: "raiseburgeoning",
             label: "Ví dụ như biến đổi một xác chết thành Phục Sinh Phát Triển",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-									 {
+        {
             id: "renewshattered",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-									 {
+        {
             id: "renewburgeoning",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "rebellion",
             label: "Nổi Dậy",
-			description: "Những Tông Đồ sẽ trờ thành Đối Thủ.",
+            description: "Những Tông Đồ sẽ trờ thành Đối Thủ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "endannoyance",
             label: "Kết Thúc Kẻ Gây Rối",
-			description: "Những Kẻ Gây Rối chẳng hạn như những tên trùm khó nhằn sẽ được giải quyết.",
+            description: "Những Kẻ Gây Rối chẳng hạn như những tên trùm khó nhằn sẽ được giải quyết.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-										 {
+        {
             id: "careeradvancement",
             label: "Thăng Tiến Nghề Nghiệp",
-			description: "Thăng chức hoặc tăng kỹ năng",
+            description: "Thăng chức hoặc tăng kỹ năng",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "derangemortal",
             label: "Đảo Lộn Kẻ Phàm",
-			description: "Những Kẻ Phàm sẽ trở thành Kẻ Điên",
+            description: "Những Kẻ Phàm sẽ trở thành Kẻ Điên",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
-        },								 {
+            comments: "Thần sắc công thức",
+            noartneeded: true
+        },
+        {
             id: "capturehunter",
             label: "Bắt Thợ Săn",
-			description: "Những Thợ Săn sẽ bị giam giữ.",
+            description: "Những Thợ Săn sẽ bị giam giữ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-				 {
+        {
             id: "killhunter",
             label: "Giết Thợ Săn",
-			description: "Những Thợ Săn sẽ trở thành xác chết.",
+            description: "Những Thợ Săn sẽ trở thành xác chết.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-									 {
+        {
             id: "capturefollower",
             label: "Bắt Tông Đồ",
-			description: "Những Tông Đồ sẽ bị giam giữ.",
+            description: "Những Tông Đồ sẽ bị giam giữ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded: true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		
-				 {
+
+        {
             id: "restorepassion",
             label: "Khôi Phục Đam Mê",
-			description: "Đam Mê sẽ được lọc sạch.",
+            description: "Đam Mê sẽ được lọc sạch.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded:true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-						 {
+        {
             id: "plead",
             label: "Biện Hộ",
-			description: "Nhân Từ có thể được biểu lộ.",
+            description: "Nhân Từ có thể được biểu lộ.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded:true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-								 {
+        {
             id: "employment",
             label: "Việc Làm",
-			description: "Tôi đã làm xong một ngày.",
+            description: "Tôi đã làm xong một ngày.",
             isAspect: true,
-			comments: "Thần sắc công thức. Làm mới bộ đếm thời gian công việc và trạng thái mệt mỏi.",
-			noartneeded:true
+            comments: "Thần sắc công thức. Làm mới bộ đếm thời gian công việc và trạng thái mệt mỏi.",
+            noartneeded: true
         },
-										 {
+        {
             id: "scandalous",
             label: "Tai Tiếng",
-			description: "Tôi sẽ chẳng dễ dàng bị quên mất.",
+            description: "Tôi sẽ chẳng dễ dàng bị quên mất.",
             isAspect: true,
-			comments: "Thần sắc công thức. Làm mới bộ đếm thời gian danh tiếng.",
-			noartneeded:true
+            comments: "Thần sắc công thức. Làm mới bộ đếm thời gian danh tiếng.",
+            noartneeded: true
         },
-										 {
+        {
             id: "epiphany",
             label: "Hiển Linh",
-			description: "Sự hiểu biết của tôi đã được tăng lên.",
+            description: "Sự hiểu biết của tôi đã được tăng lên.",
             isAspect: true,
-			comments: "Thần sắc công thức. Nâng cấp truyền thuyết.",
-			noartneeded:true
+            comments: "Thần sắc công thức. Nâng cấp truyền thuyết.",
+            noartneeded: true
         },
-												 {
+        {
             id: "upgradeinfluence",
             label: "Nâng Cấp Ảnh Hưởng",
-			description: "Tôi đã tìm thấy một sự liên kết.",
+            description: "Tôi đã tìm thấy một sự liên kết.",
             isAspect: true,
-			comments: "Thần sắc công thức. Nâng cấp tầm ảnh hưởng.",
-			noartneeded:true
+            comments: "Thần sắc công thức. Nâng cấp tầm ảnh hưởng.",
+            noartneeded: true
         },
-	
-{id:"glorify",
-label:"Một BƯớc tIến Tới VInh Quang",
-description:"Chuyển đổi Kinh Sợ thành Mê Hoặc, hoặc có thể là các thẻ thành phần khác chuyển thành thẻ Vinh Quang mạnh hơn.",
-isAspect:true,noartneeded:true
-},									 {
+
+        {
+            id: "glorify",
+            label: "Một BƯớc tIến Tới VInh Quang",
+            description: "Chuyển đổi Kinh Sợ thành Mê Hoặc, hoặc có thể là các thẻ thành phần khác chuyển thành thẻ Vinh Quang mạnh hơn.",
+            isAspect: true,
+            noartneeded: true
+        },
+        {
             id: "depiphany",
             label: "Hạ Hiển Linh",
-			description: "Bây giờ tôi hiểu mọi thứ một cách đơn giản hơn.",
+            description: "Bây giờ tôi hiểu mọi thứ một cách đơn giản hơn.",
             isAspect: true,
-			comments: "Thần sắc công thức. Hạ cấp và chia đôi truyền thuyết.",
-			noartneeded:true
+            comments: "Thần sắc công thức. Hạ cấp và chia đôi truyền thuyết.",
+            noartneeded: true
         },
-										 {
+        {
             id: "investigatingsuccess",
             label: "Điều Tra Thành Công",
-			description: "Nâng cấp chứng cứ.",
+            description: "Nâng cấp chứng cứ.",
             isAspect: true,
-			comments: "Thần sắc công thức.",
-			noartneeded:true
+            comments: "Thần sắc công thức.",
+            noartneeded: true
         },
-												 {
+        {
             id: "investigatingsetback",
             label: "Điều Tra Thất Bại",
-			description: "Hạ cấp chứng cứ.",
+            description: "Hạ cấp chứng cứ.",
             isAspect: true,
-			comments: "Thần sắc công thức.",
-			noartneeded:true
+            comments: "Thần sắc công thức.",
+            noartneeded: true
         },
-						 {
+        {
             id: "crackmirror",
             label: "Chiếc Gướng Nứt",
-			description: "Những Chiếc Gương sẽ chuyển sang trạng thái nứt.",
+            description: "Những Chiếc Gương sẽ chuyển sang trạng thái nứt.",
             isAspect: true,
-			comments: "Thần sắc công thức",
-			noartneeded:true
+            comments: "Thần sắc công thức",
+            noartneeded: true
         },
-		{
+        {
             id: "mortal",
             label: "Kẻ Phàm",
-			description: "'Thói quen sống lâu dài khiến chúng ta không muốn chết.' - Thomas Browne",
+            description: "'Thói quen sống lâu dài khiến chúng ta không muốn chết.' - Thomas Browne",
             isAspect: true
         },
-		{
+        {
             id: "commission",
             label: "Phận Sự",
-			description: "Một cơ hội để kiếm lợi nhuận. Tôi nên hoàn thành việc này và trả lại cho người bảo trợ.",
+            description: "Một cơ hội để kiếm lợi nhuận. Tôi nên hoàn thành việc này và trả lại cho người bảo trợ.",
             isAspect: true
         },
-		{id: "benign",
-		label: "May Mắn Tuyệt Đối",
-		description: "Tôi đã may mắn biết bao.",
-		isAspect: true
-		},
-				{id: "malign",
-		label: "Sự Xấu Xí",
-		description: "Một thứ gì đó chẳng được chào đón.",
-		isAspect: true
-		},
-		{id:"season",
-		label:"Thời Kì",
-		description: "Một điều gì đó liên quan sẽ xảy ra, sớm thôi.",
-		isAspect: true,
-		comments:"xác định các lần rút thẻ cho các sự kiện Thời Gian theo thời kì." 
-		},
-		{id: "devourer",
-		label: "Kẻ Ăn Thịt",
-		description: "Nếu thứ này thoát ra, nó có thể sẽ tấn công bạn, hoặc tiêu thụ các Tông Đồ của bạn.",
-		isAspect: true
-		},
-	{id: "deceiver",
-		label: "Kẻ Lừa Dối",
-		description: "Nếu thứ này thoát ra, nó có thể khiến bạn hoặc Tông Đồ của bạn trở nên điên loạn.",
-		isAspect: true
-		},
-		{id:"mystic",
-		label:"Huyền Bí",
-		description:"Thợ Săn này thường sẽ sống sót sau các cuộc tấn công từ các sinh vật của cõi Mansus, ngay cả khi những cuộc tấn công đó không thể ngăn cản được.",
-		isAspect:true},
-		{id:"brilliant",
-		label:"Xuất Sắc",
-		description:"Những Thợ Săn Xuất Sắc sẽ tìm được ý nghĩa trong từng chi tiết nhỏ nhất. Họ có thể chuyển đổi trực tiếp Tai Tiếng thành Bằng Chứng Kết Tội.",
-		noartneeded:true,
-		isAspect:true},
-		
-		{id:"erratic",
-		label:"Thất Thường",
-		description:"Thợ Săn này thường sẽ không tạo được Bằng Chứng từ Tai Tiếng. Ngược Lại, họ đôi khi sẽ tạo ra Bằng Chứng kể cả khi không tìm thấy Tai Tiếng.",
-		isAspect:true},
-		
-		{id:"meticulous",
-		label:"Tỉ Mỉ",
-		description:"Thợ Săn này luôn thành công trong việc tạo Bằng Chứng từ Tai Tiếng.",
-		isAspect:true},
-		
-		{id:"tenacious",
-		label:"Ngoan Cường",
-		description:"Thợ Săn này sẽ sống sót sau một cuộc tấn công vật lý trong số ba cuộc tấn công, ngay cả khi cuộc tấn công sẽ không thể ngăn cản được.",
-		isAspect:true},
-				{id:"wary",
-		label:"Cảnh Giác",
-		description:"Kẻ này đã trở nên thận trọng. Người này sẽ không gặp tôi trực tiếp nữa.",
-		isAspect:true},
-				{id:"grim",
-		label:"Nghiệt Ngã",
-		description:"Những Thợ Săn Nghiệt Ngã không thể bị lay chuyển bởi sức hấp dẫn của Vinh Quang... nhưng sự tuyệt vọng của chính họ có thể phá hủy họ.",
-		isAspect:true},
-						{id:"idealist",
-		label:"Duy Tâm",
-		description:"Những kẻ duy tâm không thể bị mất tinh thần - mặc dù đôi khi lý tưởng của họ có thể bị chống lại chính họ.",
-		isAspect:true},
+        {
+            id: "benign",
+            label: "May Mắn Tuyệt Đối",
+            description: "Tôi đã may mắn biết bao.",
+            isAspect: true
+        },
+        {
+            id: "malign",
+            label: "Sự Xấu Xí",
+            description: "Một thứ gì đó chẳng được chào đón.",
+            isAspect: true
+        },
+        {
+            id: "season",
+            label: "Thời Kì",
+            description: "Một điều gì đó liên quan sẽ xảy ra, sớm thôi.",
+            isAspect: true,
+            comments: "xác định các lần rút thẻ cho các sự kiện Thời Gian theo thời kì."
+        },
+        {
+            id: "devourer",
+            label: "Kẻ Ăn Thịt",
+            description: "Nếu thứ này thoát ra, nó có thể sẽ tấn công bạn, hoặc tiêu thụ các Tông Đồ của bạn.",
+            isAspect: true
+        },
+        {
+            id: "deceiver",
+            label: "Kẻ Lừa Dối",
+            description: "Nếu thứ này thoát ra, nó có thể khiến bạn hoặc Tông Đồ của bạn trở nên điên loạn.",
+            isAspect: true
+        },
+        {
+            id: "mystic",
+            label: "Huyền Bí",
+            description: "Thợ Săn này thường sẽ sống sót sau các cuộc tấn công từ các sinh vật của cõi Mansus, ngay cả khi những cuộc tấn công đó không thể ngăn cản được.",
+            isAspect: true
+        },
+        {
+            id: "brilliant",
+            label: "Xuất Sắc",
+            description: "Những Thợ Săn Xuất Sắc sẽ tìm được ý nghĩa trong từng chi tiết nhỏ nhất. Họ có thể chuyển đổi trực tiếp Tai Tiếng thành Bằng Chứng Kết Tội.",
+            noartneeded: true,
+            isAspect: true
+        },
 
-			{id: "venerationedge",
-		label: "Tôn Kính: Lưỡi Dao",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lưỡi Dao, thứ mà chúng ta kêu gọi nhân danh của the Colonel và the Lionsmith... trong số những kẻ khác.",
-		isAspect: true
-		},
-					{id: "venerationforge",
-		label: "Tôn Kính: Lò Rèn",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lò Rèn, thứ mà chúng ta kêu gọi nhân danh của the Forge of Days herself and the Madrugad... trong số những kẻ khác",
-		isAspect: true
-		},
-					{id: "venerationgrail",
-		label: "Tôn Kính: Chén Thánh",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Chén Thánh, thứ mà chúng ta kêu gọi nhân danh của the Red Grail herself and the Sister-and-Witch... trong số những kẻ khác",
-		isAspect: true
-		},
-					{id: "venerationheart",
-		label: "Tôn Kính: Trái Tim",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Trái Tim, thứ mà chúng ta kêu gọi nhân danh của the Thunderskin và the Velvet... trong số những kẻ khác",
-		isAspect: true
-		},
-					{id: "venerationknock",
-		label: "Tôn Kính: Tiếng Gõ",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Tiếng Gõ, thứ mà chúng ta kêu gọi nhân danh của the Mother of Ants và the Meniscate... trong số những kẻ khác",
-		isAspect: true
-		},
-					{id: "venerationlantern",
-		label: "Tôn Kính: Đèn Lồng",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lòng Đèn, thứ mà chúng ta kêu gọi nhân danh của the Door-in-the-Eye và the Flowermaker... trong số những kẻ khác",
-		isAspect: true
-		},
-							{id: "venerationmoth",
-		label: "Tôn Kính: Bướm Đêm",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Bướm Đêm, thứ mà chúng ta kêu gọi nhân danh của the Moth himself và the Witch-and-Sister... trong số những kẻ khác",
-		isAspect: true
-		},
-					{id: "venerationwinter",
-		label: "Tôn Kính: Mùa Đông",
-		description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Mùa Đông, thứ mà chúng ta kêu gọi nhân danh của the Sun-in-Rags và the Horned Axe... trong số những kẻ khác",
-		isAspect: true
-		},
-				{
-		id: "textlatin",
-		label: "Viết Bằng Tiếng Latinh",
-		description: "Một ngôn ngữ chết: chết tự như những viên kim cương. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-					{
-		id: "textfucine",
-		label: "Viết Bằng Tiếng Fucine",
-		description: "Những người dân sống ở phía đông của hồ Fucino thất lạc. Horace cảnh báo rằng đất của họ là vùng đất của những phù thủy. Đây là ngôn ngữ của họ, được gọi bởi một số người là 'ngôn ngữ khô khóc' và những người khác gọi là 'ngôn ngữ của bọn phù thủy'. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-				{
-		id: "textgreek",
-		label: "Viết Bằng Tiếng Hy Lạp",
-		description: "Thứ tiếng dành cho những nhà triết học, nhà thần học và các anh hùng. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-					{
-		id: "textphrygian",
-		label: "Viết Bằng Tiếng Phrygian",
-		description: "Người Phrygian tôn thờ the Great Mother, người mà chúng ta gọi là the Grail. Nơi của họ chính là vùng đất mà hội Chị Em Nút Thắt được sinh ra, và đây chính là thứ tiếng mà the Thunderskin khẩn cầu, khi thăng thiên. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-						{
-		id: "textaramaic",
-		label: "Viết Bằng Tiếng A-Ram",
-		description: "Thứ ngôn ngữ của Aram, và tất cả những đứa con của bà trong ba nghìn năm và hơn thế nữa. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-							{
-		id: "textmandaic",
-		label: "Viết Bằng Tiếng Mandaic Sâu",
-		description: "Bản thảo bí mật nhất về những ghi thức sâu xa nhất của những giáo phái sâu kín trong sa mạc sâu tận cùng. Đây là tiếng mẹ đẻ, theo người ta khẳng định, của chính the Mother of Ants. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-									{
-		id: "textsanskrit",
-		label: "Viết Bằng Tiếng Phạn",
-		description: "Thứ tiếng thánh của Tiểu Lục Địa.Cánh cửa của bốn ngàn năm thơ ca, lễ giáo và bí ẩn giờ đây sẽ mở ra trước mắt bạn, nếu bạn có thể vùng vẫy vượt qua được tầng tầng lớp lớp trong vốn từ vựng của nó. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-									{
-		id: "textvak",
-		label: "Viết Bằng Tiếng Vak",
-		description: "Trước khi các vị thần sinh ra từ máu, trước khi loài vượn đứng bằng hai chân, đây chính là ngôn ngữ được nghe thấy trong Ngôi Nhà của the Sun. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
-		isAspect:true
-		},
-				        {
+        {
+            id: "erratic",
+            label: "Thất Thường",
+            description: "Thợ Săn này thường sẽ không tạo được Bằng Chứng từ Tai Tiếng. Ngược Lại, họ đôi khi sẽ tạo ra Bằng Chứng kể cả khi không tìm thấy Tai Tiếng.",
+            isAspect: true
+        },
+
+        {
+            id: "meticulous",
+            label: "Tỉ Mỉ",
+            description: "Thợ Săn này luôn thành công trong việc tạo Bằng Chứng từ Tai Tiếng.",
+            isAspect: true
+        },
+
+        {
+            id: "tenacious",
+            label: "Ngoan Cường",
+            description: "Thợ Săn này sẽ sống sót sau một cuộc tấn công vật lý trong số ba cuộc tấn công, ngay cả khi cuộc tấn công sẽ không thể ngăn cản được.",
+            isAspect: true
+        },
+        {
+            id: "wary",
+            label: "Cảnh Giác",
+            description: "Kẻ này đã trở nên thận trọng. Người này sẽ không gặp tôi trực tiếp nữa.",
+            isAspect: true
+        },
+        {
+            id: "grim",
+            label: "Nghiệt Ngã",
+            description: "Những Thợ Săn Nghiệt Ngã không thể bị lay chuyển bởi sức hấp dẫn của Vinh Quang... nhưng sự tuyệt vọng của chính họ có thể phá hủy họ.",
+            isAspect: true
+        },
+        {
+            id: "idealist",
+            label: "Duy Tâm",
+            description: "Những kẻ duy tâm không thể bị mất tinh thần - mặc dù đôi khi lý tưởng của họ có thể bị chống lại chính họ.",
+            isAspect: true
+        },
+
+        {
+            id: "venerationedge",
+            label: "Tôn Kính: Lưỡi Dao",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lưỡi Dao, thứ mà chúng ta kêu gọi nhân danh của the Colonel và the Lionsmith... trong số những kẻ khác.",
+            isAspect: true
+        },
+        {
+            id: "venerationforge",
+            label: "Tôn Kính: Lò Rèn",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lò Rèn, thứ mà chúng ta kêu gọi nhân danh của the Forge of Days herself and the Madrugad... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationgrail",
+            label: "Tôn Kính: Chén Thánh",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Chén Thánh, thứ mà chúng ta kêu gọi nhân danh của the Red Grail herself and the Sister-and-Witch... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationheart",
+            label: "Tôn Kính: Trái Tim",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Trái Tim, thứ mà chúng ta kêu gọi nhân danh của the Thunderskin và the Velvet... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationknock",
+            label: "Tôn Kính: Tiếng Gõ",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Tiếng Gõ, thứ mà chúng ta kêu gọi nhân danh của the Mother of Ants và the Meniscate... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationlantern",
+            label: "Tôn Kính: Đèn Lồng",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Lòng Đèn, thứ mà chúng ta kêu gọi nhân danh của the Door-in-the-Eye và the Flowermaker... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationmoth",
+            label: "Tôn Kính: Bướm Đêm",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Bướm Đêm, thứ mà chúng ta kêu gọi nhân danh của the Moth himself và the Witch-and-Sister... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "venerationwinter",
+            label: "Tôn Kính: Mùa Đông",
+            description: "Tổ chức này tôn trọng một nguyên tắc được gọi là Mùa Đông, thứ mà chúng ta kêu gọi nhân danh của the Sun-in-Rags và the Horned Axe... trong số những kẻ khác",
+            isAspect: true
+        },
+        {
+            id: "textlatin",
+            label: "Viết Bằng Tiếng Latinh",
+            description: "Một ngôn ngữ chết: chết tự như những viên kim cương. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textfucine",
+            label: "Viết Bằng Tiếng Fucine",
+            description: "Những người dân sống ở phía đông của hồ Fucino thất lạc. Horace cảnh báo rằng đất của họ là vùng đất của những phù thủy. Đây là ngôn ngữ của họ, được gọi bởi một số người là 'ngôn ngữ khô khóc' và những người khác gọi là 'ngôn ngữ của bọn phù thủy'. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textgreek",
+            label: "Viết Bằng Tiếng Hy Lạp",
+            description: "Thứ tiếng dành cho những nhà triết học, nhà thần học và các anh hùng. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textphrygian",
+            label: "Viết Bằng Tiếng Phrygian",
+            description: "Người Phrygian tôn thờ the Great Mother, người mà chúng ta gọi là the Grail. Nơi của họ chính là vùng đất mà hội Chị Em Nút Thắt được sinh ra, và đây chính là thứ tiếng mà the Thunderskin khẩn cầu, khi thăng thiên. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textaramaic",
+            label: "Viết Bằng Tiếng A-Ram",
+            description: "Thứ ngôn ngữ của Aram, và tất cả những đứa con của bà trong ba nghìn năm và hơn thế nữa. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textmandaic",
+            label: "Viết Bằng Tiếng Mandaic Sâu",
+            description: "Bản thảo bí mật nhất về những ghi thức sâu xa nhất của những giáo phái sâu kín trong sa mạc sâu tận cùng. Đây là tiếng mẹ đẻ, theo người ta khẳng định, của chính the Mother of Ants. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textsanskrit",
+            label: "Viết Bằng Tiếng Phạn",
+            description: "Thứ tiếng thánh của Tiểu Lục Địa.Cánh cửa của bốn ngàn năm thơ ca, lễ giáo và bí ẩn giờ đây sẽ mở ra trước mắt bạn, nếu bạn có thể vùng vẫy vượt qua được tầng tầng lớp lớp trong vốn từ vựng của nó. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
+            id: "textvak",
+            label: "Viết Bằng Tiếng Vak",
+            description: "Trước khi các vị thần sinh ra từ máu, trước khi loài vượn đứng bằng hai chân, đây chính là ngôn ngữ được nghe thấy trong Ngôi Nhà của the Sun. [Một số sách phải được dịch trước khi chúng có thể được đọc.]",
+            isAspect: true
+        },
+        {
             id: "follower_honoured",
             label: "Đã Vinh Danh",
-			description: "Tôi đã vinh danh tông đồ này với một món quà.",
-        isAspect: true
-},
-				        {
+            description: "Tôi đã vinh danh tông đồ này với một món quà.",
+            isAspect: true
+        },
+        {
             id: "romanticinterest",
             label: "Bị Thu Hút",
-			description: "Đây là một người đã nảy sinh tình cảm với tôi.",
-        isAspect: true
-},
-				{id: "long_wound",
-		label:"Vết Thương",
-		description:"Is it possible for Long to die? Let's put it to the test.",
-		isAspect:true,
-		icon:"long_wound"
-		},
-				{id: "follower_wound",
-		label:"Vết Thương",
-		description:"This one has suffered in my service. [Wounded Followers don't count as Followers, and can't be used as agents or assistants. They may die in the Season of Sickness. Use <b>Talk</b> to treat them.]",
-		isAspect:true
-		},
-		{id: "follower_scar_edge",
-		label:"Vết Sẹo: Trải Nghiệm Tàn Bạo",
-		description:"FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [Three Scars of the same type will kill a mortal.]",
-		isAspect:true
-		},
-		
-				{id: "follower_scar_knock",
-		label:"Vết Sẹo: Vết Thương Nửa Lành",
-		description:"Not all doors are wounds; but all wounds are doors. [Three Scars of the same type will kill a mortal.]",
-		isAspect:true
-		},
-				{id: "follower_scar_winter",
-		label:"Vết Sẹo: Vết Thương Cũ",
-		description:"Step closer to the sunset, and see the first stars of night. [Three Scars of the same type will kill a mortal.]",
-		isAspect:true
-		},
-						{id: "corpse_scar",
-		label:"Vết Sẹo Cũ",
-		description:"Đây là một kẻ đã từng biết đến đau đớn.",
-		isAspect:true
-		},
-								{id: "resentment",
-		label:"Oán Hận",
-		description:"Có quá nhiều điều bất bình có thể ảnh hưởng đến lòng trung thành.",
-		comments: "Ba Oán Hận trong thời kì tham vọng sẽ biến một kẻ nào đó thành Kẻ Gây Rối.",
-		isAspect:true
-		},
-									{id: "boredom",
-		label:"Buồn Chán",
-		description:"Sự quan tâm từ ân nhân của tôi cuối cùng cũng sẽ cạn kiệt.",
-		isAspect:true
-		},
-											{id: "besotment",
-		label:"Mê Đắm",
-		description:"Ân nhân của tôi nhìn tôi một cách trìu mến.",
-		isAspect:true
-		},
-		{id: "benefactor_proposal",
-	label: "Một lời đính hôn từ Nhà Hảo Tâm.",
-	description: "Trong khoảnh khắc đam mê, ân nhân của tôi đã cầu hôn. Nếu tôi nắm bắt lấy thời điểm này và chấp nhận, việc này sẽ biến đổi cuộc sống tôi... và vĩnh viễn đóng mọi cánh cửa khác. [Trò Chuyện với Nhà Hảo Tâm trước khi lòng nhiệt thành của người đó giảm mất.]",
-	isAspect:true
-},
-											{id: "desiremoth_track",
-		label:"Hình Thái Cũ",
-		description:"Tôi sắp được biết một điệu nhảy bắt đầu trong những khu rừng khô cằn của lục địa đầu tiên.",
-		isAspect:true
-		},
-													{id: "desireheart_track",
-		label:"Hình Thái Mới",
-		description:"Tôi sắp được biết một điệu nhảy bắt đầu bên dưới những rặng thông trên núi của vùng đất khô cằn.",
-		isAspect:true
-		},
-															{id: "potentialbenefactorm",
-		label:"Quý Ông Tại Cửa Sân Khấu",
-		description:"Một quý ông lịch lãm đôi khi tham dự các buổi biểu diễn. Ông được biết là đã bày tỏ sự kính trọng của mình với các thành viên hợp xướng sau chương trình.",
-		isAspect:true
-		},
-		
-																	{id: "potentialbenefactorf",
-		label:"Quý Cô Trong Chiếc Hộp",
-		description:"Một người phụ nữ lịch lãm đôi khi tham dự các buổi biểu diễn. Bà được biết là đã bày tỏ sự quan tâm sâu sắc của mình đến các thành viên hợp xướng.",
-		isAspect:true
-		},
-																			{id: "potentialecdysiast",
-		label:"Người Quan Sát Tinh Tường",
-		description:"Đôi khi bà ngồi ở hàng ghế thứ hai, tìm kiếm tài năng mới cho cơ sở đặc biệt của mình. Những người mà bà thuê thường hiếm khi được bắt gặp quanh thị trấn.",
-		isAspect:true
-		},
-		{id:"snarelevel",
-		label:"Hiệu Quả Bẫy",
-		description:"Một số bẫy rất dễ thoát ra. Một số khác lại là những mạng lưới thép.",
-		isAspect:true},
-		
-		
-		{id:"apostleforge.pillar4.dormant",
-label:"La Bàn Được Chọn",
-description:"Our Shaper đã chọn thứ này để làm la bàn cho lỗ hổng trên thế giới - nơi yếu ớt trong một chốn vốn không hề thay đổi. Khi họ tìm thấy nó, họ sẽ dân hiếng đôi mắt của mình, và sống cho Mục Đích của chính bản thân.",
-isAspect:true},
-		
-{id:"apostleforge.pillar4",
-label:"Đôi Mắt Của Kẻ Đã Nhìn Thấy",
-description:"Kẻ này mù lòa trước mọi thứ ngoại trừ cái lỗ hổng trên thế giới mà chúng ta hằng tìm kiếm. Có một cái tại Vienna, Nhưng vẫn có một cái khác gần nhà hơn, một nơi mà ở đó mọi cái tên đều luôn giữ nguyên, kể cả Caer Ys. Kẻ này có thể dẫn chúng ta đến đó, với Lõi Dawnbreaker, để thực hiện Công Trình Vĩ Đại của chúng ta.",
-isAspect:true},
+            description: "Đây là một người đã nảy sinh tình cảm với tôi.",
+            isAspect: true
+        },
+        {
+            id: "long_wound",
+            label: "Vết Thương",
+            description: "Is it possible for Long to die? Let's put it to the test.",
+            isAspect: true,
+            icon: "long_wound"
+        },
+        {
+            id: "follower_wound",
+            label: "Vết Thương",
+            description: "This one has suffered in my service. [Wounded Followers don't count as Followers, and can't be used as agents or assistants. They may die in the Season of Sickness. Use <b>Talk</b> to treat them.]",
+            isAspect: true
+        },
+        {
+            id: "follower_scar_edge",
+            label: "Vết Sẹo: Trải Nghiệm Tàn Bạo",
+            description: "FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [Three Scars of the same type will kill a mortal.]",
+            isAspect: true
+        },
 
-{id:"mentor",
-label:"Người Hướng Dẫn",
-description:"Người cai trị bí mật của chúng ta, người ra lệnh cho lòng trung thành của chúng ta, người sẽ còn vươn cao hơn nữa qua các công việc của chúng ta",
-isAspect:true},
+        {
+            id: "follower_scar_knock",
+            label: "Vết Sẹo: Vết Thương Nửa Lành",
+            description: "Not all doors are wounds; but all wounds are doors. [Three Scars of the same type will kill a mortal.]",
+            isAspect: true
+        },
+        {
+            id: "follower_scar_winter",
+            label: "Vết Sẹo: Vết Thương Cũ",
+            description: "Step closer to the sunset, and see the first stars of night. [Three Scars of the same type will kill a mortal.]",
+            isAspect: true
+        },
+        {
+            id: "corpse_scar",
+            label: "Vết Sẹo Cũ",
+            description: "Đây là một kẻ đã từng biết đến đau đớn.",
+            isAspect: true
+        },
+        {
+            id: "resentment",
+            label: "Oán Hận",
+            description: "Có quá nhiều điều bất bình có thể ảnh hưởng đến lòng trung thành.",
+            comments: "Ba Oán Hận trong thời kì tham vọng sẽ biến một kẻ nào đó thành Kẻ Gây Rối.",
+            isAspect: true
+        },
+        {
+            id: "boredom",
+            label: "Buồn Chán",
+            description: "Sự quan tâm từ ân nhân của tôi cuối cùng cũng sẽ cạn kiệt.",
+            isAspect: true
+        },
+        {
+            id: "besotment",
+            label: "Mê Đắm",
+            description: "Ân nhân của tôi nhìn tôi một cách trìu mến.",
+            isAspect: true
+        },
+        {
+            id: "benefactor_proposal",
+            label: "Một lời đính hôn từ Nhà Hảo Tâm.",
+            description: "Trong khoảnh khắc đam mê, ân nhân của tôi đã cầu hôn. Nếu tôi nắm bắt lấy thời điểm này và chấp nhận, việc này sẽ biến đổi cuộc sống tôi... và vĩnh viễn đóng mọi cánh cửa khác. [Trò Chuyện với Nhà Hảo Tâm trước khi lòng nhiệt thành của người đó giảm mất.]",
+            isAspect: true
+        },
+        {
+            id: "desiremoth_track",
+            label: "Hình Thái Cũ",
+            description: "Tôi sắp được biết một điệu nhảy bắt đầu trong những khu rừng khô cằn của lục địa đầu tiên.",
+            isAspect: true
+        },
+        {
+            id: "desireheart_track",
+            label: "Hình Thái Mới",
+            description: "Tôi sắp được biết một điệu nhảy bắt đầu bên dưới những rặng thông trên núi của vùng đất khô cằn.",
+            isAspect: true
+        },
+        {
+            id: "potentialbenefactorm",
+            label: "Quý Ông Tại Cửa Sân Khấu",
+            description: "Một quý ông lịch lãm đôi khi tham dự các buổi biểu diễn. Ông được biết là đã bày tỏ sự kính trọng của mình với các thành viên hợp xướng sau chương trình.",
+            isAspect: true
+        },
 
-{id:"intention.assault",
-label:"Intention",
-description:"Our immortal enemy has a plan.",
-isAspect:true,
-isHidden:true},
-{id:"intention.intrigue",
-label:"Ý Định",
-description:"Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-isAspect:true,
-isHidden:true},
-{id:"intention.dreams",
-label:"Ý Định",
-description:"Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-isAspect:true,
-isHidden:true},
-{id:"intention.downtime",
-label:"Ý Định",
-description:"Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-isAspect:true,
-isHidden:true},
+        {
+            id: "potentialbenefactorf",
+            label: "Quý Cô Trong Chiếc Hộp",
+            description: "Một người phụ nữ lịch lãm đôi khi tham dự các buổi biểu diễn. Bà được biết là đã bày tỏ sự quan tâm sâu sắc của mình đến các thành viên hợp xướng.",
+            isAspect: true
+        },
+        {
+            id: "potentialecdysiast",
+            label: "Người Quan Sát Tinh Tường",
+            description: "Đôi khi bà ngồi ở hàng ghế thứ hai, tìm kiếm tài năng mới cho cơ sở đặc biệt của mình. Những người mà bà thuê thường hiếm khi được bắt gặp quanh thị trấn.",
+            isAspect: true
+        },
+        {
+            id: "snarelevel",
+            label: "Hiệu Quả Bẫy",
+            description: "Một số bẫy rất dễ thoát ra. Một số khác lại là những mạng lưới thép.",
+            isAspect: true
+        },
 
 
-{id:"strategy.revealed",
-label:"Chiến Lược Bị Tiết Lộ",
-description:"Chiến lược này đã bị tiết lộ.",
-isAspect:true,
-isHidden:true},
+        {
+            id: "apostleforge.pillar4.dormant",
+            label: "La Bàn Được Chọn",
+            description: "Our Shaper đã chọn thứ này để làm la bàn cho lỗ hổng trên thế giới - nơi yếu ớt trong một chốn vốn không hề thay đổi. Khi họ tìm thấy nó, họ sẽ dân hiếng đôi mắt của mình, và sống cho Mục Đích của chính bản thân.",
+            isAspect: true
+        },
 
-{id:"revealstrategy",
-label:"Tiết Lộ Chiến Lược",
-description:"Tiết lộ một chiến lược bị giấu kín.",
-isAspect:true,
-noartneeded:true},
+        {
+            id: "apostleforge.pillar4",
+            label: "Đôi Mắt Của Kẻ Đã Nhìn Thấy",
+            description: "Kẻ này mù lòa trước mọi thứ ngoại trừ cái lỗ hổng trên thế giới mà chúng ta hằng tìm kiếm. Có một cái tại Vienna, Nhưng vẫn có một cái khác gần nhà hơn, một nơi mà ở đó mọi cái tên đều luôn giữ nguyên, kể cả Caer Ys. Kẻ này có thể dẫn chúng ta đến đó, với Lõi Dawnbreaker, để thực hiện Công Trình Vĩ Đại của chúng ta.",
+            isAspect: true
+        },
 
+        {
+            id: "mentor",
+            label: "Người Hướng Dẫn",
+            description: "Người cai trị bí mật của chúng ta, người ra lệnh cho lòng trung thành của chúng ta, người sẽ còn vươn cao hơn nữa qua các công việc của chúng ta",
+            isAspect: true
+        },
 
-{id:"revealidentity",
-label:"Tiết Lộ Thân Phận",
-description:"Tiết lộ một kẻ thù không xác định.",
-isAspect:true,
-noartneeded:true},
-
-{id:"long.lesson",
-label:"Bài Học Kinh Nghiệm",
-description:"Kẻ thù của chúng ta đang quan sát và học hỏi.",
-isAspect:true,
-isHidden:true},
-
-{id:"long.might",
-label:"Thế lực",
-description:"Theo thời gian, Long này sẽ xây dựng đồng minh và tài nguyên trong thành phố, cải thiện khả năng tấn công chúng ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
-isAspect:true
-},
-
-{id:"long.connections",
-label:"Liên Kết",
-description:"Theo thời gian, Long sẽ xây dựng mạng lưới của bản thân ngay trong thành phố, nâng cao khả năng âm mưu chống lại chống ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
-isAspect:true
-},
-
-
-{id:"long.dreamwork",
-label:"Kích Thước Ánh Sao",
-description:"Theo thời gian, Long này sẽ học được những định hình nên giấc mơ của chúng ta, cải thiện khả năng của bản thân để tấn công chúng ta qua cõi Mansus. [Nếu thể đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
-isAspect:true
-},
-
-{id:"long.enemy",
-label:"Kẻ Thù Bất Tử",
-description:"Có nhiều Long đã phục vụ các Hour. Họ phản đối quyết liệt sự trổi dậy của những Name mới, những kẻ có thể, có lẽ là, sẽ soán ngôi các Hour một ngày nào đó. Một số Long lại căm ghết các Hour. Phản ứng của những kẻ đó đối với Name mới, nếu có, thì thậm chí còn gay gắt hơn.",
-isAspect:true,
-isHidden:true
-},
-
-
-{id:"greatwork",
-label:"Yếu Tố Của Công Trình Vĩ Đại",
-description:"Một khi Công Trình hoàn thành, người sáng lập của chúng ta, nguồn cảm ứng của chúng ta, sẽ càng vươn cao hơn nữa.",
-isAspect:true
-},
-
-{id:"greatwork.sabotaged",
-label:"Bị Phá Hoại!",
-description:"Công Trình Vĩ Đại đã bị ảnh hưởng nguy hiểm. [Sử dụng Tông Đồ thần có sắc Lò Rèn và một Spintria Bạc để sửa chữa thứ này.]",
-isAspect:true
-},
-
-{id:"sabotage",
-label:"Phá Hoại!",
-description:"Chuyển đổi Công Trình Vĩ Đại thành một phiên bản không ổn định cần được sửa chữa.",
-isAspect:true,
-noartneeded:true
-},
-{id:"sabotage.repair",
-label:"Phá Hoại Được Sửa Chữa!",
-isAspect:true,
-noartneeded:true
-},
+        {
+            id: "intention.assault",
+            label: "Intention",
+            description: "Our immortal enemy has a plan.",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "intention.intrigue",
+            label: "Ý Định",
+            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "intention.dreams",
+            label: "Ý Định",
+            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
+            isAspect: true,
+            isHidden: true
+        },
+        {
+            id: "intention.downtime",
+            label: "Ý Định",
+            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
+            isAspect: true,
+            isHidden: true
+        },
 
 
-{id:"grailflavour",
-label:"The Sweetest",
-description:"Strawberries, cinnamon, orange-blossom.",
-isAspect:true
-},
-{id:"heartflavour",
-label:"The Salt",
-description:"Copper, myrrh, rust.",
-isAspect:true
-},
-{id:"mothflavour",
-label:"The Sweet",
-description:"Figs, nuts, malt.",
-isAspect:true
-},
+        {
+            id: "strategy.revealed",
+            label: "Chiến Lược Bị Tiết Lộ",
+            description: "Chiến lược này đã bị tiết lộ.",
+            isAspect: true,
+            isHidden: true
+        },
 
-{id:"vitulationupgrade",
-label:"Vitulation Guests Upgrade",
-description:"Guests assemble!",
-isAspect:true,
-noartneeded:true
-},
-{id:"cloudwitnessesupgrade",
-label:"Cloud of Witnesses Upgrade",
-description:"Witnesses assemble!",
-isAspect:true,
-noartneeded:true
-},
-
-{id:"renew.apostlelantern.pillar3",
-label:"Renew the Allure",
-isAspect:true,
-noartneeded:true
-},
-
-{id:"poison.notoriety",
-label:"Exposed",
-description: "This follower's secrets have been revealed to the public. Any time they're active, the press might take an interest.",
-isAspect:true,
-icon:"reputation",
-induces:[{id:"poison.notoriety.induction",chance:30}]
-},
+        {
+            id: "revealstrategy",
+            label: "Tiết Lộ Chiến Lược",
+            description: "Tiết lộ một chiến lược bị giấu kín.",
+            isAspect: true,
+            noartneeded: true
+        },
 
 
-{id:"poison.passion.dread",
-label:"Poisoned Passion",
-description: "My emotions have been infected with the creeping taint of fear. [Using this card anywhere will probably create Dread.]",
-isAspect:true,
-induces:[{id:"poison.passion.dread.induction",chance:70}]
-},
-{id:"poison.reason.fascination",
-label:"The Splendorous Infection",
-description: "I am teased by recurring dreams of candlefire. [Using this card anywhere will probably create Fascination.]",
-isAspect:true,
-induces:[{id:"poison.reason.fascination.induction",chance:70}]
-},
+        {
+            id: "revealidentity",
+            label: "Tiết Lộ Thân Phận",
+            description: "Tiết lộ một kẻ thù không xác định.",
+            isAspect: true,
+            noartneeded: true
+        },
 
-{id:"poison.health.dread",
-label:"The Failing Flesh ",
-description: "I have become subject to pain that will never depart. [Using this card anywhere will probably create Dread.]",
-isAspect:true,
-induces:[{id:"poison.health.dread.induction",chance:70}]
-},
+        {
+            id: "long.lesson",
+            label: "Bài Học Kinh Nghiệm",
+            description: "Kẻ thù của chúng ta đang quan sát và học hỏi.",
+            isAspect: true,
+            isHidden: true
+        },
 
-{id:"poison.fascination.longlesson",
-label:"The Eyes in my Memory",
-description: "The Long has sent me a sweet dream. I must not think of it. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
-isAspect:true
-},
+        {
+            id: "long.might",
+            label: "Thế lực",
+            description: "Theo thời gian, Long này sẽ xây dựng đồng minh và tài nguyên trong thành phố, cải thiện khả năng tấn công chúng ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
+            isAspect: true
+        },
 
-{id:"poison.dread.longlesson",
-label:"The Teeth in my Heart",
-description: "The Long has set dreams to bedevil me. It would be safer to banish them, but wiser not to think of them. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
-isAspect:true
-},
+        {
+            id: "long.connections",
+            label: "Liên Kết",
+            description: "Theo thời gian, Long sẽ xây dựng mạng lưới của bản thân ngay trong thành phố, nâng cao khả năng âm mưu chống lại chống ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
+            isAspect: true
+        },
 
-{id:"poison.way.long",
-label:"The Way is Watched",
-description: "The Long has set a watch upon this Way. If I pass it, they'll learn more of me as I sleep.",
-isAspect:true
-},
 
-			     {
-        id: "lockscar",
+        {
+            id: "long.dreamwork",
+            label: "Kích Thước Ánh Sao",
+            description: "Theo thời gian, Long này sẽ học được những định hình nên giấc mơ của chúng ta, cải thiện khả năng của bản thân để tấn công chúng ta qua cõi Mansus. [Nếu thể đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
+            isAspect: true
+        },
+
+        {
+            id: "long.enemy",
+            label: "Kẻ Thù Bất Tử",
+            description: "Có nhiều Long đã phục vụ các Hour. Họ phản đối quyết liệt sự trổi dậy của những Name mới, những kẻ có thể, có lẽ là, sẽ soán ngôi các Hour một ngày nào đó. Một số Long lại căm ghết các Hour. Phản ứng của những kẻ đó đối với Name mới, nếu có, thì thậm chí còn gay gắt hơn.",
+            isAspect: true,
+            isHidden: true
+        },
+
+
+        {
+            id: "greatwork",
+            label: "Yếu Tố Của Công Trình Vĩ Đại",
+            description: "Một khi Công Trình hoàn thành, người sáng lập của chúng ta, nguồn cảm ứng của chúng ta, sẽ càng vươn cao hơn nữa.",
+            isAspect: true
+        },
+
+        {
+            id: "greatwork.sabotaged",
+            label: "Bị Phá Hoại!",
+            description: "Công Trình Vĩ Đại đã bị ảnh hưởng nguy hiểm. [Sử dụng Tông Đồ thần có sắc Lò Rèn và một Spintria Bạc để sửa chữa thứ này.]",
+            isAspect: true
+        },
+
+        {
+            id: "sabotage",
+            label: "Phá Hoại!",
+            description: "Chuyển đổi Công Trình Vĩ Đại thành một phiên bản không ổn định cần được sửa chữa.",
+            isAspect: true,
+            noartneeded: true
+        },
+        {
+            id: "sabotage.repair",
+            label: "Phá Hoại Được Sửa Chữa!",
+            isAspect: true,
+            noartneeded: true
+        },
+
+
+        {
+            id: "grailflavour",
+            label: "The Sweetest",
+            description: "Strawberries, cinnamon, orange-blossom.",
+            isAspect: true
+        },
+        {
+            id: "heartflavour",
+            label: "The Salt",
+            description: "Copper, myrrh, rust.",
+            isAspect: true
+        },
+        {
+            id: "mothflavour",
+            label: "The Sweet",
+            description: "Figs, nuts, malt.",
+            isAspect: true
+        },
+
+        {
+            id: "vitulationupgrade",
+            label: "Vitulation Guests Upgrade",
+            description: "Guests assemble!",
+            isAspect: true,
+            noartneeded: true
+        },
+        {
+            id: "cloudwitnessesupgrade",
+            label: "Cloud of Witnesses Upgrade",
+            description: "Witnesses assemble!",
+            isAspect: true,
+            noartneeded: true
+        },
+
+        {
+            id: "renew.apostlelantern.pillar3",
+            label: "Renew the Allure",
+            isAspect: true,
+            noartneeded: true
+        },
+
+        {
+            id: "poison.notoriety",
+            label: "Exposed",
+            description: "This follower's secrets have been revealed to the public. Any time they're active, the press might take an interest.",
+            isAspect: true,
+            icon: "reputation",
+            induces: [
+                {
+                    id: "poison.notoriety.induction",
+                    chance: 30
+                }
+            ]
+        },
+
+
+        {
+            id: "poison.passion.dread",
+            label: "Poisoned Passion",
+            description: "My emotions have been infected with the creeping taint of fear. [Using this card anywhere will probably create Dread.]",
+            isAspect: true,
+            induces: [
+                {
+                    id: "poison.passion.dread.induction",
+                    chance: 70
+                }
+            ]
+        },
+        {
+            id: "poison.reason.fascination",
+            label: "The Splendorous Infection",
+            description: "I am teased by recurring dreams of candlefire. [Using this card anywhere will probably create Fascination.]",
+            isAspect: true,
+            induces: [
+                {
+                    id: "poison.reason.fascination.induction",
+                    chance: 70
+                }
+            ]
+        },
+
+        {
+            id: "poison.health.dread",
+            label: "The Failing Flesh ",
+            description: "I have become subject to pain that will never depart. [Using this card anywhere will probably create Dread.]",
+            isAspect: true,
+            induces: [
+                {
+                    id: "poison.health.dread.induction",
+                    chance: 70
+                }
+            ]
+        },
+
+        {
+            id: "poison.fascination.longlesson",
+            label: "The Eyes in my Memory",
+            description: "The Long has sent me a sweet dream. I must not think of it. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
+            isAspect: true
+        },
+
+        {
+            id: "poison.dread.longlesson",
+            label: "The Teeth in my Heart",
+            description: "The Long has set dreams to bedevil me. It would be safer to banish them, but wiser not to think of them. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
+            isAspect: true
+        },
+
+        {
+            id: "poison.way.long",
+            label: "The Way is Watched",
+            description: "The Long has set a watch upon this Way. If I pass it, they'll learn more of me as I sleep.",
+            isAspect: true
+        },
+
+        {
+            id: "lockscar",
             label: "Lock-Scar",
             description: "Perhaps a serpent has kissed me, perhaps a knife has drunk of me, perhaps I dreamt too sharp a dream. [In a rite with a sufficient intensity of Knock, this Scar might open.]",
-		isAspect:true
-			},
-						     {
-        id: "openedlockscar",
+            isAspect: true
+        },
+        {
+            id: "openedlockscar",
             label: "Open Lock-Scar",
             description: "[This Scar is opening.]",
-		isAspect:true
-			},
-									     {
-        id: "unlockscar",
+            isAspect: true
+        },
+        {
+            id: "unlockscar",
             label: "This Scar will Open",
             description: "Recipee aspect.",
-		isAspect:true,
-		noartneeded:true
-			},
-       
-       
-{id:"ghoul.hunger",
-label:"Graveyard Mouth",
-description:"Now that I have tasted the graveyard fruit, the hunger comes often to trouble me. My mouth waters at the fragrances of decay, and my belly growls like a dog. [Reduce this by feeding on Remnants. Do not ever permit it to reach seven, the game may end, and not pleasantly.]",
-isAspect:true
-},
+            isAspect: true,
+            noartneeded: true
+        },
 
 
-{id:"colours.furious",
-label:"The Colours Seven-Coiled",
-description:"On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur. Fanged tentacle-necks wrestle like kittens. It tears cheerfully at its own flesh, and the blood that flows is golden. It flops over in a cataclysm of wattled flesh, crushing a knot of attendants, and the others scream and cheer.",
-isAspect:true},
-
-{id:"colours.luxurious",
-label:"The Colours Tidal",
-description:"In a night-blue Mansus-haze swims a coral palace-crown. At its fore-edge it absorbs the lesser Names, coating them with its minerals and juices, and at its rear edge it expels some of them, polished like jewels. The others go to feed its thorny Tide-heart.",
-isAspect:true},
-
-{id:"colours.liminal",
-label:"The Colours of the Double Threshold",
-description:"When I remember the Horned Axe, I recall the scent of hawthorn. I recall a purple evening sky shot with red gold. I recall that her edges dripped where she had lately been at work.",
-isAspect:true},
-
-{id:"colours.horizon",
-label:"The Colours of the Horizon",
-description:"A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon. We hold our breath and watch it brighten, until each colour divides from the next like a new-minted alphabet. The Egg Unhatching." ,
-isAspect:true},
-
-{id:"colours.splendid",
-label:"The Colours that Were",
-description:"Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon. We each of us open our hearts to the golden needle of the sky. All colours magnified beneath the Sun-in-Splendour.",
-isAspect:true},
-
-{id:"colours.endless",
-label:"The Colours that Turn",
-description:"With each turn its cilia pulse and wriggle and its body flushes translucent to crimson. It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass. It does not cease and all its involutions are infinite. The Wheel.",
-isAspect:true},
-
-{id:"colours.wildering",
-label:"The Colours That Are Not Black",
-description:"The Wood before its darkening, its fruits poison-green, its carnelian roots. The Moth's eyes are merry with hunger. He is hunting.",
-isAspect:true},
-
-{id:"colours.golden",
-label:"The Colours of the Old Fire",
-description:"This is only a stone, though it is smoothed and sharpened to a midnight point, but look closer. Each of its facets shows a single point of light. It might be the glint of firelight. It might be each a different Star.",
-isAspect:true},
-
-{id:"colours.honeyed",
-label:"The Colours that Will Be",
-description:"Our wings unfurled and shining, our scales lambent as obsidian, our eyes faceted like jewels, our claws unimpeachable dark.",
-isAspect:true},
+        {
+            id: "ghoul.hunger",
+            label: "Graveyard Mouth",
+            description: "Now that I have tasted the graveyard fruit, the hunger comes often to trouble me. My mouth waters at the fragrances of decay, and my belly growls like a dog. [Reduce this by feeding on Remnants. Do not ever permit it to reach seven, the game may end, and not pleasantly.]",
+            isAspect: true
+        },
 
 
-{id:"ascension.remembrance.offering",
-label:"The Elegiast's Price",
-description:"The Elegiast is the Hour from whom nothing more can be taken, and the Hour who calls each of the Dead by name. Once in a long ever, for a great price, he will call one of the Dead up out of Nowhere, that they may continue, lonely, unscathed, until the date of their own final winter.",
-isAspect:true
-},
+        {
+            id: "colours.furious",
+            label: "The Colours Seven-Coiled",
+            description: "On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur. Fanged tentacle-necks wrestle like kittens. It tears cheerfully at its own flesh, and the blood that flows is golden. It flops over in a cataclysm of wattled flesh, crushing a knot of attendants, and the others scream and cheer.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.luxurious",
+            label: "The Colours Tidal",
+            description: "In a night-blue Mansus-haze swims a coral palace-crown. At its fore-edge it absorbs the lesser Names, coating them with its minerals and juices, and at its rear edge it expels some of them, polished like jewels. The others go to feed its thorny Tide-heart.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.liminal",
+            label: "The Colours of the Double Threshold",
+            description: "When I remember the Horned Axe, I recall the scent of hawthorn. I recall a purple evening sky shot with red gold. I recall that her edges dripped where she had lately been at work.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.horizon",
+            label: "The Colours of the Horizon",
+            description: "A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon. We hold our breath and watch it brighten, until each colour divides from the next like a new-minted alphabet. The Egg Unhatching.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.splendid",
+            label: "The Colours that Were",
+            description: "Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon. We each of us open our hearts to the golden needle of the sky. All colours magnified beneath the Sun-in-Splendour.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.endless",
+            label: "The Colours that Turn",
+            description: "With each turn its cilia pulse and wriggle and its body flushes translucent to crimson. It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass. It does not cease and all its involutions are infinite. The Wheel.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.wildering",
+            label: "The Colours That Are Not Black",
+            description: "The Wood before its darkening, its fruits poison-green, its carnelian roots. The Moth's eyes are merry with hunger. He is hunting.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.golden",
+            label: "The Colours of the Old Fire",
+            description: "This is only a stone, though it is smoothed and sharpened to a midnight point, but look closer. Each of its facets shows a single point of light. It might be the glint of firelight. It might be each a different Star.",
+            isAspect: true
+        },
+
+        {
+            id: "colours.honeyed",
+            label: "The Colours that Will Be",
+            description: "Our wings unfurled and shining, our scales lambent as obsidian, our eyes faceted like jewels, our claws unimpeachable dark.",
+            isAspect: true
+        },
+
+
+        {
+            id: "ascension.remembrance.offering",
+            label: "The Elegiast's Price",
+            description: "The Elegiast is the Hour from whom nothing more can be taken, and the Hour who calls each of the Dead by name. Once in a long ever, for a great price, he will call one of the Dead up out of Nowhere, that they may continue, lonely, unscathed, until the date of their own final winter.",
+            isAspect: true
+        },
 
 
 
-{id:"remnant",
-label:"Remnant",
-description:"Once another wore this flesh.",
-isAspect:true
-},
+        {
+            id: "remnant",
+            label: "Remnant",
+            description: "Once another wore this flesh.",
+            isAspect: true
+        },
 
-{id:"manifesting",
-label:"Manifesting",
-description:"The spirit is entering the world. This is simpler than a birth, but not so simple as passing through a door.",
-isAspect:true
-},
+        {
+            id: "manifesting",
+            label: "Manifesting",
+            description: "The spirit is entering the world. This is simpler than a birth, but not so simple as passing through a door.",
+            isAspect: true
+        },
 
-{id:"stale",
-label:"Staleness",
-description:"I have begun to repeat myself. [The higher this grows, the greater the impact on your work. Producing the very highest-quality work will gradually reduce Staleness.]",
-isAspect:true,
-icon:"boredom"
-},
+        {
+            id: "stale",
+            label: "Staleness",
+            description: "I have begun to repeat myself. [The higher this grows, the greater the impact on your work. Producing the very highest-quality work will gradually reduce Staleness.]",
+            isAspect: true,
+            icon: "boredom"
+        },
 
-{id:"project",
-label:"Dự Án",
-description:"Chương trình dự án nghiên cứu.",
-isHidden:true,
-isAspect:true},
-]
+        {
+            id: "project",
+            label: "Dự Án",
+            description: "Chương trình dự án nghiên cứu.",
+            isHidden: true,
+            isAspect: true
+        },
+    ]
 }

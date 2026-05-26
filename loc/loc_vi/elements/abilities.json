@@ -574,7 +574,7 @@
 						"aspects": {
 								"language": 1
 						},
-						"description": "Người Phrygian tôn thờ Mẹ vĩ đại, người mà chúng ta gọi là Thánh Chén. Vùng đất của họ là nơi lập nên Hội Chị Em Nút Thắt, và đây là thứ tiếng mà Thần Bọc Sấm đã khẩn cầu, lúc thăng thiên. [Một số sách phải được dịch trước khi có thể đọc được.]",
+						"description": "Người Phrygian tôn thờ Đại Mẫu Thần, người mà chúng ta gọi là Thánh Chén. Vùng đất của họ là nơi lập nên Hội Chị Em Nút Thắt, và đây là thứ tiếng mà Thần Bọc Sấm đã khẩn cầu, lúc thăng thiên. [Một số sách phải được dịch trước khi có thể đọc được.]",
 						"unique": true
 				},
         {
@@ -705,7 +705,7 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "Cùng Với",
+                    "label": "Với",
                     "description": "Có lẽ tôi có thể sử dụng sự Thỏa Mãn của mình để củng cố mối ảnh hưởng tích cực.",
                     "required": {
                         "influencelantern": 1,

@@ -83,6 +83,9 @@ Ivories :	Bạch Cốt Thần
 Lovelies : Mị Thần
 Gods-who-were-flesh : Thời Thần Xác Thịt, ý chỉ những thời thần có nguồn gốc là con người
 Gods-Who-were-stone : Thời Thần Đá, ý chỉ những thời thần có nguồn gốc từ đá
+God-who-was-blood : Thời Thần Máu
+God-from-light :  Thời Thần Ánh Sáng
+gods-from-Nowhere: Thời Thần Vô Định
 The Divison => Sự Chia Cắt, là một sự kiện trong game liên quan đến Sun-in-Splendor, còn gọi là the Intercalate
 the Intercalate: Sự Xen Kẽ (nghĩa gốc là nhuận), sự kiện mà Sun-in-Splendor bị giết (chia cắt)
 
@@ -92,11 +95,12 @@ the Intercalate: Sự Xen Kẽ (nghĩa gốc là nhuận), sự kiện mà Sun-i
 Seven-Coils (Seven Coiled): Thất Bàn
 The Sun-in-Splendour: Mặt Trời Tráng Lệ
 The Forge of Days: Lò Rèn Kiến Tạo, còn gọi là the unburnt god => Vị Thần Không Cháy
-The Sun-ỉn-Rags: Mặt Trời Suy Tàn
+The Sun-in-Rags: Mặt Trời Suy Tàn
 The Meniscate: Trăng Lưỡi Liềm
+The Madrugad: Hừng Đông
 The scissors: (là The Moth) Thần Kéo
 The Velvet(Là The Black-Flax), Moldywarp: Thần Nhung, Chuột Chũi
-The Red Grail: Thánh Chén Máu, (The Great Mother, The Mother of Mountains, and The Source): Mẹ Vĩ Đại,
+The Red Grail: Thánh Chén Máu, (The Great Mother, The Mother of Mountains, and The Source): Đại Mẫu Thần,
 the Vagabond: Thần Lữ Hành, còn gọi là Thần Rết
 The Lionsmith: Thần Rèn Sư Tử
 The Colonel: Đại Tá, còn gọi là Thống Chế của Mặt Sẹo
@@ -109,7 +113,8 @@ the Thunderskin: Thần Bọc Sấm
 the Malachite: Thần Ngọc Bích, còn gọi là the ring-yew: Thần Thủy Tùng
 The Elegiast: Thần Bi Ca, Ivory Dove: Bồ Câu Ngà
 The Beachcomber, The Beach-Crow: Thần Dạo Biển, Quạ Biển
-The Wolf Divided: Thần Sói Chia Cắt
+The Wolf Divided: Thần Sói Chia Cắt, The Devided One: Kẻ Chia Cắt
+mare-in-the-tree: Linh Mã Trong Cây
 
 // Các hội và tổ chức (XEM CULTS.JSON ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
 War of the roads: Đại Chiến Lộ Tuyến, cuộc chiến giữa ba hội, tranh chấp triết học-quân sự giữa Tuyến Bình Minh và Tuyến Hoàng Hôn (trường phái kim thuật)
@@ -131,8 +136,15 @@ the new ligeians => Tân Legeia
 Alukites (also known as Empousai or Soucouyants) : quỷ hút máu
 the Worm : Trùng Thể 
 Carapace Cross: tộc/loài Giáp Lai
+Caligine: U Thể
+King Crucible: Vua Lò Đúc
+Raw Prophet: Tiên Tri Sống
+Percussigant: Nhịp Thể
+Hint: Hậu Thể
+voiceless dead: Vong Hồn Câm Lặng
+Maid-in-the-Mirror: Thiếu Nữ Trong Gương
 
-// một số danh từ (XEM Abilities.json ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
+// một số danh từ (XEM Abilities.json và aspect.json ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
 Health : Sức Khỏe
 Reason : Lý Trí
 fascination : mê hoặc
@@ -143,8 +155,18 @@ Dread : Kinh Sợ
 Contentment : Mãn Nguyện
 lore : giáo lý 
 aspect : khía cạnh
+expedition: Thám Hiểm
+Annoyances: phiền nhiễu
+Rite: Nghi Lễ != Ceremony: Nghi Thức
+Bone Flute: Sáo Bạch Cốt
+Bitterblack Salts: Muối Đên Đắng
+Subtle Rupture: Sự Rạn Nứt Ngầm
+Meteor Bullet: Đạn Thiên Thạch
+Thrilling Air: Làn Khí Rùng Rợn
+Paradoxical Curio: Cổ Vật Nghịch Lý
+Martensite paste: Dầu Martensite
 
-
+Consecrated Lintel : Lanh Tô Biệt Thánh
 Amaranthine Nectar : Mật Hoa Bất Tử
 Glimmerings: Ánh Sáng Le Lói
 silent intensity => Quyền Lực Lặng Im

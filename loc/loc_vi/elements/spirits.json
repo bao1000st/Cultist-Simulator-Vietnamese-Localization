@@ -224,7 +224,7 @@
         },
         {
             "id": "spirit_winterd_edge",
-            "label": "Thiếu-Nữ-Trong-Rương",
+            "label": "Thiếu Nữ Trong Gương",
             "aspects": {
                 "follower": 1,
                 "summoned": 1,
@@ -410,7 +410,7 @@
         {
             "id": "spirit_graile_edge.defunct",
             "label": "Ezeem Phiền Muộn",
-            "description": "cuối cùng thì, Ezeem sẽ ôn thôi.",
+            "description": "cuối cùng thì, Ezeem sẽ ổn thôi.",
             "lifetime": 180,
             "comments": "Thẻ này không nên có thần sắc nào. Chúng tôi không muốn nó bị loại bỏ hoặc được sử dụng - mục đích chính của nó chỉ là thẻ chặn.",
             "unique": true

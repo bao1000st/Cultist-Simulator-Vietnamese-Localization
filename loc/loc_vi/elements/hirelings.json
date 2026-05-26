@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "thugedgeminor",
-            "label": "Anh Bạn To Con",
+            "label": "Tên To Con",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 3
             },
-            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thugedgeminor",
                 "killmortal": "corpse",
@@ -27,7 +27,7 @@
                 "follower": 1,
                 "moth": 3
             },
-            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Tôi sẽ hoàn thành công việc.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thugmothminor",
                 "killmortal": "corpse",
@@ -38,14 +38,14 @@
         },
         {
             "id": "thugedge",
-            "label": "Kẻ Cơ Bắp Chuyên Nghiệp",
+            "label": "Du Côn Chuyên Nghiệp",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 5
             },
-            "description": "'Tôi sẽ bẻ chúng làm đôi.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Ta sẽ bẻ chúng làm đôi.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thugedge",
                 "killmortal": "corpse",
@@ -56,7 +56,7 @@
         },
         {
             "id": "thugforgeedge",
-            "label": "Kẻ Chế Tạo Bom",
+            "label": "Kẻ Chế Bom",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -64,7 +64,7 @@
                 "forge": 5,
                 "edge": 3
             },
-            "description": "'Có lẽ chúng ta chưa nên thảo luận về việc chính trị.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Có lẽ chúng ta chưa cần thảo luận về việc chính trị.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thugforgeedge",
                 "killmortal": "corpse",
@@ -75,14 +75,14 @@
         },
         {
             "id": "thugknock",
-            "label": "Nhà Tư Vấn Cổng Vào",
+            "label": "Tư Vấn Đột Chập",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "knock": 5
             },
-            "description": "'Tôi giỏi việc chọn cửa đi lắm đấy.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh.]'",
+            "description": "'Tôi rất giỏi về cửa.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm.]'",
             "xtriggers": {
                 "hiring": "thugknock",
                 "killmortal": "corpse",
@@ -101,7 +101,7 @@
                 "lantern": 5,
                 "moth": 3
             },
-            "description": "'Mọi thứ đều trong tầm mắt ta. Ta nhìn thấy được sự khác thường của ngươi.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Mọi thứ đều trong tầm mắt ta. Ta nhìn thấy được sự khác thường của ngươi.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thuglanternmoth",
                 "killmortal": "corpse",
@@ -120,7 +120,7 @@
                 "moth": 5,
                 "grail": 1
             },
-            "description": "'Thật thú vị khi được làm việc với ngài.' [Tay Sai này có thể hữu ích trong một số cuộc Viễn Chinh, có thể giúp cho Thợ Săn và Kẻ Gây Rối.]",
+            "description": "'Thật thú vị khi được làm việc với ngài.' [Tay Sai này có thể hữu ích trong một số chuyến Thám Hiểm, hoặc giúp đối phó với Thợ Săn và Phiền Nhiễu.]",
             "xtriggers": {
                 "hiring": "thugmoth",
                 "killmortal": "corpse",
