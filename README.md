@@ -1,4 +1,6 @@
-﻿- Status:
+﻿Next: influences.json
+
+- Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
 Decks - DONE
 Elements - PROGRESS (Không cần dịch Credíts.json)

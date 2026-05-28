@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "generic_r",
-            "label": "A Troublemaker",
+            "label": "Kẻ Gây Rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Kẻ đã mất sạch nhận thức về chừng mực.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "rival_promotion": "generic_r_c",
@@ -21,14 +21,14 @@
         {
             "id": "auclair_r",
             "icon": "auclair_r",
-            "label": "Auclair, a troublemaker",
+            "label": "Auclair, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair thích chơi cờ vua, giờ đây hơn bao giờ hết. Quân đen, quân trắng.",
             "xtriggers": {
                 "rival_promotion": "auclair_r_c",
                 "killmortal": "corpse",
@@ -40,14 +40,14 @@
         {
             "id": "cat_r",
             "icon": "cat_r",
-            "label": "Cat Caro, a troublemaker",
+            "label": "Cat Caro, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "Cô gọi mình là 'Cat Caro'. cô từng là một thầy bói. Chẳng ai có vẻ biết chính xác giờ đây cô ta là thứ gì.",
             "xtriggers": {
                 "rival_promotion": "cat_r_c",
                 "killmortal": "corpse",
@@ -59,14 +59,14 @@
         {
             "id": "clifton_r",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a troublemaker",
+            "label": "'Pope' Clifton, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton thích được gọi là 'Đức Ngài'. Khi không được gọi như vậy, có thể sẽ có một trận náo loạn xảy ra.",
             "xtriggers": {
                 "rival_promotion": "clifton_r_c",
                 "killmortal": "corpse",
@@ -78,14 +78,14 @@
         {
             "id": "clovette_r",
             "icon": "clovette_r",
-            "label": "Clovette, a troublemaker",
+            "label": "Clovette, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "Thật khó để ghét Clovette, ngay cả khi người ta biết rõ những gì cô ta đã làm.",
             "xtriggers": {
                 "rival_promotion": "clovette_r_c",
                 "killmortal": "corpse",
@@ -97,14 +97,14 @@
         {
             "id": "dorothy_r",
             "icon": "dorothy_r",
-            "label": "Dorothy, a troublemaker",
+            "label": "Dorothy, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Dorothy sẽ không dừng lại. Cô ta sẽ chẳng bao giờ dừng lại. Cô ta đã thề độc như thế.",
             "xtriggers": {
                 "rival_promotion": "dorothy_r_c",
                 "killmortal": "corpse",
@@ -116,14 +116,14 @@
         {
             "id": "douglas_r",
             "icon": "defaulthunter",
-            "label": "Douglas, a troublemaker",
+            "label": "Douglas, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Douglas isn't having any more of it. Time to see what all the fuss is about.",
+            "description": "Douglas không chịu đựng thêm chút nào nữa. Đã đến lúc xem cái trò rùm ben này là về cái gì.",
             "xtriggers": {
                 "rival_promotion": "douglas_r_c",
                 "killmortal": "corpse",
@@ -135,14 +135,14 @@
         {
             "id": "elridge_r",
             "icon": "elridge_r",
-            "label": "Elridge, a troublemaker",
+            "label": "Elridge, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Giày của Elridge thường lốm đốm vết máu.",
             "xtriggers": {
                 "rival_promotion": "elridge_r_c",
                 "killmortal": "corpse",
@@ -153,14 +153,14 @@
         {
             "id": "enid_r",
             "icon": "enid_r",
-            "label": "Enid, a troublemaker",
+            "label": "Enid, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid luôn thấy kẻ thù của mình đang đến. Mọi lúc mọi nơi.",
             "xtriggers": {
                 "rival_promotion": "enid_r_c",
                 "killmortal": "corpse",
@@ -172,14 +172,14 @@
         {
             "id": "laidlaw_r",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a troublemaker",
+            "label": "Laidlaw, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Mưu đồ của Laidlaw phức tạp như bóng lá dương xỉ.",
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_c",
                 "killmortal": "corpse",
@@ -191,14 +191,14 @@
         {
             "id": "leo_r",
             "icon": "leo_r",
-            "label": "Leo, a troublemaker",
+            "label": "Leo, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo đã chọn đại nghiệp của mình, và gã sẽ làm bất cứ điều gì cần thiết để bảo toàn nó.",
             "xtriggers": {
                 "rival_promotion": "leo_r_c",
                 "killmortal": "corpse",
@@ -210,14 +210,14 @@
         {
             "id": "neville_r",
             "icon": "neville_r",
-            "label": "Neville, a troublemaker",
+            "label": "Neville, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville biết chuyện chẳng thể kéo dài. Nhưng chừng nào còn tiếp diễn, thề có Chúa, gã sẽ mở toang bất cứ cánh cửa nào lộ diện trước mắt.",
             "xtriggers": {
                 "rival_promotion": "neville_r_c",
                 "killmortal": "corpse",
@@ -229,14 +229,14 @@
         {
             "id": "porter_r",
             "icon": "porter_r",
-            "label": "Porter, a troublemaker",
+            "label": "Porter, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "Porter đã bắt đầu thu thập những cái tên.",
             "xtriggers": {
                 "rival_promotion": "porter_r_c",
                 "killmortal": "corpse",
@@ -248,14 +248,14 @@
         {
             "id": "renira_r",
             "icon": "renira_r",
-            "label": "Renira, a troublemaker",
+            "label": "Renira, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira thích biến những kẻ ngưỡng mộ thành những kẻ sùng bái.",
             "xtriggers": {
                 "rival_promotion": "renira_r_c",
                 "killmortal": "corpse",
@@ -267,14 +267,14 @@
         {
             "id": "rose_r",
             "icon": "rose_r",
-            "label": "Rose, a troublemaker",
+            "label": "Rose, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Rose từ lâu đã không còn biết sợ kẻ thù của mình.",
             "xtriggers": {
                 "rival_promotion": "rose_r_c",
                 "killmortal": "corpse",
@@ -286,14 +286,14 @@
         {
             "id": "saliba_r",
             "icon": "saliba_r",
-            "label": "Saliba, a troublemaker",
+            "label": "Saliba, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba không dung thứ cho sự buồn chán.",
             "xtriggers": {
                 "rival_promotion": "saliba_r_c",
                 "killmortal": "corpse",
@@ -305,14 +305,14 @@
         {
             "id": "slee_r",
             "icon": "slee_r",
-            "label": "Slee, a troublemaker",
+            "label": "Slee, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "Slee luôn khao khát tài nguyên để theo đuổi các học thuyết của mình.",
             "xtriggers": {
                 "rival_promotion": "slee_r_c",
                 "killmortal": "corpse",
@@ -324,14 +324,14 @@
         {
             "id": "sylvia_r",
             "icon": "sylvia_r",
-            "label": "Sylvia, a troublemaker",
+            "label": "Sylvia, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "Mưu đồ của Sylvia không hề rõ ràng. Người ta nghi rằng nó thậm chí còn chẳng rõ ràng với chính bản thân cô.",
             "xtriggers": {
                 "rival_promotion": "sylvia_r_c",
                 "killmortal": "corpse",
@@ -343,14 +343,14 @@
         {
             "id": "tristan_r",
             "icon": "tristan_r",
-            "label": "Tristan, a troublemaker",
+            "label": "Tristan, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan đang gầy dựng một vương quốc nhỏ. Khi cần đến lửa, hắn sẽ dùng đến lửa.",
             "xtriggers": {
                 "rival_promotion": "tristan_r_c",
                 "killmortal": "corpse",
@@ -362,14 +362,14 @@
         {
             "id": "valciane_r",
             "icon": "valciane_r",
-            "label": "Valciane, a troublemaker",
+            "label": "Valciane, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane xử lý những kẻ đối đầu bằng sự hăng hái không thương xót của một đứa trẻ đang đập phá những chai lọ.",
             "xtriggers": {
                 "rival_promotion": "valciane_r_c",
                 "killmortal": "corpse",
@@ -381,14 +381,14 @@
         {
             "id": "victor_r",
             "icon": "victor_r",
-            "label": "Victor, a troublemaker",
+            "label": "Victor, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor đã sẵn sàng cho những gì sắp đến. Mọi con dao của gã đều sắc lẹm như những tân binh.",
             "xtriggers": {
                 "rival_promotion": "victor_r_c",
                 "killmortal": "corpse",
@@ -400,14 +400,14 @@
         {
             "id": "violet_r",
             "icon": "violet_r",
-            "label": "Violet, a troublemaker",
+            "label": "Violet, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violet đã tìm thấy những thú vui mới.",
             "xtriggers": {
                 "rival_promotion": "violet_r_c",
                 "killmortal": "corpse",
@@ -419,14 +419,14 @@
         {
             "id": "ysabet_r",
             "icon": "ysabet_r",
-            "label": "Ysabet, a troublemaker",
+            "label": "Ysabet, kẻ gây rối",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet chờ đợi ở nơi cô không thể bị nhìn thấy.",
             "xtriggers": {
                 "rival_promotion": "ysabet_r_c",
                 "killmortal": "corpse",
@@ -437,7 +437,7 @@
         },
         {
             "id": "generic_r_c",
-            "label": "A Rival",
+            "label": "Đối Thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -445,7 +445,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Kẻ đã mất sạch nhận thức về chừng mực.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "rival_promotion": "generic_r_d",
@@ -457,7 +457,7 @@
         {
             "id": "auclair_r_c",
             "icon": "auclair_r",
-            "label": "Auclair, a rival",
+            "label": "Auclair, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -465,7 +465,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair thích chơi cờ vua, giờ đây hơn bao giờ hết. Quân đen, quân trắng.",
             "xtriggers": {
                 "rival_promotion": "auclair_r_d",
                 "killmortal": "corpse",
@@ -477,7 +477,7 @@
         {
             "id": "cat_r_c",
             "icon": "cat_r",
-            "label": "Cat Caro, a rival",
+            "label": "Cat Caro, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -485,7 +485,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "Cô gọi mình là 'Cat Caro'. cô từng là một thầy bói. Chẳng ai có vẻ biết chính xác giờ đây cô ta là thứ gì.",
             "xtriggers": {
                 "rival_promotion": "cat_r_d",
                 "killmortal": "corpse",
@@ -497,7 +497,7 @@
         {
             "id": "clifton_r_c",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a rival",
+            "label": "'Pope' Clifton, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -505,7 +505,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton thích được gọi là 'Đức Ngài'. Khi không được gọi như vậy, có thể sẽ có một trận náo loạn xảy ra.",
             "xtriggers": {
                 "rival_promotion": "clifton_r_d",
                 "killmortal": "corpse",
@@ -517,7 +517,7 @@
         {
             "id": "clovette_r_c",
             "icon": "clovette_r",
-            "label": "Clovette, a rival",
+            "label": "Clovette, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -525,7 +525,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "Thật khó để ghét Clovette, ngay cả khi người ta biết rõ những gì cô ta đã làm.",
             "xtriggers": {
                 "rival_promotion": "clovette_r_d",
                 "killmortal": "corpse",
@@ -537,7 +537,7 @@
         {
             "id": "connie_r_c",
             "icon": "connie_r",
-            "label": "Connie, a renegade",
+            "label": "Connie, kẻ phản đạo",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -545,7 +545,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Connie's... Connie's thinking things over.",
+            "description": "Connie đang... Connie đang suy tính kỹ lại mọi chuyện.",
             "xtriggers": {
                 "rival_promotion": "connie_r_d",
                 "killmortal": "corpse",
@@ -557,7 +557,7 @@
         {
             "id": "dorothy_r_c",
             "icon": "dorothy_r",
-            "label": "Dorothy, a rival",
+            "label": "Dorothy, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -565,7 +565,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Dorothy sẽ không dừng lại. Cô ta sẽ chẳng bao giờ dừng lại. Cô ta đã thề độc như thế.",
             "xtriggers": {
                 "rival_promotion": "dorothy_r_d",
                 "killmortal": "corpse",
@@ -577,7 +577,7 @@
         {
             "id": "douglas_r_c",
             "icon": "douglas_r",
-            "label": "Douglas, a rival",
+            "label": "Douglas, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -585,7 +585,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Douglas isn't having any more of it. Time to see what all the fuss is about.",
+            "description": "Douglas không chịu đựng thêm chút nào nữa. Đã đến lúc xem cái trò rùm ben này là về cái gì.",
             "xtriggers": {
                 "rival_promotion": "douglas_r_d",
                 "killmortal": "corpse",
@@ -597,7 +597,7 @@
         {
             "id": "elridge_r_c",
             "icon": "elridge_r",
-            "label": "Elridge, a rival",
+            "label": "Elridge, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -605,7 +605,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Giày của Elridge thường lốm đốm vết máu.",
             "xtriggers": {
                 "rival_promotion": "elridge_r_d",
                 "killmortal": "corpse",
@@ -616,7 +616,7 @@
         {
             "id": "enid_r_c",
             "icon": "enid_r",
-            "label": "Enid, a rival",
+            "label": "Enid, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -624,7 +624,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid luôn thấy kẻ thù của mình đang đến. Mọi lúc mọi nơi.",
             "xtriggers": {
                 "rival_promotion": "enid_r_d",
                 "killmortal": "corpse",
@@ -636,7 +636,7 @@
         {
             "id": "laidlaw_r_c",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a rival",
+            "label": "Laidlaw, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -644,7 +644,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Mưu đồ của Laidlaw phức tạp như bóng lá dương xỉ.",
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_d",
                 "killmortal": "corpse",
@@ -656,7 +656,7 @@
         {
             "id": "leo_r_c",
             "icon": "leo_r",
-            "label": "Leo, a rival",
+            "label": "Leo, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -664,7 +664,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo đã chọn đại nghiệp của mình, và gã sẽ làm bất cứ điều gì cần thiết để bảo toàn nó.",
             "xtriggers": {
                 "rival_promotion": "leo_r_d",
                 "killmortal": "corpse",
@@ -676,7 +676,7 @@
         {
             "id": "natalia_r_c",
             "icon": "natalia_r",
-            "label": "Natalia, a renegade",
+            "label": "Natalia, kẻ phản đạo",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -684,7 +684,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Natalia has learnt truths that were too long hidden. In consequence, she has adjusted her agenda.",
+            "description": "Natalia đã thấu hiểu những sự thật vốn bị che giấu quá lâu. Hệ quả là, cô ta đã điều chỉnh lại mưu mô của mình.",
             "xtriggers": {
                 "rival_promotion": "natalia_r_d",
                 "killmortal": "corpse",
@@ -696,7 +696,7 @@
         {
             "id": "neville_r_c",
             "icon": "neville_r",
-            "label": "Neville, a rival",
+            "label": "Neville, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -704,7 +704,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville biết chuyện chẳng thể kéo dài. Nhưng chừng nào còn tiếp diễn, thề có Chúa, gã sẽ mở toang bất cứ cánh cửa nào lộ diện trước mắt.",
             "xtriggers": {
                 "rival_promotion": "neville_r_d",
                 "killmortal": "corpse",
@@ -716,7 +716,7 @@
         {
             "id": "porter_r_c",
             "icon": "porter_r",
-            "label": "Porter, a rival",
+            "label": "Porter, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -724,7 +724,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "Porter đã bắt đầu thu thập những cái tên.",
             "xtriggers": {
                 "rival_promotion": "porter_r_d",
                 "killmortal": "corpse",
@@ -736,7 +736,7 @@
         {
             "id": "renira_r_c",
             "icon": "renira_r",
-            "label": "Renira, a rival",
+            "label": "Renira, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -744,7 +744,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira thích biến những kẻ ngưỡng mộ thành những kẻ sùng bái.",
             "xtriggers": {
                 "rival_promotion": "renira_r_d",
                 "killmortal": "corpse",
@@ -756,7 +756,7 @@
         {
             "id": "rose_r_c",
             "icon": "rose_r",
-            "label": "Rose, a rival",
+            "label": "Rose, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -764,7 +764,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Rose từ lâu đã không còn biết sợ kẻ thù của mình.",
             "xtriggers": {
                 "rival_promotion": "rose_r_d",
                 "killmortal": "corpse",
@@ -776,7 +776,7 @@
         {
             "id": "saliba_r_c",
             "icon": "saliba_r",
-            "label": "Saliba, a rival",
+            "label": "Saliba, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -784,7 +784,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba không dung thứ cho sự buồn chán.",
             "xtriggers": {
                 "rival_promotion": "saliba_r_d",
                 "killmortal": "corpse",
@@ -796,7 +796,7 @@
         {
             "id": "slee_r_c",
             "icon": "slee_r",
-            "label": "Slee, a rival",
+            "label": "Slee, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -804,7 +804,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "Slee luôn khao khát tài nguyên để theo đuổi các học thuyết của mình.",
             "xtriggers": {
                 "rival_promotion": "slee_r_d",
                 "killmortal": "corpse",
@@ -816,7 +816,7 @@
         {
             "id": "spencer_r_c",
             "icon": "spencer_r",
-            "label": "Spencer, a renegade",
+            "label": "Spencer, kẻ phản đạo",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -824,7 +824,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "For so long, Spencer flirted with these possibilities... and now he's made his decision.",
+            "description": "Suốt bấy lâu, Spencer đã mơn trớn những khả năng này... và giờ đây hắn đã đưa ra quyết định.",
             "xtriggers": {
                 "rival_promotion": "spencer_r_d",
                 "killmortal": "corpse",
@@ -836,7 +836,7 @@
         {
             "id": "sylvia_r_c",
             "icon": "sylvia_r",
-            "label": "Sylvia, a rival",
+            "label": "Sylvia, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -844,7 +844,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "Mưu đồ của Sylvia không hề rõ ràng. Người ta nghi rằng nó thậm chí còn chẳng rõ ràng với chính bản thân cô.",
             "xtriggers": {
                 "rival_promotion": "sylvia_r_d",
                 "killmortal": "corpse",
@@ -856,7 +856,7 @@
         {
             "id": "tristan_r_c",
             "icon": "tristan_r",
-            "label": "Tristan, a rival",
+            "label": "Tristan, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -864,7 +864,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan đang gầy dựng một vương quốc nhỏ. Khi cần đến lửa, hắn sẽ dùng đến lửa.",
             "xtriggers": {
                 "rival_promotion": "tristan_r_d",
                 "killmortal": "corpse",
@@ -876,7 +876,7 @@
         {
             "id": "valciane_r_c",
             "icon": "valciane_r",
-            "label": "Valciane, a rival",
+            "label": "Valciane, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -884,7 +884,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane xử lý những kẻ đối đầu bằng sự hăng hái không thương xót của một đứa trẻ đang đập phá những chai lọ.",
             "xtriggers": {
                 "rival_promotion": "valciane_r_d",
                 "killmortal": "corpse",
@@ -896,7 +896,7 @@
         {
             "id": "victor_r_c",
             "icon": "victor_r",
-            "label": "Victor, a rival",
+            "label": "Victor, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -904,7 +904,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor đã sẵn sàng cho những gì sắp đến. Mọi con dao của gã đều sắc lẹm như những tân binh.",
             "xtriggers": {
                 "rival_promotion": "victor_r_d",
                 "killmortal": "corpse",
@@ -916,7 +916,7 @@
         {
             "id": "violet_r_c",
             "icon": "violet_r",
-            "label": "Violet, a rival",
+            "label": "Violet, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -924,7 +924,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violet đã tìm thấy những thú vui mới.",
             "xtriggers": {
                 "rival_promotion": "violet_r_d",
                 "killmortal": "corpse",
@@ -936,7 +936,7 @@
         {
             "id": "ysabet_r_c",
             "icon": "ysabet_r",
-            "label": "Ysabet, a rival",
+            "label": "Ysabet, đối thủ",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -944,7 +944,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet chờ đợi ở nơi cô không thể bị nhìn thấy.",
             "xtriggers": {
                 "rival_promotion": "ysabet_r_d",
                 "killmortal": "corpse",
@@ -956,7 +956,7 @@
         {
             "id": "zachary_r_c",
             "icon": "zachary_r",
-            "label": "Zachary, a renegade",
+            "label": "Zachary, kẻ phản đạo",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -964,7 +964,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Zachary has always followed his reasoning wherever it leads: and now, it has led him out of the Suppression Bureau, into a bitter dawn.",
+            "description": "Zachary luôn đi theo lý trí của mình dù nó dẫn đến bất cứ đâu: và giờ đây, nó đã dẫn gã rời khỏi Cục Đàn Áp, bước vào một bình minh cay đắng.",
             "xtriggers": {
                 "rival_promotion": "zachary_r_d",
                 "killmortal": "corpse",
@@ -975,7 +975,7 @@
         },
         {
             "id": "generic_r_d",
-            "label": "A Long in the making",
+            "label": "Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -983,7 +983,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Kẻ đã mất sạch nhận thức về chừng mực.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "killmortal": "corpse",
@@ -994,7 +994,7 @@
         {
             "id": "auclair_r_d",
             "icon": "auclair_r",
-            "label": "Auclair, a Long in the making",
+            "label": "Auclair, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1002,7 +1002,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair thích chơi cờ vua, giờ đây hơn bao giờ hết. Quân đen, quân trắng.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1013,7 +1013,7 @@
         {
             "id": "cat_r_d",
             "icon": "cat_r",
-            "label": "Cat Caro, a Long in the making",
+            "label": "Cat Caro, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1021,7 +1021,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "Cô gọi mình là 'Cat Caro'. cô từng là một thầy bói. Chẳng ai có vẻ biết chính xác giờ đây cô ta là thứ gì.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1032,7 +1032,7 @@
         {
             "id": "clifton_r_d",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a Long in the making",
+            "label": "'Pope' Clifton, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1040,7 +1040,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton thích được gọi là 'Đức Ngài'. Khi không được gọi như vậy, có thể sẽ có một trận náo loạn xảy ra.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1051,7 +1051,7 @@
         {
             "id": "clovette_r_d",
             "icon": "clovette_r",
-            "label": "Clovette, a Long in the making",
+            "label": "Clovette, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1059,7 +1059,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "Thật khó để ghét Clovette, ngay cả khi người ta biết rõ những gì cô ta đã làm.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1070,7 +1070,7 @@
         {
             "id": "connie_r_d",
             "icon": "connie_r",
-            "label": "Connie, a Long in the making",
+            "label": "Connie, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1078,7 +1078,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Connie never could resist a challenge.",
+            "description": "Connie chưa bao giờ khước từ trước một lời thách thức.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1089,7 +1089,7 @@
         {
             "id": "dorothy_r_d",
             "icon": "dorothy_r",
-            "label": "Dorothy, a Long in the making",
+            "label": "Dorothy, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1097,7 +1097,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Dorothy sẽ không dừng lại. Cô ta sẽ chẳng bao giờ dừng lại. Cô ta đã thề độc như thế.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1108,7 +1108,7 @@
         {
             "id": "douglas_r_d",
             "icon": "douglas_r",
-            "label": "Douglas, a Long in the Making",
+            "label": "Douglas, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1116,7 +1116,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Douglas has found the fire.",
+            "description": "Douglas đã tìm thấy ngọn lửa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1127,7 +1127,7 @@
         {
             "id": "elridge_r_d",
             "icon": "elridge_r",
-            "label": "Elridge, a Long in the making",
+            "label": "Elridge, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1135,7 +1135,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Giày của Elridge thường lốm đốm vết máu.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1145,7 +1145,7 @@
         {
             "id": "enid_r_d",
             "icon": "enid_r",
-            "label": "Enid, a Long in the making",
+            "label": "Enid, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1153,7 +1153,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid luôn thấy kẻ thù của mình đang đến. Mọi lúc mọi nơi.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1164,7 +1164,7 @@
         {
             "id": "laidlaw_r_d",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a Long in the making",
+            "label": "Laidlaw, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1172,7 +1172,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Mưu đồ của Laidlaw phức tạp như bóng lá dương xỉ.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1183,7 +1183,7 @@
         {
             "id": "leo_r_d",
             "icon": "leo_r",
-            "label": "Leo, a Long in the making",
+            "label": "Leo, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1191,7 +1191,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo đã chọn đại nghiệp của mình, và gã sẽ làm bất cứ điều gì cần thiết để bảo toàn nó.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1202,7 +1202,7 @@
         {
             "id": "natalia_r_d",
             "icon": "natalia_r",
-            "label": "Natalia, a Long in the making",
+            "label": "Natalia, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1210,7 +1210,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Natalia has learnt so much, and at such cost. She won't stop now.",
+            "description": "Natalia đã lĩnh hội quá nhiều, với một cái giá quá đắt. Cô ta sẽ không dừng lại lúc này.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1221,7 +1221,7 @@
         {
             "id": "neville_r_d",
             "icon": "neville_r",
-            "label": "Neville, a Long in the making",
+            "label": "Neville, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1229,7 +1229,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville biết chuyện chẳng thể kéo dài. Nhưng chừng nào còn tiếp diễn, thề có Chúa, gã sẽ mở toang bất cứ cánh cửa nào lộ diện trước mắt.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1240,7 +1240,7 @@
         {
             "id": "porter_r_d",
             "icon": "porter_r",
-            "label": "Porter, a Long in the making",
+            "label": "Porter, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1248,7 +1248,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "Porter đã bắt đầu thu thập những cái tên.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1259,7 +1259,7 @@
         {
             "id": "renira_r_d",
             "icon": "renira_r",
-            "label": "Renira, a Long in the making",
+            "label": "Renira, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1267,7 +1267,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira thích biến những kẻ ngưỡng mộ thành những kẻ sùng bái.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1278,7 +1278,7 @@
         {
             "id": "rose_r_d",
             "icon": "rose_r",
-            "label": "Rose, a Long in the making",
+            "label": "Rose, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1286,7 +1286,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Rose từ lâu đã không còn biết sợ kẻ thù của mình.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1297,7 +1297,7 @@
         {
             "id": "saliba_r_d",
             "icon": "saliba_r",
-            "label": "Saliba, a Long in the making",
+            "label": "Saliba, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1305,7 +1305,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba không dung thứ cho sự buồn chán.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1316,7 +1316,7 @@
         {
             "id": "slee_r_d",
             "icon": "slee_r",
-            "label": "Slee, a Long in the making",
+            "label": "Slee, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1324,7 +1324,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "Slee luôn khao khát tài nguyên để theo đuổi các học thuyết của mình.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1335,7 +1335,7 @@
         {
             "id": "spencer_r_d",
             "icon": "spencer_r",
-            "label": "Spencer, a Long in the making",
+            "label": "Spencer, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1343,7 +1343,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Spencer will no longer permit anything to be kept from him. Now he approaches the final threshold.",
+            "description": "Spencer không còn cho phép bất cứ điều gì bị giấu giếm khỏi tay hắn nữa. Giờ đây, hắn đang gần đến ngưỡng cửa cuối cùng.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1354,7 +1354,7 @@
         {
             "id": "sylvia_r_d",
             "icon": "sylvia_r",
-            "label": "Sylvia, a Long in the making",
+            "label": "Sylvia, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1362,7 +1362,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "Mưu đồ của Sylvia không hề rõ ràng. Người ta nghi rằng nó thậm chí còn chẳng rõ ràng với chính bản thân cô.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1373,7 +1373,7 @@
         {
             "id": "tristan_r_d",
             "icon": "tristan_r",
-            "label": "Tristan, a Long in the making",
+            "label": "Tristan, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1381,7 +1381,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan đang gầy dựng một vương quốc nhỏ. Khi cần đến lửa, hắn sẽ dùng đến lửa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1392,7 +1392,7 @@
         {
             "id": "valciane_r_d",
             "icon": "valciane_r",
-            "label": "Valciane, a Long in the making",
+            "label": "Valciane, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1400,7 +1400,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane xử lý những kẻ đối đầu bằng sự hăng hái không thương xót của một đứa trẻ đang đập phá những chai lọ.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1411,7 +1411,7 @@
         {
             "id": "victor_r_d",
             "icon": "victor_r",
-            "label": "Victor, a Long in the making",
+            "label": "Victor, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1419,7 +1419,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor đã sẵn sàng cho những gì sắp đến. Mọi con dao của gã đều sắc lẹm như những tân binh.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1430,7 +1430,7 @@
         {
             "id": "violet_r_d",
             "icon": "violet_r",
-            "label": "Violet, a Long in the making",
+            "label": "Violet, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1438,7 +1438,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violet đã tìm thấy những thú vui mới.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1449,7 +1449,7 @@
         {
             "id": "ysabet_r_d",
             "icon": "ysabet_r",
-            "label": "Ysabet, a Long in the making",
+            "label": "Ysabet, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1457,7 +1457,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet chờ đợi ở nơi cô không thể bị nhìn thấy.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1468,7 +1468,7 @@
         {
             "id": "zachary_r_d",
             "icon": "zachary_r",
-            "label": "Zachary, a Long in the making",
+            "label": "Zachary, Trường Giả đang thành hình",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1476,7 +1476,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Zachary approaches his inevitable conclusion.",
+            "description": "Zachary tiến dần đến kết cục tất yếu của mình.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
