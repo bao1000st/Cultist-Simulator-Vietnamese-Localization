@@ -1,5 +1,4 @@
-﻿Next: influences.json
-
+﻿
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
 Decks - DONE
@@ -50,7 +49,7 @@ The Kingskin Gate: Cổng Da Vua
 Roost => Ổ Đậu
 violet chamber => Điện Tím
 
-
+Hireling: Nô Bộc
 Adept: Tín đồ, chỉ chung về các người có hiểu biết và giáo lý
 đây là phân cấp chi tiết trong culist simulator:
 Follower -> Believer -> Disciple -> Exalted (mỗi hội có thể có tên riêng cho cấp bậc cao nhất này, vd phía dưới)

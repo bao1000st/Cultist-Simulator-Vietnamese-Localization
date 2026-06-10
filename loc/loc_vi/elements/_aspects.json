@@ -26,7 +26,7 @@
         },
         {
             id: "hireling",
-            label: "Tay Sai",
+            label: "Nô Bộc",
             description: "Tôi đã thương lượng dịch vụ với dạng người kiểu này, trong khoảng một thời gian ngắn.",
             isAspect: true
         },

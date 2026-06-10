@@ -10,8 +10,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lưỡi Đao để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Mùa Đông để chuyển hóa nó.",
                     "required": {
                         "influenceedge": 1,
                         "influencewinter": 1,
@@ -21,8 +21,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -33,7 +33,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The senses are sharpened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "description": "Các giác quan được mài dũa. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgec"
@@ -41,7 +41,7 @@
         },
         {
             "id": "influenceedgec",
-            "label": "A Rousing Air",
+            "label": "Làn Khí Rạo Rực",
             "aspects": {
                 "edge": 6,
                 "influence": 1
@@ -49,8 +49,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lưỡi Đao để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Mùa Đông để chuyển hóa nó.",
                     "required": {
                         "influenceedgec": 1,
                         "influencewinterc": 1
@@ -59,8 +59,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -71,7 +71,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The passions are roused. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]",
+            "description": "Những khát vọng đã bị khơi dậy. [Ảnh hưởng bậc 6: Dấu hiệu đã quá rõ ràng. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgee"
@@ -80,7 +80,7 @@
         },
         {
             "id": "influenceedgee",
-            "label": "A Furious Air",
+            "label": "Làn Khí Cuồng Nộ",
             "aspects": {
                 "edge": 10,
                 "influence": 1
@@ -88,8 +88,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lưỡi Đao để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Mùa Đông để chuyển hóa nó.",
                     "required": {
                         "influenceedgee": 1,
                         "influencewintere": 1
@@ -98,8 +98,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -110,7 +110,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Anger is implicit in every shape. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Cuồng nộ hàm chứa trong mọi vật thể. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgeg"
@@ -119,18 +119,18 @@
         },
         {
             "id": "influenceedgeg",
-            "label": "A Resolution",
+            "label": "Một Giải Pháp",
             "aspects": {
                 "edge": 15,
                 "influence": 1
             },
-            "description": "Who can avert the finality of battle? [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Ai có thể xoay chuyển kết cục của trận chiến? [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "decayTo": "influenceedgee"
         },
         {
             "id": "influenceforge",
-            "label": "A Rising Heat",
+            "label": "Sức Nóng Dâng Cao",
             "aspects": {
                 "forge": 2,
                 "influence": 1
@@ -138,8 +138,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lò Rèn để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lưỡi Dao để chuyển hóa nó.",
                     "required": {
                         "influenceforge": 1,
                         "influenceedge": 1
@@ -148,8 +148,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -160,7 +160,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A haze and a shimmer. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "làn sương mở và ánh lung linh. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgec"
@@ -168,7 +168,7 @@
         },
         {
             "id": "influenceforgec",
-            "label": "A Trembling Heat",
+            "label": "Sức Nóng Run Rẩy",
             "aspects": {
                 "forge": 6,
                 "influence": 1
@@ -176,8 +176,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lò Rèn để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lưỡi Dao để chuyển hóa nó.",
                     "required": {
                         "influenceforgec": 1,
                         "influenceedgec": 1
@@ -186,8 +186,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -198,7 +198,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The possibility of sparks. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]",
+            "description": "Mầm mống của tia lửa. [Ảnh hưởng bậc 6: Dấu hiệu đã quá rõ ràng. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgee"
@@ -207,7 +207,7 @@
         },
         {
             "id": "influenceforgee",
-            "label": "An Exalting Heat",
+            "label": "Sức Nóng Tôn Vinh",
             "aspects": {
                 "forge": 10,
                 "influence": 1
@@ -215,8 +215,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Lò Rèn để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lưỡi Dao để chuyển hóa nó.",
                     "required": {
                         "influenceforgee": 1,
                         "influenceedgee": 1
@@ -225,8 +225,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -237,7 +237,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "This is the aura at the volcano's edge. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Đây là hào quang nơi rìa núi lửa. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgeg"
@@ -246,18 +246,18 @@
         },
         {
             "id": "influenceforgeg",
-            "label": "An Incandescence",
+            "label": "Sức Nóng Cực Hạn",
             "aspects": {
                 "forge": 15,
                 "influence": 1
             },
-            "description": "Change follows fire. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Biến đổi nối đuôi ngọn lửa. [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "decayTo": "influenceforgee"
         },
         {
             "id": "influencegrail",
-            "label": "An Awareness of Appetite",
+            "label": "Nhận Thức Ham Muốn",
             "aspects": {
                 "grail": 2,
                 "influence": 1
@@ -265,8 +265,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Chén Thánh để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Bướm Đêm để chuyển hóa nó.",
                     "required": {
                         "influencegrail": 1,
                         "influencemoth": 1,
@@ -277,8 +277,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -289,7 +289,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Every sense is heightened; every sensation, deepened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Giác quan thêm sắc bén; cảm xúc thêm sâu nồng. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegrailc"
@@ -297,7 +297,7 @@
         },
         {
             "id": "influencegrailc",
-            "label": "An Urgency of Appetite",
+            "label": "Thúc Bách Ham Muốn",
             "aspects": {
                 "grail": 6,
                 "influence": 1
@@ -305,8 +305,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Chén Thánh để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Bướm Đêm để chuyển hóa nó.",
                     "required": {
                         "influencegrailc": 1,
                         "influencemothc": 1
@@ -315,8 +315,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -327,7 +327,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "It is difficult to control oneself. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Thật khó để tự chủ. [Ảnh hưởng bậc 6: những cộng hưởng hoặc tương hợp đáng kể. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegraile"
@@ -336,7 +336,7 @@
         },
         {
             "id": "influencegraile",
-            "label": "An Imperative of Appetite",
+            "label": "Mệnh Lệnh Ham Muốn",
             "aspects": {
                 "grail": 10,
                 "influence": 1
@@ -344,8 +344,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Chén Thánh để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Bướm Đêm để chuyển hóa nó.",
                     "required": {
                         "influencegraile": 1,
                         "influencemothe": 1
@@ -354,8 +354,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -366,7 +366,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The lips ache to savour; the fingers ache to clutch. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Đôi môi nhức nhối muốn nếm vị; ngón tay đau đáu muốn cào cấu. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegrailg"
@@ -375,18 +375,18 @@
         },
         {
             "id": "influencegrailg",
-            "label": "An Incarnadescence",
+            "label": "Phát Quang Sắc Thịt",
             "aspects": {
                 "grail": 15,
                 "influence": 1
             },
-            "description": "The very air is succulent with possibility. Pierce it, and it might bleed. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Ngay cả không khí cũng mọng nước tiềm năng. Đâm vào nó, và máu có thể tuôn ra. [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "decayTo": "influencegraile"
         },
         {
             "id": "influenceheart",
-            "label": "Trembling Airs",
+            "label": "Quầng Khí Run Rẩy",
             "aspects": {
                 "heart": 2,
                 "influence": 1
@@ -394,8 +394,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Trái Tim để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Bướm Đêm để chuyển hóa nó.",
                     "required": {
                         "influenceheart": 1,
                         "influencegrail": 1,
@@ -407,8 +407,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -419,7 +419,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The toes tap. All is brisk and all is well. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Đầu ngón chân nhịp bước. Mọi sự đều hối hả và mọi sự đều ổn. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
@@ -428,7 +428,7 @@
         },
         {
             "id": "influenceheartc",
-            "label": "Pulsing Airs",
+            "label": "Quầng Khí Nhịp Mạch",
             "aspects": {
                 "heart": 6,
                 "influence": 1
@@ -436,8 +436,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Grail influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Trái Tim để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Chén Thánh để chuyển hóa nó.",
                     "required": {
                         "influenceheartc": 1,
                         "influencegrailc": 1
@@ -446,8 +446,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -458,7 +458,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A rising power; a reassuring energy. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Nguồn sức mạnh đang trỗi dậy; một năng lượng xoa dịu. [Ảnh hưởng bậc 6: những cộng hưởng hoặc tương hợp đáng kể. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencehearte"
@@ -467,7 +467,7 @@
         },
         {
             "id": "influencehearte",
-            "label": "Pounding Airs",
+            "label": "Quầng Khí Thình Thịch",
             "aspects": {
                 "heart": 10,
                 "influence": 1
@@ -475,8 +475,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Trái Tim để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Bướm Đêm để chuyển hóa nó.",
                     "required": {
                         "influencehearte": 1,
                         "influencegraile": 1
@@ -485,8 +485,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -497,7 +497,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The heart moves; the world moves. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Tim đập nhịp; thế gian chuyển động theo. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceheartg"
@@ -506,25 +506,25 @@
         },
         {
             "id": "influenceheartg",
-            "label": "An Imminence",
+            "label": "Một Sự Cận Kề",
             "aspects": {
                 "heart": 15,
                 "influence": 1
             },
-            "description": "The sky is a drum; the earth is ready for its ecstasy. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Bầu trời là một cái trống; mặt đất đã sẵn sàng cho cơn cực lạc. [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "decayTo": "influencehearte"
         },
         {
             "id": "sicknessprotection",
-            "label": "A Stay of Execution",
-            "description": "All flesh fails. But I've been promised that my flesh will fail a little later. [This is a final insurance against sickness, if no Health remains to you.]",
+            "label": "Hoãn Diệt Vong",
+            "description": "Mọi xác thịt đều mục rửa. Nhưng ta đã được hứa rằng xác thịt của ta sẽ tàn muộn hơn một chút. [Đây là rào chắn cuối cùng trước bệnh dịch, nếu bạn không còn Sức Khỏe nào.]",
             "lifetime": 600,
             "decayTo": "influenceheart"
         },
         {
             "id": "influenceknock",
-            "label": "Subtle Flaw",
+            "label": "Khiếm Khuyết Ngầm",
             "aspects": {
                 "knock": 2,
                 "influence": 1
@@ -532,8 +532,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any influence to subvert it to a higher level Knock influence.",
+                    "label": "Với",
+                    "description": "Với đủ áp lực, lớp vỏ của thế giới sẽ rách toạc. Thêm bất kỳ ảnh hưởng nào để chuyển hóa thành ảnh hưởng Tiếng Gõ cấp cao hơn.",
                     "actionid": "study",
                     "required": {
                         "influenceedge": 1,
@@ -554,8 +554,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -566,7 +566,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "description": "Dây thắt bung ra — cửa sổ xòe mở — ổ khóa chuyển mình mượt mà như bôi mỡ. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknockc"
@@ -574,7 +574,7 @@
         },
         {
             "id": "influenceknockc",
-            "label": "Subtle Fracture",
+            "label": "Vết Nứt Ngầm",
             "aspects": {
                 "knock": 6,
                 "influence": 1
@@ -582,8 +582,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
+                    "label": "Với",
+                    "description": "Với đủ áp lực, lớp vỏ của thế giới sẽ rách toạc. Thêm bất kỳ ảnh hưởng tương ứng để chuyển hóa thành ảnh hưởng Tiếng Gõ cấp cao hơn.",
                     "actionid": "study",
                     "required": {
                         "influenceedgec": 1,
@@ -598,8 +598,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -610,7 +610,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Mây tách lối — tường rạn rít — vết thương cũ nhức nhối. [Ảnh hưởng bậc 6: những cộng hưởng hoặc tương hợp đáng kể. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknocke"
@@ -619,7 +619,7 @@
         },
         {
             "id": "influenceknocke",
-            "label": "Subtle Rupture",
+            "label": "Vết Rách Ngầm",
             "aspects": {
                 "knock": 10,
                 "influence": 1
@@ -627,8 +627,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
+                    "label": "Với",
+                    "description": "Với đủ áp lực, lớp vỏ của thế giới sẽ rách toạc. Thêm bất kỳ ảnh hưởng tương ứng để chuyển hóa thành ảnh hưởng Tiếng Gõ cấp cao hơn.",
                     "actionid": "study",
                     "required": {
                         "influenceedgee": 1,
@@ -643,8 +643,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -655,7 +655,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Địa hình biến dạng — cửa nẩy tung — rắn tuôn lên từ mặt đất! [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknockg"
@@ -664,18 +664,18 @@
         },
         {
             "id": "influenceknockg",
-            "label": "Wrong Door",
+            "label": "Nhầm Cửa",
             "aspects": {
                 "knock": 15,
                 "influence": 1
             },
-            "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Có một Cánh Cửa không nên được mở ra, và ngay cả lúc này, bản lề của nó dần lay động -- [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "decayTo": "influenceknocke"
         },
         {
             "id": "influencelantern",
-            "label": "A Consciousness of Radiance",
+            "label": "Hào Quang Nhận Thức",
             "aspects": {
                 "lantern": 2,
                 "influence": 1
@@ -683,8 +683,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Đèn Lồng để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lò Rèn để chuyển hóa nó.",
                     "required": {
                         "influencelantern": 1,
                         "influenceforge": 1,
@@ -698,8 +698,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -710,7 +710,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "There is a light behind the world, a light above the Mansus, a light that penetrates both glass and skin. It is present here. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.  If unused, it will become Fascination.]",
+            "description": "Có một luồng sáng phía sau thế giới, luồng sáng phía trên Mansus, luồng sáng xuyên thấu cả pha lê lẫn da thịt. Nó hiện hữu ngay tại đây. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt. Nếu không dùng sẽ biến thành Mê Hoặc.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -719,7 +719,7 @@
         },
         {
             "id": "influencelanternc",
-            "label": "An Intensity of Radiance",
+            "label": "Hào Quang Dữ Dội",
             "aspects": {
                 "lantern": 6,
                 "influence": 1
@@ -727,8 +727,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Đèn Lồng để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lò Rèn để chuyển hóa nó.",
                     "required": {
                         "influencelanternc": 1,
                         "influenceforgec": 1
@@ -737,8 +737,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -749,7 +749,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Light dews the skin and suffuses the air. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Ánh Sáng thấm đẫm làn da và lan tỏa trong tầng khí. [Ảnh hưởng bậc 6: những cộng hưởng hoặc tương hợp đáng kể. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanterne"
@@ -758,7 +758,7 @@
         },
         {
             "id": "influencelanterne",
-            "label": "A Blaze of Radiance",
+            "label": "Hào Quang Rực Lửa",
             "aspects": {
                 "lantern": 10,
                 "influence": 1
@@ -766,8 +766,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Đèn Lồng để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Lò Rèn để chuyển hóa nó.",
                     "required": {
                         "influencelanterne": 1,
                         "influenceforgee": 1
@@ -776,8 +776,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -788,7 +788,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Every colour has grown bright as new dye, but now all of them begin to bleed towards white. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Mọi sắc màu bừng sáng như vừa nhuộm mới, rồi bắt đầu loang dần sang sắc trắng. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanterng"
@@ -797,18 +797,18 @@
         },
         {
             "id": "influencelanterng",
-            "label": "A Splendour",
+            "label": "Tráng Lệ",
             "aspects": {
                 "lantern": 15,
                 "influence": 1
             },
             "lifetime": 60,
-            "description": "Cover your eyes, if you like. It will serve no purpose. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Che mắt lại nếu muốn. Việc đó cũng chẳng có ích gì. [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "decayTo": "influencelanterne"
         },
         {
             "id": "influencemoth",
-            "label": "A Buzzing in the Brain",
+            "label": "Tiếng Vo Ve Trong Não",
             "aspects": {
                 "moth": 2,
                 "influence": 1
@@ -816,8 +816,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Bướm Đêm để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Đèn Lồng để chuyển hóa nó.",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1,
@@ -832,8 +832,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -844,7 +844,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "in gi rum imus noc te et con sumi <b>snip snip snip</b> [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "in gi rum imus noc te et con sumi <b>snip snip snip</b> [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -853,7 +853,7 @@
         },
         {
             "id": "influencemothc",
-            "label": "A Rattling in the Soul",
+            "label": "Tiếng Lục Cục Trong Hồn",
             "aspects": {
                 "moth": 6,
                 "influence": 1
@@ -861,8 +861,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Bướm Đêm để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Đèn Lồng để chuyển hóa nó.",
                     "required": {
                         "influencemothc": 1,
                         "influencelanternc": 1
@@ -871,8 +871,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -883,7 +883,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Oh the friends that we played and the skins that we made; still they drive us! [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Ôi những người bạn ta từng chơi cùng và những lớp da ta từng tạo ra; chúng vẫn đang thúc ép ta! [Ảnh hưởng bậc 6: những cộng hưởng hoặc tương hợp đáng kể. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothe"
@@ -892,7 +892,7 @@
         },
         {
             "id": "influencemothe",
-            "label": "A Howling in the Heart",
+            "label": "Tiếng Gào Hú Trong Tim",
             "aspects": {
                 "moth": 10,
                 "influence": 1
@@ -900,8 +900,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Bướm Đêm để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Đèn Lồng để chuyển hóa nó.",
                     "required": {
                         "influencemothe": 1,
                         "influencelanterne": 1
@@ -910,8 +910,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -922,7 +922,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Emotions contort our thoughts. One passion yields to the next like leaves in the wind's grip! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Cảm xúc vặn xoắn tư duy. Hết khát vọng này đến khát vọng khác đầu hàng, như lá rụng trong tay bão! [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothg"
@@ -931,18 +931,18 @@
         },
         {
             "id": "influencemothg",
-            "label": "That Old Yearning",
+            "label": "Khát Khao Cũ Kỹ",
             "aspects": {
                 "moth": 15,
                 "influence": 1
             },
-            "description": "\"\r\n    please\"",
+            "description": "\"\r\n    Làm ơn\"",
             "lifetime": 60,
             "decayTo": "influencemothe"
         },
         {
             "id": "influencewinter",
-            "label": "A Chilly Atmosphere",
+            "label": "Bầu Khí Lạnh Lẽo",
             "aspects": {
                 "winter": 2,
                 "influence": 1
@@ -950,8 +950,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Mùa Đông để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Trái Tim để chuyển hóa nó.",
                     "required": {
                         "influencewinter": 1,
                         "influenceheart": 1,
@@ -962,8 +962,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -974,7 +974,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A peculiar chill lingers in my rooms. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Một cái lạnh kỳ quái lảng vảng nơi phòng của tôi. [Ảnh hưởng bậc 2: Hiển hiện trước kẻ nhạy bén, rõ ràng tức thì trước tín đồ. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai, một số tay sai sẽ để lại tàn dư của nó sau khi bị tiêu diệt.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewinterc"
@@ -983,7 +983,7 @@
         },
         {
             "id": "influencewinterc",
-            "label": "An Icy Atmosphere",
+            "label": "Bầu Khí Băng Giá",
             "aspects": {
                 "winter": 6,
                 "influence": 1
@@ -991,8 +991,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Mùa Đông để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Trái Tim để chuyển hóa nó.",
                     "required": {
                         "influencewinterc": 1,
                         "influenceheartc": 1
@@ -1001,8 +1001,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -1013,7 +1013,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The air crisps the skin. Frost marks the glass. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "Không khí làm da se sắt. Sương giá điểm đầy trên kính. [Ảnh hưởng bậc 6: Dấu hiệu đã quá rõ ràng. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai. Nếu không dùng sẽ biến thành Kinh Sợ.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewintere"
@@ -1022,7 +1022,7 @@
         },
         {
             "id": "influencewintere",
-            "label": "A Bitter Atmosphere",
+            "label": "Bầu Khí Cay Đắng",
             "aspects": {
                 "winter": 10,
                 "influence": 1
@@ -1030,8 +1030,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "Với",
+                    "description": "Nghiên Cứu sự hòa hợp giữa hai ảnh hưởng Mùa Đông để cường hóa chúng. Hoặc, Nghiên Cứu cách nó bị tác động bởi ảnh hưởng Trái Tim để chuyển hóa nó.",
                     "required": {
                         "influencewintere": 1,
                         "influencehearte": 1
@@ -1040,8 +1040,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Kiến Thức",
+                    "description": "Ta phải thấu hiểu những ảnh hưởng đang vận hành, nếu ta muốn cường hóa hoặc chuyển hóa chúng. [Bạn cần một nền tảng tri thức đáng kể về giáo lý liên quan.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -1052,7 +1052,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Winter passes the clothes, passes the skin, nestles in the veins. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "Mùa Đông xuyên qua quần áo, xuyên qua da thịt, luồng vào huyết quản. [Ảnh hưởng bậc 10! Điểm hội tụ của quyền năng và hiểm họa. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai. Nếu không dùng sẽ biến thành Kinh Sợ.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewinterg"
@@ -1061,12 +1061,12 @@
         },
         {
             "id": "influencewinterg",
-            "label": "Perfect Frost",
+            "label": "Sương Giá Tuyệt Đối",
             "aspects": {
                 "winter": 15,
                 "influence": 1
             },
-            "description": "The world is still as ice. Each movement is a journey. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "Thế gian tĩnh lặng như băng giá. Mỗi chuyện động nhẹ là cả một hành trình. [Ảnh hưởng bậc 15! Đây có thể là mối bận tâm cá nhân từ một Thời Thần. Dùng thẻ này trong một số Nghi Lễ để triệu hồi tay sai. Nếu không dùng sẽ biến thành Kinh Sợ.]",
             "lifetime": 60,
             "decayTo": "influencewintere"
         }
