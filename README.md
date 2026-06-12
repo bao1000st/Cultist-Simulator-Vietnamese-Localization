@@ -1,4 +1,5 @@
-﻿
+﻿next: jobs.json
+
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
 Decks - DONE
@@ -160,7 +161,7 @@ expedition: Thám Hiểm
 Annoyances: phiền nhiễu
 Rite: Nghi Lễ != Ceremony: Nghi Thức
 Bone Flute: Sáo Bạch Cốt
-Bitterblack Salts: Muối Đên Đắng
+Bitterblack Salts: Muối Đen Đắng
 Subtle Rupture: Sự Rạn Nứt Ngầm
 Meteor Bullet: Đạn Thiên Thạch
 Thrilling Air: Làn Khí Rùng Rợn

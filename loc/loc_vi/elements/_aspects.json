@@ -1126,12 +1126,12 @@
             noartneeded: true
         },
         {
-            id: "dissolution",
-            label: "Tan Biến",
-            description: "không thành có, có thành không. Làm tan biến một cái gì đó thành Tầm Ảnh Hưởng.",
-            isAspect: true,
-            comments: "Thần sắc công thức",
-            noartneeded: true
+            "id": "dissolution",
+            "label": "Tan Biến",
+            "description": "Trong ngoài tương ứng. Tan biến một thứ gì đó thành một Ảnh Hưởng.",
+            "isAspect": true,
+            "comments": "Thần sắc công thức",
+            "noartneeded": true
         },
 
         {

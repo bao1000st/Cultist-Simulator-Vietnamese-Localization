@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "ingredientedgeb",
-            "label": "Martensite Paste",
-            "description": "The sacred chrysm of the sword. Also an attractive silver-green.",
+            "label": "Dầu Martensite",
+            "description": "Dầu thánh của thanh kiếm. Lại mang sắc xanh bạc đầy cuốn hút.",
             "aspects": {
                 "edge": 4,
                 "auctionable": 2,
@@ -13,8 +13,8 @@
         },
         {
             "id": "ingredientedged",
-            "label": "Labhitic Grains",
-            "description": "Labhites are the youngest of the Lionsmith's servants. When rendered to powder, they retain their potency but not their beauty.",
+            "label": "Hạt Labhitic",
+            "description": "Tộc Labhite là những đầy tớ trẻ tuổi nhất của Thần Rèn Sư Tử. Khi bị nghiền thành bột, chúng vẫn giữ được quyền năng nhưng không còn vẻ đẹp nữa.",
             "aspects": {
                 "edge": 8,
                 "auctionable": 4,
@@ -23,8 +23,8 @@
         },
         {
             "id": "ingredientedgef",
-            "label": "Skaptodon Fang",
-            "description": "It is rare for the Lionsmith to make skaptodons, now; but they are difficult to kill, and they live a very long time.",
+            "label": "Nanh Skaptodon",
+            "description": "Giờ đây rất hiêm khi thầy Thần Rèn tạo ra Skaptodon nữa; song chúng rất khó giết, và chúng sống một đời rất dài.",
             "aspects": {
                 "edge": 12,
                 "auctionable": 6,
@@ -33,8 +33,8 @@
         },
         {
             "id": "ingredientforgeb",
-            "label": "Bitterblack Salts",
-            "description": "No ordinary chemist could produce these dark-gleaming crystals - not without the touch of the Forge.",
+            "label": "Muối Đen Đắng",
+            "description": "Không nhà hóa học tầm thường nào tạo ra được những tinh thể lấp lánh sắc tối này - nếu thiếu đi cái chạm của Lò Rèn.",
             "aspects": {
                 "forge": 4,
                 "auctionable": 2,
@@ -44,8 +44,8 @@
         },
         {
             "id": "ingredientforged",
-            "label": "Xanthotic Essence",
-            "description": "In certain operations of the Forge, sunlight is said to overcome moonlight, as we pass from the Meniscate to the Madrugad. This essence was mercury, once, but now it's the rich gold of a summer afternoon. Pretty.",
+            "label": "Tinh Chất Vàng Rực",
+            "description": "Trong một số tiến trình của Lò Rèn, ánh dương được nói rằng sẽ lấn át ánh nguyệt quang, khi chúng ta bước từ Trăng Lưỡi Liềm sang Hừng Đông. Tinh chất này từng là thủy ngân, nhưng giờ đây nó mang sắc vàng rực của một buổi chiều hạ chí. Rất đẹp.",
             "aspects": {
                 "forge": 8,
                 "auctionable": 4,
@@ -54,8 +54,8 @@
         },
         {
             "id": "ingredientforgef",
-            "label": "Iotic Essence",
-            "description": "In the later operations of the Forge, the Madrugad yields to the true Forge of Days, and the essence begins to redden. Some day, perhaps, it will not, but for now we have this. ",
+            "label": "Tinh Chất Hỏa Kim",
+            "description": "Trong các tiến trình sau này của Lò Rèn, Hừng Đông khuất phục Lò Rèn Kiến Tạo, và tinh chất bắt đầu ngả sang sắc đỏ. Một ngày nào đó, có lẽ điều này sẽ không xảy ra nữa, nhưng hiện tại chúng ta có thứ này.",
             "aspects": {
                 "forge": 12,
                 "auctionable": 6,
@@ -64,8 +64,8 @@
         },
         {
             "id": "ingredientgrailb",
-            "label": "Vital Pigment",
-            "description": "It is not usual for a red this red to survive the death of the body.",
+            "label": "Sắc Tố Sinh Mệnh",
+            "description": "Không đời nào một thứ sắc đỏ lại đỏ đến nhường này mà có thể tồn tại sau cái chết của thân xác.",
             "aspects": {
                 "grail": 4,
                 "auctionable": 2,
@@ -75,8 +75,8 @@
         },
         {
             "id": "ingredientgraild",
-            "label": "Amaranthine Nectar",
-            "description": "One of the Flowermaker's many gifts. In a brighter age, it might have bestowed immortality. In this blighted History, it is still an unparalleled sweetness.",
+            "label": "Mật Hoa Bất Tử",
+            "description": "Một trong muôn vàn món quà của Thần Tạo Hoa. Ở một thời đại tươi sáng hơn, nó có lẽ đã ban tặng sự bất tử. Nhưng ở Dòng Lịch Sử lụi tàn này, nó vẫn là một vị ngọt vô song.",
             "aspects": {
                 "grail": 8,
                 "auctionable": 4,
@@ -85,8 +85,8 @@
         },
         {
             "id": "ingredientgrailf",
-            "label": "Writhing Caul",
-            "description": "Lay your hand on these tattered folds and feel their warmth; leave your hand upon it, and it will explore the possibilities of embrace.",
+            "label": "Bào Màng Quằn quại",
+            "description": "Áp tay lên lớp màng tơi tả này để cảm giác hơi ấm của chúng; cứ để tay lại đó, rồi chúng sẽ rục rịch dò tìm mọi cách để ôm siết lấy ngươi.",
             "aspects": {
                 "grail": 12,
                 "auctionable": 6,
@@ -95,8 +95,8 @@
         },
         {
             "id": "ingredientheartb",
-            "label": "Rose-Pearl Dust",
-            "description": "Pearls are sacred to the Witch-and-Sister, especially those of this colour. They have been used in protective rites, among others.",
+            "label": "Bột Ngọc Trai Hồng",
+            "description": "Ngọc trai là vật thánh đối với Phù Thủy- Thánh Nữ, đặc biệt là các viên với sắc màu này. Chúng từng được sử dụng trong các nghi lễ bảo hộ, cùng với một số khác.",
             "aspects": {
                 "heart": 4,
                 "auctionable": 2,
@@ -106,8 +106,8 @@
         },
         {
             "id": "ingredientheartd",
-            "label": "Witch-Kissed Oil",
-            "description": "The formula remains unchanged since the days Hecate was worshipped at the crossways.",
+            "label": "Dầu Phù Thủy",
+            "description": "Thứ này vẫn giữ nguyên không đổi kể từ những ngày Hecate còn được thờ phụng nơi các ngã tư đường.",
             "aspects": {
                 "heart": 8,
                 "auctionable": 4,
@@ -116,8 +116,8 @@
         },
         {
             "id": "ingredientheartf",
-            "label": "True Blood of St Januarius",
-            "description": "The Thunderskin protected the one they called Januarius, against perils from every past. To this day his blood keeps dancing.",
+            "label": "Chính Huyết của Thánh Januarius",
+            "description": "Thần Bọc Sấm đã bảo hộ kẻ được gọi là Januarius khỏi những hiểm họa đến từ mọi quá khứ. Cho đến tận nay, máu của ông vẫn không ngừng nhảy múa.",
             "aspects": {
                 "heart": 12,
                 "auctionable": 6,
@@ -130,8 +130,8 @@
         },
         {
             "id": "ingredientknockb",
-            "label": "The Byzantine Tinct",
-            "description": "The profound purple worn only in Histories where Tyrian dye was not rich enough for emperors. It is difficult to bar entry to one wearing this colour.",
+            "label": "Cồn Byzantine",
+            "description": "Sắc tím thâm sâu vốn chỉ được mang tại những Dòng Lịch Sử nơi mà thuốc nhuộm thành Tyria không đủ độ vương giả cho các hoàng đế. Rất khó để chống lại một kẻ khoác trên mình sắc màu này.",
             "aspects": {
                 "knock": 4,
                 "auctionable": 2,
@@ -141,8 +141,8 @@
         },
         {
             "id": "ingredientknockd",
-            "label": "Sthenic Venom",
-            "description": "From time to time, the Mother of Ants has also been called the Daughter of Venoms. This substance opens the body in uncountable places.",
+            "label": "Kịch Độc Cường Lực",
+            "description": "Thi thoảng, Mẹ Kiến cũng được gọi là Đứa Con Của Độc Tố. Thứ vật chất này rạch mở thân xác ở muôn vàn góc độ..",
             "aspects": {
                 "knock": 8,
                 "auctionable": 4,
@@ -153,7 +153,7 @@
         {
             "id": "ingredientknockf",
             "label": "Azoth",
-            "description": "Store this only in containers of a pure element, and never permit it to grow warm. Perhaps it isn't the final solvent that the alchemists sought. But it will do, for our purposes.",
+            "description": "Chỉ lưu trữ thứ này trong bình chứa làm bằng chất thuần khiết, và tuyệt đối không được để nó ấm lên. Có lẽ đây không phải là dung môi vạn năng mà các nhà giả kim hằng tìm kiếm. Nhưng bấy nhiêu là đủ, cho mục đích của ta.",
             "aspects": {
                 "knock": 12,
                 "auctionable": 6,
@@ -163,7 +163,7 @@
         {
             "id": "ingredientlanternb",
             "label": "Refulgin",
-            "description": "A white so pure that it remains visible even in utter darkness.",
+            "description": "Một sắc trắng tinh khiết đến mức nó vẫn hiển hiện ngay cả trong lòng đêm tối tăm.",
             "aspects": {
                 "lantern": 4,
                 "auctionable": 2,
@@ -173,8 +173,8 @@
         },
         {
             "id": "ingredientlanternd",
-            "label": "Glassfinger Toxin",
-            "description": "'What is within, without; what is without, within.' A poison sacred to the votaries of the Meniscate.",
+            "label": "Độc Tố Ngón Thủy Tinh",
+            "description": "‘Trong ngoài tương ứng.’ Một thứ độc dược thiêng liêng đối với những kẻ phụng sự Trăng Lưỡi Liềm.",
             "aspects": {
                 "lantern": 8,
                 "auctionable": 4,
@@ -184,8 +184,8 @@
         },
         {
             "id": "ingredientlanternf",
-            "label": "Ichor Vitreous",
-            "description": "A pale and watchful fluid that can be gathered, sometimes, when the Door-in-the-Eye is opened.",
+            "label": "Thần Huyết Pha Lê",
+            "description": "Một thứ chất lỏng nhợt nhạt đầy cảnh giác, đôi khi thu thập được khi Cổng Mở Trong Mắt mở ra.",
             "aspects": {
                 "lantern": 12,
                 "auctionable": 6,
@@ -194,8 +194,8 @@
         },
         {
             "id": "ingredientmothb",
-            "label": "Piebald Pigment",
-            "description": "From the crushed wings of rare lepidopterans. 'Painting black, or painting white, this is the stuff that'll see you right.'",
+            "label": "Sắc Tố Đốm Tạp",
+            "description": "Trích từ đôi cánh nghiền nát của những loài cánh vảy hiếm có. ‘Dẫu vẽ sắc đen, hay tô sắc trắng, thứ này rồi cũng sẽ dẫn lối ngươi về đúng hướng.’",
             "aspects": {
                 "moth": 4,
                 "auctionable": 2,
@@ -206,7 +206,7 @@
         {
             "id": "ingredientmothd",
             "label": "Leathy",
-            "description": "A dark and syrupy liquor favoured in unnamed forest villages. 'The tongue and the eye, and now we begin! Forget your name, forget your skin.'",
+            "description": "Một loại rượu sẫm màu đặc sánh như si-rô, được ưa chuộng tại các ngôi làng vô danh nơi rừng sâu. ‘Cái lưỡi và con mắt, và giờ ta bắt đầu! Hãy quên đi tên gọi, quên đi làn da ngươi.’",
             "aspects": {
                 "moth": 8,
                 "auctionable": 4,
@@ -215,8 +215,8 @@
         },
         {
             "id": "ingredientmothf",
-            "label": "Holiest Hemolymph",
-            "description": "Faint traces of an enigmatic substance spilt in the commission of an ancient crime, tightly sealed in a glass ampoule. 'Who will remember the barber's son?' ",
+            "label": "Dịch Trùng Tối Linh",
+            "description": "Tàn tích còn lại từ một uẩn chất huyền bí vương vãi từ một vụ án thuở xưa, nay niêm kín trong ống nghiệm thạch anh. ‘Ai còn nhớ đến đứa con trai của gã thợ cạo?’",
             "aspects": {
                 "moth": 12,
                 "auctionable": 6,
@@ -229,8 +229,8 @@
         },
         {
             "id": "ingredientwinterb",
-            "label": "Greydawn Oil",
-            "description": "The precise colour of the hours when one cannot sleep.",
+            "label": "Dầu Bình Minh Xám",
+            "description": "Sắc màu chuẩn xác của những canh giờ trằn trọc không ngủ.",
             "aspects": {
                 "winter": 4,
                 "auctionable": 2,
@@ -240,8 +240,8 @@
         },
         {
             "id": "ingredientwinterd",
-            "label": "Wolf-Snow",
-            "description": "Far too cold ever to melt in anything but the hottest noonday sun. It will, very gradually, consume human flesh.",
+            "label": "Lang Tuyết",
+            "description": "Quá đỗi lạnh lẽo để có thể tan chảy dưới bất kỳ thứ gì ngoại trừ ánh mặt trời thiêu đốt nhất. Nó sẽ, chậm rãi, ăn mòn da thịt người.",
             "aspects": {
                 "winter": 8,
                 "auctionable": 4,
@@ -250,8 +250,8 @@
         },
         {
             "id": "ingredientwinterf",
-            "label": "Watch-Worms",
-            "description": "A tiny pot of stunted, desiccated larval remnants from the First Worm War, rank with the power that inhabits dead Hours.",
+            "label": "Thị Trùng",
+            "description": "Một hũ nhỏ chứa ấu trùng khô quắt, còi cọc từ Chiến Tranh Trùng Thể lần thứ nhất, nồng nặc quyền năng trú ngụ bên trong các vị Thời Thần đã tử nạn.",
             "aspects": {
                 "winter": 12,
                 "auctionable": 6,
