@@ -1,4 +1,4 @@
-﻿next: jobs.json
+﻿next: legacy_apostle_elements.json
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION

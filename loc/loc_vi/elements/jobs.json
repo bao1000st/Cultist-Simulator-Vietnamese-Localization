@@ -2,11 +2,11 @@
     "elements": [
         {
             "id": "gloverandgloverjuniorjob",
-            "label": "Vị trí cấp dưới tại Glover & Glover",
+            "label": "Vị Trí Tập Sự Tại Glover & Glover",
             "aspects": {
                 "job": 1
             },
-            "description": "Trí tuệ của tôi đáng ra nên được sử dụng tốt hơn! Nhưng mức lương cũng tốt hơn công việc của người lao động. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Trí tuệ của tôi đáng ra nên được sử dụng tốt hơn! Dù sao tiền lương cũng tốt hơn việc chân tay. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "careeradvancement": "gloverandglover_difficultbossa_job",
                 "employment": "gloverandgloverjuniorjob"
@@ -16,11 +16,11 @@
         },
         {
             "id": "gloverandgloverjuniorjob_nodifficultbossa",
-            "label": "Vị trí cấp dưới tại Glover & Glover",
+            "label": "Vị Trí Tập Sự Tại Glover & Glover",
             "aspects": {
                 "job": 1
             },
-            "description": "Trí tuệ của tôi đáng ra nên được sử dụng tốt hơn! Nhưng mức lương cũng tốt hơn công việc của người lao động. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Trí tuệ của tôi đáng ra nên được sử dụng tốt hơn! Dù sao tiền lương cũng tốt hơn việc chân tay. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverjob",
                 "employment": "gloverandgloverjuniorjob_nodifficultbossa"
@@ -35,7 +35,7 @@
                 "annoyance": 1,
                 "job": 1
             },
-            "description": "Một vị trí trong Hồ sơ dưới quyền ông Alden. Tôi đã kiếm được nhiều hơn một chút; Tôi sẽ ở lại làm việc thêm một tí nữa. Ông Alden vẫn luôn theo dõi tôi chặt chẽ. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Một vị trí trong một cục dưới quyền ông Alden. Tôi đã kiếm được nhiều hơn một chút; Tôi cũng ở lại muộn thêm chút. Ông Alden luôn giám sát tôi chặt chẽ. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "endannoyance": "gloverandglover_difficultbossa_gone_job",
                 "careeradvancement": "gloverandgloverseniorjob",
@@ -50,8 +50,8 @@
             "aspects": {
                 "job": 1
             },
-            "description": "Người đàn ông tên là Alden đã biến mất. Tôi có thể thấy vấn đề dễ dàng hơn khi tôi trở lại làm việc.",
-            "comments": "công việc tạm thời ngay lập tức thay đổi thành công việc tiêu chuẩn."
+            "description": "Người đàn ông tên Alden đã biến mất. Công việc sẽ dễ thở hơn khi tôi quay lại.",
+            "comments": "việc tạm thời lập tức chuyển thành công việc chính thức."
         },
         {
             "id": "gloverandgloverjob",
@@ -62,15 +62,15 @@
             "slots": [
                 {
                     "id": "Diligence",
-                    "label": "Siêng Năng",
+                    "label": "Cần Mẫn",
                     "actionid": "work",
                     "required": {
                         "reason": 1
                     },
-                    "description": "Nỗ lực nhiều hơn. Nó có thể hữu ích đấy, nếu tôi rất may mắn."
+                    "description": "Nỗ lực nhiều hơn. Nó có thể sẽ giúp ích, nếu tôi cực kì may mắn."
                 }
             ],
-            "description": "Tôi đã kiếm được nhiều hơn một chút; Tôi sẽ ở lại làm việc thêm một tí nữa. Ánh mắt ghen tị lóe lên trong mắt người nhân viên cấp dưới, người ngồi trên chiếc bàn cũ của tôi. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Tôi đã kiếm được nhiều hơn một chút; Tôi cũng ở lại muộn thêm chút. Ánh mắt ghen tị lóe lên trong mắt tên tập sự, kẻ ngồi ngay chiếc bàn cũ của tôi. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob",
                 "employment": "gloverandgloverjob"
@@ -87,15 +87,15 @@
             "slots": [
                 {
                     "id": "Diligence",
-                    "label": "Siêng Năng",
+                    "label": "Cần Mẫn",
                     "actionid": "work",
                     "required": {
                         "reason": 1
                     },
-                    "description": "Nỗ lực nhiều hơn. Nó có thể hữu ích đấy, nếu tôi rất may mắn."
+                    "description": "Nỗ lực nhiều hơn. Nó có thể sẽ giúp ích, nếu tôi cực kì may mắn."
                 }
             ],
-            "description": "Tôi đã kiếm được nhiều hơn một chút; Tôi sẽ ở lại làm việc thêm một tí nữa. Ánh mắt ghen tị lóe lên trong mắt người nhân viên cấp dưới, người ngồi trên chiếc bàn cũ của tôi. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Tôi đã kiếm được nhiều hơn một chút; Tôi cũng ở lại muộn thêm chút. Ánh mắt ghen tị lóe lên trong mắt tên tập sự, kẻ ngồi ngay chiếc bàn cũ của tôi. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverjob_youngerglovergone"
@@ -118,10 +118,10 @@
                         "reason": 1
                     },
                     "actionid": "work",
-                    "description": "Vị trí của tôi đang đòi hỏi điều này. Tôi cần phải tập trung tinh thần."
+                    "description": "Vị trí đòi hỏi rất khắt khe. Tôi phải tập trung cao độ tâm trí."
                 }
             ],
-            "description": "Tôi cho rằng, về mặt lý thuyết, tôi có thể vươn lên cao hơn, nếu ai đó rời đi.[Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Tôi cho rằng, theo lý thuyết, tôi có thể lên cao hơn nữa, nếu có ai đó chết. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "endannoyance": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverseniorjob"
@@ -143,10 +143,10 @@
                         "reason": 1
                     },
                     "actionid": "work",
-                    "description": "Vị trí của tôi đang đòi hỏi điều này. Tôi cần phải tập trung tinh thần."
+                    "description": "Vị trí đòi hỏi rất khắt khe. Tôi phải tập trung cao độ tâm trí."
                 }
             ],
-            "description": "Với việc Glover trẻ tuổi đi mất, tôi có thể còn vươn cao hơn nữa. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "description": "Với việc thiếu chủ Glover biến mất, tôi có thể còn vươn cao hơn nữa. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "xtriggers": {
                 "careeradvancement": "gloverandglovertopjob",
                 "employment": "gloverandgloverseniorjob_youngerglovergone"
@@ -159,8 +159,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Chức Vị Hội Đồng Tại Glover & Glover",
-            "description": "Sự biến mất của Glover trẻ tuổi để lại một vị trí hội đồng không người. Bây giờ tôi đang chiếm giữ nó.[Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "label": "Ghế Hội Đồng Tại Glover & Glover",
+            "description": "Sự biến mất của thiếu chủ Glover đã để lại một chiếc ghế trống trong ban hội đồng. tôi đã chiếm nó. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -172,8 +172,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Chức Vị Hội Đồng Tại Glover & Glover",
-            "description": "Tin đồn về sở thích bí truyền của tôi đã đến tai của Glover cao tuổi. Điều này đã khiến vị trí của tôi chẳng còn vững chắc. [Nếu bạn không tham gia công việc này thường xuyên, bạn có thể bị giáng chức.]",
+            "label": "Ghế Hội Đồng Tại Glover & Glover",
+            "description": "Tin đồn về sở thích huyền học của tôi đã đến tai của lão Glover. Nó đã làm lung lay vị trí của tôi. [Nếu không tham gia công việc thường xuyên, bạn có thể bị giáng chức.]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -186,7 +186,7 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "Khó Khăn Trong Công Việc: Giáng Chức Xuống Vị Trí Cấp Dưới",
+            "label": "Rắc Rối Công Việc: Giáng Chức Xuống Tập Sự",
             "slots": [
                 {
                     "id": "passion",
@@ -197,7 +197,7 @@
                     "actionid": "work"
                 }
             ],
-            "description": "Sự vắng mặt của tôi tại văn phòng đã được ghi nhận. Tôi đã bị giáng chức và tôi sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
+            "description": "Việc vắng mặt tại văn phòng đã bị để ý. Tôi đã bị giáng chức và sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob"
             }
@@ -208,7 +208,7 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "Khó Khăn Trong Công Việc: Giáng Chức Xuống Vị Trí Cấp Dưới",
+            "label": "Rắc Rối Công Việc: Giáng Chức Xuống Tập Sự",
             "slots": [
                 {
                     "id": "passion",
@@ -219,7 +219,7 @@
                     "actionid": "work"
                 }
             ],
-            "description": "Sự vắng mặt của tôi tại văn phòng đã được ghi nhận. Tôi đã bị giáng chức và tôi sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
+            "description": "Việc vắng mặt tại văn phòng đã bị để ý. Tôi đã bị giáng chức và sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob_nodifficultbossa"
             }
@@ -230,7 +230,7 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "Khó Khăn Trong Công Việc: Giáng Chức",
+            "label": "Rắc Rối Công Việc: Giáng Chức",
             "slots": [
                 {
                     "id": "passion",
@@ -241,7 +241,7 @@
                     "actionid": "work"
                 }
             ],
-            "description": "Sự vắng mặt của tôi tại văn phòng đã được ghi nhận. Tôi đã bị giáng chức và tôi sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
+            "description": "Việc vắng mặt tại văn phòng đã bị để ý. Tôi đã bị giáng chức và sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
             "xtriggers": {
                 "plead": "gloverandgloverjob"
             }
@@ -252,7 +252,7 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "Khó Khăn Trong Công Việc: Giáng Chức",
+            "label": "Rắc Rối Công Việc: Giáng Chức",
             "slots": [
                 {
                     "id": "passion",
@@ -263,7 +263,7 @@
                     "actionid": "work"
                 }
             ],
-            "description": "Sự vắng mặt của tôi tại văn phòng đã được ghi nhận. Tôi đã bị giáng chức và tôi sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
+            "description": "Việc vắng mặt tại văn phòng đã bị để ý. Tôi đã bị giáng chức và sẽ cần phải biện hộ thật thuyết phục để giữ được công việc của mình.",
             "xtriggers": {
                 "plead": "gloverandgloverjob_youngerglovergone"
             }
@@ -274,7 +274,7 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "Khó Khăn Trong Công Việc: Rủi Ro Bị Giáng Chức",
+            "label": "Rắc Rối Công Việc: Rủi Ro Bị Giáng Chức",
             "slots": [
                 {
                     "id": "passion",
@@ -285,7 +285,7 @@
                     "actionid": "work"
                 }
             ],
-            "description": "Quyền hành đáng kể dĩ nhiên là được cho phép với một kẻ đang ở vị trí của tôi, nhưng sự vắng mặt của tôi đã được ghi nhận. Tôi sẽ phải lấy lòng Glover cao tuổi.",
+            "description": "Một kẻ ở vị trí của tôi được phép có khá nhiều đặc quyền, nhưng sự vắng mặt của tôi đã bị để ý. Tôi sẽ phải dùng sức hút của mình để lấy lòng lão Glover.",
             "xtriggers": {
                 "plead": "gloverandglovertopjob_tainted"
             }
@@ -295,16 +295,16 @@
             "aspects": {
                 "job": 1
             },
-            "description": "Nhiều giờ; nhưng khá lương hậu hĩnh.",
-            "label": "Chức Vụ Tại Học Viện"
+            "description": "Nhiều giờ; nhưng lương cao.",
+            "label": "Vị Trí Tại Học Viện"
         },
         {
             "id": "investmentsjobc",
             "aspects": {
                 "benign": 1
             },
-            "label": "Thu Nhập Tư Nhân Hào Phóng",
-            "description": "Tôi đang được cung cấp rất tốt.",
+            "label": "Thu Nhập Tư Nhân Hậu Hĩnh",
+            "description": "Tôi được chu cấp rất đầy đủ.",
             "xtriggers": {
                 "decline": "investmentsjobb"
             },
@@ -313,7 +313,7 @@
         {
             "id": "investmentsjobb",
             "label": "Thu Nhập Tư Nhân Đáng Kể",
-            "description": "Lượng thu nhập đủ để sống trong an nhàn.",
+            "description": "Nguồn thu nhập đủ để sống trong an nhàn.",
             "aspects": {
                 "benign": 1
             },
@@ -328,7 +328,7 @@
                 "benign": 1
             },
             "label": "Thu Nhập Tư Nhân Khiêm Tốn",
-            "description": "Khoản đầu tư của tôi cũng đã cung cấp quá đủ để sống qua ngày.",
+            "description": "Khoản đầu tư của tôi mang lại nguồn thu nhập đủ dư để sống.",
             "xtriggers": {
                 "decline": "jumble"
             },
@@ -339,8 +339,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Nghề Tâm Linh Đáng Tin",
-            "description": "Đôi khi, khi tôi đặc biệt hiệu quả, hàng ghế khán giả đầu bị ngất xỉu.",
+            "label": "Màn Diễn Tâm Linh Đáng Tin",
+            "description": "Đôi khi, khi tôi đặc biệt hiệu quả, hàng ghế khán giả đều phải ngất xỉu.",
             "slots": [
                 {
                     "id": "memory",
@@ -360,8 +360,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Danh Tiếng Như Một Con Đồng",
-            "description": "Đôi lúc tôi nói lên những giọng nói mà ngay cả tôi cũng không ngờ tới.",
+            "label": "Danh Tiếng Thầy Đồng",
+            "description": "Đôi lúc tôi nói lên những giọng điệu ngay cả chính tôi cũng không ngờ tới.",
             "slots": [
                 {
                     "id": "memory",
@@ -378,7 +378,7 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Vị Trí Tại Nhà Đấu Giá Của Oriflamme",
+            "label": "Vị Trí Tại Nhà Đấu Giá Oriflamme",
             "description": "",
             "noartneeded": true
         },
@@ -408,15 +408,15 @@
                 },
                 {
                     "id": "fervour",
-                    "label": "Nhiệt Tình",
+                    "label": "Sùng Đạo",
                     "required": {
                         "fervour": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "label": "Bổ Nhiệm Đến Giáo Xứ Yên Tĩnh",
-            "description": "Miễn là tôi không thu hút sự chú ý của Giám Mục từ việc quên mất bổn phận hoặc tai tiếng, tôi có thể kiếm sống ở đây."
+            "label": "Bổ Nhiệm Về Giáo Khu Yên Tĩnh",
+            "description": "Miễn là tôi không thu hút sự chú ý của Giám Mục từ việc chểnh mảng hoặc tai tiếng, tôi có thể kiếm sống ở đây."
         }
     ]
 }
