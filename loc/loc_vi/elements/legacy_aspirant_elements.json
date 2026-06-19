@@ -6,11 +6,11 @@
             "aspects": {
                 "legacyplotitem": 1
             },
-            "description": "Một gói giấy tờ đặc biệt từ người lập di chúc của người đã viết thư cho tôi. Tôi phải HỌC TẬP nó, sử dụng Đam Mê hoặc Lý Trí.",
+            "description": "Một kiện giấy tờ kỳ dị từ người thi hành di chúc của người bạn thông tín. Tôi phải NGHIÊN CỨU nó, bằng Đam Mê hoặc Lý Trí.",
             "slots": [
                 {
                     "id": "Approach",
-                    "label": "Tiếp Cận",
+                    "label": "Cách Tiếp Cận",
                     "actionid": "study",
                     "required": {
                         "reason": 1,
@@ -23,7 +23,7 @@
         {
             "id": "introjob",
             "label": "Việc Lâu Dài",
-            "description": "Một vị trí bấp bênh khi làm khuân vác bệnh viện. Khốn khổ, nhưng đó là tất cả những gì bạn có thể tìm thấy lúc này.",
+            "description": "Một vị trí bấp bênh khi làm khuân vác bệnh viện. Khốn khổ, nhưng đó là tất cả những gì tôi tìm được lúc này.",
             "aspects": {
                 "job": 1
             }
@@ -33,8 +33,8 @@
             "aspects": {
                 "legacyplotitem": 1
             },
-            "label": "Ghi Chú Về Cộng Tác Viên Tiềm Năng",
-            "description": "Người viết thư đã ghi lại những quan sát của ông về tôi. Ông tin rằng tôi có 'tiềm năng'. ông cũng ghi lại những quan sát về một ai khác nữa. Với thời gian và nghiên cứu, có lẽ tôi có thể tìm được người đó."
+            "label": "Ghi Chú Về Cộng Tác Tiềm Năng",
+            "description": "Người viết thư đã ghi lại những quan sát của ông về tôi. Ông tin rằng tôi có 'tiềm năng'. Ông cũng ghi lại những quan sát về một kẻ khác. Với đủ thời gian và nghiên cứu, có lẽ tôi sẽ tìm được người đó."
         }
     ]
 }

@@ -1,4 +1,4 @@
-﻿next: legacy_apostle_elements.json
+﻿next: legacy_dancer_elements
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
