@@ -66,6 +66,11 @@ tông đồ -> giáo đồ -> môn đồ -> sứ đồ
   - Conclusion: Hồi Kết
   - Herald: Sứ Giả
 
+mentor:
+Shaper: Đấng Kiến Tạo
+Delight: Đấng Hân Hoan
+Illuminated One: Đấng Khai Sáng
+
 the Dead : Tử Giả
 the Know : Tri Giả
 the Long : Trường Giả
@@ -147,6 +152,8 @@ voiceless dead: Vong Hồn Câm Lặng
 Maid-in-the-Mirror: Thiếu Nữ Trong Gương
 
 // một số danh từ (XEM Abilities.json và aspect.json ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
+The Alure: Mị Hoặc
+Key of Days: Chìa Khóa Thời Đại
 Health : Sức Khỏe
 Reason : Lý Trí
 fascination : mê hoặc

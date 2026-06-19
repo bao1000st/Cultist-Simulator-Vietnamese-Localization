@@ -2,17 +2,17 @@
     "elements": [
         {
             "id": "apostleforge.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Shaper",
-            "description": "The one who raised us; the one who made us what we are; the one who waits in exile, and will rise when we bring the Dawn.",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
+            "label": "#PREVIOUSCHARACTERNAME#, Đấng Kiến Tạo của ta",
+            "description": " người đã nuôi dưỡng ta; đã tạo nên ta hôm nay; Người đang chờ đợi nơi lưu đày, và sẽ trỗi dậy khi ta mang Bình Minh đến.",
+            "comments": "Đây là người quen, để chúng ta có thể cướp lấy công thức nền tảng của giáo phái.",
             "aspects": {
                 "mentor": 1
             }
         },
         {
             "id": "legacyapostleforgejob",
-            "label": "A Favoured Place",
-            "description": "For so long I waited at the left hand of our Shaper. Now the time has come for me to lead the Great Work.",
+            "label": "Chốn Ưu Ái",
+            "description": "Ta đã chờ đợi bên cánh tay trái của Đấng Kiến Tạo suốt bấy lâu. Giờ là lúc để ta dẫn dắt Đại Công Trình.",
             "aspects": {
                 "job": 1
             },
@@ -20,8 +20,8 @@
         },
         {
             "id": "apostleforge.pillarfuel",
-            "label": "Shaper's Guidance",
-            "description": "We will need our Shaper's guidance to forge the Dawnbreaker Core from a Carcass Spark; to refine Forge ingredients to their final form; to make of a follower the Shaper's Compass; to learn of the Key from the Ligeian, Sulochana; and to complete the Work. But if we do not do their bidding swiftly, Dread will follow.",
+            "label": "Lời Chỉ Lối Của Đấng Kiến Tạo",
+            "description": "ta sẽ cần đến sự chỉ dẫn của Đấng Kiến Tạo để rèn ra Lõi Dawnbreaker từ một Tàn Lửa Xác Thối; để luyện các nguyên liệu Lò Rèn về dạng tối thượng; để biến môn đồ thành La Bàn của Đấng Kiến Tạo; để biết về Khải Đồ của Sulochana, tộc Ligeia; và để hoàn thành Công Trình. Nếu ta không mau chóng thi hành mệnh lệnh đó, Kinh Sợ sẽ ập đến.",
             "aspects": {
                 "influence": 1
             },
@@ -31,13 +31,13 @@
         },
         {
             "id": "apostleforge.pillar1",
-            "label": "Dawnbreaker Technique",
-            "description": "THE SHAPER SPEAKS: 'I must enact the Forge. Set a Carcass Spark at the engine's heart. Awaken it with the highest mysteries. Prepare the fiercest alchemy to fuel it. Find the flaw in the place at the land's edge that has the same name in every History. Bring the device there, with the Biting Key that Sulochana the Ligeian knows. Evoke the Forge's greatest heat; employ the most potent Mysteries of Opening; and I will attend your dissolution.'"
+            "label": "Phương pháp Dawnbreaker",
+            "description": "Đấng Kiến Tạo NÓI: 'Ta phải vận hành Lò Rèn. Đặt một Tia Lửa Xác Thối vào tâm của động cơ. Thức tỉnh nó bằng những mật pháp cao thâm nhất. Chuẩn bị thuật luyện kim mãnh liệt nhất để tiếp nhiên liệu cho nó. Tìm ra khe hở tại nơi rìa vùng đất — nơi đều cùng một cái tết trong mọi dòng Lịch Sử. Rồi mang thiết bị đến, cùng với Chìa Khóa Răng mà Sulochana tộc Ligeia biết. Khơi lên nhiệt lượng lớn nhất của Lò Rèn; sử dụng Mật Pháp Khai Mở quyền năng nhất; và ta sẽ chứng kiến sự tan rã của ngươi.'"
         },
         {
             "id": "apostleforge.pillar2.dormant",
-            "label": "Dormant Dawnbreaker Core",
-            "description": "A shining cage of curved metal, enclosing a softly glowing fragment of ancient light. It might begin our Dawn, if we can rekindle it and purify it with the fiercest alchemy.",
+            "label": "Lõi Dawnbreaker Ngủ Yên",
+            "description": "Một chiếc lồng kim loại uốn cong sáng bóng, bao bọc bên trong một mảnh sáng cổ xưa tỏa ra những tia sáng dịu nhẹ. Nó có thể khơi dậy Bình Minh, nếu ta nhen nhóm lại và tinh luyện nó bằng thuật luyện kim mãnh liệt nhất.",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -45,8 +45,8 @@
         },
         {
             "id": "apostleforge.pillar2",
-            "label": "Dawnbreaker Core",
-            "description": "A radiant cage of curved metal, imprisoning a blazing mote of solar fire. If we can carry it to the place where the world's flaw colours the air, we can bring the Dawn.",
+            "label": "Lõi Dawnbreaker",
+            "description": "Một chiếc lồng kim loại uốn cong rực rỡ, giam giữ một hạt lửa mặt trời sáng chói. Nếu mang nó đến nơi mà khe hở của thế giới nhuốm màu lên bầu không khí, ta sẽ mang được Bình Minh đến.",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -57,8 +57,8 @@
         },
         {
             "id": "apostleforge.pillar3",
-            "label": "Blue Gold",
-            "description": "This is alchemy's savage summit: the deadly blue of fire outpacing light. Touch it and die.",
+            "label": "Vàng Lam",
+            "description": "Đây là đỉnh cao tàn bạo của thuật luyện kim: sắc xanh chết chóc của ngọn lửa vượt qua cả ánh sáng. Chạm vào là chết.",
             "aspects": {
                 "ingredient": 1,
                 "greatwork": 1
@@ -69,8 +69,8 @@
         },
         {
             "id": "apostleforge.pillar5",
-            "label": "Mrs E.'s Assistance",
-            "description": "A little brass chimaera-head given by Mrs E. as a token. When we have prepared the proper rite, she'll bear her Key to the flaw in the world, so that when I bring the Dawn, the Mansus will open for our Shaper. But she won't wait forever.",
+            "label": "Trợ Lí của Bà E",
+            "description": "Một cái đầu thú chimaera đồng nhỏ được Bà E. ban cho làm tín vật. Khi ta chuẩn bị xong nghi lễ phù hợp, bà ấy sẽ mang Chìa Khóa đến khe hở của thế giới, để khi Bình Minh được mang đến, Mansus sẽ mở ra cho Đấng Kiến Tạo của chúng ta. Nhưng bà sẽ không đợi hoài mãi.",
             "aspects": {
                 "promise": 1
             },
@@ -79,8 +79,8 @@
         },
         {
             "id": "apostleforge.pillar2.dormant.sabotaged",
-            "label": "Sabotaged Dormant Dawnbreaker Core",
-            "description": "A battered tangle of bent metal, enclosing a mote of drunkenly bobbing light. We must repair it before it collapses altogether!",
+            "label": "Lõi Dawnbreaker Ngủ Yên Bị Hủy Hoại",
+            "description": "Một mớ kim loại uốn cong méo mó tơi tả, bao bọc bên trong một đốm sáng dập dềnh như một tên say rượu. Ta phải sửa nó trước khi nó hoàn toàn tan vỡ!",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -91,8 +91,8 @@
         },
         {
             "id": "apostleforge.pillar2.sabotaged",
-            "label": "Sabotaged Dawnbreaker Core",
-            "description": "A flaring tangle of bent metal. A blazing mote of solar fire quivers fitfully within. We must repair it before it collapses altogether!",
+            "label": "Lõi Dawnbreaker Bị Hủy Hoại",
+            "description": "Một mớ kim loại uốn cong bùng cháy. Một đốm lửa mặt trời rực lửa đang run rẩy từng hồi bên trong. Ta phải sửa nó trước khi nó hoàn toàn tan vỡ!",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -103,8 +103,8 @@
         },
         {
             "id": "apostleforge.pillar3.sabotaged",
-            "label": "Unstable Blue Gold",
-            "description": "A poisoned, stuttering ingot of energetic alchemy. We must soothe its rage, and quickly!",
+            "label": "Vàng Lam Bất Ổn",
+            "description": "Một thỏi kim thuật tràn đầy năng lượng, đang nghẹn ứ và nhiễm độc. Ta phải nhanh xoa dịu cơn thịnh nộ của nó!",
             "aspects": {
                 "ingredient": 1,
                 "greatwork.sabotaged": 1
@@ -115,17 +115,17 @@
         },
         {
             "id": "apostlegrail.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Delight",
-            "description": "Our fountain, our joy, who rests in exile until the greatest of Feasts, the Vitulation.",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
+            "label": "#PREVIOUSCHARACTERNAME#, Đấng Hân Hoan của ta",
+            "description": "Suối nguồn của ta, niềm hân hoan của ta, người đang an nghỉ nơi lưu đày cho đến ngày Đại Tiệc tối cao, ngày Tế Lễ.",
+            "comments": "Đây là người quen, để chúng ta có thể cướp lấy công thức nền tảng của giáo phái.",
             "aspects": {
                 "mentor": 1
             }
         },
         {
             "id": "legacyapostlegrailjob",
-            "label": "Duty and Delight",
-            "description": "Our Delight saved me from death, and also from boredom. We shall give them everything.",
+            "label": "Bổn Phận Và Hân Hoan",
+            "description": "Đấng Hân Hoan đã cứu ta khỏi cái chết, và cả sự chán chường. Ta sẽ dâng hiến cho người mọi thứ.",
             "aspects": {
                 "job": 1
             },
@@ -133,8 +133,8 @@
         },
         {
             "id": "apostlegrail.pillarfuel",
-            "label": "Delightful Blood",
-            "description": "I have received a little vial of our Delight's blood, via courier. Our Delight's instructions are written herein, in the tiny tangles of cellular script. We can taste them, as they will taste us. If we waste it, our Delight will wax wroth.",
+            "label": "Máu Hân Hoan",
+            "description": "Ta đã nhận được chiếc lọ chứa máu của Đấng Hân Hoan qua người đưa thư. Mật lệnh của Đấng Hân Hoan được viết ngay trong này, bằng những nét chữ rối rắm tí hon. Ta có thể nếm vị chúng, như thể chúng sẽ nếm trải được ta. Nếu chúng ta lãng phí nó, Đấng Han Hoan sẽ phẫn nộ.",
             "aspects": {
                 "ingredient": 1,
                 "grail": 3,
@@ -146,16 +146,16 @@
         },
         {
             "id": "apostlegrail.pillar1",
-            "label": "Vitulation Recipe",
-            "description": "'The Delight shall give life; the Delight shall take life; the Delight shall not be sated. We must purchase the secret savours and infuse them with the Hours' gifts; assemble the Host; at the most auspicious time, raise the resistless cry of the Unceasing Mysteries and share from the Chalice Murmurous.'",
+            "label": "Phương Pháp Tế Lễ",
+            "description": "'Đấng Hân Hoan ban phát sinh mệnh; thì cũng sẽ tước đoạt sinh mệnh; và người không bao giờ thỏa mãn. Ta phải thu mua những hương vị bí truyền và truyền vào đó những tặng phẩm của các Thời Thần; tập hợp Chúng Hội; vào thời khắc đại cát nhất, cất lên tiếng hét hút hồn từ Mật Pháp Bất Diệt và cùng sẻ chia từ chiếc Cốc Thánh Thì Thầm.'",
             "aspects": {
                 "lore": 1
             }
         },
         {
             "id": "apostlegrail.pillar2.dormant",
-            "label": "Forlorn Blood",
-            "description": "I have a disease. My blood is wrong. My bones are sick. I'll die. But perhaps I can preserve myself, long enough, with the holy blood of our Delight.",
+            "label": "Máu Tuyệt Vọng",
+            "description": "Ta mắc bệnh rồi. Máu của ta đã hỏng. Xương tủy của ta đầy bệnh tật. Ta sẽ chết. Nhưng có lẽ ta có thể bảo toàn mạng sống này, đủ lâu, nhờ vào dòng máu thánh của Đấng Hân Hoan.",
             "aspects": {
                 "illhealth": 1
             },
@@ -163,7 +163,7 @@
                 {
                     "id": "blood",
                     "actionid": "dream",
-                    "label": "Blood",
+                    "label": "Máu",
                     "required": {
                         "apostlegrail.pillarfuel": 1
                     }
@@ -172,8 +172,8 @@
         },
         {
             "id": "apostlegrail.pillar2",
-            "label": "Savorous Blood",
-            "description": "I am of the same blood as the Delightful, now. As long as their savour graces my veins, my disease cannot touch me. Without their blessing, I'll die.",
+            "label": "Máu Mỹ Vị",
+            "description": "Giờ đây ta đã mang cùng dòng máu với Đấng Hân Hoan. Chỉ cần hương vị của người còn chảy trong huyết quản, bệnh tật sẽ chẳng thể chạm tới ta. Nếu không còn ân phước đó, ta sẽ chết.",
             "aspects": {
                 "promise": 1
             },
@@ -182,8 +182,8 @@
         },
         {
             "id": "apostlegrail.pillar3",
-            "label": "The Seven Graces",
-            "description": "The Spices and Savouries department of the eccentric firm of T.R.N. Ltd caters to endeavours such as ours. They have supplied these tempting adornments, with which we shall bedizen and prepare ourselves... once they have been correctly prepared in a sealed and darkened kitchen.",
+            "label": "Bảy Đặc Ân",
+            "description": "Bộ phận Hương Liệu và Gia Vị của công ty kỳ dị T.R.N. Ltd chuyên cung ứng cho những công việc của ta. Họ đã cung cấp những món trang hoàng đầy cám dỗ này, thứ mà ta sẽ dùng để điểm tô và chuẩn bị cho bản thân... một khi chúng được chuẩn bị đúng cách trong phòng bếp đóng kín và tối tăm.",
             "aspects": {
                 "ingredient": 1,
                 "job": 1,
@@ -192,8 +192,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress1",
-            "label": "The First Fragments of the Host",
-            "description": "We have attracted a few gourmands and perverts. They will expect a feast of the senses.",
+            "label": "Mảnh Đầu Tiên Của Chúng Hội",
+            "description": "ta đã thu hút được vài kẻ sành ăn và lũ biến thái. Chúng mong chờ một bữa tiệc của mọi giác quan.",
             "aspects": {
                 "summoned": 1
             },
@@ -206,8 +206,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress2",
-            "label": "The Second Fragments of the Host",
-            "description": "Word spreads. Curiosity and appetite will drive strangers to attend our Vitulation.",
+            "label": "Mảnh Thứ Hai Của Chúng Hội",
+            "description": "Tiếng lành đồn xa. Sự tò mò và thèm khát sẽ thúc đẩy những kẻ xa lạ tìm đến tham dự Tế Lễ của ta.",
             "aspects": {
                 "summoned": 1
             },
@@ -221,8 +221,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress3",
-            "label": "The Third Fragments of the Host",
-            "description": "Filthy draggles of the morbid and the inquisitive.",
+            "label": "Mảnh Thứ Ba Của Chúng Hội",
+            "description": "Lũ nhem nhuốc bẩn thỉu của những kẻ bệnh hoạn tò mò.",
             "aspects": {
                 "summoned": 1
             },
@@ -236,8 +236,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress4",
-            "label": "The Fourth Fragments of the Host",
-            "description": "The hungry, the greedy, the curious: all these have received our invitation.",
+            "label": "Mảnh Thứ Tư Của Chúng Hội",
+            "description": "Kẻ đói khát, kẻ tham lam, kẻ tò mò: tất thảy bọn chúng đều đã nhận được lời mời của ta.",
             "aspects": {
                 "summoned": 1
             },
@@ -251,8 +251,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress5",
-            "label": "The Fifth Fragments of the Host",
-            "description": "Now the name of the Vitulation is whispered wherever mouths embrace meat.",
+            "label": "Mảnh Thứ Năm Của Chúng Hội",
+            "description": "Cái tên của Tế Lễ giờ đang được thì thầm ở bất cứ nơi nào có những cái miệng ngấu nghiến thịt da.",
             "aspects": {
                 "summoned": 1
             },
@@ -266,8 +266,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress6",
-            "label": "The Sixth Fragments of the Host",
-            "description": "When the time comes, our guests will throng like rats.",
+            "label": "Mảnh Thứ Sáu Của Chúng Hội",
+            "description": "Khi thời cơ đến, lũ khách mời sẽ lũ lượt kéo đến như đàn chuột.",
             "aspects": {
                 "summoned": 1
             },
@@ -281,8 +281,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress7",
-            "label": "The Host, Assembled",
-            "description": "We await only the Key-holder, who must open the Kingskin Gate when our Delight enacts the Grail.",
+            "label": "Chúng Hội, Đã Tập Hợp",
+            "description": "Ta chỉ còn đợi Kẻ Giữ Chìa Khóa, người phải khai mở Cổng Da Vua khi Đấng Hân Hoan của ta thi hành nghi thức Chén Thánh.",
             "aspects": {
                 "summoned": 1
             },
@@ -295,25 +295,25 @@
         },
         {
             "id": "apostlegrail.pillar4",
-            "label": "The Host and the Guests",
-            "description": "When the signal is given, a great Host will assemble, their eyes so wide - their mouths so wide - to feast and be feasted upon - to draw from me the blood of our Delight. Our very Delight shall lead them in their feasting, and the Lady of Wires shall turn her Key.",
+            "label": "Chúng Hội Và Thực Khách",
+            "description": "Khi tín hiệu được phát ra, Chúng Hội vĩ đại sẽ tập hợp, mắt chúng mở trừng — miệng chúng há hốc — để cho ăn và để được ăn — để rút cạn dòng máu của Đắng Hân Hoan từ cơ thể ta. Đấng Hân Hoan sẽ dẫn dắt chúng trong bữa tiệc này, và Quý Bà Dây Kẽm sẽ vặn chiếc Chìa Khóa của mình.",
             "aspects": {
                 "summoned": 1
             }
         },
         {
             "id": "apostlelantern.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Illuminated One",
-            "description": "Our source, our inspiration, who dwells now in the Mansus.",
-            "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
+            "label": "#PREVIOUSCHARACTERNAME#, Đấng Khai Sáng của ta",
+            "description": "Nguồn cội của ta, cảm hứng của ta, người giờ đây đang ngụ trong cõi Mansus.",
+            "comments": "Đây là người quen, để chúng ta có thể cướp lấy công thức nền tảng của giáo phái.",
             "aspects": {
                 "mentor": 1
             }
         },
         {
             "id": "legacyapostlelanternjob",
-            "label": "The First Dream",
-            "description": "The dreams have hollowed me out like a withered oak, and now I am almost ready.",
+            "label": "Giấc Mơ Đầu Tiên",
+            "description": "Những giấc mơ đã đục khoét ta rỗng tuếch như một thân sồi héo úa, và giờ ta đã gần như sẵn sàng.",
             "aspects": {
                 "job": 1
             },
@@ -321,8 +321,8 @@
         },
         {
             "id": "apostlelantern.pillarfuel",
-            "label": "A Dream of a Key",
-            "description": "The dream, again. Instructions for me, and for someone else, if I can find them. It will guide me into the Mansus. It will show me what I need to do. It is a presentiment of the true Key, for those who know something of the Glory.",
+            "label": "Giấc Mơ Về Chìa Khóa",
+            "description": "Lại giấc mơ đó. Là chỉ dẫn dành cho tôi, và cho một kẻ khác, nếu tôi tìm được hắn. Nó sẽ dẫn lối tôi đến Mansus. nó sẽ cho tôi biết cần phải làm gì. Một điềm báo về một Chìa Khóa thực thụ, dành cho những kẻ đã biết đôi điều về Vinh Quang.",
             "lifetime": 60,
             "aspects": {
                 "tool": 1
@@ -332,19 +332,19 @@
         },
         {
             "id": "apostlelantern.pillar1",
-            "label": "The Third Mode",
-            "description": "'We shall navigate; we shall illuminate; we shall not be compassionate. Seek the Crossroads behind the Door of Eyes. Raise there the Allure. Send the silvered dead to bring the sleeping souls of mortals. When there are sufficient Witnesses, send for the Key of Days, to open the three-lobed gate Outwards, in its third mode.'",
+            "label": "Thể Thức Thứ Ba",
+            "description": "'ta sẽ định hướng; ta sẽ khai sáng; ta cũng không cần trắc ẩn. Hãy tìm kiếm Giao Lộ phía sau Cổng Mắt. Hãy dựng lên Mị Hoặc tại nơi đó. phái những kẻ chết bạc màu đi bắt lấy linh hồn đang say ngủ của kẻ phàm. Khi đã có đủ Nhân Chứng, hãy sai người đi lấy Chìa Khóa Thời Đại, để mở cánh cổng ba lá ra Phía Bên Kia, ở thể thức thứ ba của nó.'",
             "aspects": {
                 "tool": 1
             }
         },
         {
             "id": "apostlelantern.pillar2",
-            "label": "The Lesser Crossroads",
+            "label": "Giao Lộ Thứ Yếu",
             "slots": [
                 {
                     "id": "keydream",
-                    "label": "A Dream of a Key",
+                    "label": "Giấc Mơ Về Chìa Khóa",
                     "required": {
                         "apostlelantern.pillarfuel": 1
                     },
@@ -352,14 +352,14 @@
                 },
                 {
                     "id": "lanterninfluence",
-                    "label": "A Dream of Light",
+                    "label": "Giấc Mơ Về Ánh Sáng",
                     "required": {
                         "influencelanterng": 1
                     },
                     "actionid": "dream"
                 }
             ],
-            "description": "A pair of knotted roads beneath the shadow of a tree, and the eye of the Tricuspid Gate, close to the head of the Ascent of Knives. The Concursum's shadow? Its reflection? Its sister?",
+            "description": "Cặp đường đan vào nhau dưới bóng râm của cây cổ thụ, và con mắt của Cổng Ba Lá kề cận điểm đầu Con Đường Dao Lưỡi. Đây cái bóng của Điểm Đồng Quy? Ảnh phản chiếu của nó? Hay là một người chị em?",
             "aspects": {
                 "way": 1
             },
@@ -367,18 +367,18 @@
         },
         {
             "id": "apostlelantern.pillar3",
-            "label": "The Allure",
+            "label": "Mị Hoặc",
             "slots": [
                 {
                     "id": "fascination",
-                    "label": "The Bait",
+                    "label": "Vật Mồi",
                     "required": {
                         "fascination": 1
                     },
                     "actionid": "study"
                 }
             ],
-            "description": "Once seen, the Allure clings. Few living souls will ever venture this far into the Mansus. I must employ a Maid-in-the-Mirror and show her the Allure, so that she will know to bring them here.",
+            "description": "Một khi đã thấy, Mị Hoặc sẽ bám lấy không buông. Hiếm có linh hồn sống nào dám dấn thân sâu đến mức này vào trong Mansus. Ta phải dùng Thiếu Nữ Trong Gương và cho ả thấy Mị Hoặc, để ả biết đường mà dẫn chúng tới đây.",
             "aspects": {
                 "influence": 1
             },
@@ -389,8 +389,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress1",
-            "label": "The Witnesses: One of Seven",
-            "description": "A solitary figure, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.",
+            "label": "Nhân Chứng: Một Trong Bảy",
+            "description": "Bóng hình đơn độc, đu đưa nơi Giao Lộ giữa ánh kim của Mị Hoặc và sắc xanh thẳm của Mansus.",
             "aspects": {
                 "summoned": 1
             },
@@ -404,8 +404,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress2",
-            "label": "The Witnesses: Two of Seven",
-            "description": "A Witness-pair, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.",
+            "label": "Nhân Chứng: Hai Trên Bảy",
+            "description": "Cặp nhân chứng, đu đưa nơi Giao Lộ giữa ánh kim của Mị Hoặc và sắc xanh thẳm của Mansus.",
             "aspects": {
                 "summoned": 1
             },
@@ -420,8 +420,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress3",
-            "label": "The Witnesses: Three of Seven",
-            "description": "Their faces are blanker than ever, but they have taken each others' hands.",
+            "label": "Nhân Chứng: Ba Trên Bảy",
+            "description": "Khuôn mặt của chúng trống rỗng hơn bao giờ hết, nhưng chúng đã nắm chặt tay nhau.",
             "aspects": {
                 "summoned": 1
             },
@@ -436,8 +436,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress4",
-            "label": "The Witnesses: Four of Seven",
-            "description": "The light bleaches them, but by their nature they will dapple as the moment draws near.",
+            "label": "Nhân Chứng: Bốn Trên Bảy",
+            "description": "Ánh sáng tẩy trắng chúng, nhưng trong bản chất, chúng sẽ loang lổ vết đốm khi thời khắc ấy cận kề.",
             "aspects": {
                 "summoned": 1
             },
@@ -452,8 +452,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress5",
-            "label": "The Witnesses: Five of Seven",
-            "description": "Five witnesses wait for the fruit that will swell, but never ripen.",
+            "label": "Nhân Chứng: Năm Trên Bảy",
+            "description": "Năm nhân chứng chờ đợi thứ trái cây sẽ căng tràn, nhưng chẳng bao giờ chín.",
             "aspects": {
                 "summoned": 1
             },
@@ -468,8 +468,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress6",
-            "label": "The Witnesses: Six of Seven",
-            "description": "The air is agony. They cannot look away.",
+            "label": "Nhân Chứng: Sáu Trên Bảy",
+            "description": "Bầu khí là sự đọa đày. Chúng không thể ngoảnh mặt đi.",
             "aspects": {
                 "summoned": 1
             },
@@ -484,8 +484,8 @@
         },
         {
             "id": "apostlelantern.pillar4",
-            "label": "The Cloud of Witnesses",
-            "description": "Seven silent souls softly supplicate shining source.",
+            "label": "Đám Nhân Chứng",
+            "description": "Bảy linh hồn lặng câm khúm núm cầu xin nguồn sáng.",
             "aspects": {
                 "summoned": 1
             }
