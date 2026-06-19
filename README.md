@@ -21,7 +21,7 @@ Rendering Moutains: Dãy Núi Cheo Leo
 Lone and Level Sands: Bãi Cát Đơn Độc
 Evening Isles: Quần Đảo Đêm
 Noon Port: Cảng Trưa
-
+Ecdysis Club: Hộp Đêm Lột Xác
 
 // Các địa điểm trong mansus (thế giới mơ)
 Lower skies: Hạ Thiên

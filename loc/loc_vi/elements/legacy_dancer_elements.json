@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "legacydancerjob",
-            "label": "A Contract at the Gaiety",
-            "description": "I have a position in the chorus at the Gaiety. It's mine until my luck or my looks run out... or until I find something better.",
+            "label": "Hợp Đồng Tại Nhà Hát Gaiety",
+            "description": "Tôi có một vị trí trong đội đồng diễn tại Gaiety. Nó vẫn là của tôi cho đến khi vận may hay nhan sắc bị tàn phai... hoặc cho đến khi tôi tìm được một nơi tốt hơn.",
             "aspects": {
                 "job": 1,
                 "dance": 1,
@@ -29,8 +29,8 @@
         },
         {
             "id": "legacydancerjob_suspended",
-            "label": "A Contract at the Gaiety: Suspended",
-            "description": "I've missed too many performances. If I plead convincingly enough, I might get my job back.",
+            "label": "Hợp Đồng Tại Nhà Hát Gaiety: Đình Chỉ",
+            "description": "Tôi đã bỏ lỡ quá nhiều buổi biểu diễn. Nếu tôi nài nỉ, có lẽ tôi sẽ lấy lại được công việc của mình.",
             "aspects": {
                 "job": 1
             },
@@ -51,14 +51,14 @@
         },
         {
             "id": "dancerlegacy_plotitem_a",
-            "label": "A Crumpled Poem",
-            "description": "It's addressed to another dancer and signed by someone named #LAST_FOLLOWER#. The writer describes how they met the dancer in a dream, in a dark wood. Their dream featured drum-beats, wing-beats, the skin of shadows, the blood of the moon. No wonder the poem was discarded. But already I can see that there are layers of meaning to unpeel.",
+            "label": "Bài Thơ Nhàu Nát",
+            "description": "Được gửi cho một vũ công khác và ký tên bởi kẻ tên là #LAST_FOLLOWER#. Người viết mô tả cách y gặp vũ công kia trong giấc mơ, giữa một khu rừng tối. Giấc mơ đó có tiếng trống dồn, tiếng vỗ cánh, làn da của bóng tối, và dòng máu của mặt trăng. Chẳng trách sao bài thơ lại bị vứt bỏ. Nhưng tôi thấy được những tầng nghĩa đáng để bóc tách.",
             "slots": [
                 {
                     "id": "Approach",
-                    "label": "Approach",
+                    "label": "Cách Tiếp Cận",
                     "actionid": "study",
-                    "description": "The heart's throb, or the violin's cry?",
+                    "description": "Nhịp đập của con tim, hay tiếng khóc của vĩ cầm?",
                     "required": {
                         "heart": 1,
                         "moth": 1
@@ -71,13 +71,13 @@
         },
         {
             "id": "dancerjobecdysisa",
-            "label": "A Contract at the Ecdysis Club",
-            "description": "I perform at the Ecdysis Club, on the nights when it's open.",
+            "label": "Hợp Đồng Tại Hộp Đêm Lột Xác",
+            "description": "Tôi biểu diễn tại Hộp Đêm Lột Xác, vào những đêm nơi đó mở cửa.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "Hộp Đêm Lột Xác",
+                    "description": "Hộp đêm Lột Xác, nơi tôi tái hiện những khải huyền trước các người xem.",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -85,18 +85,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Mục Đích",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Trình diễn Kỹ Năng của tôi để tiếp cận các vũ điệu phức tạp hơn; hoặc dùng Khao Khát để theo đuổi Thay Đổi; hoặc không gì cả nếu tôi chỉ đơn thuần muốn kiếm tiền."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -106,8 +106,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Ảnh Hưởng",
+                    "description": "Điều gì khuấy động tôi hôm nay?",
                     "actionid": "work",
                     "required": {
                         "influence": 1
@@ -123,13 +123,13 @@
         },
         {
             "id": "dancerjobecdysisb",
-            "label": "A Superior Contract at the Ecdysis Club",
-            "description": "I perform the more exacting dances at the Ecdysis Club.",
+            "label": "Hợp Đồng Cao Cấp Tại Hộp Đêm Lột Xác",
+            "description": "Tôi biểu diễn nhưng vũ điệu tỉ mỉ hơn tại Hộp Đêm Lột Xác.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "Hộp Đêm Lột Xác",
+                    "description": "Hộp Đêm Lột Xác, nơi tôi tái hiện những khải huyền trước các người xem.",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -137,18 +137,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Mục Đích",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Trình diễn Kỹ Năng của tôi để tiếp cận các vũ điệu phức tạp hơn; hoặc dùng Khao Khát để theo đuổi Thay Đổi; hoặc không gì cả nếu tôi chỉ đơn thuần muốn kiếm tiền."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -158,8 +158,8 @@
                 },
                 {
                     "id": "abilitysecond",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -169,8 +169,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Ảnh Hưởng",
+                    "description": "Điều gì khuấy động tôi hôm nay?",
                     "actionid": "work",
                     "required": {
                         "influence": 1
@@ -186,13 +186,13 @@
         },
         {
             "id": "dancerjobecdysisc",
-            "label": "A Particular Arrangement with the Ecdysis Club",
-            "description": "I am occasionally paid a generous consideration to perform very specific dances for very particular connoisseurs.",
+            "label": "Thỏa Thuận Đặc Biệt Với Hộp Đêm Lột Xác",
+            "description": "Đôi khi tôi được trả một khoản thù lao hậu hĩnh để biểu diễn những vũ điệu cực đặc thù cho những tay sành sỏi kén chọn.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "Hộp Đêm Lột Xác",
+                    "description": "Hộp Đêm Lột Xác, nơi tôi tái hiện những khải huyền trước các người xem.",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -200,18 +200,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Mục Đích",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Dùng Khao Khát để theo đuổi Thay Đổi; hoặc không gì cả nếu chỉ muốn kiếm tiền."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -221,8 +221,8 @@
                 },
                 {
                     "id": "abilitysecond",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -232,8 +232,8 @@
                 },
                 {
                     "id": "abilitythird",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Khả Năng, hay Vết Sẹo",
+                    "description": "Phần nào của bản thân tôi nên đánh đổi đây?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -243,8 +243,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Ảnh Hưởng",
+                    "description": "Điều gì khuấy động tôi hôm nay?",
                     "actionid": "work",
                     "required": {
                         "influence": 1

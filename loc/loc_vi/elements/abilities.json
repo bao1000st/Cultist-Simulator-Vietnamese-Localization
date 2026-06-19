@@ -75,21 +75,21 @@
 						},
 						"lifetime": 180
 				},
-				{
-						"id": "vitalityplus",
-						"label": "Sinh Lực: Bài Học Kinh Nghiệm ",
-						"aspects": {
-								"advancement": 1,
-								"heart": 2,
-								"influence": 1
-						},
-						"description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Sức Mạnh để cải thiện kỹ năng và tăng Sức Khỏe. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Sinh Lực.]",
-						"xtriggers": {
-								"upgradeinfluence": "influenceheartc"
-						},
-						"lifetime": 300,
-						"decayTo": "vitality"
-				},
+        {
+            "id": "vitalityplus",
+            "label": "Sinh Lực: Bài Học Kinh Nghiệm ",
+            "aspects": {
+                "advancement": 1,
+                "heart": 2,
+                "influence": 1
+            },
+            "description": "Tôi đã sẵn sàng để cải thiện. [Dùng thẻ với kỹ năng Sức Mạnh để cải thiện nó và tăng Sức Khỏe. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Sinh Lực.]",
+            "xtriggers": {
+                "upgradeinfluence": "influenceheartc"
+            },
+            "lifetime": 300,
+            "decayTo": "vitality"
+        },
 				{
 						"id": "restlessness",
 						"label": "Bồn Chồn",
@@ -296,21 +296,21 @@
 								"upgradeinfluence": "influencelanternc"
 						}
 				},
-				{
-						"id": "eruditionplus",
-						"label": "Uyên Bác: Bài Học Kinh Nghiệm",
-						"aspects": {
-								"advancement": 1,
-								"lantern": 2,
-								"influence": 1
-						},
-						"description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Thông Thái để cải thiện kỹ năng và tăng Lý Trí. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Uyên Bác.]",
-						"lifetime": 300,
-						"xtriggers": {
-								"upgradeinfluence": "influencelanternc"
-						},
-						"decayTo": "erudition"
-				},
+        {
+            "id": "eruditionplus",
+            "label": "Uyên Bác: Bài Học Kinh Nghiệm",
+            "aspects": {
+                "advancement": 1,
+                "lantern": 2,
+                "influence": 1
+            },
+            "description": "Tôi đã sẵn sàng để cải thiện. [Dùng thẻ với kỹ năng Thông Thái để cải thiện nó và tăng Lý Trí. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Uyên Bác.]",
+            "lifetime": 300,
+            "xtriggers": {
+                "upgradeinfluence": "influencelanternc"
+            },
+            "decayTo": "erudition"
+        },
 				{
 						"id": "dread",
 						"label": "Kinh Sợ",
@@ -444,7 +444,7 @@
                 "moth": 2,
                 "influence": 1
             },
-            "description": "Tôi đã sẵn sàng để cải thiện. [Sử dụng thẻ bài này với Tưởng Tượng để cải thiện kỹ năng và tăng Đam Mê. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Ánh Sáng Le Lói.]",
+            "description": "Tôi đã sẵn sàng để cải thiện. [Dùng thẻ với kỹ năng Tưởng Tượng để cải thiện nó và tăng Đam Mê. Thẻ chỉ kéo dài 5 phút trước khi bị trở lại thành Ánh Sáng Le Lói.]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"

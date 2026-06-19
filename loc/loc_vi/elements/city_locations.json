@@ -68,7 +68,7 @@
         },
         {
             "id": "locationcabaretclosed",
-            "label": "Câu Lạc Bộ Lột Xác [Đã Đóng]",
+            "label": "Hộp Đêm Lột Xác [Đã Đóng]",
             "description": "Một quán rượu với cái tên bí ẩn. Nó chỉ mở cửa vào một số đêm nhất định trong tuần; nó sẽ sớm mở cửa.",
             "unique": true,
             "lifetime": 30,
@@ -78,7 +78,7 @@
         },
         {
             "id": "locationcabaret",
-            "label": "Câu Lạc Bộ Lột Xác",
+            "label": "Hộp Đêm Lột Xác",
             "aspects": {
                 "location": 1,
                 "moth": 1,

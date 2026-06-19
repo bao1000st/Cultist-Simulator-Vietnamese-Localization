@@ -224,10 +224,10 @@
             ]
         },
         {
-            id: "ecdysijob",
-            label: "Một Vị Trí Ở Câu Lạc Bộ Ecdysis",
-            isAspect: true,
-            description: "Tôi đã giành được một vị trí trên sân khấu ở Câu Lạc Bộ Ecdysis."
+            "id": "ecdysijob",
+            "label": "Vị Trí Tại Hộp Đêm Ecdysis",
+            "isAspect": true,
+            "description": "Tôi đã giành được một vị trí trên sân khấu ở Hộp Đêm Ecdysis."
         },
         {
             id: "demotion",
@@ -762,7 +762,7 @@
         {
             id: "challenge.obsessive",
             label: "Yêu Cần Nghiên Cứu Ám Ảnh",
-            description: "Chủ đề này đòi hỏi sự chú ý nhiều hơn là được an toàn. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thư Viện, kĩ năng Chẳng Bao Giờ Nói Không, hoặc một Lý Trí. Có một rủi ro rất nhỏ là Lý Trí của bạn có thể bị tổn thương vĩnh viễn.]",
+            description: "Chủ đề này đòi hỏi sự chú ý nhiều hơn là được an toàn. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có một Trụ Sở với Thư Viện, kỹ năng Chẳng Bao Giờ Nói Không, hoặc một Lý Trí. Có một rủi ro rất nhỏ là Lý Trí của bạn có thể bị tổn thương vĩnh viễn.]",
             isAspect: true
         },
 
@@ -777,7 +777,7 @@
         {
             id: "challenge.illumination",
             label: "Yêu Cầu Sự Chiếu Sáng",
-            description: "Nước làm đầy cốc; ánh sáng sẽ lấp đầy tâm trí. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Mê Hoặc (có thể sinh sôi được), một Trụ Sở với Thư Viện, hoặc kĩ năng Tâm Trí Tinh Tế.]",
+            description: "Nước làm đầy cốc; ánh sáng sẽ lấp đầy tâm trí. [Để nâng cấp hoặc phá vỡ Mảnh này, bạn cần có Mê Hoặc (có thể sinh sôi được), một Trụ Sở với Thư Viện, hoặc kỹ năng Tâm Trí Tinh Tế.]",
             isAspect: true
         },
 
