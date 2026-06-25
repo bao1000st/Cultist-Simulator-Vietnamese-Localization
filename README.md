@@ -1,4 +1,4 @@
-﻿next: legacy_dancer_elements
+﻿next: mansus.json
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
@@ -66,7 +66,7 @@ tông đồ -> giáo đồ -> môn đồ -> sứ đồ
   - Conclusion: Hồi Kết
   - Herald: Sứ Giả
 
-mentor:
+mentor: ba kẻ dưới còn gọi chung là Founder, Bậc Khởi Nguyên, kẻ xây dựng nên hội, tổ chức
 Shaper: Đấng Kiến Tạo
 Delight: Đấng Hân Hoan
 Illuminated One: Đấng Khai Sáng
@@ -83,6 +83,11 @@ The barrowchild: Đứa Con Mộ Bia
 Omar, the blaze: Omar, Kẻ Bốc Cháy
 the Aleppine: Người Thành Aleppo
 the count: Bá Tước
+
+// đòn tấn công của Trường Giả thù địch
+Assault: Đột Kích
+Intrigue: Mưu Phạt
+
 
 // một số thừ liên quan đến Thời Thần
 Thirstlies : Khát Thần

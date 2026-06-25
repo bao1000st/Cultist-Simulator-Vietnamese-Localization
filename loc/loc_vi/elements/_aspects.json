@@ -1627,38 +1627,38 @@
 
         {
             id: "mentor",
-            label: "Người Hướng Dẫn",
+            label: "Cố Vấn",
             description: "Người cai trị bí mật của chúng ta, người ra lệnh cho lòng trung thành của chúng ta, người sẽ còn vươn cao hơn nữa qua các công việc của chúng ta",
             isAspect: true
         },
 
         {
-            id: "intention.assault",
-            label: "Intention",
-            description: "Our immortal enemy has a plan.",
-            isAspect: true,
-            isHidden: true
+            "id": "intention.assault",
+            "label": "Intention",
+            "description": "Kẻ thù bất tử của ta đang có một kế hoạch.",
+            "isAspect": true,
+            "isHidden": true
         },
         {
-            id: "intention.intrigue",
-            label: "Ý Định",
-            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-            isAspect: true,
-            isHidden: true
+            "id": "intention.intrigue",
+            "label": "Ý Định",
+            "description": "Kẻ thù bất tử của ta đang có một kế hoạch.",
+            "isAspect": true,
+            "isHidden": true
         },
         {
-            id: "intention.dreams",
-            label: "Ý Định",
-            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-            isAspect: true,
-            isHidden: true
+            "id": "intention.dreams",
+            "label": "Ý Định",
+            "description": "Kẻ thù bất tử của ta đang có một kế hoạch.",
+            "isAspect": true,
+            "isHidden": true
         },
         {
-            id: "intention.downtime",
-            label: "Ý Định",
-            description: "Kẻ thù bất tử của chúng ta đang có một kế hoạch.",
-            isAspect: true,
-            isHidden: true
+            "id": "intention.downtime",
+            "label": "Ý Định",
+            "description": "Kẻ thù bất tử của ta đang có một kế hoạch.",
+            "isAspect": true,
+            "isHidden": true
         },
 
 
@@ -1697,24 +1697,24 @@
 
         {
             id: "long.might",
-            label: "Thế lực",
+            label: "Uy Lực",
             description: "Theo thời gian, Long này sẽ xây dựng đồng minh và tài nguyên trong thành phố, cải thiện khả năng tấn công chúng ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
             isAspect: true
         },
 
         {
             id: "long.connections",
-            label: "Liên Kết",
+            label: "Quan Hệ",
             description: "Theo thời gian, Long sẽ xây dựng mạng lưới của bản thân ngay trong thành phố, nâng cao khả năng âm mưu chống lại chống ta. [Nếu thẻ đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
             isAspect: true
         },
 
 
         {
-            id: "long.dreamwork",
-            label: "Kích Thước Ánh Sao",
-            description: "Theo thời gian, Long này sẽ học được những định hình nên giấc mơ của chúng ta, cải thiện khả năng của bản thân để tấn công chúng ta qua cõi Mansus. [Nếu thể đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
-            isAspect: true
+            "id": "long.dreamwork",
+            "label": "Tầm Vóc Ánh Sao",
+            "description": "Theo thời gian, Long này sẽ học được những định hình nên giấc mơ của chúng ta, cải thiện khả năng của bản thân để tấn công chúng ta qua cõi Mansus. [Nếu thể đạt đến 10, Long sẽ xem xét việc tấn công bạn trực tiếp.]",
+            "isAspect": true
         },
 
         {

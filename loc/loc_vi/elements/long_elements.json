@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "welland_unknown",
-            "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "label": "Hiện Diện Mập Mờ",
+            "description": "Quyền năng của y rất đáng gờm; danh tính thì hiện vẫn là một ẩn số. [Một khi Uy Lực, Quan Hệ hoặc Ánh Sao của Trường Giả đạt đến 3, bạn có thể vạch trần danh tính của kẻ này.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.assault": 1
@@ -14,8 +14,8 @@
         },
         {
             "id": "tryphon_unknown",
-            "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "label": "Hiện Diện Mập Mờ",
+            "description": "Quyền năng của y rất đáng gờm; danh tính thì hiện vẫn là một ẩn số. [Một khi Uy Lực, Quan Hệ hoặc Ánh Sao của Trường Giả đạt đến 3, bạn có thể vạch trần danh tính của kẻ này.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.intrigue": 1
@@ -26,8 +26,8 @@
         },
         {
             "id": "diarist_unknown",
-            "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "label": "Hiện Diện Mập Mờ",
+            "description": "Quyền năng của y rất đáng gờm; danh tính thì hiện vẫn là một ẩn số. [Một khi Uy Lực, Quan Hệ hoặc Ánh Sao của Trường Giả đạt đến 3, bạn có thể vạch trần danh tính của kẻ này.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.dreamwork": 1
@@ -38,8 +38,8 @@
         },
         {
             "id": "julian_unknown",
-            "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "label": "Hiện Diện Mập Mờ",
+            "description": "Quyền năng của y rất đáng gờm; danh tính thì hiện vẫn là một ẩn số. [Một khi Uy Lực, Quan Hệ hoặc Ánh Sao của Trường Giả đạt đến 3, bạn có thể vạch trần danh tính của kẻ này.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.winter": 1
@@ -50,8 +50,8 @@
         },
         {
             "id": "welland",
-            "label": "Captain Welland",
-            "description": "'This is no Noble Endeavour. We'll have no Jack-come-quickly jumping up the House ranks.' [Welland is more likely to use Assault attacks.]",
+            "label": "Đại Úy Welland",
+            "description": "''Đây không phải là một Nỗ Lực Cao Đẹp. Ta sẽ không để bất kỳ tên lính mới láo lếu nhảy vọt lên từng cấp bậc đâu.' [Welland có nhiều khả năng sẽ dùng đòn Đột Kích.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.assault": 1
@@ -63,8 +63,8 @@
         },
         {
             "id": "tryphon",
-            "label": "Lady Tryphon",
-            "description": "'No, He cannot harm you; He cannot find you. But I suffer no such circumscription.' [Tryphon is more likely to use Intrigue attacks.]",
+            "label": "Công Nương Tryphon",
+            "description": "'Không, Người không làm hại ngươi; Người không thể tìm ra ngươi. Nhưng ta sẽ không có sự giới hạn nào như thế cả.' [Tryphon có nhiều khả năng sẽ đùng đòn Mưu Kế.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.intrigue": 1
@@ -76,8 +76,8 @@
         },
         {
             "id": "diarist",
-            "label": "The Diarist",
-            "description": "'Your pretender is going to make a damned good footnote. But I wouldn't expect anything more than that.' [The Diarist is more likely to use Starlight attacks.]",
+            "label": "Ký Sự Gia",
+            "description": "'Kẻ mạo danh như ngươi sẽ là một phần chú thích hay trong ký sự này. Nhưng đừng trông mong gì hơn thế.' [Ký Sự Gia có nhiều khả năng sẽ đùng đòn Mưu Kế.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.dreamwork": 1
@@ -90,7 +90,7 @@
         {
             "id": "julian",
             "label": "J.C.",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "description": "'Không còn Danh Thần nào nữ. Chỉ vậy thôi; ta xin lỗi; ta không có thời gian để tán gẫu.' [Julian sẽ thường xuyên dùng khoảng thời gian nghỉ để gia tăng các năng lực.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.winter": 1
@@ -102,12 +102,12 @@
         },
         {
             "id": "welland.defeated",
-            "label": "A Letter from Welland",
-            "description": "'SIR - (It does not seem to have occurred to Welland that he might have been defeated by anyone but a 'sir')\nI am the most dangerous enemy you will ever face, and I have defeated far greater than you. You deserve better than to be pyre-fuel. I urge you to shatter your chains, as the Lionsmith did so long ago, and rise to take your own place as Long.\nI attach the secret that Darius told Alexander at Issus. Use it wisely.\nRegards,\nW. '\n[The secret is attached. You can use it to break free of your Mentor.]",
+            "label": "Bức Thư Từ Welland",
+            "description": "'THƯA ÔNG - (dường như Welland chưa từng mảy may nghĩ đến việc mình lại có thể bị đánh bại bởi một ai khác ngoài một 'quý ông')\nTa là kẻ thù nguy hiểm nhất mà anh từng phải đối mặt, và ta đã từng đánh bại những kẻ vĩ đại hơn anh rất nhiều. Và anh xứng đáng hơn là làm than cho lò thiêu. Ta khuyên anh hãy đập tan xiềng xích của chính mình, như Thần Rèn Sư Tử đã từng làm thuở xa xưa, và đứng lên để giành lấy vị thế Trường Giả cho riêng mình.\nGửi kèm theo đây bí mật mà Darius đã nói với Alexander tại Issus. Hãy sử dụng nó thật khôn ngoan.\nTrân trọng,\nW. '\n[Bí mật được đính kèm. Bạn có thể dùng nó để thoát khỏi xiền xích của Cố Vấn.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Shaper",
+                    "label": "Đấng Kiến Tạo",
                     "required": {
                         "apostleforge.mentor": 1
                     },
@@ -120,12 +120,12 @@
         },
         {
             "id": "tryphon.defeated",
-            "label": "A Letter from Lady Tryphon",
-            "description": "'My love,\nI am defeated, and you my vanquisher have won my devotion. I enclose a remaining scrap of myself, and go forth to meet my demise.\nConsume what remains of me, and we shall be one, as the Flowermaker has always intended. Reject your 'Delight'. Your destiny is far greater.\nYou will ask: is this a last trick? A desperate stratagem to assure your betrayal? I can only answer: taste me, and see.\nI remain,\nyour delicious friend,\nT.E.'\n[If you consume the enclosed morsel of Lady Tryphon, you can break free of your Mentor.]",
+            "label": "Bức Thư Từ Tryphon",
+            "description": "'Tình yêu của ta,\nTa đã bại trận, và anh – kẻ chinh phục ta – đã có được lòng thành kính tuyệt đối này. Ta xin gửi kèm mảnh tàn dư còn sót lại của bản thân, và đón nhận sự lụi tàn cho mình.\nHãy nuốt chửng phàn còn lại ấy, và chúng ta sẽ hòa làm một, như ý nguyện của Thần Tạo Hoa. Hãy từ bỏ 'Đấng Hân Hoan'. Vận mệnh của anh còn vĩ đại hơn thế nhiều.\nAnh sẽ hỏi: đây có phải lại là trò lừa? Mưu kế tuyệt vọng để anh sẽ phản bội? Ta chỉ có thể trả lời: Nếm vị ta, rồi sẽ rõ.\nTa mãi là,\nngười bạn ngon tuyệt của anh,\nT.E.'\n[Nếu bạn nuốt chửng mảnh tàn dư của Công Nương Tryphon, bạn sẽ thoát khỏi xiền xích của Cố Vấn.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Delight",
+                    "label": "Đấng Hân Hoan",
                     "required": {
                         "apostlegrail.mentor": 1
                     },
@@ -138,12 +138,12 @@
         },
         {
             "id": "diarist.defeated",
-            "label": "A Dream of the Diarist",
-            "description": "The sunlight through the western window in the Scriptorium is failing. As the Diarist writes his last entry, the chamber chills from gold towards grey. He closes his little book with a snap. 'Death is down,' he explains, 'and I am already losing altitude. I don't bear you any grudge. I tell you what, though, I hope your Illuminated One trips and falls down the Ascent.' The Diarist's face is erasing itself, like a man unwriting, and his eyes are already gone. He hands you his little book. 'This is your last chance. You can go where I was, or where you're going. I know which is better.' His mouth spools itself up like the undrawing of a zip, and he is blank white paper.\n\n[If you consider the dream of the diary, you can break free of your Mentor.]",
+            "label": "Giấc Mơ Của Ký Sự Gia",
+            "description": "Ánh sáng xuyên qua vòm cửa của Phòng Chép Tay đang lịm dần. khi Ký Sự Gia viết mục cuối cùng, căn phòng lạnh buốt đi từ sắc vàng sang màu xám xịt. Ông đóng sầm cuốn sổ lại. 'Thần chết đã đến,' ông nói, 'và ta đang mất dần cao độ. ta không oán hận gì người. nhưng phải nói, ta mong Đấng Khai Sáng của ngươi sẽ trượt chân ngã nhào khỏi con đường Thăng Thiên' Khuôn mặt của Ký Sự Gia đang tự xóa nhòa đi, tựa như một kẻ đang đảo ngược nét bút của mình, và đôi mắt thì đã biến mất từ trước. Ông trao lại cuốn sổ nhỏ của mình. 'Đây là cơ hội cuối. Ngươi đi đến nơi ta từng thuộc về, hoặc đi đến nơi ngươi đang hướng tới. Ta thì biết rõ nơi nào tốt hơn.' Khuôn miệng ông tự cuốn lại như một dây khóa đang kéo ngược, và giờ ông chỉ còn là mảnh giấy trắng tinh.\n\n[Nếu bạn mơ cùng cuốn nhật ký, bạn sẽ thoát khỏi xiền xích của Cố Vấn.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Illuminated One",
+                    "label": "Đấng Khai Sáng",
                     "required": {
                         "apostlelantern.mentor": 1
                     },
@@ -157,12 +157,12 @@
         },
         {
             "id": "julian.defeated",
-            "label": "A Letter from Julian Coseley",
-            "description": "'Enemy,\n\nI am not so easily destroyed. But I will acknowledge that you have defeated me, and so I will reward you with my counsel.\n\nYou are a fool, cozened by a fool to emplace one more stone in the walls of the Mansus. You may, if you choose, cast that stone away into night.\n\nShould you so cast it, you will die empty and alone, as do all, even the Long. You might die free.\n\n- Julian'\n\n[If you take Julian's lesson to heart, you can break free of your Mentor.]",
+            "label": "Bức Thư Từ Julian Coseley",
+            "description": "'Kẻ thù,\n\nTa không dễ bị tiêu diệt đến thế. Nhưng ta thừa nhận rằng ngươi đã đánh bại ta, và vì vậy, ta sẽ ban thưởng cho ngươi lời khuyên này.\n\nNgươi là một kẻ ngu, bị gạt bởi một kẻ ngu khác để đặt thêm một viên đá nữa vào bức tường cõi Mansus. Ngươi có thể, nếu muốn, ném viên đá đó vào màn đêm.\n\nNếu ngươi làm vậy, ngươi sẽ chết trong trống rỗng và cô độc, như mọi kẻ khác, kể cả các Trường Giả. Nhưng ngươi sẽ được chết trong tự do.\n\n- Julian'\n\n[Nếu bạn ghi tâm bài học của Julian, bạn sẽ thoát khỏi xiền xích của Cố Vấn.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Founder",
+                    "label": "Bậc Khởi Nguyên",
                     "required": {
                         "apostleforge.mentor": 1,
                         "apostlegrail.mentor": 1,
@@ -177,20 +177,20 @@
         },
         {
             "id": "strategy.prep",
-            "label": "Preparations Ongoing",
-            "description": "Our immortal enemy is preparing another action. [The Long needs three Preparations to launch another action.]",
+            "label": "Việc Chuẩn Bị Tiếp Diễn",
+            "description": "Kẻ thù bất tử của ta đang chuẩn bị cho một hành động khác. [Trường Giả cần ba lượt Chuẩn Bị để phát động một hành động khác.]",
             "lifetime": 1
         },
         {
             "id": "strategy.prep.delayed",
-            "label": "Preparations Spoiled!",
-            "description": "Our spy has upset some element of our enemy's preparations. [The Long has lost one Preparation token to your sabotage.]",
+            "label": "Việc Chuẩn Bị Bị Phá Hoại!",
+            "description": "Gián điệp đã phá hỏng một phần trong việc chuẩn bị của kẻ thù. [Trường Giả đã mất một dấu ấn Chuẩn Bị do hành động phá hoại của bạn.]",
             "lifetime": 1
         },
         {
             "id": "strategy.assault.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Kế Hoạch Của Trường Giả",
+            "description": "Trường Giả đang lên kế hoạch cho hành động tiếp theo để chống lại ta. Nếu gửi gián điệp đi, ta có thể phát hiện được đôi điều về ý đồ của chúng.",
             "aspects": {
                 "intention.assault": 1
             },
@@ -202,8 +202,8 @@
         },
         {
             "id": "strategy.intrigue.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Kế Hoạch Của Trường Giả",
+            "description": "Trường Giả đang lên kế hoạch cho hành động tiếp theo để chống lại ta. Nếu gửi gián điệp đi, ta có thể phát hiện được đôi điều về ý đồ của chúng.",
             "aspects": {
                 "intention.intrigue": 1
             },
@@ -215,8 +215,8 @@
         },
         {
             "id": "strategy.dreams.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Kế Hoạch Của Trường Giả",
+            "description": "Trường Giả đang lên kế hoạch cho hành động tiếp theo để chống lại ta. Nếu gửi gián điệp đi, ta có thể phát hiện được đôi điều về ý đồ của chúng.",
             "aspects": {
                 "intention.dreams": 1
             },
@@ -228,8 +228,8 @@
         },
         {
             "id": "strategy.downtime.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Kế Hoạch Của Trường Giả",
+            "description": "Trường Giả đang lên kế hoạch cho hành động tiếp theo để chống lại ta. Nếu gửi gián điệp đi, ta có thể phát hiện được đôi điều về ý đồ của chúng.",
             "aspects": {
                 "intention.downtime": 1
             },
@@ -241,8 +241,8 @@
         },
         {
             "id": "strategy.assault.revealed",
-            "label": "The Long's Plans Revealed: Assault",
-            "description": "Our enemy intends a direct attack of some kind, this time.",
+            "label": "Kế Hoạch Của Trường Giả Bại Lộ: Đột Kích",
+            "description": "Lần này, kẻ thù có ý định tung ra một cuộc tấn công trực diện dưới một hình thức nào đó.",
             "aspects": {
                 "intention.assault": 1,
                 "strategy.revealed": 1
@@ -254,8 +254,8 @@
         },
         {
             "id": "strategy.intrigue.revealed",
-            "label": "The Long's Plans Revealed: Intrigue",
-            "description": "Our enemy intends to use trickery against us, this time.",
+            "label": "Kế Hoạch Của Trường Giả Bại Lộ: Mưu Kế",
+            "description": "Lần này, kẻ thù có ý định dùng mưu mô để hãm hại chúng ta.",
             "aspects": {
                 "intention.intrigue": 1,
                 "strategy.revealed": 1
@@ -267,8 +267,8 @@
         },
         {
             "id": "strategy.dreams.revealed",
-            "label": "The Long's Plans Revealed: Dreams",
-            "description": "Our enemy will find us through the Mansus, this time.",
+            "label": "Kế Hoạch Của Trường Giả Bại Lộ: Giấc Mơ",
+            "description": "Lần này, kẻ thù sẽ truy tìm ta trong cõi Mansus.",
             "aspects": {
                 "intention.dreams": 1,
                 "strategy.revealed": 1
@@ -280,8 +280,8 @@
         },
         {
             "id": "strategy.downtime.revealed",
-            "label": "The Long's Plans Revealed: A Respite",
-            "description": "Our enemy will not move against us, this time. They will rest... and perhaps in resting they will grow stronger.",
+            "label": "Kế Hoạch Của Trường Giả Bại Lộ: Tạm Lắng",
+            "description": "Lần này, kẻ thù sẽ không động thủ chống lại ta. Chúng nghỉ ngơi... và có lẽ trong lúc ấy, chúng sẽ ngày một mạnh lên.",
             "aspects": {
                 "intention.downtime": 1,
                 "strategy.revealed": 1
@@ -293,35 +293,35 @@
         },
         {
             "id": "strategy.dreams.preference",
-            "label": "A Presentiment: the Lessons of the Soul",
-            "description": "For their next action, this Long will probably try to learn from our weaknesses in dreams - even if their plans would usually dictate otherwise.",
-            "comments": "This is currently unused - it became less relevant once tablereqs came in.",
+            "label": "Linh Cảm: Bài Học Của Linh Hồn",
+            "description": "Với hành động kế tiếp, Trường Giả này sẽ cố gắng dò tìm điểm yếu của ta trong cõi mộng — ngay cả khi kế hoạch thông thường của chúng cho thấy một hướng đi khác.",
+            "comments": "Thẻ này hiện không dùng - không còn cần thiết nữa khi tablereqs được thêm vào.",
             "lifetime": 1,
             "noartneeded": true
         },
         {
             "id": "long.lesson.might",
-            "label": "Increased Might",
+            "label": "Uy Lực Tăng Lên",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Might will increase, allowing them to conduct more powerful assaults.]"
+            "description": "Kẻ thù bất tử của đang dè chừng chúng ta hơn, kẻ đó đã huy động thêm nhiều nguồn lực để dồn ép ta. [Uy Lực của Trường Giả đối địch sẽ tăng lên, cho phép thực hiện các cuộc đột kích mạnh mẽ hơn]"
         },
         {
             "id": "long.lesson.connections",
-            "label": "More Connections",
+            "label": "Thêm Quan Hệ",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Connections will increase, allowing them to conduct more devious intrigues.]"
+            "description": "Kẻ thù bất tử của đang dè chừng chúng ta hơn, kẻ đó đã huy động thêm nhiều nguồn lực để dồn ép ta. [Quan Hệ của Trường Giả đối địch sẽ tăng lên, cho phép thực hiện các mưu kế xảo quyệt hơn.]"
         },
         {
             "id": "long.lesson.dreamwork",
-            "label": "Glimpses of the Soul",
+            "label": "Thấu Tỏ Linh Hồn",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy has learnt something of us. [An enemy Long's Starlight will increase, giving them greater power in our dreams.]"
+            "description": "Kẻ thù bất tử đã nắm thấu đôi điều về ta. [Ánh Sáo của Trường Giả đối địch sẽ tăng lên, mang lại quyền năng to lớn hơn trong giấc mơ của ta.]"
         }
     ]
 }
