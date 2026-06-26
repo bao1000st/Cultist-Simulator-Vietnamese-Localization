@@ -1,4 +1,4 @@
-﻿next: mansus.json
+﻿next: memories.json
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION

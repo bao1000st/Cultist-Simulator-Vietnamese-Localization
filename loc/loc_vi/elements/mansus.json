@@ -3,7 +3,7 @@
         {
             "id": "waywood",
             "label": "Lối Đi: Khu Rừng",
-            "description": "Tôi đã biết được con đường dẫn đến Khu Rừng, thứ bóng đêm chằn chịt mọc xung quanh dãy tường cõi Mansus (mặc dù cõi Mansus chẳng có bức tường nào cả). tôi có thể Nằm Mơ với thẻ bài này để trở về Khu Rừng.",
+            "description": "Tôi đã biết được con đường dẫn đến Khu Rừng, thứ bóng đêm chằn chịt mọc xung quanh dãy tường cõi Mansus (dù cho Mansus chẳng có bức tường nào cả). tôi có thể Nằm Mơ với thẻ bài này để trở lại Khu Rừng.",
             "aspects": {
                 "way": 1
             },
@@ -12,7 +12,7 @@
         {
             "id": "waywhite",
             "label": "Lối Đi: Cánh Cửa Trắng",
-            "description": "Trong những giấc mộng của mình, tôi đã đi qua Cánh Cửa Trắng, còn được gọi là Cánh Cửa Xương và Cổng Ngà. Giọng nói tôi vẫn nằm lại ngoài Ngôi Nhà mỗi lần tôi bước vào.",
+            "description": "Trong giấc mộng của mình, tôi đã đi qua Cánh Cửa Trắng, hay còn gọi là Cửa Xương và Cổng Ngà. Giọng nói tôi vẫn rơi lại ngoài Ngôi Nhà mỗi lần tôi bước vào.",
             "aspects": {
                 "way": 1
             },
@@ -20,8 +20,8 @@
         },
         {
             "id": "waystagbefore_1",
-            "label": "Câu Đố Của Cửa Hươu",
-            "description": "'Cái gì có thể bị mất đi?' Trả lời câu đố này để được đi qua Cửa Hươu, và được coi như một Know.",
+            "label": "Câu Đố Của Cổng Hươu",
+            "description": "'Thứ gì có thể bỏ đi?' Trả lời câu đố này để đi qua được Cổng Hươu, và được coi như một Tri Giả.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -30,8 +30,8 @@
         },
         {
             "id": "waystagbefore_2",
-            "label": "Câu Đố Của Cửa Hươu",
-            "description": "'Nhân từ được tìm ở đâu?' Trả lời câu đố này để được đi qua Cửa Hươu, và được coi như một Know.",
+            "label": "Câu Đố Của Cổng Hươu",
+            "description": "'Nhân từ được tìm ở đâu?' Trả lời câu đố này để đi qua được Cổng Hươu, và được coi như một Tri Giả.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -40,8 +40,8 @@
         },
         {
             "id": "waystagbefore_3",
-            "label": "Câu Đố Của Cửa Hươu",
-            "description": "'Những ngôn từ nào khiến cho sự hy sinh trở nên ngọt ngào?' Trả lời câu đố này để được đi qua Cửa Hươu, và được coi như một Know.",
+            "label": "Câu Đố Của Cổng Hươu",
+            "description": "'Những ngôn từ nào khiến hi sinh trở nên ngọt vị?' Trả lời câu đố này để đi qua được Cổng Hươu, và được coi như một Tri Giả.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -50,8 +50,8 @@
         },
         {
             "id": "waystagbefore_4",
-            "label": "Câu Đố Của Cửa Hươu",
-            "description": "'Cái gì phải được mở, trước khi Lối Đi này được mở ra?' Trả lời câu đố này để được đi qua Cửa Hươu, và được coi như một Know.",
+            "label": "Câu Đố Của Cổng Hươu",
+            "description": "'Cái gì phải được mở, trước khi Lối Đi này mở ra?' Trả lời câu đố này để đi qua được Cổng Hươu, và được coi như một Tri Giả.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -60,8 +60,8 @@
         },
         {
             "id": "waystagbefore_5",
-            "label": "Câu Đố Của Cửa Hươu",
-            "description": "'vị nữ hoàng-người không được sinh ra-đang ở đâu?' Trả lời câu đố này để được đi qua Cửa Hươu, và được coi như một Know.",
+            "label": "Câu Đố Của Cổng Hươu",
+            "description": "'Vị nữ hoàng-người chẳng hề được sinh ra-đang ở đâu?' Trả lời câu đố này để đi qua được Cổng Hươu, và được coi như một Tri Giả.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -70,8 +70,8 @@
         },
         {
             "id": "waystag_after",
-            "label": "Lối Đi: Băng Qua Cửa Hươu",
-            "description": "trong những giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cửa Hươu, đôi khi được gọi là Cổng Sừng hay Cửa Của Kẻ Tinh Thông. Tôi đã trả lời câu đó của nó, và đã được coi như một the Know.",
+            "label": "Lối Đi: Băng Qua Cổng Hươu",
+            "description": "trong giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cổng Hươu, còn được gọi là Cổng Sừng hay Cửa Của Tín Đồ. Tôi đã trả lời câu đó của nó, và đã được coi như một Tri Giả.",
             "aspects": {
                 "way": 1
             },
@@ -79,8 +79,8 @@
         },
         {
             "id": "wayspider",
-            "label": "Lối Đi: Cửa Loài Nhện",
-            "description": "trong những giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cửa Loài Nhện, đôi khi được gọi là Cánh Cổng Đẫm Máu, và thân mật hơn, là Cửa Sai",
+            "label": "Lối Đi: Cổng Nhện",
+            "description": "trong giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cổng Nhện, hay còn gọi là Cổng Đẫm Máu, và thân mật hơn, là Cửa Sai",
             "aspects": {
                 "way": 1
             },
@@ -88,8 +88,8 @@
         },
         {
             "id": "waypeacock",
-            "label": "Lối Đi: Cửa Loài Công",
-            "description": "trong những giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cửa Loài Công, đôi khi được gọi là Cánh Cổng Của Những Con Mắt, hay Sự Khiếm Đảm Của Kiêu Hãnh.",
+            "label": "Lối Đi: Cổng Khổng Tước",
+            "description": "trong giấc mộng của mình, tôi đã tìm thấy con đường dẫn đến Cổng Khổng Tước, hay còn gọi là Cổng Mắt, hay Kiêu Hãnh Sụp Đổ.",
             "aspects": {
                 "way": 1
             },
