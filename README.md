@@ -1,4 +1,4 @@
-﻿next: memories.json
+﻿next: othernpcs.json
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION
@@ -157,6 +157,7 @@ voiceless dead: Vong Hồn Câm Lặng
 Maid-in-the-Mirror: Thiếu Nữ Trong Gương
 
 // một số danh từ (XEM Abilities.json và aspect.json ĐỂ CÓ THÊM NHIỀU TỪ HƠN)
+Spintriae: là một loại tiền của thế giới ngầm trong game, cứ dịch nguyên là Spintria
 The Alure: Mị Hoặc
 Key of Days: Chìa Khóa Thời Đại
 Health : Sức Khỏe
