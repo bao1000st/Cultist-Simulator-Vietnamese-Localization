@@ -1,4 +1,4 @@
-﻿next: othernpcs.json
+﻿next: precursor_elements.json
 
 - Status:
 Achievements - MAYBE WILL WORK IN NEXT VERSION

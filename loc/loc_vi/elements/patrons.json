@@ -2,13 +2,13 @@
     "elements": [
         {
             "id": "aladim",
-            "label": "Dr Ibn al-Adim",
+            "label": "Tiến Sĩ Ibn al-Adim",
             "aspects": {
                 "tutoraramaic": 1,
                 "tutor": 1,
                 "patron": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has an interest in overlooked history. He has offered you a commission.",
+            "description": "Tiến Sĩ Ibn al-Adim, còn gọi là người thành Aleppo, có hứng thú với các dòng lịch sử bị ngó lơ. Ông vừa đề nghị giao cho bạn một đơn hàng.",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "aladimaway",
@@ -18,7 +18,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "Commission",
+                    "label": "Đơn Hàng",
                     "actionid": "talk",
                     "required": {
                         "commission": 1
@@ -26,7 +26,7 @@
                 },
                 {
                     "id": "Manuscript",
-                    "label": "Manuscript",
+                    "label": "Bản Thảo",
                     "actionid": "talk",
                     "required": {
                         "article": 1
@@ -36,13 +36,13 @@
         },
         {
             "id": "aladimready",
-            "label": "Dr Ibn al-Adim",
+            "label": "Tiến Sĩ Ibn al-Adim",
             "aspects": {
                 "tutoraramaic": 1,
                 "tutor": 1,
                 "patron": 1
             },
-            "description": "Dr Ibn al-Adim, called the Aleppine, has an interest in overlooked history. He could use your assistance.",
+            "description": "Tiến Sĩ Ibn al-Adim, còn gọi là người thành Aleppo, có hứng thú với các dòng lịch sử bị ngó lơ. Ông ta cần sự hỗ trợ của bạn.",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "aladim",
@@ -59,7 +59,7 @@
                 "tutor": 1,
                 "tutorgreek": 1
             },
-            "description": "Mme Olympe Bechet edits the Kerisham Review, which publishes material too ghastly or thrilling for other literary magazines. She has offered you a commission.",
+            "description": "Mme Olympe Bechet biên soạn cho Tạp chí Kerisham, nơi xuất bản các tư liệu quá đỗi kinh hoàng hoặc giật gân so với các tạp chí khác. Bà đã đề nghị giao cho bạn một đơn hàng.",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "bechetaway",
@@ -69,7 +69,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "Commission",
+                    "label": "Đơn Hàng",
                     "actionid": "talk",
                     "required": {
                         "commission": 1
@@ -77,7 +77,7 @@
                 },
                 {
                     "id": "Manuscript",
-                    "label": "Manuscript",
+                    "label": "Bản Thảo",
                     "actionid": "talk",
                     "required": {
                         "article": 1
@@ -94,7 +94,7 @@
                 "tutor": 1,
                 "tutorgreek": 1
             },
-            "description": "Mme Olympe Bechet edits the Kerisham Review, which publishes material too ghastly or thrilling for other literary magazines. She could use your assistance.",
+            "description": "Mme Olympe Bechet biên soạn cho Tạp chí Kerisham, nơi xuất bản các tư liệu quá đỗi kinh hoàng hoặc giật gân so với các tạp chí khác. Bà ta cần sự hỗ trợ của bạn.",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "bechet",
@@ -104,14 +104,14 @@
         },
         {
             "id": "jannings",
-            "label": "Count Jannings",
+            "label": "Bá Tước Jannings",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorlatin": 1
             },
-            "description": "Count Gottlob Jannings represents a Continental confraternity of physicians and duellists. He has offered you a commission.",
+            "description": "Bá tước Gottlob Jannings đại diện cho một hội kín tại Lục Địa gồm các y sĩ và kiếm sĩ. Ông đã đề nghị giao cho bạn một đơn hàng.",
             "unique": true,
             "xtriggers": {
                 "commissionfulfilled": "janningsaway",
@@ -121,7 +121,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "Commission",
+                    "label": "Đơn Hàng",
                     "actionid": "talk",
                     "required": {
                         "commission": 1
@@ -129,7 +129,7 @@
                 },
                 {
                     "id": "Manuscript",
-                    "label": "Manuscript",
+                    "label": "Bản Thảo",
                     "actionid": "talk",
                     "required": {
                         "article": 1
@@ -139,14 +139,14 @@
         },
         {
             "id": "janningsready",
-            "label": "Count Jannings",
+            "label": "Bá Tước Jannings",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorlatin": 1
             },
-            "description": "Count Gottlob Jannings represents a Continental confraternity of physicians and duellists. He could use your assistance.",
+            "description": "Bá tước Gottlob Jannings đại diện cho một hội kín tại Lục Địa gồm các y sĩ và kiếm sĩ. Ông ta cần sự hỗ trợ của bạn.",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "jannings",
@@ -161,7 +161,7 @@
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "An amiable woman of property. She'd like to talk to you.",
+            "description": "Một nữ phú hộ hòa nhã. Bà ta muốn trò chuyện với bạn.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -175,7 +175,7 @@
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "An amiable woman of property.",
+            "description": "Một nữ phú hộ hòa nhã.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -189,7 +189,7 @@
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "An amiable woman of property. She'd like your help with something.",
+            "description": "Một nữ phú hộ hòa nhã. Bà ta muốn bạn giúp một số thứ.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -205,7 +205,7 @@
                 "mortal": 1,
                 "patron": 1
             },
-            "description": "An amiable woman of property. She has offered you a commission.",
+            "description": "Một nữ phú hộ hòa nhã. Bà ta đề nghị giao cho bạn một đơn hàng.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -215,7 +215,7 @@
             "slots": [
                 {
                     "id": "Commission",
-                    "label": "Commission",
+                    "label": "Đơn Hàng",
                     "actionid": "talk",
                     "required": {
                         "commission": 1
@@ -223,7 +223,7 @@
                 },
                 {
                     "id": "Manuscript",
-                    "label": "Manuscript",
+                    "label": "Bản Thảo",
                     "actionid": "talk",
                     "required": {
                         "article": 1
@@ -234,8 +234,8 @@
         },
         {
             "id": "aladimaway",
-            "label": "Dr Ibn al-Adim",
-            "description": "Dr Ibn al-Adim, called the Aleppine, has an interest in overlooked history. He's incommunicado just now, but will be back soon.",
+            "label": "Tiến Sĩ Ibn al-Adim",
+            "description": "Tiến Sĩ Ibn al-Adim, còn gọi là người thành Aleppo, có hứng thú với các dòng lịch sử bị ngó lơ. Ông ta đang biệt vô âm tín, nhưng sẽ sớm trở lại",
             "lifetime": 120,
             "decayTo": "aladimready",
             "icon": "aladim"
@@ -243,31 +243,31 @@
         {
             "id": "bechetaway",
             "label": "Mme Bechet",
-            "description": "Mme Olympe Bechet edits the Kerisham Review, which publishes material too ghastly or thrilling for other literary magazines. Just now, she's busy preparing for publication, but she'll be available again soon.",
+            "description": "Mme Olympe Bechet biên soạn cho Tạp chí Kerisham, nơi xuất bản các tư liệu quá đỗi kinh hoàng hoặc giật gân so với các tạp chí khác. Bà đang bận rộn chuẩn bị cho kỳ xuất bản, nhưng bà sẽ sớm rảnh trở lại.",
             "lifetime": 120,
             "decayTo": "bechetready",
             "icon": "bechet"
         },
         {
             "id": "janningsaway",
-            "label": "Count Jannings",
+            "label": "Bá Tước Jannings",
             "lifetime": 120,
-            "description": "Count Gottlob Jannings represents a Continental confraternity of physicians and duellists. Just now, he's out of the country, but he'll be back soon.",
+            "description": "Bá tước Gottlob Jannings đại diện cho một hội kín tại Lục Địa gồm các y sĩ và kiếm sĩ. Ông ta đang ngoại quốc, nhưng rồi sẽ trở lại sớm.",
             "decayTo": "janningsready",
             "icon": "jannings"
         },
         {
             "id": "poppyaway",
             "label": "Poppy Lascelles",
-            "description": "An amiable woman of property. She's not currently receiving visitors.",
+            "description": "Một nữ phú hộ hòa nhã. Hiện tại bà không có nhu cầu tiếp khách.",
             "lifetime": 120,
             "decayTo": "poppycommissionready",
             "icon": "poppy"
         },
         {
             "id": "benefactorm",
-            "label": "Lord Timothy Munday",
-            "description": "An elegant gentleman with sad eyes, receding hair, and a tendency to fits of friendly, braying, nervous laughter. He will no longer touch strong drink.",
+            "label": "Lãnh Chúa Timothy Munday",
+            "description": "Một quý ông lịch lãm với đôi mắt đượm buồn, mái tóc hói dần, và hay bật lên những tràng cười gượng gạo, hềnh hệch vì lo âu. Ông tuyệt nhiên không còn chạm vào thức uống có cồn nữa.",
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
                 "benefactor": 1,
@@ -277,7 +277,7 @@
                 {
                     "id": "health",
                     "actionid": "work",
-                    "label": "Health",
+                    "label": "Sức Khỏe",
                     "required": {
                         "health": 1
                     }
@@ -285,7 +285,7 @@
                 {
                     "id": "funds",
                     "actionid": "work",
-                    "label": "Glamour",
+                    "label": "Xa Hoa",
                     "required": {
                         "funds": 1
                     }
@@ -302,8 +302,8 @@
         },
         {
             "id": "benefactorf",
-            "label": "Nicole, Fourth Marchioness of Stanford",
-            "description": "A cautious, clever woman with close-set eyes and excellent skin for her age. She has long managed her own financial affairs, and donates dutifully to charity.",
+            "label": "Nicole, Hầu tước Phu Nhân Stanford Đệ Tứ",
+            "description": "Một người phụ nữ cẩn trọng và thông tuệ với đôi mắt khá gần cùng làn da tuyệt đẹp so với tuổi. Bà đã tự mình quản lý các sự vụ tài chính từ lâu, và luôn thực hiện nghĩa vụ quyên góp từ thiện rất cần mẫn.",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "benefactor": 1,
@@ -313,7 +313,7 @@
                 {
                     "id": "health",
                     "actionid": "work",
-                    "label": "Health",
+                    "label": "Sức Khỏe",
                     "required": {
                         "health": 1
                     }
@@ -321,7 +321,7 @@
                 {
                     "id": "funds",
                     "actionid": "work",
-                    "label": "Glamour",
+                    "label": "Xa Hoa",
                     "required": {
                         "funds": 1
                     }
@@ -338,8 +338,8 @@
         },
         {
             "id": "benefactorm_rejectedplayer",
-            "label": "Lord Timothy Munday",
-            "description": "Lord Timothy no longer sends me his little notes.",
+            "label": "Lãnh Chúa Timothy Munday",
+            "description": "Lãnh chúa Timothy không còn gửi tôi những mẫu thư ngắn của ông nữa.",
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
                 "mortal": 1
@@ -351,8 +351,8 @@
         },
         {
             "id": "benefactorf_rejectedplayer",
-            "label": "Nicole, Fourth Marchioness of Stanford",
-            "description": "The Most Honourable Marchioness of Stanford has been heard to declare that she doesn't quite understand exactly what she saw in me.",
+            "label": "Nicole, Hầu tước Phu Nhân Stanford Đệ Tứ",
+            "description": "Người ta nghe được Nữ Hầu tước Stanford Kính mến tuyên bố rằng bà không tài nào hiểu nổi chính xác bản thân đã nhìn thấy điều gì ở tôi lúc ấy.",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "mortal": 1
@@ -364,8 +364,8 @@
         },
         {
             "id": "benefactorm_proposedtoplayer",
-            "label": "Lord Timothy Munday",
-            "description": "In a moment of passion, Lord Timothy has proposed marriage. If I seize the moment and accept, this will transform my life... and close other doors forever. [Talk to his Lordship before his enthusiasm wanes, or he'll feel spurned.]",
+            "label": "Lãnh Chúa Timothy Munday",
+            "description": "Trong khoảnh khắc nồng nhiệt, Lãnh chúa Timothy đã cầu hôn tôi. Nếu nắm bắt được thời cơ và chấp thuận, việc này sẽ thay đổi hoàn toàn cuộc đời tôi... và đóng chặt những cánh cửa khác mãi mãi. [Nói Chuyện với Ngài trước khi nhiệt huyết này nguội lạnh, nếu không ông ta sẽ cảm thấy bị hắt hủi.]",
             "uniquenessgroup": "uqbenefactorm",
             "aspects": {
                 "mortal": 1,
@@ -380,8 +380,8 @@
         },
         {
             "id": "benefactorf_proposedtoplayer",
-            "label": "Nicole, Fourth Marchioness of Stanford",
-            "description": "In a moment of passion, the Most Honourable Nicole has proposed marriage. If I seize the moment and accept, this will transform my life... and close other doors forever. [Talk to the Marchioness before her enthusiasm wanes, or she'll feel spurned.]",
+            "label": "Nicole, Hầu tước Phu Nhân Stanford Đệ Tứ",
+            "description": "Trong khoảnh khắc nồng nhiệt, Nữ Hầu tước Nicole Tôn kính đã ngỏ lời cầu hôn. Nếu tôi chớp lấy thời cơ và nhận lời, cuộc đời này sẽ lật sang trang mới... và đóng sập những cánh cửa khác mãi mãi. [Nói Chuyện với Nữ Hầu Tước trước khi nhiệt huyết này nguội lạnh, nếu không bà ấy sẽ cảm thấy bị khước từ.]",
             "uniquenessgroup": "uqbenefactorf",
             "aspects": {
                 "mortal": 1,
@@ -396,13 +396,13 @@
         },
         {
             "id": "benefactorwill",
-            "label": "Dearly Departed's Papers",
-            "description": "Someone who loved me has died. Perhaps they left me something in their will. I should speak to a solicitor. [Take action if you wish to pursue the matter... but there is a small chance that suspicion may fall on you.]",
+            "label": "Di Ngôn Của Người Quá Cố",
+            "description": "Người từng yêu thương tôi đã qua đời. Có lẽ người có để lại chút gì đó cho tôi trong di chúc. Tôi nên đến gặp một luật sư. [Hãy hành động nếu bạn muốn theo đuổi vấn đề này... nhưng có khả năng bạn sẽ dính phải một số nghi ngờ.]",
             "slots": [
                 {
                     "id": "lawyerfees",
                     "actionid": "study",
-                    "label": "Lawyer's Fees",
+                    "label": "Phí Luật Sư",
                     "consumes": true,
                     "required": {
                         "funds": 1
@@ -417,7 +417,7 @@
         {
             "id": "sulochana",
             "label": "Sulochana Amavasya",
-            "description": "The laconic, energetic, bright-eyed, unblinking owner of the Ecdysis Club.",
+            "description": "Vị chủ kiệm lời, năng động của Hộp Đêm Lột Xác, sở hữu đôi mắt sáng chói với ánh nhìn chằm chằm không bao giờ chớp.",
             "unique": true,
             "aspects": {
                 "tutorsanskrit": 1,
@@ -427,16 +427,16 @@
         },
         {
             "id": "echidna.enroute",
-            "label": "Mrs E. is En Route",
-            "description": "Mrs E., Sulochana's 'sister', goes by the unlikely title of 'the Mother of Monsters'. It's not clear where she usually lairs, but it's not this side of the sea. She'll take a while to get here.",
+            "label": "Bà E. Đang Trên Đường",
+            "description": "Bà E., 'chị em' của Sulochana, mang danh xưng kỳ quái là 'Mẹ Quái Vật'. Không rõ bà thường ẩn náu ở đâu, nhưng chắc chắn không phải ở phía bên này đại dương. Sẽ mất một khoảng thời gian để bà đến đây.",
             "unique": true,
             "lifetime": 180,
             "decayTo": "echidna"
         },
         {
             "id": "echidna",
-            "label": "Mrs E.",
-            "description": "The self-styled Mother of Monsters. A cheery, tubby woman in a green-grey garment like a baggy dirndl.",
+            "label": "Bà E.",
+            "description": "Kẻ tự phong Mẹ Quái Vật. Một người đàn bà mũm mĩm, vui vẻ trong bộ trang phục xanh xám, giống như chiếc váy dirndl rộng thùng thình.",
             "aspects": {
                 "patron": 1
             },
@@ -444,16 +444,16 @@
         },
         {
             "id": "marinette.enroute",
-            "label": "Our Lady of Wires is En Route",
-            "description": "Sulochana's 'sister', who is not usually named save as 'Our Lady of Wires'. She'll be here, soon, by night.",
+            "label": "Quý Bà Dây Kẽm Đang Trên Đường",
+            "description": "Người 'chị em' của Sulochana, thường không được gọi tên ngoại trừ danh xưng 'Quý Bà Dây Kẽm'. Bà sẽ đến đây sớm, vào lúc đêm xuống.",
             "unique": true,
             "lifetime": 180,
             "decayTo": "marinette"
         },
         {
             "id": "marinette",
-            "label": "Marinette, 'Our Lady of Wires'",
-            "description": "It reeks of rotten blood, and it clacks its jaw each time it speaks. Perhaps there is a woman, huddled beneath the cloth and the bones. Perhaps it's some puppeteer's trick.",
+            "label": "Marinette, 'Quý Bà Dây Kẽm'",
+            "description": "Thứ nồng nặc máu thối, hàm răng cứ cọc cạch mỗi khi cất tiếng. Có lẽ ẩn dưới lớp vải rách và xương xẩu kia là một người phụ nữ. Hoặc có lẽ, đây chỉ là trò bịp bợm của một kẻ giật dây nào đó.",
             "aspects": {
                 "patron": 1
             },
@@ -461,8 +461,8 @@
         },
         {
             "id": "kleidouchos.enroute",
-            "label": "Frau Schlüssel is en route",
-            "description": "Teresa Galmier's 'correspondent', Sulochana's 'sister', the holder of the Key of Days, is on her way here from Vienna. Perhaps I should meet her at the station.",
+            "label": "Frau Schlüssel Đang Trên Đường",
+            "description": "'Bạn thư' của Teresa Galmier, 'chị em' của Sulochana, kẻ nắm giữ Chìa Khóa Thời Đại, đang trên đường từ Vienna. Có lẽ tôi nên gặp bà tại nhà ga.",
             "aspects": {
                 "patron": 1
             },
@@ -472,20 +472,20 @@
         {
             "id": "kleidouchos",
             "label": "Frau Schlüssel",
-            "description": "A spry,forceful woman in severe black and white, tightly wrinkled. She is never observed to blink. A tiny black puppy peeps from her skirts.",
+            "description": "Người đàn bà nhanh nhẹn, uy lực trong bộ trang phục hai màu đen trắng nghiêm nghị, với những nếp nhăn hằn sâu chằng chịt. Chưa ai từng thấy bà chớp mắt. Chú chó con màu đen bé xíu thò đầu ra từ dưới tà váy của bà.",
             "aspects": {
                 "patron": 1
             }
         },
         {
             "id": "naenia",
-            "label": "'Miss Naenia'",
-            "description": "A painting of a dark-skinned woman with snow-coloured eyes and close-cropped ivory-coloured hair. She stands before a small marble tomb overgrown with star jasmine. The painting is signed 'Jonas B. Munch, 1811'.",
+            "label": "'Tiểu Thư Naenia'",
+            "description": "Bức họa vẽ người phụ nữ da ngăm với đôi mắt màu tuyết và mái tóc cắt ngắn màu ngà voi. Cô đứng trước một ngôi mộ đá cẩm thạch nhỏ phủ đầy hoa nhài sao. Bức tranh có chữ ký 'Jonas B. Munch, 1811'.",
             "slots": [
                 {
                     "id": "subject",
-                    "label": "Memory",
-                    "description": "Miss Naenia never speaks to me - she is only a painting - but afterwards, I always remember what she has said.",
+                    "label": "Ký Ức",
+                    "description": "Tiểu Thư Naenia chưa bao giờ nói với tôi — cô chỉ là một bức họa — nhưng sau đó, tôi luôn nhớ rõ những gì cô đã nói.",
                     "actionid": "talk",
                     "required": {
                         "memory": 1,

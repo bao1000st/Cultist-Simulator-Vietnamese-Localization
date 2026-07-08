@@ -10,7 +10,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Một số chuyện quá sức chịu đựng xảy ra với bản thân hắn, khiến hắn mất đi giác quan vốn có. Chúng sẽ sớm biến mất và không hồi phục lại nữa.",
+            "description": "Một trải nghiệm quá đỗi kinh hoàng đã tước đi lý trí của kẻ này.",
             "lifetime": 60,
             "xtriggers": {
                 "killmortal": "corpse"
@@ -18,7 +18,7 @@
         },
         {
             "id": "genericprisonerm",
-            "label": "Tù Nhân Không May",
+            "label": "Tù Nhân Bất Hạnh",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -26,7 +26,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Một kẻ nào đó đã rơi vào cái bẫy của bạn. kẻ này sẽ chẳng thể sống sót mãi được.",
+            "description": "Có kẻ đã sa vào vuốt tút của ta. Y không thể sống sót mãi được.",
             "lifetime": 600,
             "decayTo": "corpse",
             "xtriggers": {
@@ -36,7 +36,7 @@
         },
         {
             "id": "genericprisonerf",
-            "label": "Tù Nhân Không May",
+            "label": "Tù Nhân Bất Hạnh",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -44,7 +44,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Một kẻ nào đó đã rơi vào cái bẫy của bạn. kẻ này sẽ chẳng thể sống sót mãi được.",
+            "description": "Có kẻ đã sa vào vuốt tút của ta. Y không thể sống sót mãi được.",
             "lifetime": 600,
             "decayTo": "corpse",
             "xtriggers": {
