@@ -2,19 +2,19 @@
     "elements": [
         {
             "id": "fervour",
-            "label": "Fervour",
+            "label": "Sùng Kính",
             "aspects": {
                 "influence": 1,
                 "heart": 2
             },
-            "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. Fervour, if unused, will decay to Dread.]",
+            "description": "Lòng nhiệt thành của giáo chúng trong hội dù mạnh mẽ, nhưng lại chẳng được sâu sắc mấy. [Phải giữ cho giáo chúng được thỏa mãn. Nếu không dùng sẽ lụi tàn thành Kinh Sợ.]",
             "lifetime": 180,
             "decayTo": "dread"
         },
         {
             "id": "lockscaredge",
-            "label": "Edge-Lock Scar",
-            "description": "When I am Threshold, this scar will open beneath a blade's touch.",
+            "label": "Lưỡi Dao - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra dưới cái chạm của một lưỡi dao.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -27,8 +27,8 @@
         },
         {
             "id": "lockscarforge",
-            "label": "Forge-Lock Scar",
-            "description": "When I am Threshold, this scar will open to the touch of hot iron.",
+            "label": "Lò Rèn - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra dưới cái chạm của sắt nóng.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -41,8 +41,8 @@
         },
         {
             "id": "lockscargrail",
-            "label": "Grail-Lock Scar",
-            "description": "When I am Threshold, this scar will open to a fervent kiss.",
+            "label": "Chén Thánh - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra bằng một nụ hôn cuồng nhiệt.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -55,8 +55,8 @@
         },
         {
             "id": "lockscarheart",
-            "label": "Heart-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the beat of the drum.",
+            "label": "Trái Tim - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra theo từng nhịp đập của tiếng trống.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -69,8 +69,8 @@
         },
         {
             "id": "lockscarlantern",
-            "label": "Lantern-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the flush of dawn.",
+            "label": "Đên Lồng - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra vào khoảnh khắc rạng đông đỏ rực.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -83,8 +83,8 @@
         },
         {
             "id": "lockscarmoth",
-            "label": "Moth-Lock Scar",
-            "description": "When I am Threshold, this scar will answer to the scissors.",
+            "label": "Bướm Đêm - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này khắc sẽ phản hồi dưới lưỡi kéo.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -97,8 +97,8 @@
         },
         {
             "id": "lockscarwinter",
-            "label": "Winter-Lock Scar",
-            "description": "When I am Threshold, this scar will open last.",
+            "label": "Mùa Đông - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra sau cùng.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -111,8 +111,8 @@
         },
         {
             "id": "openedlockscaredge",
-            "label": "Edge-Lock Scar",
-            "description": "When I am Threshold, this scar will open beneath a blade's touch.",
+            "label": "Lưỡi Dao - Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra dưới cái chạm của một lưỡi dao.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -125,8 +125,8 @@
         },
         {
             "id": "openedlockscarforge",
-            "label": "Forge-Lock Scar",
-            "description": "When I am Threshold, this scar will open to the touch of hot iron.",
+            "label": "Forge- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra dưới cái chạm của sắt nóng.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -139,8 +139,8 @@
         },
         {
             "id": "openedlockscargrail",
-            "label": "Grail-Lock Scar",
-            "description": "When I am Threshold, this scar will open to a fervent kiss.",
+            "label": "Grail- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo sẽ tự khắc mở ra bằng một nụ hôn cuồng nhiệt.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -153,8 +153,8 @@
         },
         {
             "id": "openedlockscarheart",
-            "label": "Heart-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the beat of the drum.",
+            "label": "Heart- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra theo từng nhịp đập của tiếng trống.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -167,8 +167,8 @@
         },
         {
             "id": "openedlockscarlantern",
-            "label": "Lantern-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the flush of dawn.",
+            "label": "Lantern- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra vào khoảnh khắc rạng đông đỏ rực.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -181,8 +181,8 @@
         },
         {
             "id": "openedlockscarmoth",
-            "label": "Moth-Lock Scar",
-            "description": "When I am Threshold, this scar will answer to the scissors.",
+            "label": "Moth- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này khắc sẽ phản hồi dưới lưỡi kéo.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -195,8 +195,8 @@
         },
         {
             "id": "openedlockscarwinter",
-            "label": "Winter-Lock Scar",
-            "description": "When I am Threshold, this scar will open last.",
+            "label": "Winter- Sẹo Niêm Phong",
+            "description": "Khi ta hóa thành Ngưỡng Giới, vết sẹo này sẽ mở ra sau cùng.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -209,14 +209,14 @@
         },
         {
             "id": "devotee_edge",
-            "label": "A Sturdy Worshipper",
+            "label": "Tín Đồ Vạm Vỡ",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "devotee": 1,
                 "edge": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -228,7 +228,7 @@
         },
         {
             "id": "devotee_forge",
-            "label": "A Practical Worshipper",
+            "label": "Tín Đồ Thực Dụng",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -236,7 +236,7 @@
                 "edge": 1,
                 "forge": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -248,7 +248,7 @@
         },
         {
             "id": "devotee_grail",
-            "label": "An Avid Worshipper",
+            "label": "Tín Đồ Khao Khát",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -256,7 +256,7 @@
                 "edge": 1,
                 "grail": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -268,7 +268,7 @@
         },
         {
             "id": "devotee_heart",
-            "label": "A Lively Worshipper ",
+            "label": "Tín Đồ Hoạt Bát",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -276,7 +276,7 @@
                 "edge": 1,
                 "heart": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -288,7 +288,7 @@
         },
         {
             "id": "devotee_knock",
-            "label": "A Dextrous Worshipper ",
+            "label": "Tín Đồ Tinh Khôn",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -296,7 +296,7 @@
                 "edge": 1,
                 "knock": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -308,7 +308,7 @@
         },
         {
             "id": "devotee_lantern",
-            "label": "A Percipient Worshipper",
+            "label": "Tín Đồ Tinh Tường",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -316,7 +316,7 @@
                 "edge": 1,
                 "lantern": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -328,7 +328,7 @@
         },
         {
             "id": "devotee_moth",
-            "label": "An Erratic Worshipper",
+            "label": "Tín Đồ Bất Ổn",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -336,7 +336,7 @@
                 "edge": 1,
                 "moth": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -348,7 +348,7 @@
         },
         {
             "id": "devotee_winter",
-            "label": "A Silent Worshipper",
+            "label": "Tín Đồ Lặng Im",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -356,7 +356,7 @@
                 "edge": 1,
                 "winter": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Đôi khi, Sự Sùng Kính thôi thúc những con giáo bình thường dấn thân vào các trọng trách dị thường hơn. [Một khi nhiệt huyết của kẻ này phai nhạt, kẻ đó sẽ về lại giáo chúng.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",

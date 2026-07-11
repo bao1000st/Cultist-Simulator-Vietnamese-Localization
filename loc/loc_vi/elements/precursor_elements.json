@@ -3,15 +3,15 @@
         {
             "id": "previtality",
             "label": "Sinh Lực",
-            "description": "[Sinh Lực đang được khuếch đại...]",
+            "description": "[Sinh Lực đang khuếch đại...]",
             "lifetime": 1,
             "icon": "vitality",
             "decayTo": "vitality"
         },
         {
             "id": "preerudition",
-            "label": "Thông Thái",
-            "description": "[Thông thái được hình thành nhờ sự lĩnh hội từ nhiều nguồn kiến thức...]",
+            "label": "Uyên Bác",
+            "description": "[Uyên Bác nảy sinh từ một khoảnh khắc thấu suốt...]",
             "lifetime": 1,
             "icon": "erudition",
             "decayTo": "erudition"
@@ -35,7 +35,7 @@
         {
             "id": "predread",
             "label": "Kinh Sợ",
-            "description": "[Nỗi Kinh Sợ đang phủ sương bắng giá lên tâm hồn tôi...]",
+            "description": "[Nỗi Kinh Sợ phủ sương giá lên tâm hồn tôi...]",
             "lifetime": 1,
             "icon": "dread",
             "decayTo": "dread"
@@ -51,7 +51,7 @@
         {
             "id": "pre.fragmentedgeb",
             "label": "Gợi Ý: Lưỡi Dao",
-            "description": "Tôi đang dần lĩnh hội ra một điều chưa biết từ thứ nghệ thuật vô hình này.",
+            "description": "Tôi đang dần lĩnh hội ra điều chưa biết từ thứ nghệ thuật vô hình này.",
             "lifetime": 1,
             "decayTo": "fragmentedgeb",
             "icon": "fragmentedgeb"
@@ -59,7 +59,7 @@
         {
             "id": "pre.fragmentforgeb",
             "label": "Gợi Ý: Lò Rèn",
-            "description": "Tôi đang dần lĩnh hội ra một điều chưa biết từ thứ nghệ thuật vô hình này.",
+            "description": "Tôi đang dần lĩnh hội ra điều chưa biết từ thứ nghệ thuật vô hình này.",
             "lifetime": 1,
             "decayTo": "fragmentforgeb",
             "icon": "fragmentforgeb"
@@ -67,7 +67,7 @@
         {
             "id": "pre.fragmentgrailb",
             "label": "Gợi Ý: Chén Thánh",
-            "description": "Tôi đang dần lĩnh hội ra một điều chưa biết từ thứ nghệ thuật vô hình này.",
+            "description": "Tôi đang dần lĩnh hội ra điều chưa biết từ thứ nghệ thuật vô hình này.",
             "lifetime": 1,
             "decayTo": "fragmentgrailb",
             "icon": "fragmentgrailb"
@@ -75,7 +75,7 @@
         {
             "id": "pre.fragmentheartb",
             "label": "Gợi Ý: Trái Tim",
-            "description": "Tôi đang dần lĩnh hội ra những điều ta chưa biết từ cái nghệ thuật vô hình này.",
+            "description": "Tôi đang dần lĩnh hội ra điều chưa biết từ thứ nghệ thuật vô hình này.",
             "lifetime": 1,
             "decayTo": "fragmentheartb",
             "icon": "fragmentheartb"
@@ -83,7 +83,7 @@
         {
             "id": "pre.fragmentknockb",
             "label": "Gợi Ý: Tiếng Gõ",
-            "description": "Tôi đang dần lĩnh hội ra một điều chưa biết từ thứ nghệ thuật vô hình này.",
+            "description": "Tôi đang dần lĩnh hội ra điều chưa biết từ thứ nghệ thuật vô hình này.",
             "lifetime": 1,
             "decayTo": "fragmentknockb",
             "icon": "fragmentknockb"
